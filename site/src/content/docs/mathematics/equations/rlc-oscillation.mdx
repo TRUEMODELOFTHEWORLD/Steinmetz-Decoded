@@ -1,4 +1,4 @@
----
+﻿---
 title: RLC Oscillation Frequency And Damping
 description: Equation page for LC oscillation, critical resistance, and decrement.
 ---
@@ -12,36 +12,31 @@ import LayeredReading from '../../../../components/LayeredReading.astro';
 
 For negligible resistance, the modern LC oscillation frequency is:
 
-```math
+$$
 f_0 = \frac{1}{2\pi\sqrt{LC}}
-```
-
+$$
 This corresponds to the condition where inductive reactance and capacitive reactance are equal in magnitude:
 
-```math
+$$
 2\pi f L = \frac{1}{2\pi f C}
-```
-
+$$
 ## Damping
 
 With resistance present, the oscillation decays. Modern form:
 
-```math
+$$
 i(t) = A e^{-\alpha t}\cos(\omega_d t + \phi)
-```
-
+$$
 where:
 
-```math
+$$
 \alpha = \frac{R}{2L}
-```
-
+$$
 and:
 
-```math
+$$
 \omega_d = \sqrt{\frac{1}{LC} - \left(\frac{R}{2L}\right)^2}
-```
-
+$$
 ## Physical Meaning
 
 The oscillation is an exchange between magnetic energy in inductance and electric energy in capacity. Resistance removes energy each cycle, reducing amplitude.
@@ -50,16 +45,14 @@ The oscillation is an exchange between magnetic energy in inductance and electri
 
 If:
 
-```math
+$$
 L = 10\ \text{mH},\quad C = 1\ \mu\text{F}
-```
-
+$$
 then:
 
-```math
+$$
 f_0 = \frac{1}{2\pi\sqrt{0.01 \cdot 10^{-6}}} \approx 1591.5\ \text{Hz}
-```
-
+$$
 <LayeredReading label="Steinmetz Reading" open>
 The OCR candidate discusses frequency of oscillation, decreasing amplitude, critical resistance, and decrement. The formulas on this page use modern notation while preserving the source concept: oscillation depends on inductance and capacity, while resistance damps it.
 </LayeredReading>

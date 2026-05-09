@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29",
+  "generated_at": "2026-05-08",
   "quality_note": "Crosslinked research surfaces route source, math, visual, and concept evidence. Candidate records require scan and editorial verification.",
   "source_count": 15,
   "concept_bridge_count": 22,
@@ -7,6 +7,7 @@
   "total_figure_candidates": 504,
   "total_promoted_crops": 15,
   "total_modern_visual_guides": 20,
+  "total_extracted_visual_candidates": 168,
   "sources": [
     {
       "source_id": "america-and-new-epoch",
@@ -15,6 +16,7 @@
       "formula_candidates": 21,
       "figure_candidates": 0,
       "promoted_crops": 0,
+      "extracted_visual_candidates": 0,
       "modern_visual_guides": 0,
       "links": {
         "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/america-and-new-epoch/",
@@ -31,6 +33,7 @@
       "formula_candidates": 300,
       "figure_candidates": 16,
       "promoted_crops": 0,
+      "extracted_visual_candidates": 24,
       "modern_visual_guides": 5,
       "links": {
         "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
@@ -47,6 +50,7 @@
       "formula_candidates": 300,
       "figure_candidates": 18,
       "promoted_crops": 0,
+      "extracted_visual_candidates": 0,
       "modern_visual_guides": 5,
       "links": {
         "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/electric-discharges-waves-impulses-1914/",
@@ -63,6 +67,7 @@
       "formula_candidates": 300,
       "figure_candidates": 9,
       "promoted_crops": 0,
+      "extracted_visual_candidates": 24,
       "modern_visual_guides": 6,
       "links": {
         "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/engineering-mathematics/",
@@ -79,6 +84,7 @@
       "formula_candidates": 170,
       "figure_candidates": 19,
       "promoted_crops": 0,
+      "extracted_visual_candidates": 0,
       "modern_visual_guides": 1,
       "links": {
         "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/four-lectures-relativity-space/",
@@ -95,6 +101,7 @@
       "formula_candidates": 134,
       "figure_candidates": 14,
       "promoted_crops": 0,
+      "extracted_visual_candidates": 0,
       "modern_visual_guides": 2,
       "links": {
         "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/general-lectures-electrical-engineering/",
@@ -111,6 +118,7 @@
       "formula_candidates": 220,
       "figure_candidates": 1,
       "promoted_crops": 0,
+      "extracted_visual_candidates": 24,
       "modern_visual_guides": 2,
       "links": {
         "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/commonwealth-edison-generating-system-trouble/",
@@ -127,6 +135,7 @@
       "formula_candidates": 300,
       "figure_candidates": 98,
       "promoted_crops": 5,
+      "extracted_visual_candidates": 24,
       "modern_visual_guides": 2,
       "links": {
         "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/radiation-light-and-illumination/",
@@ -143,6 +152,7 @@
       "formula_candidates": 300,
       "figure_candidates": 10,
       "promoted_crops": 0,
+      "extracted_visual_candidates": 24,
       "modern_visual_guides": 7,
       "links": {
         "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theoretical-elements-electrical-engineering/",
@@ -159,6 +169,7 @@
       "formula_candidates": 300,
       "figure_candidates": 145,
       "promoted_crops": 4,
+      "extracted_visual_candidates": 24,
       "modern_visual_guides": 8,
       "links": {
         "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
@@ -175,6 +186,7 @@
       "formula_candidates": 300,
       "figure_candidates": 91,
       "promoted_crops": 0,
+      "extracted_visual_candidates": 0,
       "modern_visual_guides": 4,
       "links": {
         "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena-1900/",
@@ -191,6 +203,7 @@
       "formula_candidates": 300,
       "figure_candidates": 32,
       "promoted_crops": 0,
+      "extracted_visual_candidates": 0,
       "modern_visual_guides": 3,
       "links": {
         "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena-1897/",
@@ -207,6 +220,7 @@
       "formula_candidates": 300,
       "figure_candidates": 13,
       "promoted_crops": 0,
+      "extracted_visual_candidates": 0,
       "modern_visual_guides": 2,
       "links": {
         "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-electric-apparatus/",
@@ -223,6 +237,7 @@
       "formula_candidates": 300,
       "figure_candidates": 37,
       "promoted_crops": 0,
+      "extracted_visual_candidates": 0,
       "modern_visual_guides": 5,
       "links": {
         "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-electric-circuits/",
@@ -239,6 +254,7 @@
       "formula_candidates": 300,
       "figure_candidates": 1,
       "promoted_crops": 6,
+      "extracted_visual_candidates": 24,
       "modern_visual_guides": 4,
       "links": {
         "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",

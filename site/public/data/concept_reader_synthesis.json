@@ -1,0 +1,249 @@
+{
+  "generated_at": "2026-05-08",
+  "quality_note": "Generated reader synthesis blocks for concept pages from source-grounded dossier data.",
+  "page_count": 22,
+  "pages": [
+    {
+      "page_slug": "admittance",
+      "page_title": "Admittance",
+      "totals": {
+        "occurrences": 481,
+        "matching_sections": 79,
+        "matching_sources": 10,
+        "aliases": 2
+      },
+      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/admittance/"
+    },
+    {
+      "page_slug": "complex-quantities",
+      "page_title": "Complex Quantities",
+      "totals": {
+        "occurrences": 156,
+        "matching_sections": 48,
+        "matching_sources": 10,
+        "aliases": 4
+      },
+      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/complex-quantities/"
+    },
+    {
+      "page_slug": "conductance",
+      "page_title": "Conductance",
+      "totals": {
+        "occurrences": 321,
+        "matching_sections": 60,
+        "matching_sources": 11,
+        "aliases": 2
+      },
+      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/conductance/"
+    },
+    {
+      "page_slug": "dielectric-loss",
+      "page_title": "Dielectric Loss",
+      "totals": {
+        "occurrences": 1569,
+        "matching_sections": 140,
+        "matching_sources": 14,
+        "aliases": 9
+      },
+      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/dielectric-loss/"
+    },
+    {
+      "page_slug": "distributed-constants",
+      "page_title": "Distributed Constants",
+      "totals": {
+        "occurrences": 252,
+        "matching_sections": 42,
+        "matching_sources": 10,
+        "aliases": 8
+      },
+      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/distributed-constants/"
+    },
+    {
+      "page_slug": "electric-waves",
+      "page_title": "Electric Waves",
+      "totals": {
+        "occurrences": 176,
+        "matching_sections": 20,
+        "matching_sources": 6,
+        "aliases": 10
+      },
+      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/electric-waves/"
+    },
+    {
+      "page_slug": "ether",
+      "page_title": "Ether",
+      "totals": {
+        "occurrences": 66,
+        "matching_sections": 6,
+        "matching_sources": 3,
+        "aliases": 3
+      },
+      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/ether/"
+    },
+    {
+      "page_slug": "harmonics-wave-shape",
+      "page_title": "Harmonics And Wave Shape",
+      "totals": {
+        "occurrences": 4634,
+        "matching_sections": 317,
+        "matching_sources": 15,
+        "aliases": 15
+      },
+      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/harmonics-wave-shape/"
+    },
+    {
+      "page_slug": "hysteresis",
+      "page_title": "Hysteresis",
+      "totals": {
+        "occurrences": 7432,
+        "matching_sections": 258,
+        "matching_sources": 14,
+        "aliases": 9
+      },
+      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/hysteresis/"
+    },
+    {
+      "page_slug": "illumination",
+      "page_title": "Illumination",
+      "totals": {
+        "occurrences": 3266,
+        "matching_sections": 87,
+        "matching_sources": 13,
+        "aliases": 18
+      },
+      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/illumination/"
+    },
+    {
+      "page_slug": "impedance",
+      "page_title": "Impedance",
+      "totals": {
+        "occurrences": 1324,
+        "matching_sections": 154,
+        "matching_sources": 13,
+        "aliases": 2
+      },
+      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/impedance/"
+    },
+    {
+      "page_slug": "inductance-capacity",
+      "page_title": "Inductance And Capacity",
+      "totals": {
+        "occurrences": 5084,
+        "matching_sections": 267,
+        "matching_sources": 15,
+        "aliases": 13
+      },
+      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/inductance-capacity/"
+    },
+    {
+      "page_slug": "lightning-surges",
+      "page_title": "Lightning And Surges",
+      "totals": {
+        "occurrences": 648,
+        "matching_sections": 70,
+        "matching_sources": 12,
+        "aliases": 9
+      },
+      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/lightning-surges/"
+    },
+    {
+      "page_slug": "oscillation-damping",
+      "page_title": "Oscillation And Damping",
+      "totals": {
+        "occurrences": 1618,
+        "matching_sections": 127,
+        "matching_sources": 13,
+        "aliases": 10
+      },
+      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/oscillation-damping/"
+    },
+    {
+      "page_slug": "power-factor",
+      "page_title": "Power Factor",
+      "totals": {
+        "occurrences": 671,
+        "matching_sections": 101,
+        "matching_sources": 11,
+        "aliases": 4
+      },
+      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/power-factor/"
+    },
+    {
+      "page_slug": "power-limiting-reactors",
+      "page_title": "Power-Limiting Reactors",
+      "totals": {
+        "occurrences": 70,
+        "matching_sections": 15,
+        "matching_sources": 7,
+        "aliases": 8
+      },
+      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/power-limiting-reactors/"
+    },
+    {
+      "page_slug": "radiation",
+      "page_title": "Radiation",
+      "totals": {
+        "occurrences": 3132,
+        "matching_sections": 93,
+        "matching_sources": 13,
+        "aliases": 10
+      },
+      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/radiation/"
+    },
+    {
+      "page_slug": "reactance",
+      "page_title": "Reactance",
+      "totals": {
+        "occurrences": 2490,
+        "matching_sections": 188,
+        "matching_sources": 13,
+        "aliases": 4
+      },
+      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/reactance/"
+    },
+    {
+      "page_slug": "susceptance",
+      "page_title": "Susceptance",
+      "totals": {
+        "occurrences": 220,
+        "matching_sections": 38,
+        "matching_sources": 8,
+        "aliases": 2
+      },
+      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/susceptance/"
+    },
+    {
+      "page_slug": "symbolic-method",
+      "page_title": "Symbolic Method",
+      "totals": {
+        "occurrences": 316,
+        "matching_sections": 70,
+        "matching_sources": 10,
+        "aliases": 8
+      },
+      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/symbolic-method/"
+    },
+    {
+      "page_slug": "synchronizing-power",
+      "page_title": "Synchronizing Power",
+      "totals": {
+        "occurrences": 2339,
+        "matching_sections": 163,
+        "matching_sources": 12,
+        "aliases": 7
+      },
+      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/synchronizing-power/"
+    },
+    {
+      "page_slug": "transient-phenomena",
+      "page_title": "Transient Phenomena",
+      "totals": {
+        "occurrences": 1332,
+        "matching_sections": 84,
+        "matching_sources": 11,
+        "aliases": 8
+      },
+      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/transient-phenomena/"
+    }
+  ]
+}

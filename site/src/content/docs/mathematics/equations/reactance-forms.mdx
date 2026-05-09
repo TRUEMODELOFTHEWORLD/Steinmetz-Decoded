@@ -1,4 +1,4 @@
----
+﻿---
 title: Inductive and Condensive Reactance
 description: Steinmetz's frequency-dependent reactance formulas and older capacitive terminology.
 ---
@@ -12,34 +12,29 @@ import LayeredReading from '../../../../components/LayeredReading.astro';
 
 For inductance:
 
-```math
+$$
 x = 2\pi f L
-```
-
+$$
 For capacity in series:
 
-```math
+$$
 x_1 = \frac{1}{2\pi f C}
-```
-
+$$
 Steinmetz calls the second quantity **condensive reactance**. The OCR around these lines has visible symbol defects, so these formulas are treated as source-located candidates until the scan is checked.
 
 ## Modern Notation
 
-```math
+$$
 X_L = \omega L = 2\pi f L
-```
-
-```math
+$$
+$$
 X_C = \frac{1}{\omega C} = \frac{1}{2\pi f C}
-```
-
+$$
 With the usual modern sign convention:
 
-```math
+$$
 Z = R + j(X_L - X_C)
-```
-
+$$
 ## Mathematical Meaning
 
 Inductive reactance increases with frequency. Capacitive reactance decreases with frequency. This is why the same circuit can be inductive at one frequency, capacitive at another, and resonant when the two are equal.
@@ -48,26 +43,22 @@ Inductive reactance increases with frequency. Capacitive reactance decreases wit
 
 Let:
 
-```math
+$$
 f = 60\ \mathrm{Hz},\quad L = 0.1\ \mathrm{H},\quad C = 100\ \mu\mathrm{F}
-```
-
+$$
 Then:
 
-```math
+$$
 X_L = 2\pi(60)(0.1) \approx 37.7\ \Omega
-```
-
-```math
+$$
+$$
 X_C = \frac{1}{2\pi(60)(100 \times 10^{-6})} \approx 26.5\ \Omega
-```
-
+$$
 The net reactance is inductive:
 
-```math
+$$
 X = X_L - X_C \approx 11.2\ \Omega
-```
-
+$$
 <LayeredReading label="Physical Meaning" open>
 Reactance is not consumed energy. It is the opposition associated with field storage and return: magnetic storage in inductance, electrostatic storage in capacity.
 </LayeredReading>

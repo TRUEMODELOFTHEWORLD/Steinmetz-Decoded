@@ -1,4 +1,4 @@
----
+﻿---
 title: Synchronizing Power in the Commonwealth Edison Report
 description: Candidate equation page for Steinmetz's appendix on alternators out of phase or out of frequency.
 ---
@@ -18,60 +18,51 @@ Steinmetz begins with two alternators or station groups at the same frequency bu
 
 Modern reading form:
 
-```math
+$$
 e_1 = E\cos(\theta - \delta)
-```
-
-```math
+$$
+$$
 e_2 = E\cos(\theta + \delta)
-```
-
-```math
+$$
+$$
 e = e_1 - e_2
-```
-
-```math
+$$
+$$
 i = \frac{e}{Z}
-```
-
+$$
 The exact angle symbols and signs must be checked against the scan. The important structure is that phase displacement creates an interconnection voltage, and the interconnection impedance controls the current that flows between the machines.
 
 ## Impedance Definition
 
 The appendix gives the ordinary resistance/reactance impedance relation in OCR-damaged form. Modern notation:
 
-```math
+$$
 Z = \sqrt{R^2 + X^2}
-```
-
-```math
+$$
+$$
 \tan \alpha = \frac{X}{R}
-```
-
+$$
 where `R` is resistance, `X` is reactance, `Z` is impedance magnitude, and `alpha` is the impedance angle.
 
 ## Alternators Out of Frequency
 
 The appendix then considers two machines or station groups whose frequencies differ slightly:
 
-```math
+$$
 f_1 = (1 - s)f
-```
-
-```math
+$$
+$$
 f_2 = (1 + s)f
-```
-
+$$
 The slip term `s` produces a beat or oscillation relation. In physical terms, the machines are not merely offset by a fixed phase angle; they are drifting through phase relation over time.
 
 ## Maximum Synchronizing Power
 
 The parser flagged the appendix condition around PDF page 44 as a high-priority formula cluster:
 
-```math
+$$
 x_2 = 2x_1 + x
-```
-
+$$
 This is a candidate reading only. Steinmetz uses the condition to discuss when synchronizing power and pull-in from frequency difference are greatest. Because the symbols are damaged by extraction, this page deliberately does not overstate the formula until scan review.
 
 ## Worked Interpretation

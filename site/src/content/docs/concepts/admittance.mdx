@@ -1,4 +1,4 @@
----
+﻿---
 title: Admittance
 description: Steinmetz's reciprocal AC quantity for parallel circuit calculation.
 ---
@@ -12,34 +12,30 @@ import LayeredReading from '../../../components/LayeredReading.astro';
 
 Admittance is introduced as the reciprocal form of impedance, useful especially when currents divide through parallel paths. The OCR candidate gives admittance as a complex quantity with conductance and susceptance components.
 
-```math
+$$
 Y = g - jb
-```
-
+$$
 Conductance is the active or power component. Susceptance is the reactive or wattless component.
 
 ## Modern Equivalent
 
 Modern texts often write:
 
-```math
+$$
 Y = G + jB
-```
-
+$$
 The sign convention differs by author and context. The archive should preserve Steinmetz's notation and then translate it explicitly.
 
 ## Mathematical Meaning
 
-```math
+$$
 Y = \frac{1}{Z}
-```
-
+$$
 If:
 
-```math
+$$
 Z = r + jx
-```
-
+$$
 then admittance depends on both `r` and `x`. Conductance is not generally just `1/r`, and susceptance is not generally just `1/x`.
 
 <LayeredReading label="Why It Matters" open>
@@ -51,6 +47,56 @@ Admittance is one of the places where old AC language can save readers from a co
 - [AC Source: Admittance, Conductance, Susceptance](/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/admittance-conductance-susceptance/)
 - [Admittance Equation](/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/equations/admittance-conductance-susceptance/)
 - [Impedance](/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/impedance/)
+
+{/* BEGIN GENERATED READER SYNTHESIS */}
+
+## Reader Synthesis
+
+<div class="concept-synthesis-panel" data-layer="modern">
+  <section>
+    <h3>What Steinmetz Is Doing Here</h3>
+    <p>Admittance is the reciprocal language that makes parallel AC circuits tractable.</p>
+    <p>The current strongest source route is **Theory and Calculation of Alternating Current Phenomena**, with **136** candidate hits across **17** sections.</p>
+  </section>
+  <section>
+    <h3>Modern Translation</h3>
+    <p>Modern readers should map it to Y = G + jB, conductance, susceptance, and parallel network calculation.</p>
+    <p>This page currently tracks <strong>481</strong> candidate occurrences across <strong>10</strong> sources and <strong>79</strong> sections.</p>
+  </section>
+  <section>
+    <h3>Mathematical And Visual Route</h3>
+    <p>Focus on reciprocal impedance, conductance, susceptance, and vector addition of branch currents.</p>
+    <p>Use the math/visual bridge lower on this page to jump into formula families, source visual maps, and candidate figure leads.</p>
+  </section>
+  <section>
+    <h3>Interpretive Boundary</h3>
+    <p>Keep the interpretation modest: the page is mostly mathematical method and circuit bookkeeping.</p>
+    <p>Layer labels stay active: source claim, modern equivalent, mathematical reconstruction, historical note, and interpretive reading are not interchangeable.</p>
+  </section>
+</div>
+
+### Fast Reading Path For Admittance
+
+<table class="codex-status-table concept-reading-path">
+  <thead>
+    <tr><th>Passage</th><th>Hits</th><th>Location</th><th>Open</th></tr>
+  </thead>
+  <tbody>
+<tr><td><strong>Chapter 16: Induction Motor</strong><br/><small>Theory and Calculation of Alternating Current Phenomena</small></td><td>28</td><td>lines 13649-16361</td><td><a href="/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1900/chapter-16/?q=Admittance#source-text-reader">read</a> - <a href="/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/chapter-16/#chapter-local-concept-hits">workbench</a></td></tr>
+<tr><td><strong>Chapter 20: Single-Phase Induction Motors</strong><br/><small>Theory and Calculation of Alternating Current Phenomena</small></td><td>23</td><td>lines 21538-22301</td><td><a href="/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-20/?q=Admittance#source-text-reader">read</a> - <a href="/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-20/#chapter-local-concept-hits">workbench</a></td></tr>
+<tr><td><strong>Apparatus Section 3: Induction Machines: Single -phase Induction Motor</strong><br/><small>Theoretical Elements of Electrical Engineering</small></td><td>22</td><td>lines 20428-21157</td><td><a href="/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/section-109/?q=Admittance#source-text-reader">read</a> - <a href="/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/section-109/#chapter-local-concept-hits">workbench</a></td></tr>
+<tr><td><strong>Chapter 17: The Alternating-Current Transformer</strong><br/><small>Theory and Calculation of Alternating Current Phenomena</small></td><td>21</td><td>lines 16521-17716</td><td><a href="/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-17/?q=Admittance#source-text-reader">read</a> - <a href="/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-17/#chapter-local-concept-hits">workbench</a></td></tr>
+  </tbody>
+</table>
+
+### Research Position
+
+- **Tracked vocabulary:** Admittance.
+- **Concordance:** [Admittance](/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/admittance/).
+- **Source discipline:** the table above is for reading and navigation; exact quotation still requires scan verification.
+- **Editorial rule:** expand this page by promoting scan-checked passages, equations, and diagrams from the linked workbench pages, not by adding unsourced generalizations.
+
+{/* END GENERATED READER SYNTHESIS */}
 
 {/* BEGIN GENERATED CONCEPT DOSSIER */}
 
@@ -239,7 +285,7 @@ The dossier is meant to turn a concept page into a research workbench: begin wit
 ```
 
 ```text
-... REACTANCE 129 m.m.f., / - effective current, since I\/2 = maximum current, the magnetic flux, (R (R Substituting this in the equation of the counter e.m.f. of self- induction, E = V2 irfn^ 10"', we have „ 2 wnJI 10-« ^= ^ 5 hence, the absolute admittance of the circuit is y = ^^ -^^^E = 2^f^T where 10« , , a = ^ - 5, a constant. 2 Trrr Therefore, the...
+... REACTANCE 129 m.m.f., / - effective current, since I\/2 = maximum current, the magnetic flux, (R (R Substituting this in the equation of the counter e.m.f. of self- induction, E = V2 irfn^ 10"', we have â€ž 2 wnJI 10-Â« ^= ^ 5 hence, the absolute admittance of the circuit is y = ^^ -^^^E = 2^f^T where 10Â« , , a = ^ - 5, a constant. 2 Trrr Therefore, the...
 ```
 
 </details>
@@ -262,7 +308,7 @@ The dossier is meant to turn a concept page into a research workbench: begin wit
 ```
 
 ```text
-... (R = magnetic reluctance of a circuit, £FA = maximum M.M.F., I - effective current, since /V2 = maximum cur- rent, the magnetic flux, (R (R Substituting this in the equation of the counter E.M.F. of self-induction we have (R hence, the absolute admittance of the circuit is (RIO8 = a& E ~ 2 TT n*N ~ N ' 108 where a = , a constant. 2 TT n Therefore, the...
+... (R = magnetic reluctance of a circuit, Â£FA = maximum M.M.F., I - effective current, since /V2 = maximum cur- rent, the magnetic flux, (R (R Substituting this in the equation of the counter E.M.F. of self-induction we have (R hence, the absolute admittance of the circuit is (RIO8 = a& E ~ 2 TT n*N ~ N ' 108 where a = , a constant. 2 TT n Therefore, the...
 ```
 
 </details>

@@ -182,6 +182,7 @@ export default defineConfig({
             { label: 'Visual Topic Galleries', slug: 'diagrams/visual-topic-galleries' },
             { label: 'Figure Candidate Atlas', slug: 'diagrams/figure-candidate-atlas' },
             { label: 'Source Visual Maps', slug: 'diagrams/source-visuals' },
+            { label: 'Extracted Visual Candidates', slug: 'diagrams/extracted-visual-candidates' },
             { label: 'Recreated Visual Index', slug: 'diagrams/recreated-visual-index' },
             { label: 'Original RLI Figures', slug: 'diagrams/original-radiation-light-and-illumination' },
             { label: 'Original AC Figures', slug: 'diagrams/original-alternating-current-phenomena' },

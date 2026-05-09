@@ -1,4 +1,4 @@
----
+﻿---
 title: Steinmetz Hysteresis Law
 description: The empirical 1.6-power relation for magnetic hysteresis loss.
 ---
@@ -12,18 +12,16 @@ import LayeredReading from '../../../../components/LayeredReading.astro';
 
 The working historical form is:
 
-```math
+$$
 W = \eta B^{1.6}
-```
-
+$$
 where `W` is the energy lost per cycle per unit volume in the historical unit frame, `eta` is the coefficient of hysteresis, and `B` is magnetic density or magnetic induction.
 
 The power form multiplies the per-cycle loss by frequency:
 
-```math
+$$
 P = f\eta B^{1.6}
-```
-
+$$
 ## Source Meaning
 
 The OCR candidate in *Alternating Current Phenomena* states that hysteresis loss is, with engineering exactness, proportional to the `1.6` power of magnetic induction. The *Theoretical Elements* OCR gives the same law in a teaching context and identifies `eta` as the coefficient of hysteresis. *Engineering Mathematics* then treats the `1.6` power as an empirical curve law rather than a deduction from first principles.
@@ -32,10 +30,9 @@ The OCR candidate in *Alternating Current Phenomena* states that hysteresis loss
 
 Modern magnetic-core loss models often separate hysteresis loss, eddy-current loss, and excess loss. A simplified Steinmetz-style form is still recognizable:
 
-```math
+$$
 P_h = k_h f B_{\max}^{n}
-```
-
+$$
 The exponent `n` is material- and model-dependent in modern use. The historically important Steinmetz value is `n = 1.6`.
 
 ## Interactive Translation

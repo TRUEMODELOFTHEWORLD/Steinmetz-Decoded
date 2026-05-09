@@ -62,6 +62,13 @@
       "format": "json"
     },
     {
+      "id": "concept_reader_synthesis",
+      "description": "Generated source-grounded reader synthesis blocks for curated concept pages.",
+      "source_path": "processed/concept_reader_synthesis.json",
+      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/concept_reader_synthesis.json",
+      "format": "json"
+    },
+    {
       "id": "steinmetz_corpus_completion_matrix",
       "description": "Authority and completion matrix for processed, registered, and still-missing Steinmetz works.",
       "source_path": "processed/steinmetz_corpus_completion_matrix.json",
@@ -150,6 +157,13 @@
       "description": "Generated modern visual guide diagrams keyed to Steinmetz source themes.",
       "source_path": "processed/recreated_visual_index.json",
       "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/recreated_visual_index.json",
+      "format": "json"
+    },
+    {
+      "id": "extracted_visual_review_index",
+      "description": "Bounded extracted scan-image candidates for visual review and figure discovery.",
+      "source_path": "processed/extracted_visual_review_index.json",
+      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/extracted_visual_review_index.json",
       "format": "json"
     },
     {

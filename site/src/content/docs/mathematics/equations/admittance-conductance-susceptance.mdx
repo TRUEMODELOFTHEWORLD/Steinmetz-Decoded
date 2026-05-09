@@ -1,4 +1,4 @@
----
+﻿---
 title: Admittance, Conductance, Susceptance
 description: Equation page for Steinmetz's reciprocal AC quantities.
 ---
@@ -12,48 +12,41 @@ import LayeredReading from '../../../../components/LayeredReading.astro';
 
 Steinmetz introduces admittance as the reciprocal of impedance:
 
-```math
+$$
 Y = \frac{1}{Z}
-```
-
+$$
 The OCR candidate gives the component form:
 
-```math
+$$
 Y = g - jb
-```
-
+$$
 where `g` is conductance and `b` is susceptance.
 
 ## Conversion From Impedance
 
 If:
 
-```math
+$$
 Z = r + jx
-```
-
+$$
 then:
 
-```math
+$$
 Y = \frac{1}{r + jx}
-```
-
+$$
 Multiply numerator and denominator by the conjugate:
 
-```math
+$$
 Y = \frac{r - jx}{r^2 + x^2}
-```
-
+$$
 So, under this sign convention:
 
-```math
+$$
 g = \frac{r}{r^2 + x^2}
-```
-
-```math
+$$
+$$
 b = \frac{x}{r^2 + x^2}
-```
-
+$$
 ## Why It Matters
 
 This page is essential because it prevents a common beginner error:
@@ -67,22 +60,19 @@ They are components of the reciprocal of the full complex impedance.
 
 If:
 
-```math
+$$
 Z = 6 + j8\ \Omega
-```
-
+$$
 then:
 
-```math
+$$
 Y = \frac{6 - j8}{6^2 + 8^2} = 0.06 - j0.08\ \text{S}
-```
-
+$$
 Thus:
 
-```math
+$$
 g = 0.06\ \text{S},\quad b = 0.08\ \text{S}
-```
-
+$$
 <LayeredReading label="Modern Translation" open>
 Modern notation often writes admittance as `Y = G + jB`. When translating Steinmetz, the sign convention should be named explicitly rather than silently rewritten.
 </LayeredReading>

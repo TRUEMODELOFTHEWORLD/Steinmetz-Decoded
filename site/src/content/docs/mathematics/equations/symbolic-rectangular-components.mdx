@@ -1,4 +1,4 @@
----
+﻿---
 title: Symbolic Rectangular Components
 description: Steinmetz's bridge from vector diagrams to complex AC quantities.
 ---
@@ -12,40 +12,33 @@ import LayeredReading from '../../../../components/LayeredReading.astro';
 
 Steinmetz resolves a sine-wave vector into rectangular components:
 
-```math
+$$
 a = I \cos \theta
-```
-
-```math
+$$
+$$
 b = I \sin \theta
-```
-
+$$
 He then writes the symbolic sine wave as:
 
-```math
+$$
 I = a + jb
-```
-
+$$
 with magnitude and phase recovered by:
 
-```math
+$$
 i = \sqrt{a^2 + b^2}
-```
-
-```math
+$$
+$$
 \tan \theta = \frac{b}{a}
-```
-
+$$
 The decisive operator definition follows from the quarter-period rotation:
 
-```math
+$$
 j^2 = -1
-```
-
-```math
+$$
+$$
 j(a + jb) = ja - b
-```
-
+$$
 ## What Steinmetz Is Doing
 
 The chapter starts from a practical problem: graphical vector diagrams are excellent for insight but poor for exact calculation when the quantities in the same diagram differ greatly in magnitude. Steinmetz's answer is to keep the geometry but move it into algebra.
@@ -56,18 +49,15 @@ In this move, `j` is not first introduced as an abstract schoolbook symbol. It b
 
 Modern electrical engineering calls this rectangular phasor form:
 
-```math
+$$
 \mathbf{I} = I_x + jI_y
-```
-
-```math
+$$
+$$
 |\mathbf{I}| = \sqrt{I_x^2 + I_y^2}
-```
-
-```math
+$$
+$$
 \angle \mathbf{I} = \tan^{-1}\left(\frac{I_y}{I_x}\right)
-```
-
+$$
 The historical content is richer than the notation alone. Steinmetz uses the symbolic expression to preserve intensity and phase in one calculable quantity.
 
 ## Diagrammatic Reading
@@ -109,26 +99,22 @@ The [phasor and symbolic form tool](/Charles-Proteus-Steinmetz-Texts-AI-Decoded/
 
 Suppose a sine-wave current has magnitude `10 A` and phase angle `30 degrees`.
 
-```math
+$$
 a = 10\cos 30^\circ = 8.66
-```
-
-```math
+$$
+$$
 b = 10\sin 30^\circ = 5.00
-```
-
+$$
 So the symbolic form is:
 
-```math
+$$
 I = 8.66 + j5.00
-```
-
+$$
 Multiplying by `j` gives:
 
-```math
+$$
 jI = j(8.66 + j5.00) = -5.00 + j8.66
-```
-
+$$
 That is the same magnitude, advanced by one-quarter period.
 
 <LayeredReading label="Physical Meaning" open>

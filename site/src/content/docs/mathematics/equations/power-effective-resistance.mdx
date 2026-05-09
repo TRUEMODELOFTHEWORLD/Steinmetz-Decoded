@@ -1,4 +1,4 @@
----
+﻿---
 title: Power Factor and Effective Resistance
 description: Steinmetz's AC power equation and his distinction between ohmic and effective resistance.
 ---
@@ -12,30 +12,26 @@ import LayeredReading from '../../../../components/LayeredReading.astro';
 
 Steinmetz gives the sine-wave AC power equation:
 
-```math
+$$
 P_o = ei\cos\theta
-```
-
+$$
 He also keeps Joule's law but warns that in AC the `r` in:
 
-```math
+$$
 P = i^2 r
-```
-
+$$
 may be **effective resistance**, not merely true ohmic resistance.
 
 ## Modern Notation
 
 Using RMS values:
 
-```math
+$$
 P = VI\cos\phi
-```
-
-```math
+$$
+$$
 R_\mathrm{eff} = \frac{P}{I^2}
-```
-
+$$
 ## Steinmetz's Distinction
 
 Effective resistance represents total real-power expenditure. It can include conductor heating, magnetic hysteresis, dielectric hysteresis, mutual induction effects, eddy currents, leakage, corona, and other real losses.
@@ -46,22 +42,19 @@ True ohmic resistance is a narrower conductor property.
 
 If:
 
-```math
+$$
 V = 1000\ \mathrm{V},\quad I = 10\ \mathrm{A},\quad \cos\phi = 0.8
-```
-
+$$
 then:
 
-```math
+$$
 P = 1000 \times 10 \times 0.8 = 8000\ \mathrm{W}
-```
-
+$$
 and:
 
-```math
+$$
 R_\mathrm{eff} = \frac{8000}{10^2} = 80\ \Omega
-```
-
+$$
 That `80 ohms` is an equivalent real-power coefficient. It should not be confused with a DC resistance measurement unless the only loss is conductor heating.
 
 <LayeredReading label="Why Modern Language Can Hide This" open>

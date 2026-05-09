@@ -1,4 +1,4 @@
----
+﻿---
 title: Capacity Susceptance
 description: The dielectric-capacity equation connecting capacitance to admittance.
 ---
@@ -12,56 +12,48 @@ import LayeredReading from '../../../../components/LayeredReading.astro';
 
 Steinmetz identifies `C` as electrostatic capacity and gives capacity susceptance as:
 
-```math
+$$
 b = 2\pi f C
-```
-
+$$
 ## Modern Notation
 
-```math
+$$
 B_C = \omega C
-```
-
-```math
+$$
+$$
 B_C = 2\pi f C
-```
-
+$$
 ## Relation To Reactance
 
 For a pure capacitance:
 
-```math
+$$
 X_C = \frac{1}{\omega C}
-```
-
+$$
 while capacitive susceptance is:
 
-```math
+$$
 B_C = \omega C
-```
-
+$$
 They are reciprocal in the pure case, but in a general complex circuit one must take the reciprocal of the whole impedance, not just one component.
 
 ## Worked Example
 
 If:
 
-```math
+$$
 f = 60\ \mathrm{Hz},\quad C = 10\ \mu\mathrm{F}
-```
-
+$$
 then:
 
-```math
+$$
 B_C = 2\pi(60)(10 \times 10^{-6}) \approx 0.00377\ \mathrm{S}
-```
-
+$$
 and the corresponding pure-capacitive reactance magnitude is:
 
-```math
+$$
 X_C = \frac{1}{B_C} \approx 265\ \Omega
-```
-
+$$
 <LayeredReading label="Physical Meaning" open>
 Susceptance tells how much quadrature current a dielectric or condenser draws per volt. It is field storage seen from the admittance side of the calculation.
 </LayeredReading>

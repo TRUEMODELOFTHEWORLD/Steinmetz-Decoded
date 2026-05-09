@@ -693,6 +693,43 @@ a[data-variant='primary']:hover {
   background: rgba(95, 111, 112, 0.12);
 }
 
+.concept-synthesis-panel {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 1.5rem 0;
+}
+
+.concept-synthesis-panel section {
+  background: var(--sl-color-bg-nav);
+  border: 1px solid var(--sl-color-gray-5);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.concept-synthesis-panel h3 {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.concept-synthesis-panel p:last-child {
+  margin-bottom: 0;
+}
+
+.concept-reading-path td:first-child {
+  min-width: 15rem;
+}
+
+.extracted-visual-grid {
+  align-items: start;
+}
+
+.extracted-visual-card img {
+  aspect-ratio: 3 / 4;
+  background: #f7f3e8;
+  object-fit: contain;
+}
+
 .source-status-hero {
   border: 1px solid color-mix(in srgb, var(--sl-color-gray-3) 65%, transparent);
   border-left: 4px solid var(--codex-gold);
@@ -2446,6 +2483,14 @@ body.codex-lightbox-open {
     border-radius: 8px;
     text-align: left;
     white-space: normal;
+  }
+
+  .concept-synthesis-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .extracted-visual-card img {
+    aspect-ratio: 16 / 11;
   }
 }
 

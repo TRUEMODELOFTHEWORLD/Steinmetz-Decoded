@@ -359,6 +359,24 @@ def recreated_cards(records: list[dict[str, Any]], compact: bool = False) -> str
     return "\n".join(cards)
 
 
+def extracted_cards(records: list[dict[str, Any]]) -> str:
+    cards = []
+    for record in records[:12]:
+        cards.append(
+            f"""<div class="codex-visual-card extracted-visual-card">
+  <img src="{html_escape(record.get('public_url'))}" alt="Extracted scan-image candidate for page {html_escape(record.get('pdf_page_number'))}" />
+  <div>
+    <strong>PDF page {html_escape(record.get('pdf_page_number'))}</strong>
+    <p>Extracted review image - not a final figure crop.</p>
+    <p><a href="{html_escape(record.get('public_url'))}">Open image</a> - <a href="{BASE_URL}/diagrams/extracted-visual-candidates/{html_escape(record.get('source_id'))}/">source gallery</a></p>
+  </div>
+</div>"""
+        )
+    if not cards:
+        return '<p>No extracted visual candidates are promoted for this source yet.</p>'
+    return "\n".join(cards)
+
+
 def build_source_meta(equation_atlas: dict[str, Any], figure_atlas: dict[str, Any]) -> dict[str, dict[str, Any]]:
     sources: dict[str, dict[str, Any]] = {}
     for source in equation_atlas.get("source_summaries") or []:
@@ -438,6 +456,7 @@ def source_visual_page(
     promoted: list[dict[str, Any]],
     visuals: list[dict[str, Any]],
     equations: list[dict[str, Any]],
+    extracted: list[dict[str, Any]],
 ) -> str:
     source_id = str(source.get("source_id"))
     title = source_title(source)
@@ -457,15 +476,16 @@ description: {yaml_quote("Diagram, figure, and visual-guide routing map for " + 
 
 <div class="codex-signal">
   <div><strong>{len(promoted)}</strong><p>Promoted original crops.</p></div>
+  <div><strong>{len(extracted)}</strong><p>Extracted visual-review images.</p></div>
   <div><strong>{len(figures)}</strong><p>Candidate figure references.</p></div>
   <div><strong>{len(visuals)}</strong><p>Modern guide diagrams keyed here.</p></div>
-  <div><strong>{len(equations)}</strong><p>Formula candidates in the same source.</p></div>
 </div>
 
 <div class="source-matrix">
   <a href="{links['source_text']}">Read source text<span>Open the processed text reader for this source.</span></a>
   <a href="{links['workbench']}">Use chapter workbench<span>See figure references beside equations, concepts, and glossary hits.</span></a>
   <a href="{links['formula_map']}">Open formula map<span>Read the matching source-routed math layer.</span></a>
+  <a href="{BASE_URL}/diagrams/extracted-visual-candidates/{source_id}/">Open extracted visuals<span>Bounded scan-image review candidates for this source.</span></a>
   <a href="{BASE_URL}/diagrams/figure-candidate-atlas/">Open full figure atlas<span>Compare this source against the whole visual candidate layer.</span></a>
 </div>
 
@@ -473,6 +493,12 @@ description: {yaml_quote("Diagram, figure, and visual-guide routing map for " + 
 
 <div class="codex-visual-grid">
 {promoted_cards(promoted)}
+</div>
+
+## Extracted Visual Review Candidates
+
+<div class="codex-visual-grid extracted-visual-grid">
+{extracted_cards(extracted)}
 </div>
 
 ## Modern Guide Diagrams Keyed To This Source
@@ -716,6 +742,7 @@ def main() -> None:
     figure_atlas = load_json(root / "processed" / "figure_candidate_atlas.json", {})
     visual_index = load_json(root / "processed" / "recreated_visual_index.json", {})
     dossier_index = load_json(root / "processed" / "concept_page_dossiers.json", {})
+    extracted_index = load_json(root / "processed" / "extracted_visual_review_index.json", {})
 
     equations = list(equation_atlas.get("records") or [])
     figures = list(figure_atlas.get("candidate_records") or [])
@@ -728,6 +755,11 @@ def main() -> None:
     for visual in visuals:
         for source_id in visual.get("sources") or []:
             visuals_by_source[str(source_id)].append(visual)
+    extracted_by_source: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for source_record in extracted_index.get("sources") or []:
+        source_id = str(source_record.get("source_id") or "")
+        if source_id:
+            extracted_by_source[source_id].extend(source_record.get("records") or [])
 
     sources = sorted(build_source_meta(equation_atlas, figure_atlas).values(), key=lambda item: source_title(item))
     visual_root = root / "site" / "src" / "content" / "docs" / "diagrams" / "source-visuals"
@@ -743,6 +775,7 @@ def main() -> None:
                 promoted_by_source.get(source_id, []),
                 visuals_by_source.get(source_id, []),
                 equations_by_source.get(source_id, []),
+                extracted_by_source.get(source_id, []),
             ),
         )
         write_text(
@@ -780,6 +813,7 @@ def main() -> None:
         "total_figure_candidates": len(figures),
         "total_promoted_crops": len(promoted),
         "total_modern_visual_guides": len(visuals),
+        "total_extracted_visual_candidates": sum(len(records) for records in extracted_by_source.values()),
         "sources": [
             {
                 "source_id": source.get("source_id"),
@@ -788,6 +822,7 @@ def main() -> None:
                 "formula_candidates": len(equations_by_source.get(str(source.get("source_id")), [])),
                 "figure_candidates": len(figures_by_source.get(str(source.get("source_id")), [])),
                 "promoted_crops": len(promoted_by_source.get(str(source.get("source_id")), [])),
+                "extracted_visual_candidates": len(extracted_by_source.get(str(source.get("source_id")), [])),
                 "modern_visual_guides": len(visuals_by_source.get(str(source.get("source_id")), [])),
                 "links": source_links(str(source.get("source_id"))),
             }

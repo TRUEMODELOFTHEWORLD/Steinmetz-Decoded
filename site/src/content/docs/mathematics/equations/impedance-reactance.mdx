@@ -1,4 +1,4 @@
----
+﻿---
 title: Impedance And Reactance
 description: Equation page for Steinmetz's symbolic AC impedance relation.
 ---
@@ -12,16 +12,14 @@ import LayeredReading from '../../../../components/LayeredReading.astro';
 
 The OCR candidate shows Steinmetz writing the impedance relation in complex form:
 
-```math
+$$
 Z = r + jx
-```
-
+$$
 and the AC form of Ohm's law:
 
-```math
+$$
 E = ZI
-```
-
+$$
 ## Variables
 
 <table class="codex-status-table">
@@ -58,18 +56,15 @@ E = ZI
 
 ## Modern Notation
 
-```math
+$$
 Z = R + jX
-```
-
-```math
+$$
+$$
 |Z| = \sqrt{R^2 + X^2}
-```
-
-```math
+$$
+$$
 \phi = \tan^{-1}\left(\frac{X}{R}\right)
-```
-
+$$
 ## Derivation Sketch
 
 1. Represent current as a complex sine-wave quantity.
@@ -82,24 +77,20 @@ Z = R + jX
 
 If:
 
-```math
+$$
 R = 6\ \Omega,\quad X = 8\ \Omega
-```
-
+$$
 then:
 
-```math
+$$
 Z = 6 + j8\ \Omega
-```
-
-```math
+$$
+$$
 |Z| = \sqrt{6^2 + 8^2} = 10\ \Omega
-```
-
-```math
+$$
+$$
 \phi = \tan^{-1}\left(\frac{8}{6}\right) \approx 53.1^\circ
-```
-
+$$
 <LayeredReading label="Physical Meaning" open>
 The magnitude tells how much voltage is required for a given current. The angle tells how far voltage and current are displaced. The real part represents power loss; the quadrature part represents field storage and return.
 </LayeredReading>

@@ -103,7 +103,9 @@ Current site features include:
 - A generated equation atlas that routes 3,845 equation/formula candidates from 15 sources into mathematical families while preserving OCR verification warnings.
 - Generated source visual maps and source formula maps that connect every processed source to its diagrams, formula candidates, source text, workbench pages, and concept routes.
 - Generated math/visual evidence bridges on curated concept pages so pages like Ether, radiation, symbolic method, hysteresis, transients, reactance, and admittance no longer stand apart from the broader formula and diagram layers.
+- Generated reader synthesis panels on 22 curated concept pages, giving readers a source-pattern summary, modern translation, mathematical/visual route, interpretive boundary, and fast reading path before the deeper ledgers.
 - Generated visual topic galleries that let readers enter by theme while still seeing source maps, workbench links, figure candidates, formulas, and verification boundaries.
+- Generated extracted visual candidate galleries with 168 bounded scan-image review assets promoted from local Steinmetz PDFs, giving each source visual-map page a broader real-scan visual layer without treating the images as final figure crops.
 - Expanded curated deep-decoding pages for the electric field, general number, transient terms, high-frequency surges, impedance/reactance, admittance, hysteresis/effective resistance, hysteresis motor, standing/traveling waves, and first mathematical equation pages, with source-text, workbench, formula, visual, and verification routes.
 - A generated completion audit that measures source-by-source readiness for canonical review and keeps the path to a definitive archive explicit.
 - Public citation and data exports, including `CITATION.cff`, BibTeX, CSL JSON, a public data manifest, and reusable copies of the core processed indexes.
@@ -168,6 +170,23 @@ python pipeline/scripts/build_research_indexes.py
 ```
 
 It writes dashboard data for sources, concepts, equations, figures, glossary terms, quote candidates, annotations, and crosslinks into `processed/`, including `processed/source_processing_status.md`.
+
+The concept reader synthesis generator is:
+
+```powershell
+python pipeline/scripts/generate_concept_reader_synthesis.py
+```
+
+It turns concept dossier data into reader-facing synthesis blocks while keeping source, modern, mathematical, historical, and interpretive layers separate.
+
+The bounded extracted visual review gallery is:
+
+```powershell
+python pipeline/scripts/extract_pdf_images.py --source-id radiation-light-and-illumination --pdf sources/radiation-light-and-illumination/raw/radiation-light-and-illumination-1909-ia-scan.pdf --mode embedded
+python pipeline/scripts/generate_extracted_visual_review_gallery.py
+```
+
+The first command creates temporary extraction candidates from a local PDF; the second promotes a bounded public review set so the site gains visual discovery without committing every raw extraction artifact.
 
 For PDFs with embedded text, the page-preserving extraction step is:
 

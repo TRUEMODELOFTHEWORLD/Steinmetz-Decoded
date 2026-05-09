@@ -1,4 +1,4 @@
----
+﻿---
 title: Symbolic Operator j
 description: Steinmetz's imaginary operator as a quarter-period rotation in AC calculation.
 ---
@@ -10,14 +10,12 @@ import LayeredReading from '../../../../components/LayeredReading.astro';
 
 ## Original Form To Preserve
 
-```math
+$$
 j^2 = -1
-```
-
-```math
+$$
+$$
 j = \sqrt{-1}
-```
-
+$$
 ## Steinmetz Meaning
 
 Steinmetz does not introduce `j` as abstract algebra alone. It appears as the operator that carries a sine-wave quantity into quadrature. Multiplication by `j` is the symbolic form of a quarter-period displacement.
@@ -28,32 +26,28 @@ In other words, `j` is a bridge between a diagram and an equation. The vector dr
 
 Modern electrical engineering keeps `j` for the imaginary unit because `i` is usually current:
 
-```math
+$$
 j^2 = -1
-```
-
+$$
 What is easy to lose is the physical meaning: in AC phasors, `j` is a 90 degree rotation.
 
 ## Step-By-Step Translation
 
 Start with a rectangular complex quantity:
 
-```math
+$$
 A = a + jb
-```
-
+$$
 Multiplying by `j` gives:
 
-```math
+$$
 jA = ja + j^2b
-```
-
+$$
 Because `j^2 = -1`:
 
-```math
+$$
 jA = -b + ja
-```
-
+$$
 The pair `(a, b)` has rotated into `(-b, a)`. This is the algebraic form of the quarter-period rotation shown in Steinmetz's symbolic-method figure.
 
 ## Source Figure

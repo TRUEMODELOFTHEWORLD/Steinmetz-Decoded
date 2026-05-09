@@ -1,4 +1,4 @@
----
+﻿---
 title: Power-Limiting Reactors and Synchronism
 description: Deep-decoding entry for Steinmetz's 1919 Commonwealth Edison system-trouble report.
 ---
@@ -57,26 +57,21 @@ The historical value is that Steinmetz handles these as one engineering problem.
 
 The appendix begins with two equal-voltage alternators or groups of alternators connected while out of phase. The PDF text is damaged, but the candidate structure is clear enough to route future scan review:
 
-```math
+$$
 e_1 = E \cos(\cdots)
-```
-
-```math
+$$
+$$
 e_2 = E \cos(\cdots)
-```
-
-```math
+$$
+$$
 e = e_1 - e_2
-```
-
-```math
+$$
+$$
 i \sim \frac{2E}{Z}\sin(\cdots)\sin(\cdots)
-```
-
-```math
+$$
+$$
 Z = \sqrt{R^2 + X^2}, \qquad \tan \alpha = \frac{X}{R}
-```
-
+$$
 These are modernized reading forms, not canonical transcriptions. The source-located equation records are stored in `processed/commonwealth-edison-generating-system-trouble/equations.json` and must be checked against the page images before being promoted.
 
 The meaning is straightforward: the out-of-step voltage difference drives an interchange current through the interconnection impedance. That current produces power exchange. Depending on phase relation, frequency slip, voltage, resistance, reactance, and machine characteristics, the exchange may pull sections together, produce oscillation, or allow them to keep slipping.
