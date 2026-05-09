@@ -4,6 +4,20 @@ The pipeline turns raw Steinmetz source material into reviewable data.
 
 It is intentionally transparent: every machine-produced output should be inspectable, reproducible, and marked with a review status.
 
+## Reusable Codex Bootstrap
+
+To start a new source-grounded project from the same architecture without Steinmetz-specific content:
+
+```powershell
+python pipeline/scripts/bootstrap_new_codex.py `
+  --project-title "Tesla Decoded" `
+  --project-id tesla-decoded `
+  --primary-subject "Nikola Tesla" `
+  --output C:\tmp\tesla-decoded
+```
+
+The bootstrap creates custody folders, a source catalog, claim templates, a project charter, and a verification policy. It is intentionally small so future projects can adopt the evidence model before choosing their final web design.
+
 ## Stages
 
 1. **Custody**

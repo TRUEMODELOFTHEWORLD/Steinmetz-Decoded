@@ -139,6 +139,60 @@ def scaffold(output: Path, config: dict[str, Any]) -> None:
             "text": "",
         },
     )
+    write_json(
+        output / "templates" / "collection_map.template.json",
+        {
+            "schema": "research-codex-engine.collection-map-0.1",
+            "project_id": config["project_id"],
+            "collections": [
+                {
+                    "collection_id": config["collection_id"],
+                    "type": "person | topic | tradition | archive",
+                    "title": config["primary_subject"],
+                    "scope": "Books, lectures, papers, patents, correspondence, diagrams, and later commentary.",
+                    "source_root": f"sources/{config['collection_id']}",
+                    "processed_root": f"processed/{config['collection_id']}",
+                    "public_path": f"/people/{config['collection_id']}/",
+                }
+            ],
+            "global_indexes": [
+                "concepts",
+                "comparisons",
+                "glossary",
+                "math",
+                "diagrams",
+                "hidden-gems",
+                "research-questions",
+            ],
+            "attribution_policy": (
+                "Every cross-collection synthesis must preserve person, source, "
+                "location, layer, and confidence metadata."
+            ),
+        },
+    )
+    write_text(
+        output / "templates" / "verification_policy.md",
+        """# Verification Policy
+
+## Review States
+
+- `raw`: source has been identified but not processed.
+- `ocr`: text came from OCR or machine extraction.
+- `candidate`: a machine or first-pass human extraction.
+- `source-located`: tied to a source, section, page, figure, or equation.
+- `scan-verified`: checked against a scan or trusted edition.
+- `mathematically-reviewed`: formulas, variables, notation, and units reviewed.
+- `canonical`: stable public explanation with source anchors and crosslinks.
+
+## Promotion Rules
+
+- A quotation must be checked against the scan before becoming canonical.
+- A formula must preserve original notation before modern translation.
+- A diagram must keep original source-page metadata.
+- A modern explanation must not be presented as the author's own statement.
+- An interpretive reading must never be allowed to erase source uncertainty.
+""",
+    )
     write_text(
         output / "README.md",
         f"""# {config['project_title']}
@@ -156,6 +210,10 @@ This starter project was created with the Research Codex Engine scaffold.
 ## Non-Negotiable Rule
 
 Do not mix source fact, modern explanation, and interpretation. Each layer must stay visibly labeled.
+
+## Review Before Publication
+
+Use `templates/verification_policy.md` before promoting any extracted passage, formula, image, or concept to a canonical page.
 """,
     )
     write_text(

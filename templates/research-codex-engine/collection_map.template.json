@@ -1,0 +1,29 @@
+{
+  "schema": "research-codex-engine.collection-map-0.1",
+  "project_id": "example-codex",
+  "collections": [
+    {
+      "collection_id": "example-person",
+      "type": "person",
+      "title": "Example Person",
+      "scope": "Books, lectures, papers, patents, correspondence, diagrams, and later commentary.",
+      "source_root": "sources/example-person",
+      "processed_root": "processed/example-person",
+      "public_path": "/people/example-person/",
+      "concept_namespaces": [
+        "concepts"
+      ]
+    }
+  ],
+  "global_indexes": [
+    "concepts",
+    "comparisons",
+    "glossary",
+    "math",
+    "diagrams",
+    "hidden-gems",
+    "research-questions"
+  ],
+  "attribution_policy": "Every cross-collection synthesis must preserve person, source, location, layer, and confidence metadata."
+}
+

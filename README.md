@@ -8,6 +8,20 @@ This project is designed to become a rigorous, source-grounded, mathematically f
 
 The project is not a summary site. It is a research system.
 
+## For Future Codex Projects
+
+This repository can also be used as a reusable **Research Codex Engine**. If you want to start a new source-grounded archive without Steinmetz-specific content, read `RESEARCH_CODEX_ENGINE.md` and use:
+
+```powershell
+python pipeline/scripts/bootstrap_new_codex.py `
+  --project-title "Tesla Decoded" `
+  --project-id tesla-decoded `
+  --primary-subject "Nikola Tesla" `
+  --output C:\tmp\tesla-decoded
+```
+
+The engine is designed around source isolation, claim-layer labeling, verification queues, and generated reader surfaces. A future project should preserve those disciplines even if it changes the subject, visual design, or public brand.
+
 ## Mission
 
 For every processed source, the archive aims to preserve and explain:
@@ -37,6 +51,10 @@ research-questions/
                Living research agenda and unresolved questions.
 pipeline/      Repeatable ingestion, extraction, schema, and quality-control tooling.
 site/          Astro/Starlight public documentation website.
+RESEARCH_CODEX_ENGINE.md
+               Reuse guide for building future source-grounded codex projects.
+FINAL_HANDOFF.md
+               Maintainer handoff, release rhythm, and honest completion boundary.
 ```
 
 ## First Canonical Source

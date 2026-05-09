@@ -1,0 +1,69 @@
+name: New source intake
+description: Propose a new source for custody, processing, and review.
+title: "[Source intake]: "
+labels: ["source-intake", "needs-verification"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Source title
+      description: Full title as printed or cataloged.
+    validations:
+      required: true
+  - type: input
+    id: creator
+    attributes:
+      label: Creator / author / editor
+      description: Name the creator and editor if known.
+    validations:
+      required: true
+  - type: input
+    id: year
+    attributes:
+      label: Year / edition
+      description: Include edition, volume, issue, or patent number when applicable.
+  - type: dropdown
+    id: source_type
+    attributes:
+      label: Source type
+      options:
+        - book
+        - paper
+        - lecture
+        - patent
+        - archival collection
+        - correspondence
+        - diagram/plate
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Authority links
+      description: Archive.org, DOI, HathiTrust, Google Patents, finding aid, catalog record, or publisher link.
+  - type: textarea
+    id: why
+    attributes:
+      label: Why this source matters
+      description: Explain the concepts, equations, diagrams, patents, or historical questions this source may affect.
+  - type: textarea
+    id: custody
+    attributes:
+      label: Custody and rights notes
+      description: Public-domain status, scan quality, OCR status, known defects, and whether a local file has been added.
+  - type: checkboxes
+    id: required_outputs
+    attributes:
+      label: Required processing outputs
+      options:
+        - label: source manifest
+        - label: raw file or public link
+        - label: OCR or extracted text
+        - label: page/section map
+        - label: equation candidates
+        - label: figure candidates
+        - label: concept candidates
+        - label: glossary candidates
+        - label: quote / hidden-gem candidates
+        - label: verification queue entries

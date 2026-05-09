@@ -39,6 +39,8 @@ Before an extraction becomes canonical:
 
 Use the GitHub issue templates for source verification, equation review, and diagram review. They exist so review work is structured enough to become canonical later.
 
+Use the new source-intake issue template before adding a major book, paper, lecture, patent, archive collection, or correspondence file. A source should enter the repository through custody first, then extraction, then review, then public synthesis.
+
 Promotion states:
 
 - `candidate`: found by OCR, script, or first-pass reading.
@@ -65,3 +67,17 @@ When adding a new source, update source custody first:
 - processing status
 - public site path
 - checksum if a local artifact is stored
+
+## Reusing The Engine
+
+If you are cloning this repository to build a different public knowledge archive, start with `RESEARCH_CODEX_ENGINE.md` and `templates/research-codex-engine/`. The preferred clean-start path is:
+
+```powershell
+python pipeline/scripts/bootstrap_new_codex.py `
+  --project-title "New Research Codex" `
+  --project-id new-research-codex `
+  --primary-subject "Primary Subject" `
+  --output C:\tmp\new-research-codex
+```
+
+The subject may change. The evidence rules should not.
