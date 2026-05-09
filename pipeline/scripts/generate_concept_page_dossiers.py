@@ -17,6 +17,7 @@ from collections import defaultdict
 from datetime import date
 from pathlib import Path
 from typing import Any
+from urllib.parse import quote
 
 
 BASE_URL = "/Charles-Proteus-Steinmetz-Texts-AI-Decoded"
@@ -230,11 +231,15 @@ def build_dossier(root: Path, page_slug: str, concept_ids: list[str], page_title
     }
 
 
-def focused_url(url: Any, anchor: str) -> str:
+def focused_url(url: Any, anchor: str, query: Any = None) -> str:
     value = clean_text(url)
     if not value or value == "#":
         return "#"
     base = value.split("#", 1)[0]
+    query_text = clean_text(query)
+    if query_text:
+        separator = "&" if "?" in base else "?"
+        base = f"{base}{separator}q={quote(query_text)}"
     return f"{base}#{anchor}"
 
 
@@ -272,7 +277,8 @@ def priority_section_blocks(sections: list[dict[str, Any]]) -> str:
     blocks = []
     for section in sections[:6]:
         concepts = ", ".join(sorted(set(clean_text(item) for item in section.get("concepts", []) if item)))
-        source_url = focused_url(section.get("source_text_url"), "source-text")
+        first_concept = next((clean_text(item) for item in section.get("concepts", []) if clean_text(item)), "")
+        source_url = focused_url(section.get("source_text_url"), "source-text-reader", first_concept)
         workbench_url = focused_url(section.get("workbench_url"), "chapter-local-concept-hits")
         excerpt_url = focused_url(section.get("workbench_url"), "source-located-theme-snippets")
         snippets = section.get("snippets", [])[:2]

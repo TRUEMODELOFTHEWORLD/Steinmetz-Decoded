@@ -17,6 +17,7 @@ from collections import Counter
 from datetime import date
 from pathlib import Path
 from typing import Any
+from urllib.parse import quote
 
 
 BASE_URL = "/Charles-Proteus-Steinmetz-Texts-AI-Decoded"
@@ -287,6 +288,18 @@ def source_page_slug(record: dict[str, Any]) -> str:
     return slugify(str(record.get("id") or record.get("title") or "section"))
 
 
+def reader_focus_url(url: Any, query: Any = None, anchor: str = "source-text-reader") -> str:
+    value = "" if url is None else str(url)
+    if not value:
+        return "#"
+    base = value.split("#", 1)[0]
+    query_text = "" if query is None else str(query).strip()
+    if query_text:
+        separator = "&" if "?" in base else "?"
+        base = f"{base}{separator}q={quote(query_text)}"
+    return f"{base}#{anchor}"
+
+
 def chapter_label(record: dict[str, Any]) -> str:
     kind = str(record.get("kind") or "section").replace("-", " ").title()
     number = record.get("number") or record.get("sequence")
@@ -513,6 +526,7 @@ This generated concordance scans every processed Steinmetz chapter, lecture, sec
 
 
 def build_concept_page(concept: dict[str, Any]) -> str:
+    query = concept.get("label") or concept.get("id")
     source_rows = []
     for source in concept["source_totals"]:
         source_rows.append(
@@ -523,8 +537,9 @@ def build_concept_page(concept: dict[str, Any]) -> str:
 
     section_rows = []
     for hit in concept["section_hits"]:
+        source_url = reader_focus_url(hit["source_text_url"], query)
         section_rows.append(
-            f"| [{md_escape(hit['section_label'])}]({hit['source_text_url']}) | [{md_escape(hit['source_title'])}]({BASE_URL}/source-texts/{hit['source_id']}/) | {hit['occurrence_count']} | [{md_escape('Workbench')}]({hit['workbench_url']}) | {md_escape(hit['location'])} |"
+            f"| [{md_escape(hit['section_label'])}]({source_url}) | [{md_escape(hit['source_title'])}]({BASE_URL}/source-texts/{hit['source_id']}/) | {hit['occurrence_count']} | [{md_escape('Workbench')}]({hit['workbench_url']}#chapter-local-concept-hits) | {md_escape(hit['location'])} |"
         )
     if not section_rows:
         section_rows.append("| No current hits | - | 0 | - | - |")
@@ -534,12 +549,13 @@ def build_concept_page(concept: dict[str, Any]) -> str:
         first_snippet = hit["snippets"][0] if hit.get("snippets") else ""
         if not first_snippet:
             continue
+        source_url = reader_focus_url(hit["source_text_url"], query)
         snippets.append(
             f"""<details class="layered-reading" data-layer="source">
 <summary>{html_escape(hit['section_label'])} - {hit['occurrence_count']} hit(s)</summary>
 <div class="body">
 
-[Open source text]({hit['source_text_url']}) | [Open chapter workbench]({hit['workbench_url']})
+[Open source text]({source_url}) | [Open chapter workbench]({hit['workbench_url']}#chapter-local-concept-hits)
 
 {code_fence(first_snippet)}
 

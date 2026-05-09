@@ -197,18 +197,27 @@ def build_source_index(
     source_site_path: str,
     records: list[dict[str, Any]],
 ) -> str:
-    rows = []
+    cards = []
     for record in records:
         slug = source_page_slug(record)
         title = chapter_label(record)
         status = str(record.get("status") or "candidate")
         words = record.get("word_count")
         tags = ", ".join(str(tag) for tag in record.get("concept_tags") or []) or "-"
-        rows.append(
-            f"| [{md_escape(title)}]({BASE_URL}/source-texts/{source_id}/{slug}/) | {md_escape(record.get('kind') or '')} | {md_escape(record_location(record))} | {words or '-'} | {md_escape(status)} | {md_escape(tags)} |"
+        cards.append(
+            f"""<a class="source-section-card" href="{BASE_URL}/source-texts/{source_id}/{slug}/">
+  <strong>{html_escape(title)}</strong>
+  <span>{html_escape(record_location(record))} - {html_escape(record.get('kind') or 'section')} - {words or '-'} words</span>
+  <small>{html_escape(status)} - {html_escape(tags)}</small>
+</a>"""
         )
-
-    rows_text = "\n".join(rows)
+    cards_text = "\n".join(cards)
+    first_record = records[0] if records else None
+    first_link = (
+        f'<a href="{BASE_URL}/source-texts/{source_id}/{source_page_slug(first_record)}/">Start reading first section</a>'
+        if first_record
+        else ""
+    )
     return f"""---
 title: {yaml_quote(source_title + " Source Text")}
 description: {yaml_quote("Generated OCR/PDF text reader for " + source_title + ".")}
@@ -221,9 +230,11 @@ pagefind: false
 
 These pages expose the current processed chapter, lecture, section, or report text for this source. They are working research text, not corrected critical editions.
 
-[Open curated source overview]({BASE_URL}{source_site_path})
-
-[Open generated chapter workbench]({BASE_URL}/chapter-workbench/{source_id}/)
+<div class="source-access-actions">
+  {first_link}
+  <a href="{BASE_URL}{source_site_path}">Open curated source overview</a>
+  <a href="{BASE_URL}/chapter-workbench/{source_id}/">Open generated chapter workbench</a>
+</div>
 
 <div class="source-text-warning" data-layer="source">
   <strong>Status:</strong> OCR/PDF text is useful for research navigation, but exact quotation still requires scan verification.
@@ -231,9 +242,9 @@ These pages expose the current processed chapter, lecture, section, or report te
 
 ## Sections
 
-| Section | Kind | Location | Words | Status | Tags |
-| --- | --- | ---: | ---: | --- | --- |
-{rows_text}
+<div class="source-section-grid">
+{cards_text}
+</div>
 """
 
 
@@ -253,6 +264,7 @@ def build_reader_page(
     location = record_location(record)
     tags = record.get("concept_tags") or []
     tag_links = " ".join(f"<span>{html_escape(tag)}</span>" for tag in tags) or "<span>untagged</span>"
+    reader_tags = "|".join(str(tag) for tag in tags)
     previous_link = ""
     if previous_record:
         previous_link = (
@@ -268,7 +280,7 @@ def build_reader_page(
     back_link = f'<a href="{BASE_URL}/source-texts/{source_id}/">Back to {html_escape(source_title)} source text</a>'
     nav_links = "\n    ".join(link for link in [previous_link, back_link, next_link] if link)
     scan_link = (
-        f'<a href="#original-scan">View original scan</a> <a href="https://archive.org/details/{html_escape(internet_archive_id)}">Archive.org</a>'
+        f'<a href="#original-scan-viewer">View original scan</a> <a href="https://archive.org/details/{html_escape(internet_archive_id)}">Archive.org</a>'
         if internet_archive_id
         else '<span>No public scan embed listed yet</span>'
     )
@@ -305,7 +317,16 @@ import SourceRef from '../../../../components/SourceRef.astro';
   <p>Use this text for reading and discovery. Use the original scan below before exact quotation, mathematical transcription, or diagram citation.</p>
 </div>
 
-<div class="source-text-loader source-text-manuscript" data-source-text-url="{html_escape(text_asset_url)}">Loading source text...</div>
+<div
+  class="source-text-loader source-text-manuscript"
+  id="source-text-reader"
+  data-source-text-url="{html_escape(text_asset_url)}"
+  data-reader-title="{html_escape(title)}"
+  data-reader-source="{html_escape(source_title)}"
+  data-reader-location="{html_escape(location)}"
+  data-reader-status="{html_escape(status)}"
+  data-reader-tags="{html_escape(reader_tags)}"
+>Loading source text...</div>
 
 <div class="source-text-tags" data-layer="source">
   {tag_links}
@@ -338,7 +359,7 @@ import SourceRef from '../../../../components/SourceRef.astro';
 
 
 def build_root_index(catalog: list[dict[str, Any]], grouped: dict[str, list[dict[str, Any]]]) -> str:
-    rows = []
+    cards = []
     total_sections = 0
     for source in catalog:
         source_id = str(source["source_id"])
@@ -346,10 +367,14 @@ def build_root_index(catalog: list[dict[str, Any]], grouped: dict[str, list[dict
         total_sections += len(records)
         if not records:
             continue
-        rows.append(
-            f"| [{md_escape(source.get('title') or source_id)}]({BASE_URL}/source-texts/{source_id}/) | {len(records)} | {md_escape(source.get('processed_status') or '')} |"
+        cards.append(
+            f"""<a class="source-section-card source-book-card" href="{BASE_URL}/source-texts/{source_id}/">
+  <strong>{html_escape(source.get('title') or source_id)}</strong>
+  <span>{len(records)} processed text sections - {html_escape(source.get('year') or '')}</span>
+  <small>{html_escape(source.get('processed_status') or '')}</small>
+</a>"""
         )
-    rows_text = "\n".join(rows)
+    cards_text = "\n".join(cards)
     return f"""---
 title: Source Text Browser
 description: Generated public reader for every processed Steinmetz chapter, lecture, section, and report division.
@@ -369,9 +394,9 @@ It is deliberately labeled as working text. These pages let researchers read wid
 
 ## Source Indexes
 
-| Source | Text Sections | Processing Status |
-| --- | ---: | --- |
-{rows_text}
+<div class="source-section-grid">
+{cards_text}
+</div>
 
 ## How To Use This Browser
 

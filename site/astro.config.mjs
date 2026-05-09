@@ -211,6 +211,7 @@ export default defineConfig({
           items: [
             { label: 'Publication Roadmap', slug: 'roadmap' },
             { label: 'Completion Audit', slug: 'roadmap/completion-audit' },
+            { label: 'Final Completion Pass', slug: 'roadmap/final-completion-pass' },
             { label: 'Deep Decoding Queue', slug: 'roadmap/deep-decoding-promotion-queue' },
             { label: 'World-Class Criteria', slug: 'roadmap/world-class-completion-criteria' },
             { label: 'Citation And Data Export', slug: 'roadmap/citation-and-data-export' },
