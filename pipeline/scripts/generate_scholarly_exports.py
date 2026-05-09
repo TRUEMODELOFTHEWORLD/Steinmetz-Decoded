@@ -31,6 +31,7 @@ DATA_EXPORTS = [
     ("chapter_workbench", "processed/chapter_workbench.json", "Section-level workbench records."),
     ("concept_concordance", "processed/concept_concordance.json", "Source-text concept hit index."),
     ("concept_page_dossiers", "processed/concept_page_dossiers.json", "Generated source-grounded dossier data appended to public concept pages."),
+    ("steinmetz_corpus_completion_matrix", "processed/steinmetz_corpus_completion_matrix.json", "Authority and completion matrix for processed, registered, and still-missing Steinmetz works."),
     ("theme_evidence_atlas", "processed/theme_evidence_atlas.json", "Source-text evidence atlas for charter-critical research themes."),
     ("reading_routes", "processed/reading_routes.json", "Generated guided study routes across the processed corpus."),
     ("passage_atlas", "processed/passage_atlas.json", "Generated source-grounded candidate passage atlas and hidden-gem discovery data."),

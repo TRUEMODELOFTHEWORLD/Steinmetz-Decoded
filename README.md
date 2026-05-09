@@ -93,7 +93,9 @@ Current site features include:
 - Expanded source-library pages for the first seeded Steinmetz corpus.
 - Generated source research dashboards on every curated source overview, so `/sources/...` pages now route directly into source text, book coverage, workbench, visual maps, formula maps, theme evidence, concept trails, and verification focus.
 - A generated source-text browser exposing every processed chapter, lecture, section, and report division as public reader pages.
+- A generated research reader system with readable/transcript/dense modes, in-reader search, match highlighting, font controls, source-asset links, and concept links that open source passages with the searched term preloaded.
 - A generated book coverage atlas that summarizes every processed source, counts candidate equations, figures, quotes, concepts, and glossary hits, and links each book section into the source reader and workbench.
+- A generated Steinmetz corpus completion matrix that records all 49 current bibliography and source-frontier records, including the 14 critical works that still require acquisition or explicit public deferral before the archive can claim definitive completion.
 - A generated chapter research workbench that maps every processed section to source links, theme snippets, glossary hits, equation candidates, figure candidates, quote candidates, and promotion checklists.
 - A generated concept concordance that traces 77 core terms and concepts across all 394 processed text sections, with source-text and workbench links for every hit.
 - A generated theme evidence atlas that gathers source-located OCR/PDF-text passages for ether, fields, magnetism, dielectricity, hysteresis, reactance, impedance, transients, symbolic method, wave phenomena, radiation, energy, and apparatus.
@@ -114,6 +116,7 @@ Current site features include:
 - Interactive frequency/wavelength, AC waveform/harmonics, impedance/reactance, phasor/symbolic-form, power-factor, hysteresis-loss, transient RLC response, and lightning/surge traveling-wave tools.
 - Site-wide readable source/code blocks that wrap long OCR passages instead of trapping them in horizontal or vertical scroll panes.
 - Quality labels that separate source claims, modern interpretation, mathematical reconstruction, and speculative readings.
+- A reusable Research Codex Engine scaffold for future source-grounded projects that should reuse the architecture without inheriting Steinmetz-specific content.
 
 To run it after dependencies are installed:
 
@@ -211,6 +214,23 @@ python pipeline/scripts/generate_concept_concordance.py
 ```
 
 It generates `site/src/content/docs/concept-concordance/` and `processed/concept_concordance.json`, scanning every processed section for curated Steinmetz electrical, mathematical, field-language, historical, and Tesla-era overlap terms. Concordance hits are source-location aids, not final definitions.
+
+The corpus completion matrix generator is:
+
+```powershell
+python pipeline/scripts/generate_corpus_completion_matrix.py
+```
+
+It joins the bibliography intake, official source-expansion manifest, source catalog, processed counts, and patent register into `processed/steinmetz_corpus_completion_matrix.json` and public pages under `site/src/content/docs/source-library/corpus-completion/`.
+
+To create a clean starter project from this architecture without Steinmetz content:
+
+```powershell
+python pipeline/scripts/bootstrap_new_codex.py `
+  --project-title "Tesla Decoded" `
+  --primary-subject "Nikola Tesla" `
+  --output .\tesla-decoded
+```
 
 The public theme evidence atlas generator is:
 

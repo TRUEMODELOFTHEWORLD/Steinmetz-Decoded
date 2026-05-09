@@ -23,12 +23,14 @@ The guiding rule is speed with labels: publish useful candidate layers quickly, 
 | Live URL | https://truemodeloftheworld.github.io/Charles-Proteus-Steinmetz-Texts-AI-Decoded/ |
 | Seeded Steinmetz records | Fifteen source records in `sources/source_catalog.json`. |
 | Expanded bibliography intake | `sources/steinmetz_bibliography_manifest.json` maps the current Wikipedia works list into seeded, planned, and verification-needed records. |
+| Corpus completion matrix | `processed/steinmetz_corpus_completion_matrix.json` and public corpus-completion pages now join the bibliography intake, official expansion manifest, source catalog, processed counts, and patent register into one authority layer: 49 bibliography/source-frontier records, 15 seeded source records, and 14 critical frontier works. |
 | Patent intake | `sources/steinmetz_patents/patent_register.json` seeds the Wikipedia-listed patent examples and marks the full 200-plus patent catalog as an authority-pass milestone. |
 | First canonical source | `Radiation, Light and Illumination` by Charles Proteus Steinmetz. |
 | Public pages | Source library, source dashboard, concepts, equations, diagrams, comparisons, glossary, hidden gems, research questions, roadmap, and tools. |
 | Original scan crops | Fifteen promoted crops: five from `Radiation, Light and Illumination`, four from `Alternating Current Phenomena`, and six from `Transient Electric Phenomena and Oscillations`, with manifests and checksums. |
 | Modern visual aids | Twenty public SVG reading aids now exist, including new generated guides for rotating magnetic fields, distributed line constants, surge reflection, dielectric/magnetic storage, admittance, harmonics, hysteresis loss, synchronizing reactors, field-energy boundaries, and engineering number planes. |
 | Reader UX layer | Sidebar Reader Mode now provides source-only filtering, page-local ask/search, translation shortcuts, diagram lightbox viewing, readable source/code blocks, mobile-first responsive hardening, a direct Start Reading entry, a redesigned source-library hub, and card-based routes that join book coverage, source text, diagrams, formulas, tools, and verification layers for non-specialist and specialist entry. |
+| Source research reader | Generated source-text pages now mount an enhanced reader with readable/transcript/dense modes, in-reader search, match highlighting, match navigation, font controls, copy links, and incoming concept-query focus. |
 | Original-source access | Source pages now expose Archive.org scan links, OCR links, and inline scan readers where stable archive IDs exist. |
 | Source text browser | Generated public reader pages now expose 394 processed chapters, lectures, sections, and report divisions under `site/src/content/docs/source-texts/`. |
 | Book coverage atlas | Generated book-level coverage pages now expose all 15 seeded sources under `site/src/content/docs/book-coverage/`, with every processed section linked to source text and chapter workbench pages, plus source study-guide panels for first reads, math, visuals, and field-language trails. |
@@ -52,6 +54,7 @@ The guiding rule is speed with labels: publish useful candidate layers quickly, 
 | Publication readiness | `processed/release_readiness.json`, `processed/accessibility_audit.json`, `processed/edition_comparison_index.json`, and `processed/patent_theory_bridge.json` now track release levels, accessibility, edition collation, and patent-to-theory work. |
 | Canonical verification workbench | `processed/canonical_verification_workbench.json`, equation/figure/patent verification queues, and four public roadmap pages now turn priority candidates into scan-check work cards. |
 | Claim attribution ledger | `processed/claim_attribution_ledger.json` now classifies 4,890 facts, OCR candidates, equations, modern translations, figures, patents, and future interpretive layers by source and claim type. |
+| Research Codex Engine | `pipeline/scripts/bootstrap_new_codex.py`, reusable templates, and public engine documentation now let a future project clone the architecture without inheriting Steinmetz-specific content. |
 | Evidence ledger | `processed/evidence_ledger.json` now indexes 4,855 traceability records across sources, concepts, glossary terms, equations, figures, quotes, and promoted scan crops. |
 | Chapter atlas | `processed/chapter_atlas.json` now maps 394 chapter, lecture, section, and report-section records to OCR/PDF-text theme counts for research routing. |
 | New deep-decoding pages | Public pages now include General Lectures on high-frequency surges, Elementary Lectures on the electric field, Engineering Mathematics on general number, AC Phenomena on impedance/reactance and admittance, Theoretical Elements on fields of force and hysteresis/effective resistance, Electric Apparatus on the hysteresis motor, Transient Phenomena on transient terms and standing/traveling waves, Relativity and Space on the gravitational field, America and the New Epoch on industrial government as historical context, and Commonwealth Edison on reactors and synchronism; the highest-impact thin entries now include source-text, workbench, formula, visual, and verification routes. |
@@ -66,7 +69,7 @@ The guiding rule is speed with labels: publish useful candidate layers quickly, 
 | Preserve raw sources, OCR, scans, metadata, and checksums | Started | First source and multi-source records exist. More checksum and custody work is needed source by source. |
 | Process the first Steinmetz book as canonical example | Started | `Radiation, Light and Illumination` has OCR, chapter candidates, full generated lecture text pages, diagrams, first deep lecture page, figures, concepts, and equations. |
 | Scale to multiple Steinmetz books | Started | Fifteen source records are now seeded, including earlier AC editions, Electric Circuits, and the 1914 Electric Discharges edition; all processed sections have generated public text-reader pages. |
-| Account for more notable Steinmetz works | Started | Wikipedia bibliography intake now tracks books, lecture collections, pamphlets, and papers beyond the seeded source catalog; four additional book-level OCR seeds were added. |
+| Account for more notable Steinmetz works | Started | The corpus completion matrix now tracks 49 records and identifies 14 critical frontier works still requiring acquisition or explicit public deferral before completion language is honest. |
 | Include patents in detail | Started | A seeded patent register covers the Wikipedia-listed examples with Google Patents links, technical digests, diagram targets, and completion rules; full 200-plus catalog remains pending authority verification. |
 | Extract every major concept | Started | Public concept encyclopedia exists; generated concept concordance now traces 77 concepts across all processed sections; 22 curated concept pages now carry source-grounded dossiers for deeper reading and promotion; scan-grounded promotion continues. |
 | Extract equations and derivations | Started | Equation candidates, public math pages, first twelve-equation canon, candidate Steinmetz hysteresis-law page, generated equation atlas, and source formula maps now expose the broader formula layer; scan verification and worked examples continue. |
@@ -94,6 +97,7 @@ These are new workstreams added after the foundation was built. They define what
 | Citation/export system | Started | Researchers can export BibTeX, CSL JSON, stable source IDs, recommended citations, and public JSON data. |
 | Canonical review workflow | Started | Candidate -> source-located -> scan-verified -> mathematically reviewed -> context reviewed -> canonical is public and tied to issue templates. |
 | Guided reading routes | Started | Generated routes make the corpus browsable by purpose without replacing source-text, workbench, or verification layers. |
+| Corpus completion authority layer | Started | Generated completion matrix prevents the archive from confusing processed breadth with complete Steinmetz coverage; critical unprocessed works now remain public frontier items. |
 | Deep-decoding promotion queue | Started | Generated promotion queue turns broad corpus coverage into prioritized editorial targets for richer curated source pages. |
 | Concept page depth dossiers | Started | Generated dossier sections prevent promoted concept pages from remaining thin placeholders while keeping OCR evidence visibly provisional. |
 | Mathematical errata and notation ledger | Started | The first generated notation ledger maps source and modern symbols across the canonical equation seed set. |
@@ -109,6 +113,7 @@ These are new workstreams added after the foundation was built. They define what
 | Contributor governance | Started | Contribution rules and source/equation/diagram review templates are now present. |
 | Independent expert review packets | Started | Six generated packets route source custody/OCR, equation notation, diagram provenance, concepts/glossary, patents, and interpretive-boundary review. |
 | Definitive release levels | Started | Named release levels now distinguish foundation, source coverage, scan verification, equation canon, diagram canon, patent authority, and definitive release. |
+| Reusable Research Codex Engine | Started | Bootstrap script, templates, and public documentation define how to reuse the architecture for Tesla, ether history, or other research domains without mixing claims across subjects. |
 
 ## Extraction Requirements From The Original Charter
 

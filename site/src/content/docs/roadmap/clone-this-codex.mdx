@@ -1,0 +1,58 @@
+---
+title: Clone This Codex
+description: Practical instructions for creating a new source-grounded archive from this project.
+---
+
+## Fast Path
+
+Clone the repo, then create a clean starter project:
+
+```powershell
+python pipeline/scripts/bootstrap_new_codex.py --project-title "New Research Codex" --primary-subject "Primary Subject" --output .\new-research-codex
+```
+
+The output folder gives you the framework without Steinmetz content.
+
+## What The Starter Gives You
+
+- `codex.config.json`
+- empty `sources/source_catalog.json`
+- a source manifest template
+- a claim-record template
+- directories for raw sources, processed data, concepts, math, diagrams, glossary, comparisons, hidden gems, and public site data
+- a starter charter and README
+
+## First Real Source
+
+For the first source, create a manifest like:
+
+```json
+{
+  "source_id": "first-source",
+  "collection_id": "new-research-codex",
+  "title": "First Source",
+  "creator": "Primary Subject",
+  "year": 1900,
+  "source_type": "book",
+  "authority_refs": [],
+  "raw_files": [],
+  "rights_status": "unknown",
+  "processing_status": "raw"
+}
+```
+
+Then add the source to `sources/source_catalog.json`, run or adapt the extraction scripts, and generate public pages only after the source trail is visible.
+
+## Completion Discipline
+
+A cloned codex should not say a source is decoded because it has a page. It is decoded only when the source has custody, text, structure, extracted concepts, extracted equations, extracted figures, glossary candidates, quotes, crosslinks, and visible verification status.
+
+## Recommended Adaptation Order
+
+1. Rename the project and site title.
+2. Add the first source and manifest.
+3. Run source extraction.
+4. Generate source readers.
+5. Add concept and equation pages only after source passages exist.
+6. Add diagrams and tools for the topic's actual subject matter.
+7. Add comparisons and interpretive layers last.

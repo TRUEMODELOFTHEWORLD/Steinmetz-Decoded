@@ -1,0 +1,18 @@
+{
+  "claim_id": "example-claim",
+  "collection_id": "example",
+  "person": "Example Subject",
+  "source_id": "example-source-id",
+  "location": {
+    "chapter": null,
+    "page": null,
+    "section": null,
+    "line_start": null,
+    "line_end": null
+  },
+  "claim_type": "explicit_source_claim | modern_equivalent | mathematical_reconstruction | historical_note | interpretive_reading | speculative_connection",
+  "interpretation_layer": "source | modern | mathematical | historical | ether_field | speculative",
+  "confidence": "raw | ocr | candidate | needs-verification | reviewed | canonical",
+  "text": "",
+  "notes": ""
+}

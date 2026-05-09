@@ -1,0 +1,32 @@
+{
+  "source_id": "example-source-id",
+  "collection_id": "example",
+  "title": "Example Source Title",
+  "creator": "Example Creator",
+  "year": null,
+  "edition": null,
+  "source_type": "book | paper | lecture | patent | archive | web",
+  "authority_refs": [
+    {
+      "type": "internet_archive | doi | hathi_trust | archive_finding_aid | patent | other",
+      "url": ""
+    }
+  ],
+  "raw_files": [],
+  "rights_status": "unknown",
+  "processing_status": "raw",
+  "page_map_status": "not-started",
+  "ocr_status": "not-started",
+  "quality_notes": [],
+  "required_outputs": [
+    "cleaned_text",
+    "chapters",
+    "equations",
+    "figures",
+    "concepts",
+    "glossary",
+    "quotes",
+    "annotations",
+    "crosslinks"
+  ]
+}

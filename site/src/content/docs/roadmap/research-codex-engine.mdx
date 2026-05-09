@@ -1,0 +1,78 @@
+---
+title: Research Codex Engine
+description: How the Steinmetz archive becomes a reusable source-grounded knowledge engine.
+---
+
+## Purpose
+
+Steinmetz Decoded should remain a serious Steinmetz archive, but its architecture is now being preserved as a reusable engine for future collections: Tesla, ether history, classical field theory, Walter Russell, Eric Dollard, concave-earth research, sacred geometry, or any other source-heavy knowledge domain.
+
+The reusable part is not the Steinmetz prose. The reusable part is the discipline:
+
+- source custody before interpretation;
+- page maps before quotations;
+- concepts, equations, diagrams, glossary, quotes, and hidden gems as structured data;
+- source fact, modern explanation, math, history, and interpretation kept in separate layers;
+- public readers, verification queues, and release levels that make uncertainty visible.
+
+## Core Data Model
+
+Every future collection should preserve this minimum claim shape:
+
+```json
+{
+  "person": "Charles Proteus Steinmetz",
+  "source": "Theory and Calculation of Electric Circuits",
+  "chapter": "Chapter 3",
+  "page": 42,
+  "claim_type": "explicit_source_claim",
+  "interpretation_layer": "source",
+  "confidence": "needs-verification"
+}
+```
+
+That is the rule that lets one platform contain many thinkers without blending their claims together.
+
+## Standard Pipeline
+
+1. Add source files and manifests.
+2. Extract or OCR text.
+3. Split into chapters, lectures, pages, or sections.
+4. Extract equations, figures, concepts, glossary terms, quotes, and hidden gems.
+5. Generate readers, workbench pages, concordances, formula maps, visual maps, and verification queues.
+6. Promote only reviewed claims into canonical explanation pages.
+7. Keep interpretive synthesis labeled as interpretation, never as source fact.
+
+## Reusable Starter
+
+The repo now includes a dependency-free bootstrap script:
+
+```powershell
+python pipeline/scripts/bootstrap_new_codex.py --project-title "Tesla Decoded" --primary-subject "Nikola Tesla" --output .\tesla-decoded
+```
+
+It creates a clean starter workspace with source directories, manifests, templates, and source-isolation rules, but no Steinmetz-specific content.
+
+Templates live in:
+
+- `templates/research-codex-engine/codex.config.template.json`
+- `templates/research-codex-engine/source_manifest.template.json`
+- `templates/research-codex-engine/claim_record.template.json`
+
+## What Not To Reuse Blindly
+
+The Steinmetz sidebar, concept list, equation pages, source names, and interpretive examples are specific to this archive. A Tesla or ether-history project should reuse the engine and standards, then rebuild its source catalog, concepts, diagrams, and comparisons from its own material.
+
+## Long-Term Umbrella Pattern
+
+The eventual platform can be one public research library with separate collections:
+
+- `/steinmetz`
+- `/tesla`
+- `/ether-history`
+- `/walter-russell`
+- `/eric-dollard`
+- `/concave-earth`
+- `/sacred-geometry`
+
+Global concept pages can compare thinkers only if each claim remains attributed and confidence-labeled.

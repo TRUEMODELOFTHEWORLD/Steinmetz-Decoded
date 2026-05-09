@@ -68,6 +68,8 @@ export default defineConfig({
             { label: 'Source Visual Maps', slug: 'diagrams/source-visuals' },
             { label: 'Evidence Ledger', slug: 'source-library/evidence-ledger' },
             { label: 'Chapter Atlas', slug: 'source-library/chapter-atlas' },
+            { label: 'Corpus Completion Matrix', slug: 'source-library/corpus-completion' },
+            { label: 'Critical Source Frontier', slug: 'source-library/corpus-completion/critical-frontier' },
             { label: 'Processing Dashboard', slug: 'research-status' },
             { label: 'Bibliography Intake', slug: 'source-library/bibliography-intake' },
             { label: 'Official Source Expansion', slug: 'source-library/official-source-expansion' },
@@ -231,7 +233,9 @@ export default defineConfig({
             { label: 'Mobile Readiness', slug: 'roadmap/mobile-readiness-audit' },
             { label: 'Edition Comparison', slug: 'roadmap/edition-comparison-layer' },
             { label: 'Patent Theory Bridge', slug: 'roadmap/patent-to-theory-bridge' },
-            { label: 'Future Codex Architecture', slug: 'roadmap/future-codex-architecture' }
+            { label: 'Future Codex Architecture', slug: 'roadmap/future-codex-architecture' },
+            { label: 'Research Codex Engine', slug: 'roadmap/research-codex-engine' },
+            { label: 'Clone This Codex', slug: 'roadmap/clone-this-codex' }
           ]
         }
       ]

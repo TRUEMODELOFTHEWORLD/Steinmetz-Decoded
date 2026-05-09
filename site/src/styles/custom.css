@@ -652,6 +652,80 @@ a[data-variant='primary']:hover {
   background: rgba(155, 77, 50, 0.12);
 }
 
+.corpus-status {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  max-width: 100%;
+  border: 1px solid var(--sl-color-gray-3);
+  border-radius: 999px;
+  padding: 0.16rem 0.52rem;
+  font-size: 0.74rem;
+  font-weight: 850;
+  line-height: 1.25;
+  white-space: normal;
+}
+
+.corpus-processed-corpus,
+.corpus-ocr-seeded-corpus {
+  border-color: #2d6a4f;
+  color: #2d6a4f !important;
+  background: rgba(45, 106, 79, 0.12);
+}
+
+.corpus-registered-authority-target,
+.corpus-planned-acquisition {
+  border-color: #8a6f1e;
+  color: #6b5a17 !important;
+  background: rgba(212, 177, 92, 0.16);
+}
+
+.corpus-archival-target,
+.corpus-patent-corpus-target {
+  border-color: #5d4a8a;
+  color: #5d4a8a !important;
+  background: rgba(93, 74, 138, 0.14);
+}
+
+.corpus-secondary-context {
+  border-color: #5f6f70;
+  color: #4c5a5b !important;
+  background: rgba(95, 111, 112, 0.12);
+}
+
+.source-status-hero {
+  border: 1px solid color-mix(in srgb, var(--sl-color-gray-3) 65%, transparent);
+  border-left: 4px solid var(--codex-gold);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--codex-panel) 94%, #d4b15c 6%), var(--codex-panel));
+  color: var(--codex-panel-text);
+  padding: 1rem;
+  margin: 1rem 0 1.25rem;
+}
+
+.source-status-hero h2 {
+  color: var(--codex-panel-text);
+  margin: 0.2rem 0;
+}
+
+.source-status-hero p {
+  margin: 0;
+}
+
+.source-status-hero span {
+  color: var(--codex-panel-muted);
+  font-weight: 700;
+}
+
+.corpus-completion-table td:first-child {
+  min-width: 14rem;
+}
+
+.corpus-completion-table td:nth-child(5) {
+  min-width: 10rem;
+}
+
 .sl-markdown-content .card,
 .sl-markdown-content .sl-card,
 .sl-markdown-content .card-grid > * {
@@ -1084,6 +1158,17 @@ a[data-variant='primary']:hover {
 .source-section-card strong {
   color: var(--codex-panel-text);
   line-height: 1.35;
+}
+
+.source-section-card a {
+  color: var(--sl-color-text-accent);
+  font-weight: 800;
+  overflow-wrap: anywhere;
+  text-decoration: none;
+}
+
+.source-section-card a:hover {
+  text-decoration: underline;
 }
 
 .source-section-card span,

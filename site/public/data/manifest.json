@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29",
+  "generated_at": "2026-05-08",
   "project": "Steinmetz Decoded",
   "site_url": "https://truemodeloftheworld.github.io/Charles-Proteus-Steinmetz-Texts-AI-Decoded",
   "repository": "https://github.com/TRUEMODELOFTHEWORLD/Charles-Proteus-Steinmetz-Texts-AI-Decoded",
@@ -59,6 +59,13 @@
       "description": "Generated source-grounded dossier data appended to public concept pages.",
       "source_path": "processed/concept_page_dossiers.json",
       "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/concept_page_dossiers.json",
+      "format": "json"
+    },
+    {
+      "id": "steinmetz_corpus_completion_matrix",
+      "description": "Authority and completion matrix for processed, registered, and still-missing Steinmetz works.",
+      "source_path": "processed/steinmetz_corpus_completion_matrix.json",
+      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/steinmetz_corpus_completion_matrix.json",
       "format": "json"
     },
     {

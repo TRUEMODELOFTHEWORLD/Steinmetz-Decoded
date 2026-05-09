@@ -1,0 +1,28 @@
+{
+  "schema": "research-codex-engine-0.1",
+  "project_id": "example-codex",
+  "project_title": "Example Research Codex",
+  "collection_id": "example",
+  "primary_subject": "Example Subject",
+  "purpose": "A source-grounded public knowledge archive.",
+  "quality_rules": [
+    "Every factual claim must point to a source, derivation, reference, or labeled interpretation.",
+    "Keep original source wording separate from modern explanation and speculative synthesis.",
+    "Do not mark OCR-derived content as reviewed until a scan or authoritative text has been checked.",
+    "Preserve source, page, section, edition, and confidence metadata whenever possible."
+  ],
+  "standard_layers": [
+    "source custody",
+    "clean text",
+    "page or section map",
+    "concept extraction",
+    "equation extraction",
+    "figure extraction",
+    "glossary candidates",
+    "quote candidates",
+    "modern explanation",
+    "historical context",
+    "interpretive reading",
+    "verification queue"
+  ]
+}
