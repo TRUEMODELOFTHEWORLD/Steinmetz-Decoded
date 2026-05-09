@@ -170,6 +170,53 @@ a[data-variant='primary']:hover {
   margin: 1.5rem 0;
 }
 
+.reader-first-hero {
+  align-items: center;
+}
+
+.reader-door-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+  margin: 1.5rem 0 2rem;
+}
+
+.reader-door-grid > a {
+  display: flex;
+  min-height: 9rem;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  border: 1px solid color-mix(in srgb, var(--sl-color-gray-3) 65%, transparent);
+  border-radius: 8px;
+  padding: 1.05rem;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent),
+    var(--codex-panel);
+  color: var(--codex-panel-text);
+  text-decoration: none;
+}
+
+.reader-door-grid > a:hover {
+  border-color: var(--codex-gold);
+  transform: translateY(-1px);
+}
+
+.reader-door-grid strong {
+  color: var(--codex-panel-text);
+  font-size: 1.05rem;
+}
+
+.reader-door-grid span {
+  color: var(--codex-panel-muted);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.compact-link-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr));
+}
+
 .codex-signal > div {
   border: 1px solid var(--sl-color-gray-2);
   border-radius: 8px;
