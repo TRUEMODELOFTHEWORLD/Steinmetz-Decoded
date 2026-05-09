@@ -56,6 +56,55 @@ body {
   overflow-wrap: anywhere;
 }
 
+.sl-markdown-content .katex-display {
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.35rem 0;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sl-markdown-content .katex,
+.sl-markdown-content .katex * {
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+  white-space: nowrap !important;
+}
+
+.sl-markdown-content .katex-display > .katex {
+  display: inline-block;
+  max-width: none;
+}
+
+.sl-markdown-content table:not(:where(.not-content *)) {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sl-markdown-content table:not(:where(.not-content *)) th,
+.sl-markdown-content table:not(:where(.not-content *)) td {
+  vertical-align: top;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.sl-markdown-content table:not(:where(.not-content *)) a {
+  display: inline-block;
+  overflow-wrap: normal;
+  word-break: normal;
+  white-space: nowrap;
+}
+
+.sl-markdown-content table:not(:where(.not-content *)) code {
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
 .hero {
   border-bottom: 1px solid var(--sl-color-gray-2);
 }
@@ -536,19 +585,12 @@ a[data-variant='primary']:hover {
 }
 
 .codex-status-table {
-  display: block;
+  display: table;
   width: 100%;
   max-width: 100%;
   border-collapse: collapse;
+  table-layout: auto;
   margin: 1.25rem 0;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
-
-.codex-status-table thead,
-.codex-status-table tbody,
-.codex-status-table tr {
-  width: 100%;
 }
 
 .codex-status-table th,
@@ -556,7 +598,8 @@ a[data-variant='primary']:hover {
   border: 1px solid color-mix(in srgb, var(--sl-color-gray-3) 65%, transparent);
   padding: 0.65rem 0.75rem;
   vertical-align: top;
-  overflow-wrap: anywhere;
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 .codex-status-table th {
@@ -567,6 +610,18 @@ a[data-variant='primary']:hover {
 .codex-status-table code {
   white-space: normal;
   overflow-wrap: anywhere;
+}
+
+.codex-status-table a {
+  display: inline-block;
+  overflow-wrap: normal;
+  word-break: normal;
+  white-space: nowrap;
+}
+
+.codex-status-table.evidence-candidate-table th:nth-child(4),
+.codex-status-table.evidence-candidate-table td:nth-child(4) {
+  min-width: 8rem;
 }
 
 .audit-badge {
@@ -952,7 +1007,8 @@ a[data-variant='primary']:hover {
   margin: 1rem 0;
 }
 
-.source-text-toolbar a {
+.source-text-toolbar a,
+.source-text-toolbar span {
   display: inline-flex;
   align-items: center;
   min-width: 0;
@@ -966,6 +1022,10 @@ a[data-variant='primary']:hover {
   text-decoration: none;
   white-space: normal;
   overflow-wrap: anywhere;
+}
+
+.source-text-toolbar span {
+  color: var(--sl-color-gray-3);
 }
 
 .source-text-toolbar a:hover {
@@ -1038,8 +1098,22 @@ a[data-variant='primary']:hover {
   tab-size: 2;
 }
 
+.reader-first-callout {
+  border: 1px solid color-mix(in srgb, var(--codex-gold) 50%, var(--sl-color-gray-3));
+  border-left: 4px solid var(--codex-gold);
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  background: color-mix(in srgb, var(--codex-panel) 88%, var(--sl-color-bg) 12%);
+  color: var(--codex-panel-text);
+}
+
 .source-reader {
   grid-column: 1 / -1;
+  border: 1px solid color-mix(in srgb, var(--sl-color-gray-3) 70%, transparent);
+  border-radius: 8px;
+  padding: 0.85rem;
+  background: color-mix(in srgb, var(--sl-color-bg) 70%, var(--codex-panel) 30%);
+  margin: 1rem 0;
 }
 
 .source-reader summary {
@@ -1055,6 +1129,67 @@ a[data-variant='primary']:hover {
   border-radius: 8px;
   background: #fbfaf6;
   margin-top: 0.8rem;
+}
+
+.source-metadata-panel {
+  border: 1px solid color-mix(in srgb, var(--sl-color-gray-3) 65%, transparent);
+  border-radius: 8px;
+  margin: 1.25rem 0;
+  padding: 0.75rem;
+  background: color-mix(in srgb, var(--sl-color-bg) 72%, var(--codex-panel) 28%);
+}
+
+.source-metadata-panel summary {
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.source-metadata-table th {
+  width: 12rem;
+}
+
+.evidence-source-grid {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+  margin: 1rem 0 1.5rem;
+}
+
+.evidence-source-card {
+  display: grid;
+  gap: 0.35rem;
+  border: 1px solid var(--sl-color-gray-2);
+  border-radius: 8px;
+  padding: 0.95rem;
+  background: var(--codex-panel);
+  color: var(--codex-panel-text);
+  text-decoration: none;
+}
+
+.evidence-source-card:hover {
+  border-color: var(--codex-gold);
+}
+
+.evidence-source-card span,
+.evidence-source-card small {
+  color: var(--codex-panel-muted);
+}
+
+.focused-route-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.65rem 0 1rem;
+}
+
+.focused-route-links a {
+  border: 1px solid color-mix(in srgb, var(--sl-color-gray-3) 70%, transparent);
+  border-radius: 999px;
+  padding: 0.35rem 0.6rem;
+  text-decoration: none;
+  font-weight: 700;
+  overflow-wrap: normal;
+  white-space: nowrap;
 }
 
 .source-page-navigation {
@@ -1714,7 +1849,8 @@ body.codex-lightbox-open {
 
   .home-actions a,
   .source-access-actions a,
-  .source-text-toolbar a {
+  .source-text-toolbar a,
+  .source-text-toolbar span {
     width: 100%;
     border-radius: 8px;
     justify-content: flex-start;
@@ -1771,6 +1907,9 @@ body.codex-lightbox-open {
   }
 
   .codex-status-table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
     margin: 1rem 0;
     border: 1px solid color-mix(in srgb, var(--sl-color-gray-3) 65%, transparent);
     border-radius: 8px;
@@ -1778,9 +1917,14 @@ body.codex-lightbox-open {
 
   .codex-status-table th,
   .codex-status-table td {
-    min-width: 8.5rem;
+    min-width: 10rem;
     padding: 0.58rem 0.65rem;
     font-size: 0.88rem;
+  }
+
+  .codex-status-table a,
+  .sl-markdown-content table:not(:where(.not-content *)) a {
+    white-space: nowrap;
   }
 
   .coverage-table td:first-child,
@@ -1898,6 +2042,16 @@ body.codex-lightbox-open {
 
   .reader-step-card nav {
     grid-template-columns: 1fr;
+  }
+
+  .focused-route-links {
+    display: grid;
+  }
+
+  .focused-route-links a {
+    border-radius: 8px;
+    text-align: left;
+    white-space: normal;
   }
 }
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29",
+  "generated_at": "2026-05-08",
   "quality_note": "Generated concept-page dossier data. Counts and snippets are OCR/PDF-text aids and require scan verification.",
   "dossier_count": 22,
   "dossiers": [
@@ -12,7 +12,7 @@
       "concept_labels": [
         "Admittance"
       ],
-      "generated_at": "2026-04-29",
+      "generated_at": "2026-05-08",
       "quality_note": "Generated concept-page dossier. Counts, snippets, and passages are OCR/PDF-text aids and require scan verification before exact quotation.",
       "guidance": "Read this concept page through the linked source passages first. Use the dossier to locate Steinmetz's wording, then add modern, mathematical, historical, and interpretive layers only with labels.",
       "totals": {
@@ -326,7 +326,7 @@
       "concept_labels": [
         "Complex Quantities"
       ],
-      "generated_at": "2026-04-29",
+      "generated_at": "2026-05-08",
       "quality_note": "Generated concept-page dossier. Counts, snippets, and passages are OCR/PDF-text aids and require scan verification before exact quotation.",
       "guidance": "Read this concept page through the linked source passages first. Use the dossier to locate Steinmetz's wording, then add modern, mathematical, historical, and interpretive layers only with labels.",
       "totals": {
@@ -642,7 +642,7 @@
       "concept_labels": [
         "Conductance"
       ],
-      "generated_at": "2026-04-29",
+      "generated_at": "2026-05-08",
       "quality_note": "Generated concept-page dossier. Counts, snippets, and passages are OCR/PDF-text aids and require scan verification before exact quotation.",
       "guidance": "Read this concept page through the linked source passages first. Use the dossier to locate Steinmetz's wording, then add modern, mathematical, historical, and interpretive layers only with labels.",
       "totals": {
@@ -969,7 +969,7 @@
         "Dielectric Field",
         "Dielectric constant"
       ],
-      "generated_at": "2026-04-29",
+      "generated_at": "2026-05-08",
       "quality_note": "Generated concept-page dossier. Counts, snippets, and passages are OCR/PDF-text aids and require scan verification before exact quotation.",
       "guidance": "Read this concept page through the linked source passages first. Use the dossier to locate Steinmetz's wording, then add modern, mathematical, historical, and interpretive layers only with labels.",
       "totals": {
@@ -1376,7 +1376,7 @@
         "Distributed Constants",
         "Wave Propagation"
       ],
-      "generated_at": "2026-04-29",
+      "generated_at": "2026-05-08",
       "quality_note": "Generated concept-page dossier. Counts, snippets, and passages are OCR/PDF-text aids and require scan verification before exact quotation.",
       "guidance": "Read this concept page through the linked source passages first. Use the dossier to locate Steinmetz's wording, then add modern, mathematical, historical, and interpretive layers only with labels.",
       "totals": {
@@ -1714,7 +1714,7 @@
         "Wave Propagation",
         "Electrical Radiation"
       ],
-      "generated_at": "2026-04-29",
+      "generated_at": "2026-05-08",
       "quality_note": "Generated concept-page dossier. Counts, snippets, and passages are OCR/PDF-text aids and require scan verification before exact quotation.",
       "guidance": "Read this concept as a connector between optical radiation, wireless or high-frequency waves, and transmission-line behavior. Keep wavelength, frequency, velocity, and source context visible.",
       "totals": {
@@ -2022,7 +2022,7 @@
       "concept_labels": [
         "Ether"
       ],
-      "generated_at": "2026-04-29",
+      "generated_at": "2026-05-08",
       "quality_note": "Generated concept-page dossier. Counts, snippets, and passages are OCR/PDF-text aids and require scan verification before exact quotation.",
       "guidance": "Read this concept as a historical-language and field-theory boundary page. The current corpus places most ether hits in Steinmetz's relativity lectures, where ether is treated alongside the rise of Faraday-Maxwell field language; the earlier radiation source uses it in the wave-theory-of-light setting. That distribution matters.",
       "totals": {
@@ -2199,7 +2199,7 @@
         "Alternating Current",
         "Wave Length"
       ],
-      "generated_at": "2026-04-29",
+      "generated_at": "2026-05-08",
       "quality_note": "Generated concept-page dossier. Counts, snippets, and passages are OCR/PDF-text aids and require scan verification before exact quotation.",
       "guidance": "Read this concept page through the linked source passages first. Use the dossier to locate Steinmetz's wording, then add modern, mathematical, historical, and interpretive layers only with labels.",
       "totals": {
@@ -2644,7 +2644,7 @@
         "Hysteresis",
         "Magnetism"
       ],
-      "generated_at": "2026-04-29",
+      "generated_at": "2026-05-08",
       "quality_note": "Generated concept-page dossier. Counts, snippets, and passages are OCR/PDF-text aids and require scan verification before exact quotation.",
       "guidance": "Read this concept as both material physics and engineering loss accounting. The archive should preserve Steinmetz's magnetic vocabulary before translating it into modern loss models.",
       "totals": {
@@ -3052,7 +3052,7 @@
         "Photometry",
         "Light flux density"
       ],
-      "generated_at": "2026-04-29",
+      "generated_at": "2026-05-08",
       "quality_note": "Generated concept-page dossier. Counts, snippets, and passages are OCR/PDF-text aids and require scan verification before exact quotation.",
       "guidance": "Read this concept page through the linked source passages first. Use the dossier to locate Steinmetz's wording, then add modern, mathematical, historical, and interpretive layers only with labels.",
       "totals": {
@@ -3486,7 +3486,7 @@
       "concept_labels": [
         "Impedance"
       ],
-      "generated_at": "2026-04-29",
+      "generated_at": "2026-05-08",
       "quality_note": "Generated concept-page dossier. Counts, snippets, and passages are OCR/PDF-text aids and require scan verification before exact quotation.",
       "guidance": "Read this concept page through the linked source passages first. Use the dossier to locate Steinmetz's wording, then add modern, mathematical, historical, and interpretive layers only with labels.",
       "totals": {
@@ -3831,7 +3831,7 @@
         "Electrostatic Capacity",
         "Energy Storage in Fields"
       ],
-      "generated_at": "2026-04-29",
+      "generated_at": "2026-05-08",
       "quality_note": "Generated concept-page dossier. Counts, snippets, and passages are OCR/PDF-text aids and require scan verification before exact quotation.",
       "guidance": "Read this concept as an energy-storage pair. The archive should keep magnetic-flux and dielectric-flux language visible before reducing everything to modern lumped L and C notation.",
       "totals": {
@@ -4279,7 +4279,7 @@
         "Lightning and Surges",
         "Protective reactance"
       ],
-      "generated_at": "2026-04-29",
+      "generated_at": "2026-05-08",
       "quality_note": "Generated concept-page dossier. Counts, snippets, and passages are OCR/PDF-text aids and require scan verification before exact quotation.",
       "guidance": "Read this concept page through the linked source passages first. Use the dossier to locate Steinmetz's wording, then add modern, mathematical, historical, and interpretive layers only with labels.",
       "totals": {
@@ -4627,7 +4627,7 @@
         "Damping",
         "Resonance"
       ],
-      "generated_at": "2026-04-29",
+      "generated_at": "2026-05-08",
       "quality_note": "Generated concept-page dossier. Counts, snippets, and passages are OCR/PDF-text aids and require scan verification before exact quotation.",
       "guidance": "Read this concept page through the linked source passages first. Use the dossier to locate Steinmetz's wording, then add modern, mathematical, historical, and interpretive layers only with labels.",
       "totals": {
@@ -5047,7 +5047,7 @@
       "concept_labels": [
         "Power Factor"
       ],
-      "generated_at": "2026-04-29",
+      "generated_at": "2026-05-08",
       "quality_note": "Generated concept-page dossier. Counts, snippets, and passages are OCR/PDF-text aids and require scan verification before exact quotation.",
       "guidance": "Read this concept page through the linked source passages first. Use the dossier to locate Steinmetz's wording, then add modern, mathematical, historical, and interpretive layers only with labels.",
       "totals": {
@@ -5374,7 +5374,7 @@
         "Power-Limiting Reactor",
         "Protective reactance"
       ],
-      "generated_at": "2026-04-29",
+      "generated_at": "2026-05-08",
       "quality_note": "Generated concept-page dossier. Counts, snippets, and passages are OCR/PDF-text aids and require scan verification before exact quotation.",
       "guidance": "Read this concept as a practical power-system stability and protection page. The theory matters because Steinmetz is dealing with station behavior, synchronism, short-circuit current, and recovery.",
       "totals": {
@@ -5676,7 +5676,7 @@
         "Light",
         "Electrical Radiation"
       ],
-      "generated_at": "2026-04-29",
+      "generated_at": "2026-05-08",
       "quality_note": "Generated concept-page dossier. Counts, snippets, and passages are OCR/PDF-text aids and require scan verification before exact quotation.",
       "guidance": "Read this concept as the bridge from physics to illumination engineering: Steinmetz treats radiation as energy in transit before later lectures convert that physical idea into measurement, lamps, flux, distribution, and visual response.",
       "totals": {
@@ -6082,7 +6082,7 @@
       "concept_labels": [
         "Reactance"
       ],
-      "generated_at": "2026-04-29",
+      "generated_at": "2026-05-08",
       "quality_note": "Generated concept-page dossier. Counts, snippets, and passages are OCR/PDF-text aids and require scan verification before exact quotation.",
       "guidance": "Read this concept page through the linked source passages first. Use the dossier to locate Steinmetz's wording, then add modern, mathematical, historical, and interpretive layers only with labels.",
       "totals": {
@@ -6425,7 +6425,7 @@
       "concept_labels": [
         "Susceptance"
       ],
-      "generated_at": "2026-04-29",
+      "generated_at": "2026-05-08",
       "quality_note": "Generated concept-page dossier. Counts, snippets, and passages are OCR/PDF-text aids and require scan verification before exact quotation.",
       "guidance": "Read this concept page through the linked source passages first. Use the dossier to locate Steinmetz's wording, then add modern, mathematical, historical, and interpretive layers only with labels.",
       "totals": {
@@ -6723,7 +6723,7 @@
         "Symbolic Method",
         "Complex Quantities"
       ],
-      "generated_at": "2026-04-29",
+      "generated_at": "2026-05-08",
       "quality_note": "Generated concept-page dossier. Counts, snippets, and passages are OCR/PDF-text aids and require scan verification before exact quotation.",
       "guidance": "Read this concept as a mathematical language page: the important work is not only the formulas, but Steinmetz's translation between rotating vectors, rectangular components, and symbolic calculation.",
       "totals": {
@@ -7081,7 +7081,7 @@
         "Synchronizing power",
         "Synchronism"
       ],
-      "generated_at": "2026-04-29",
+      "generated_at": "2026-05-08",
       "quality_note": "Generated concept-page dossier. Counts, snippets, and passages are OCR/PDF-text aids and require scan verification before exact quotation.",
       "guidance": "Read this concept through the Commonwealth Edison report and related AC-machine language. It belongs to stability, phase relation, station sections, and real apparatus, not only abstract phasors.",
       "totals": {
@@ -7440,7 +7440,7 @@
         "Transient Phenomena",
         "Field Collapse"
       ],
-      "generated_at": "2026-04-29",
+      "generated_at": "2026-05-08",
       "quality_note": "Generated concept-page dossier. Counts, snippets, and passages are OCR/PDF-text aids and require scan verification before exact quotation.",
       "guidance": "Read this concept as a time-domain correction to steady-state circuit thinking. The strongest pages should show where Steinmetz separates permanent terms from transient terms and then follows the stored energy.",
       "totals": {

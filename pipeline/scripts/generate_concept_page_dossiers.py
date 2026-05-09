@@ -73,12 +73,12 @@ def load_json(path: Path, default: Any) -> Any:
 
 def write_json(path: Path, data: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
 
 
 def write_text(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(text, encoding="utf-8")
+    path.write_text(text, encoding="utf-8", newline="\n")
 
 
 def clean_text(value: Any, limit: int | None = None) -> str:
@@ -230,18 +230,37 @@ def build_dossier(root: Path, page_slug: str, concept_ids: list[str], page_title
     }
 
 
-def source_distribution_table(sources: list[dict[str, Any]]) -> str:
-    rows = []
+def focused_url(url: Any, anchor: str) -> str:
+    value = clean_text(url)
+    if not value or value == "#":
+        return "#"
+    base = value.split("#", 1)[0]
+    return f"{base}#{anchor}"
+
+
+def source_distribution_cards(sources: list[dict[str, Any]]) -> str:
+    cards = []
     for source in sources[:8]:
         title = md_escape(source.get("source_title"))
         url = source_link(str(source.get("source_id")))
         concepts = ", ".join(sorted(set(clean_text(item) for item in source.get("concepts", []) if item)))
-        rows.append(
-            f"| [{title}]({url}) | {source.get('occurrence_count', 0)} | {source.get('section_count', 0)} | {md_escape(concepts)} |"
+        cards.append(
+            f"""<a className=\"evidence-source-card\" href=\"{url}\">
+  <strong>{title}</strong>
+  <span>{source.get('occurrence_count', 0)} candidate hits across {source.get('section_count', 0)} sections.</span>
+  <small>{md_escape(concepts)}</small>
+</a>"""
         )
-    if not rows:
-        rows.append("| No concordance data yet. | 0 | 0 | Add aliases and rerun the concordance. |")
-    return "\n".join(rows)
+    if not cards:
+        cards.append(
+            """<div className=\"evidence-source-card\">
+  <strong>No concordance data yet.</strong>
+  <span>Add aliases and rerun the concordance.</span>
+</div>"""
+        )
+    return f"""<div className=\"evidence-source-grid\">
+{chr(10).join(cards)}
+</div>"""
 
 
 def text_code_block(value: str) -> str:
@@ -253,8 +272,9 @@ def priority_section_blocks(sections: list[dict[str, Any]]) -> str:
     blocks = []
     for section in sections[:6]:
         concepts = ", ".join(sorted(set(clean_text(item) for item in section.get("concepts", []) if item)))
-        source_url = section.get("source_text_url") or "#"
-        workbench_url = section.get("workbench_url") or "#"
+        source_url = focused_url(section.get("source_text_url"), "source-text")
+        workbench_url = focused_url(section.get("workbench_url"), "chapter-local-concept-hits")
+        excerpt_url = focused_url(section.get("workbench_url"), "source-located-theme-snippets")
         snippets = section.get("snippets", [])[:2]
         snippet_blocks = "\n\n".join(text_code_block(snippet) for snippet in snippets)
         blocks.append(
@@ -265,7 +285,11 @@ def priority_section_blocks(sections: list[dict[str, Any]]) -> str:
 
 **Location:** {md_escape(section.get('location'))} - **Tracked concepts:** {md_escape(concepts)}
 
-[Open source text]({source_url}) - [Open chapter workbench]({workbench_url})
+<div className=\"focused-route-links\">
+  <a href=\"{source_url}\">Read manuscript text</a>
+  <a href=\"{workbench_url}\">Open concept hits</a>
+  <a href=\"{excerpt_url}\">Open source snippets</a>
+</div>
 
 {snippet_blocks}
 
@@ -285,7 +309,7 @@ def concordance_links(links: list[dict[str, Any]]) -> str:
 def build_markdown(dossier: dict[str, Any]) -> str:
     totals = dossier["totals"]
     aliases = ", ".join(f"`{md_escape(alias)}`" for alias in dossier["aliases"][:18]) or "No aliases tracked yet."
-    source_rows = source_distribution_table(dossier["sources"])
+    source_cards = source_distribution_cards(dossier["sources"])
     passage_blocks = priority_section_blocks(dossier["priority_sections"])
     top_source = dossier["sources"][0] if dossier["sources"] else None
     top_source_sentence = (
@@ -325,9 +349,7 @@ The dossier is meant to turn a concept page into a research workbench: begin wit
 
 ### Source Distribution
 
-| Source | Candidate Hits | Sections | Concepts represented |
-| --- | ---: | ---: | --- |
-{source_rows}
+{source_cards}
 
 ### Priority Passages To Read
 

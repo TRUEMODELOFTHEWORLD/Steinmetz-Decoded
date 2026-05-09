@@ -29,7 +29,7 @@ def load_json(path: Path, default: Any) -> Any:
 
 def write_text(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(text, encoding="utf-8")
+    path.write_text(text, encoding="utf-8", newline="\n")
 
 
 def slugify(value: str) -> str:
@@ -85,7 +85,7 @@ def write_source_text_asset(
     slug = source_page_slug(record)
     asset_path = public_data_dir / source_id / f"{slug}.txt"
     asset_path.parent.mkdir(parents=True, exist_ok=True)
-    asset_path.write_text(text, encoding="utf-8")
+    asset_path.write_text(text, encoding="utf-8", newline="\n")
     return f"{BASE_URL}/source-texts-data/{source_id}/{slug}.txt"
 
 
@@ -102,6 +102,20 @@ def source_title_map(catalog: list[dict[str, Any]]) -> dict[str, str]:
 
 def source_site_map(catalog: list[dict[str, Any]]) -> dict[str, str]:
     return {str(source["source_id"]): str(source.get("site_path") or "") for source in catalog}
+
+
+def source_archive_map(catalog: list[dict[str, Any]]) -> dict[str, str]:
+    return {
+        str(source["source_id"]): str(source.get("internet_archive_id") or "")
+        for source in catalog
+    }
+
+
+def source_raw_map(catalog: list[dict[str, Any]]) -> dict[str, str]:
+    return {
+        str(source["source_id"]): str(source.get("local_raw_file") or "")
+        for source in catalog
+    }
 
 
 def chapter_label(record: dict[str, Any]) -> str:
@@ -133,6 +147,48 @@ def status_note(status: str) -> str:
     if "ocr" in status_lower or "candidate" in status_lower:
         return "OCR-derived candidate text. Verify against the scan before exact quotation."
     return "Processed source text. Verify against source custody files before canonical use."
+
+
+def metadata_rows(
+    source_title: str,
+    record: dict[str, Any],
+    location: str,
+    text_asset_url: str,
+    status: str,
+    internet_archive_id: str,
+    local_raw_file: str,
+) -> str:
+    fields = [
+        ("Source", source_title),
+        ("Section ID", record.get("id") or ""),
+        ("Kind", record.get("kind") or ""),
+        ("Sequence", record.get("sequence") or ""),
+        ("Source Location", location),
+        ("Text Path", record.get("text_path") or ""),
+        ("Public Text Asset", f'<a href="{html_escape(text_asset_url)}">{html_escape(text_asset_url)}</a>'),
+        ("Status", status),
+        ("Internet Archive ID", internet_archive_id or "not listed"),
+        ("Local Raw File", local_raw_file or "not listed"),
+    ]
+    rows = []
+    for label, value in fields:
+        rows.append(f"<tr><th>{html_escape(label)}</th><td>{value if str(value).startswith('<a ') else html_escape(value)}</td></tr>")
+    return "\n".join(rows)
+
+
+def original_scan_block(source_title: str, internet_archive_id: str) -> str:
+    if not internet_archive_id:
+        return """<div class="source-text-warning" data-layer="source">
+  <strong>Original scan:</strong> no Internet Archive scan ID is listed for this source yet. Use the custody files and source manifest until a public scan route is added.
+</div>"""
+    ia_id = html_escape(internet_archive_id)
+    title = html_escape(source_title)
+    return f"""<details class="source-reader source-scan-viewer" id="original-scan-viewer" data-layer="source">
+  <summary>View Original Scan Inline</summary>
+  <p>This embedded Internet Archive scan is the verification layer. Use it when exact wording, page labels, equations, diagrams, or captions matter.</p>
+  <iframe src="https://archive.org/embed/{ia_id}" title="Original scan for {title}" loading="lazy"></iframe>
+  <p><a href="https://archive.org/details/{ia_id}">Open this scan on Archive.org</a></p>
+</details>"""
 
 
 def build_source_index(
@@ -187,6 +243,8 @@ def build_reader_page(
     source_site_path: str,
     record: dict[str, Any],
     text_asset_url: str,
+    internet_archive_id: str,
+    local_raw_file: str,
     previous_record: dict[str, Any] | None,
     next_record: dict[str, Any] | None,
 ) -> str:
@@ -209,6 +267,11 @@ def build_reader_page(
         )
     back_link = f'<a href="{BASE_URL}/source-texts/{source_id}/">Back to {html_escape(source_title)} source text</a>'
     nav_links = "\n    ".join(link for link in [previous_link, back_link, next_link] if link)
+    scan_link = (
+        f'<a href="#original-scan">View original scan</a> <a href="https://archive.org/details/{html_escape(internet_archive_id)}">Archive.org</a>'
+        if internet_archive_id
+        else '<span>No public scan embed listed yet</span>'
+    )
 
     return f"""---
 title: {yaml_quote(title)}
@@ -222,44 +285,48 @@ import SourceRef from '../../../../components/SourceRef.astro';
 
 <SourceRef source="{html_escape(source_title)}" location="{html_escape(location)}" status="{html_escape(status)}" />
 
+<div class="reader-first-callout" data-layer="source">
+  <strong>Reader-first view:</strong> the manuscript text is presented first for reading. Custody metadata, extraction warnings, and scan links remain close by but no longer block the reading path.
+</div>
+
 <div class="source-text-toolbar" data-layer="source">
+  <a href="#source-text">Read source text</a>
+  {scan_link}
   <a href="{BASE_URL}/source-texts/{source_id}/">Source text index</a>
-  <a href="{BASE_URL}/chapter-workbench/{source_id}/{source_page_slug(record)}/">Chapter workbench</a>
+  <a href="{BASE_URL}/chapter-workbench/{source_id}/{source_page_slug(record)}/#chapter-local-concept-hits">Focused workbench</a>
   <a href="{BASE_URL}{source_site_path}">Curated source overview</a>
   <a href="https://github.com/TRUEMODELOFTHEWORLD/Charles-Proteus-Steinmetz-Texts-AI-Decoded/blob/main/{html_escape(record.get('text_path') or '')}">Open text file on GitHub</a>
 </div>
 
-## Reader Status
+## Source Text
 
 <div class="source-text-warning" data-layer="source">
   <strong>{html_escape(status_note(status))}</strong>
-  <p>This reader page exists so every processed Steinmetz chapter, lecture, and section can be browsed on the public site while the archive continues scan correction, page anchoring, equation cleanup, and diagram extraction.</p>
+  <p>Use this text for reading and discovery. Use the original scan below before exact quotation, mathematical transcription, or diagram citation.</p>
 </div>
 
-## Metadata
-
-| Field | Value |
-| --- | --- |
-| Source | {md_escape(source_title)} |
-| Section ID | `{md_escape(record.get('id') or '')}` |
-| Kind | {md_escape(record.get('kind') or '')} |
-| Sequence | {md_escape(record.get('sequence') or '')} |
-| Source Location | {md_escape(location)} |
-| Text Path | `{md_escape(record.get('text_path') or '')}` |
-| Public Text Asset | [{md_escape(text_asset_url)}]({text_asset_url}) |
-| Status | {md_escape(status)} |
+<div class="source-text-loader source-text-manuscript" data-source-text-url="{html_escape(text_asset_url)}">Loading source text...</div>
 
 <div class="source-text-tags" data-layer="source">
   {tag_links}
 </div>
 
-## Source Text
-
-<div class="source-text-loader source-text-manuscript" data-source-text-url="{html_escape(text_asset_url)}">Loading source text...</div>
-
 <noscript>
   <p><a href="{html_escape(text_asset_url)}">Open the source text asset</a></p>
 </noscript>
+
+## Original Scan
+
+{original_scan_block(source_title, internet_archive_id)}
+
+<details class="source-metadata-panel" id="reader-metadata" data-layer="source">
+  <summary>Reader Metadata And Custody Notes</summary>
+  <table class="codex-status-table source-metadata-table">
+    <tbody>
+{metadata_rows(source_title, record, location, text_asset_url, status, internet_archive_id, local_raw_file)}
+    </tbody>
+  </table>
+</details>
 
 <nav class="source-page-navigation" data-layer="source" aria-label="Source text navigation">
   <strong>Continue Reading</strong>
@@ -339,6 +406,8 @@ def main() -> int:
     catalog = load_json(root / "sources" / "source_catalog.json", [])
     titles = source_title_map(catalog)
     site_paths = source_site_map(catalog)
+    archive_ids = source_archive_map(catalog)
+    raw_files = source_raw_map(catalog)
     atlas = load_json(root / "processed" / "chapter_atlas.json", {})
     atlas_records = {
         str(record.get("id")): record
@@ -370,6 +439,8 @@ def main() -> int:
         records.sort(key=lambda record: int(record.get("sequence") or 0))
         source_title = titles.get(source_id, source_id)
         source_site_path = site_paths.get(source_id, f"/sources/{source_id}/")
+        internet_archive_id = archive_ids.get(source_id, "")
+        local_raw_file = raw_files.get(source_id, "")
         source_dir = out_dir / source_id
         write_text(source_dir / "index.mdx", build_source_index(source_id, source_title, source_site_path, records))
         total_pages += 1
@@ -385,6 +456,8 @@ def main() -> int:
                     source_site_path,
                     record,
                     text_asset_url,
+                    internet_archive_id,
+                    local_raw_file,
                     previous_record,
                     next_record,
                 ),

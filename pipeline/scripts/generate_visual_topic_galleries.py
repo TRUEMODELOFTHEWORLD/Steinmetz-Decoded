@@ -123,12 +123,12 @@ def load_json(path: Path, default: Any) -> Any:
 
 def write_text(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(text, encoding="utf-8")
+    path.write_text(text, encoding="utf-8", newline="\n")
 
 
 def write_json(path: Path, data: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
 
 
 def clean(value: Any, limit: int | None = None) -> str:
@@ -153,6 +153,8 @@ def haystack(record: dict[str, Any]) -> str:
         record.get("title"),
         record.get("subtitle"),
         record.get("caption"),
+        record.get("source_location"),
+        record.get("filename"),
         record.get("source_title"),
         record.get("section_label"),
         record.get("original_form"),
@@ -192,6 +194,63 @@ def visual_cards(records: list[dict[str, Any]]) -> str:
     <p>{esc(record.get('subtitle'))}</p>
     <p><small>{esc(concepts)}</small></p>
     <p><a href="{esc(record.get('public_url'))}">Open SVG</a> - <a href="{BASE_URL}/diagrams/recreated-visual-index/">all recreated visuals</a></p>
+  </div>
+</div>"""
+        )
+    return "\n".join(cards)
+
+
+def original_crop_records(root: Path, source_titles: dict[str, str]) -> list[dict[str, Any]]:
+    records: list[dict[str, Any]] = []
+    crop_root = root / "diagrams" / "original"
+    if not crop_root.exists():
+        return records
+    for manifest in sorted(crop_root.glob("*/figures/*.png.json")):
+        data = load_json(manifest, {})
+        if not isinstance(data, dict):
+            continue
+        output_path = str(data.get("output_path") or "")
+        if not output_path:
+            continue
+        public_path = output_path.replace("\\", "/")
+        source_id = str(data.get("source_id") or manifest.parts[-3])
+        public_url = f"{BASE_URL}/{public_path}"
+        title = manifest.name.replace(".png.json", "").replace("-", " ").title()
+        records.append(
+            {
+                "id": data.get("id") or manifest.stem,
+                "title": title,
+                "filename": manifest.name.replace(".json", ""),
+                "source_id": source_id,
+                "source_title": source_titles.get(source_id, source_id.replace("-", " ").title()),
+                "source_location": data.get("source_location") or "",
+                "caption": data.get("quality_note") or "Promoted original scan crop.",
+                "public_url": public_url,
+                "status": data.get("status") or "promoted original scan crop",
+                "links": {
+                    "source_text_index": f"{BASE_URL}/source-texts/{source_id}/",
+                    "visual_map": f"{BASE_URL}/diagrams/source-visuals/{source_id}/",
+                    "diagram_archive": f"{BASE_URL}/diagrams/",
+                },
+            }
+        )
+    return records
+
+
+def original_crop_cards(records: list[dict[str, Any]]) -> str:
+    if not records:
+        return "<p>No promoted original scan crops are currently routed to this topic. Use the candidate figure leads below to pick the next crops for extraction.</p>"
+    cards = []
+    for record in records[:18]:
+        links = record.get("links") or {}
+        cards.append(
+            f"""<div class="codex-visual-card original-crop-card">
+  <img src="{esc(record.get('public_url'))}" alt="{esc(record.get('title'))}" />
+  <div>
+    <strong>{esc(record.get('title'))}</strong>
+    <p>{esc(record.get('source_title'))}</p>
+    <p><small>{esc(record.get('source_location'), 220)}</small></p>
+    <p><a href="{esc(record.get('public_url'))}">Open image</a> - <a href="{esc(links.get('source_text_index') or '#')}">read source</a> - <a href="{esc(links.get('visual_map') or '#')}">source visual map</a></p>
   </div>
 </div>"""
         )
@@ -250,7 +309,13 @@ def source_links(topic: dict[str, Any]) -> str:
     return "\n".join(links)
 
 
-def topic_page(topic: dict[str, Any], visuals: list[dict[str, Any]], figures: list[dict[str, Any]], formulas: list[dict[str, Any]]) -> str:
+def topic_page(
+    topic: dict[str, Any],
+    visuals: list[dict[str, Any]],
+    original_crops: list[dict[str, Any]],
+    figures: list[dict[str, Any]],
+    formulas: list[dict[str, Any]],
+) -> str:
     source_counter = Counter(clean(record.get("source_title") or record.get("source_id")) for record in figures + formulas)
     source_summary = ", ".join(f"{source} ({count})" for source, count in source_counter.most_common(4)) or "No candidate source distribution yet."
     return f"""---
@@ -267,10 +332,10 @@ description: "{topic['description']}"
     <p>{esc(topic['description'])}</p>
   </div>
   <div class="coverage-stat-grid">
+    <div><strong>{len(original_crops)}</strong><p>original crops</p><span>scan images routed into this topic</span></div>
     <div><strong>{len(visuals)}</strong><p>modern guide diagrams</p><span>reconstructions, not historical evidence</span></div>
     <div><strong>{len(figures)}</strong><p>figure candidates</p><span>OCR/PDF-text leads needing crop review</span></div>
     <div><strong>{len(formulas)}</strong><p>formula candidates</p><span>math leads needing transcription review</span></div>
-    <div><strong>{len(topic['sources'])}</strong><p>source routes</p><span>source text, workbench, visual and formula maps</span></div>
   </div>
 </div>
 
@@ -282,6 +347,12 @@ description: "{topic['description']}"
 
 <div class="source-matrix visual-topic-routes">
 {source_links(topic)}
+</div>
+
+## Original Scan Crops
+
+<div class="codex-visual-grid original-crop-grid">
+{original_crop_cards(original_crops)}
 </div>
 
 ## Modern Guide Diagrams
@@ -325,7 +396,7 @@ def index_page(topic_summaries: list[dict[str, Any]]) -> str:
             f"""<a href="{BASE_URL}/diagrams/visual-topic-galleries/{item['id']}/">
   <strong>{esc(item['title'])}</strong>
   <span>{esc(item['description'], 150)}</span>
-  <small>{item['visual_count']} visuals - {item['figure_count']} figure leads - {item['formula_count']} formula leads</small>
+  <small>{item['original_crop_count']} original crops - {item['visual_count']} guide visuals - {item['figure_count']} figure leads - {item['formula_count']} formula leads</small>
 </a>"""
         )
     return f"""---
@@ -352,27 +423,36 @@ def main() -> int:
     visual_index = load_json(root / "processed" / "recreated_visual_index.json", {})
     figure_atlas = load_json(root / "processed" / "figure_candidate_atlas.json", {})
     equation_atlas = load_json(root / "processed" / "equation_atlas.json", {})
+    source_catalog = load_json(root / "sources" / "source_catalog.json", [])
+    source_titles = {
+        str(source.get("source_id")): str(source.get("title") or source.get("source_id"))
+        for source in source_catalog
+        if isinstance(source, dict) and source.get("source_id")
+    }
 
     visual_records = list(visual_index.get("records") or [])
     figure_records = list(figure_atlas.get("candidate_records") or [])
     formula_records = list(equation_atlas.get("records") or [])
+    crop_records = original_crop_records(root, source_titles)
 
     output_root = root / "site" / "src" / "content" / "docs" / "diagrams" / "visual-topic-galleries"
     summaries = []
     payload_topics = []
     for topic in TOPICS:
         topic_visuals = [record for record in visual_records if matches(record, topic)]
+        topic_crops = [record for record in crop_records if matches(record, topic)]
         topic_figures = [record for record in figure_records if matches(record, topic)]
         topic_formulas = sorted(
             [record for record in formula_records if matches(record, topic)],
             key=lambda item: -int(item.get("quality_score") or 0),
         )
-        write_text(output_root / f"{topic['id']}.mdx", topic_page(topic, topic_visuals, topic_figures, topic_formulas))
+        write_text(output_root / f"{topic['id']}.mdx", topic_page(topic, topic_visuals, topic_crops, topic_figures, topic_formulas))
         summaries.append(
             {
                 "id": topic["id"],
                 "title": topic["title"],
                 "description": topic["description"],
+                "original_crop_count": len(topic_crops),
                 "visual_count": len(topic_visuals),
                 "figure_count": len(topic_figures),
                 "formula_count": len(topic_formulas),
