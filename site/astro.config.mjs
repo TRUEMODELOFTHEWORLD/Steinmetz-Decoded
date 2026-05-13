@@ -149,7 +149,8 @@ export default defineConfig({
             { label: 'Guided Routes', slug: 'reading-routes' },
             { label: 'First Source Text', slug: 'source-texts/radiation-light-and-illumination/lecture-01' },
             { label: 'First Deep Decoding', slug: 'sources/radiation-light-and-illumination/lecture-01' },
-            { label: 'Research Map', slug: 'research-map' }
+            { label: 'Research Map', slug: 'research-map' },
+            { label: 'Contribute', slug: 'contribute' }
           ]
         },
         {

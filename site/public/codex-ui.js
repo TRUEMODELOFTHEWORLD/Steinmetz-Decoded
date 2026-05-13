@@ -181,17 +181,64 @@
     });
   }
 
-  function labelGithubLink() {
+  function setupProjectHeaderLinks() {
     const links = Array.from(
       document.querySelectorAll('a[href*="github.com/TRUEMODELOFTHEWORLD/Charles-Proteus-Steinmetz-Texts-AI-Decoded"], a[href*="github.com/TRUEMODELOFTHEWORLD/Steinmetz-Decoded"]')
     );
     links.forEach((link) => {
-      if (link.querySelector('.codex-github-text')) return;
-      link.classList.add('codex-github-label');
-      const span = document.createElement('span');
-      span.className = 'codex-github-text';
-      span.textContent = 'TRUEMODELOFTHEWORLD';
-      link.appendChild(span);
+      if (link.closest('.codex-project-menu')) return;
+      const host = link.parentElement;
+      if (!host) return;
+
+      const menu = document.createElement('div');
+      menu.className = 'codex-project-menu';
+      menu.innerHTML = [
+        '<button class="codex-project-button" type="button" aria-expanded="false" aria-haspopup="true">',
+        '<span class="codex-project-label">TRUEMODELOFTHEWORLD</span>',
+        '<span class="codex-project-caret" aria-hidden="true">v</span>',
+        '</button>',
+        '<div class="codex-project-dropdown" role="menu">',
+        '<a role="menuitem" href="https://github.com/TRUEMODELOFTHEWORLD/Steinmetz-Decoded">Steinmetz Decoded GitHub</a>',
+        '<a role="menuitem" href="https://github.com/TRUEMODELOFTHEWORLD">TRUEMODELOFTHEWORLD GitHub</a>',
+        '<a role="menuitem" href="https://pointsource.app">PointSource.app</a>',
+        '<a role="menuitem" href="https://www.youtube.com/@TRUEMODELOFTHEWORLD">YouTube</a>',
+        '</div>'
+      ].join('');
+
+      const contribute = document.createElement('a');
+      contribute.className = 'codex-contribute-link';
+      contribute.href = '/contribute/';
+      contribute.textContent = 'Contribute';
+
+      host.replaceChild(menu, link);
+      if (!host.querySelector('.codex-contribute-link')) {
+        menu.insertAdjacentElement('afterend', contribute);
+      }
+
+      const button = menu.querySelector('.codex-project-button');
+      const dropdownLinks = Array.from(menu.querySelectorAll('.codex-project-dropdown a'));
+
+      function setOpen(open) {
+        menu.dataset.open = open ? 'true' : 'false';
+        button.setAttribute('aria-expanded', String(open));
+      }
+
+      button.addEventListener('click', (event) => {
+        event.stopPropagation();
+        setOpen(menu.dataset.open !== 'true');
+      });
+
+      dropdownLinks.forEach((item) => {
+        item.addEventListener('click', () => setOpen(false));
+      });
+
+      document.addEventListener('click', (event) => {
+        if (!menu.contains(event.target)) setOpen(false);
+      });
+
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') setOpen(false);
+      });
     });
   }
 
@@ -574,7 +621,7 @@
 
   document.addEventListener('DOMContentLoaded', () => {
     buildReaderControls();
-    labelGithubLink();
+    setupProjectHeaderLinks();
     setupSourceTextLoaders();
     setupLightbox();
     setupReadingProgress();
