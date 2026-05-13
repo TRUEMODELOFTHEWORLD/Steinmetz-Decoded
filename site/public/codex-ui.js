@@ -183,7 +183,7 @@
 
   function labelGithubLink() {
     const links = Array.from(
-      document.querySelectorAll('a[href*="github.com/TRUEMODELOFTHEWORLD/Charles-Proteus-Steinmetz-Texts-AI-Decoded"]')
+      document.querySelectorAll('a[href*="github.com/TRUEMODELOFTHEWORLD/Charles-Proteus-Steinmetz-Texts-AI-Decoded"], a[href*="github.com/TRUEMODELOFTHEWORLD/Steinmetz-Decoded"]')
     );
     links.forEach((link) => {
       if (link.querySelector('.codex-github-text')) return;
@@ -231,7 +231,7 @@
       '<div class="reader-command-bar" data-layer="source">',
       '<div class="reader-title-block">',
       `<strong>${escapeHtml(title)}</strong>`,
-      `<span>${escapeHtml([source, locationLabel].filter(Boolean).join(' · '))}</span>`,
+      `<span>${escapeHtml([source, locationLabel].filter(Boolean).join(' - '))}</span>`,
       '</div>',
       '<div class="reader-search">',
       '<label>Find in source text',
@@ -307,7 +307,7 @@
       const markCount = documentPane.querySelectorAll('mark.reader-highlight').length;
       const activeHuman = activeMatch >= 0 ? matchIds.indexOf(activeMatch) + 1 : 0;
       statusLine.textContent = terms.length
-        ? `${markCount.toLocaleString()} highlighted term match${markCount === 1 ? '' : 'es'} in ${matchIds.length.toLocaleString()} passage${matchIds.length === 1 ? '' : 's'}${activeHuman > 0 ? ` · selected ${activeHuman} of ${matchIds.length}` : ''}.`
+        ? `${markCount.toLocaleString()} highlighted term match${markCount === 1 ? '' : 'es'} in ${matchIds.length.toLocaleString()} passage${matchIds.length === 1 ? '' : 's'}${activeHuman > 0 ? ` - selected ${activeHuman} of ${matchIds.length}` : ''}.`
         : 'Readable mode gently unwraps OCR line breaks; Transcript mode preserves the raw candidate text.';
       shell._matchIds = matchIds;
     }
@@ -440,7 +440,7 @@
     if (/^\[page break\]$/i.test(text)) return 'page-marker';
     if (/^(lecture|chapter|section|part)\b/i.test(text) && text.length < 180) return 'heading';
     if (lines.length <= 3 && text.length < 160 && text === text.toUpperCase() && /[A-Z]/.test(text)) return 'heading';
-    if (lines.length <= 6 && /[=≈≠≤≥+\-*/^√∑∫<>]| sin | cos | log | volts?| amperes?| ohms?/i.test(` ${text} `)) return 'equation';
+    if (lines.length <= 6 && /[=\u2248\u2260\u2264\u2265+\-*/^\u221a\u2211\u222b<>]| sin | cos | log | volts?| amperes?| ohms?/i.test(` ${text} `)) return 'equation';
     if (/^\d{1,4}$/.test(text) || /^[A-Z ,.'-]+\.\s+\d{1,4}$/.test(text)) return 'page-marker';
     return 'paragraph';
   }
@@ -483,10 +483,103 @@
     return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   }
 
+
+  function setupReadingProgress() {
+    if (document.querySelector('.codex-progress-meter')) return;
+    const meter = document.createElement('div');
+    meter.className = 'codex-progress-meter';
+    meter.setAttribute('aria-hidden', 'true');
+    document.body.appendChild(meter);
+
+    function update() {
+      const doc = document.documentElement;
+      const total = Math.max(1, doc.scrollHeight - window.innerHeight);
+      const progress = Math.min(1, Math.max(0, window.scrollY / total));
+      root.style.setProperty('--codex-progress', String(progress));
+    }
+
+    update();
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+  }
+
+  function setupReadingMemory() {
+    const mainHeading = document.querySelector('h1')?.textContent?.trim() || document.title.replace(/\s+[-|].*$/, '');
+    const isSourcePage = location.pathname.includes('/source-texts/');
+    if (isSourcePage) {
+      localStorage.setItem('codex-last-source', JSON.stringify({
+        path: location.pathname + location.search,
+        title: mainHeading,
+        savedAt: Date.now()
+      }));
+      return;
+    }
+
+    let saved = null;
+    try {
+      saved = JSON.parse(localStorage.getItem('codex-last-source') || 'null');
+    } catch (_error) {
+      saved = null;
+    }
+    if (!saved || !saved.path || saved.path === location.pathname) return;
+    if (Date.now() - Number(saved.savedAt || 0) > 1000 * 60 * 60 * 24 * 30) return;
+    if (document.querySelector('.codex-continue-reading')) return;
+
+    const link = document.createElement('a');
+    link.className = 'codex-continue-reading';
+    link.href = saved.path;
+    link.innerHTML = `<strong>Continue reading</strong><span>${escapeHtml(saved.title || 'Last source text')}</span>`;
+    document.body.appendChild(link);
+  }
+
+  function setupQuickJump() {
+    const content = document.querySelector('.sl-markdown-content') || document.querySelector('main');
+    if (!content || content.querySelector('.codex-quick-jump')) return;
+    const headings = Array.from(content.querySelectorAll('h2[id], h3[id]'))
+      .filter((heading) => heading.textContent.trim().length > 0)
+      .slice(0, 8);
+    if (headings.length < 3) return;
+
+    const nav = document.createElement('nav');
+    nav.className = 'codex-quick-jump';
+    nav.setAttribute('aria-label', 'Page quick jump');
+    nav.innerHTML = headings
+      .map((heading) => `<a href="#${heading.id}">${escapeHtml(heading.textContent.trim().replace(/#$/, ''))}</a>`)
+      .join('');
+
+    const firstParagraph = content.querySelector('p, .home-codex-hero, .steinmetz-profile-hero, .coverage-hero');
+    if (firstParagraph?.parentNode) {
+      firstParagraph.parentNode.insertBefore(nav, firstParagraph.nextSibling);
+    }
+  }
+
+  function setupKeyboardShortcuts() {
+    document.addEventListener('keydown', (event) => {
+      if (event.defaultPrevented || event.metaKey || event.ctrlKey || event.altKey) return;
+      const target = event.target;
+      const isTyping = target && ['INPUT', 'TEXTAREA', 'SELECT'].includes(target.tagName);
+      if (isTyping) return;
+      if (event.key === '/') {
+        const sourceSearch = document.querySelector('.reader-search input');
+        const siteSearch = document.querySelector('site-search button, [data-open-modal]');
+        event.preventDefault();
+        if (sourceSearch) sourceSearch.focus();
+        else siteSearch?.click?.();
+      }
+      if (event.key.toLowerCase() === 'r') {
+        document.querySelector('.codex-continue-reading')?.click();
+      }
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', () => {
     buildReaderControls();
     labelGithubLink();
     setupSourceTextLoaders();
     setupLightbox();
+    setupReadingProgress();
+    setupReadingMemory();
+    setupQuickJump();
+    setupKeyboardShortcuts();
   });
 })();
