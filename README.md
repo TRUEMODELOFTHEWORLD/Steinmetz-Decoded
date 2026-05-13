@@ -1,6 +1,6 @@
 # Steinmetz Decoded
 
-LIVE WEBSITE : https://truemodeloftheworld.github.io/Charles-Proteus-Steinmetz-Texts-AI-Decoded/
+LIVE WEBSITE : https://steinmetz-decoded.vercel.app/
 
 An open-source research archive and public knowledge base for the writings of Charles Proteus Steinmetz.
 
@@ -166,7 +166,7 @@ On GitHub, enable Pages once:
 The default Pages URL is:
 
 ```text
-https://truemodeloftheworld.github.io/Charles-Proteus-Steinmetz-Texts-AI-Decoded/
+https://steinmetz-decoded.vercel.app/
 ```
 
 ## Processing Pipeline
@@ -343,7 +343,7 @@ The archive now includes:
 The full requirement and milestone map is maintained in `MASTER_PROJECT_TRACKER.md`, with a public mirror at:
 
 ```text
-https://truemodeloftheworld.github.io/Charles-Proteus-Steinmetz-Texts-AI-Decoded/project-tracker/
+https://steinmetz-decoded.vercel.app/project-tracker/
 ```
 
 ## Current Live-Ready Site Surface

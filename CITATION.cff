@@ -5,8 +5,8 @@ type: dataset
 authors:
   - name: "Steinmetz Decoded contributors"
 abstract: "A source-grounded research codex for Charles Proteus Steinmetz, including public-domain source custody, processed text, generated indexes, equations, diagrams, glossary records, and interpretive layers."
-repository-code: "https://github.com/TRUEMODELOFTHEWORLD/Charles-Proteus-Steinmetz-Texts-AI-Decoded"
-url: "https://truemodeloftheworld.github.io/Charles-Proteus-Steinmetz-Texts-AI-Decoded"
+repository-code: "https://github.com/TRUEMODELOFTHEWORLD/Steinmetz-Decoded"
+url: "https://steinmetz-decoded.vercel.app"
 date-released: "2026-05-08"
 license: "CC-BY-4.0"
 keywords:
@@ -22,4 +22,4 @@ preferred-citation:
   authors:
     - name: "Steinmetz Decoded contributors"
   year: 2026
-  url: "https://truemodeloftheworld.github.io/Charles-Proteus-Steinmetz-Texts-AI-Decoded"
+  url: "https://steinmetz-decoded.vercel.app"

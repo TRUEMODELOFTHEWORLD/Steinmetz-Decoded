@@ -13,7 +13,7 @@ const embedUrl = archiveId ? `https://archive.org/embed/${archiveId}` : '';
 const repoPath = localPath ? localPath.replace(/\\/g, '/') : '';
 const encodedRepoPath = repoPath ? repoPath.split('/').map((part) => encodeURIComponent(part)).join('/') : '';
 const repoFileUrl = encodedRepoPath
-  ? `https://github.com/TRUEMODELOFTHEWORLD/Charles-Proteus-Steinmetz-Texts-AI-Decoded/blob/main/${encodedRepoPath}`
+  ? `https://github.com/TRUEMODELOFTHEWORLD/blob/main/${encodedRepoPath}`
   : '';
 ---
 

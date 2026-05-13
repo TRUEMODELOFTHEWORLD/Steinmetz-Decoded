@@ -10,17 +10,17 @@ interface Props {
 const { source, location = '', status = 'needs verification', href = '', layer = 'source' } = Astro.props;
 const sourceKey = source.toLowerCase();
 const autoLinks = [
-  ['radiation, light and illumination', '/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/radiation-light-and-illumination/'],
-  ['elementary lectures', '/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/elementary-lectures-electric-discharges-waves-impulses/'],
-  ['engineering mathematics', '/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/engineering-mathematics/'],
-  ['transient electric phenomena', '/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-transient-electric-phenomena-oscillations/'],
-  ['alternating current phenomena', '/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/'],
-  ['theoretical elements', '/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theoretical-elements-electrical-engineering/'],
-  ['general lectures', '/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/general-lectures-electrical-engineering/'],
-  ['electric apparatus', '/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-electric-apparatus/'],
-  ['america and the new epoch', '/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/america-and-new-epoch/'],
-  ['relativity and space', '/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/four-lectures-relativity-space/'],
-  ['commonwealth edison', '/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/commonwealth-edison-generating-system-trouble/']
+  ['radiation, light and illumination', '/sources/radiation-light-and-illumination/'],
+  ['elementary lectures', '/sources/elementary-lectures-electric-discharges-waves-impulses/'],
+  ['engineering mathematics', '/sources/engineering-mathematics/'],
+  ['transient electric phenomena', '/sources/theory-calculation-transient-electric-phenomena-oscillations/'],
+  ['alternating current phenomena', '/sources/theory-calculation-alternating-current-phenomena/'],
+  ['theoretical elements', '/sources/theoretical-elements-electrical-engineering/'],
+  ['general lectures', '/sources/general-lectures-electrical-engineering/'],
+  ['electric apparatus', '/sources/theory-calculation-electric-apparatus/'],
+  ['america and the new epoch', '/sources/america-and-new-epoch/'],
+  ['relativity and space', '/sources/four-lectures-relativity-space/'],
+  ['commonwealth edison', '/sources/commonwealth-edison-generating-system-trouble/']
 ] as const;
 const resolvedHref = href || autoLinks.find(([needle]) => sourceKey.includes(needle))?.[1] || '';
 

@@ -5,8 +5,7 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
 export default defineConfig({
-  site: 'https://truemodeloftheworld.github.io',
-  base: '/Charles-Proteus-Steinmetz-Texts-AI-Decoded',
+  site: 'https://steinmetz-decoded.vercel.app',
   integrations: [
     starlight({
       title: 'Steinmetz Decoded',
@@ -16,28 +15,28 @@ export default defineConfig({
         {
           tag: 'script',
           attrs: {
-            src: '/Charles-Proteus-Steinmetz-Texts-AI-Decoded/codex-ui.js',
+            src: '/codex-ui.js',
             defer: true
           }
         },
         {
           tag: 'script',
           attrs: {
-            src: '/Charles-Proteus-Steinmetz-Texts-AI-Decoded/vendor/katex/katex.min.js',
+            src: '/vendor/katex/katex.min.js',
             defer: true
           }
         },
         {
           tag: 'script',
           attrs: {
-            src: '/Charles-Proteus-Steinmetz-Texts-AI-Decoded/vendor/katex/auto-render.min.js',
+            src: '/vendor/katex/auto-render.min.js',
             defer: true
           }
         },
         {
           tag: 'script',
           attrs: {
-            src: '/Charles-Proteus-Steinmetz-Texts-AI-Decoded/math-render.js',
+            src: '/math-render.js',
             defer: true
           }
         },
@@ -53,7 +52,7 @@ export default defineConfig({
         {
           icon: 'github',
           label: 'GitHub',
-          href: 'https://github.com/TRUEMODELOFTHEWORLD/Charles-Proteus-Steinmetz-Texts-AI-Decoded'
+          href: 'https://github.com/TRUEMODELOFTHEWORLD/Steinmetz-Decoded'
         }
       ],
       sidebar: [

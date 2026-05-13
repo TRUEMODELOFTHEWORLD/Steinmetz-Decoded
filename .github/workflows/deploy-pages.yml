@@ -1,4 +1,4 @@
-name: Deploy Site to GitHub Pages
+name: Build Astro site
 
 on:
   push:
@@ -7,12 +7,10 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
-  cancel-in-progress: false
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -21,19 +19,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Install, build, and upload Astro site
-        uses: withastro/action@v6
+      - name: Setup Node
+        uses: actions/setup-node@v6
         with:
-          path: ./site
           node-version: 24
+          cache: npm
+          cache-dependency-path: site/package-lock.json
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v5
+      - name: Install dependencies
+        run: npm ci
+        working-directory: site
+
+      - name: Build
+        run: npm run build
+        working-directory: site
