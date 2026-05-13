@@ -77,6 +77,32 @@ body {
   max-width: none;
 }
 
+.equation-render {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+  padding: 0.45rem 0;
+  color: var(--sl-color-white);
+  font-size: 1.02rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+html[data-theme='light'] .equation-render {
+  color: var(--codex-panel-text);
+}
+
+.equation-source-line {
+  display: block;
+  margin-top: 0.35rem;
+  color: var(--sl-color-gray-3);
+  font-size: 0.78rem;
+}
+
+.katex-source-code {
+  font-family: KaTeX_Main, "Times New Roman", serif;
+  white-space: nowrap;
+}
+
 .sl-markdown-content table:not(:where(.not-content *)) {
   width: 100%;
   max-width: 100%;

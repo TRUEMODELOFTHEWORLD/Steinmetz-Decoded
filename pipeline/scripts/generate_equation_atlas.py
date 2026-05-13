@@ -112,9 +112,56 @@ def html_escape(value: Any) -> str:
     return (
         text.replace("\\", "&#92;")
         .replace("`", "&#96;")
+        .replace("$", "&#36;")
         .replace("{", "&#123;")
         .replace("}", "&#125;")
+        .replace("*", "&#42;")
+        .replace("~", "&#126;")
+        .replace("_", "&#95;")
+        .replace("[", "&#91;")
+        .replace("]", "&#93;")
     )
+
+
+def html_math_escape(value: Any) -> str:
+    return (
+        html.escape(clean_text(value), quote=True)
+        .replace("`", "&#96;")
+        .replace("$", "&#36;")
+        .replace("{", "&#123;")
+        .replace("}", "&#125;")
+        .replace("*", "&#42;")
+        .replace("~", "&#126;")
+        .replace("_", "&#95;")
+        .replace("[", "&#91;")
+        .replace("]", "&#93;")
+    )
+
+
+def latex_candidate(value: Any) -> str:
+    text = clean_text(value, 220)
+    text = html.unescape(text)
+    replacements = {
+        "—": "-",
+        "–": "-",
+        "π": r"\pi",
+        "λ": r"\lambda",
+        "ω": r"\omega",
+        "θ": r"\theta",
+        "φ": r"\phi",
+    }
+    for old, new in replacements.items():
+        text = text.replace(old, new)
+    text = re.sub(r"\bpi\b", r"\\pi", text, flags=re.I)
+    text = re.sub(r"\blambda\b", r"\\lambda", text, flags=re.I)
+    text = re.sub(r"\bomega\b", r"\\omega", text, flags=re.I)
+    text = re.sub(r"\btheta\b", r"\\theta", text, flags=re.I)
+    text = re.sub(r"\bphi\b", r"\\phi", text, flags=re.I)
+    text = re.sub(r"\b(sin|cos|tan|log)\b", lambda match: "\\" + match.group(1).lower(), text, flags=re.I)
+    text = re.sub(r"\bdeg\.?", r"^\\circ", text, flags=re.I)
+    text = re.sub(r"\be\.?m\.?f\.?", r"\\mathrm{e.m.f.}", text, flags=re.I)
+    text = text.replace("&", r"\&").replace("%", r"\%").replace("#", r"\#").replace("$", r"\$")
+    return text
 
 
 def md_escape(value: Any) -> str:
@@ -353,13 +400,16 @@ def card(record: dict[str, Any], rank: int | None = None) -> str:
     section = record.get("section_label") or "source index"
     source_link = record.get("links", {}).get("source_text") or record.get("links", {}).get("source_text_index")
     workbench_link = record.get("links", {}).get("workbench") or record.get("links", {}).get("workbench_index")
+    original = record.get("original_form")
+    latex = latex_candidate(original)
     return f"""<article class="equation-candidate-card" data-layer="math-candidate">
   <header>
     {rank_html}
     <strong>{html_escape(record.get("source_title"))}</strong>
     <small>{html_escape(section)}{html_escape(" - line " + str(line) if line else "")}</small>
   </header>
-  <code>{html_escape(record.get("original_form"))}</code>
+  <span class="equation-render">\\({html_math_escape(latex)}\\)</span>
+  <details class="equation-source-line"><summary>OCR source line</summary><code>{html_escape(original)}</code></details>
   <footer>
     <small>{html_escape(record.get("quality_band"))} - score {html_escape(record.get("quality_score"))} - {html_escape(FAMILIES.get(str(record.get("family")), {}).get("label", "General candidates"))}</small>
     <nav>

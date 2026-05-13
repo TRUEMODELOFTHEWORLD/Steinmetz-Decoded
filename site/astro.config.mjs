@@ -21,6 +21,27 @@ export default defineConfig({
           }
         },
         {
+          tag: 'script',
+          attrs: {
+            src: '/Charles-Proteus-Steinmetz-Texts-AI-Decoded/vendor/katex/katex.min.js',
+            defer: true
+          }
+        },
+        {
+          tag: 'script',
+          attrs: {
+            src: '/Charles-Proteus-Steinmetz-Texts-AI-Decoded/vendor/katex/auto-render.min.js',
+            defer: true
+          }
+        },
+        {
+          tag: 'script',
+          attrs: {
+            src: '/Charles-Proteus-Steinmetz-Texts-AI-Decoded/math-render.js',
+            defer: true
+          }
+        },
+        {
           tag: 'meta',
           attrs: {
             name: 'theme-color',
