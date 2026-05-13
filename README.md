@@ -369,3 +369,7 @@ The public site currently builds more than one thousand pages, including:
 - Original scan-crop page for transient starting current, condenser charge, oscillation, and decrement figures, with a modern condenser-response redraw sheet.
 - A recreated visual index with modern guide diagrams tied to source families and concept routes.
 - Concept pages with generated math/visual evidence bridges that link concept reading directly into formula families, source formula maps, source visual maps, and figure candidates.
+
+## Public Discoverability
+
+The live archive is built to be discoverable as a public-service research resource, not a commercial SEO funnel. The site includes sitemap/robots signals, structured data, social preview metadata, `llms.txt`, and a short guide for submitting the archive to search tools and sharing source-specific pages. See [DISCOVERABILITY.md](DISCOVERABILITY.md) and the site page at `/roadmap/discoverability/`.

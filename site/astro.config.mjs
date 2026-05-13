@@ -4,8 +4,63 @@ import starlight from '@astrojs/starlight';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
+const SITE_URL = 'https://steinmetz-decoded.vercel.app';
+const SITE_DESCRIPTION = 'A source-grounded public research archive for Charles Proteus Steinmetz: primary texts, electrical engineering history, equations, diagrams, and careful interpretation.';
+const SITE_IMAGE = `${SITE_URL}/og-image.svg`;
+const structuredData = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${SITE_URL}/#website`,
+    name: 'Steinmetz Decoded',
+    url: SITE_URL,
+    description: SITE_DESCRIPTION,
+    inLanguage: 'en-US',
+    isAccessibleForFree: true
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    '@id': `${SITE_URL}/#charles-proteus-steinmetz`,
+    name: 'Charles Proteus Steinmetz',
+    alternateName: ['C. P. Steinmetz', 'Charles P. Steinmetz'],
+    birthDate: '1865-04-09',
+    deathDate: '1923-10-26',
+    jobTitle: 'Electrical engineer and mathematician',
+    description: 'Electrical engineer foundational to alternating-current theory, hysteresis, transients, symbolic methods, and power-system engineering.',
+    sameAs: [
+      'https://en.wikipedia.org/wiki/Charles_Proteus_Steinmetz',
+      'https://www.wikidata.org/wiki/Q62494'
+    ]
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': `${SITE_URL}/#archive`,
+    name: 'Steinmetz Decoded Research Archive',
+    url: SITE_URL,
+    description: SITE_DESCRIPTION,
+    about: { '@id': `${SITE_URL}/#charles-proteus-steinmetz` },
+    isAccessibleForFree: true,
+    genre: ['Electrical engineering history', 'Public domain text archive', 'Mathematics education', 'Research archive'],
+    keywords: [
+      'Charles Proteus Steinmetz',
+      'alternating current',
+      'hysteresis',
+      'transient electric phenomena',
+      'symbolic method',
+      'complex quantities',
+      'impedance',
+      'reactance',
+      'electric waves',
+      'Steinmetz equations'
+    ]
+  }
+];
+
+
 export default defineConfig({
-  site: 'https://steinmetz-decoded.vercel.app',
+  site: SITE_URL,
   integrations: [
     starlight({
       title: 'Steinmetz Decoded',
@@ -46,6 +101,35 @@ export default defineConfig({
             name: 'theme-color',
             content: '#151b1c'
           }
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            property: 'og:image',
+            content: SITE_IMAGE
+          }
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'twitter:image',
+            content: SITE_IMAGE
+          }
+        },
+        {
+          tag: 'link',
+          attrs: {
+            rel: 'manifest',
+            href: '/site.webmanifest'
+          }
+        },
+
+        {
+          tag: 'script',
+          attrs: {
+            type: 'application/ld+json'
+          },
+          content: JSON.stringify(structuredData)
         }
       ],
       social: [
@@ -173,7 +257,8 @@ export default defineConfig({
             { label: 'Canonical Verification', slug: 'roadmap/canonical-verification-workbench' },
             { label: 'Citation And Data Export', slug: 'roadmap/citation-and-data-export' },
             { label: 'Publication Roadmap', slug: 'roadmap' },
-            { label: 'Research Codex Engine', slug: 'roadmap/research-codex-engine' }
+            { label: 'Research Codex Engine', slug: 'roadmap/research-codex-engine' },
+            { label: 'Public Discoverability', slug: 'roadmap/discoverability' }
           ]
         }
       ]

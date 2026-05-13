@@ -1,0 +1,17 @@
+{
+  "name": "Steinmetz Decoded",
+  "short_name": "Steinmetz",
+  "description": "A source-grounded public research archive for Charles Proteus Steinmetz, electrical engineering history, equations, diagrams, and concept study.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#151b1c",
+  "theme_color": "#151b1c",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

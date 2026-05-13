@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Steinmetz Decoded</title>
+  <desc id="desc">Open research archive for Charles Proteus Steinmetz</desc>
+  <rect width="1200" height="630" fill="#151b1c"/>
+  <path d="M0 456 C220 330 335 550 570 410 C805 270 940 315 1200 190 L1200 630 L0 630 Z" fill="#23322f"/>
+  <path d="M0 512 C245 402 390 590 620 472 C850 354 998 438 1200 298" fill="none" stroke="#d4b15c" stroke-width="5" opacity="0.8"/>
+  <g fill="#f6f2e8">
+    <text x="78" y="160" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700">Steinmetz Decoded</text>
+    <text x="82" y="232" font-family="Inter, Arial, sans-serif" font-size="32" fill="#ddd8cd">Source texts, equations, diagrams, and careful electrical history</text>
+  </g>
+  <g transform="translate(82 318)">
+    <rect width="300" height="68" rx="8" fill="#f6f2e8"/>
+    <text x="24" y="43" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#151b1c">Charles Proteus Steinmetz</text>
+  </g>
+  <g transform="translate(824 156)" stroke="#d4b15c" stroke-width="6" fill="none" opacity="0.95">
+    <circle cx="112" cy="112" r="84"/>
+    <path d="M28 112 H196 M112 28 V196 M52 172 L172 52 M52 52 L172 172"/>
+  </g>
+  <text x="82" y="552" font-family="Inter, Arial, sans-serif" font-size="26" fill="#f0d994">steinmetz-decoded.vercel.app</text>
+</svg>
