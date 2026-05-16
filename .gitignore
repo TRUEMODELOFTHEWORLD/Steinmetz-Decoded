@@ -22,3 +22,5 @@ processed/**/tmp/
 processed/**/cache/
 processed/**/image_extraction/
 processed/**/page_renders/
+
+.vercel
