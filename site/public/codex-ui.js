@@ -274,6 +274,7 @@
     shell.className = 'codex-source-reader';
     shell.dataset.view = 'readable';
     shell.dataset.math = localStorage.getItem('codex-reader-math') || 'on';
+    shell.dataset.artifacts = localStorage.getItem('codex-reader-artifacts') || 'hide';
     shell.style.setProperty('--codex-reader-scale', String(Number.isFinite(savedScale) ? savedScale : 1));
     shell.innerHTML = [
       '<div class="reader-command-bar" data-layer="source">',
@@ -296,6 +297,7 @@
       '<button type="button" data-reader-action="smaller">A-</button>',
       '<button type="button" data-reader-action="larger">A+</button>',
       `<button type="button" data-reader-action="math" aria-pressed="${shell.dataset.math === 'on'}">Math</button>`,
+      `<button type="button" data-reader-action="artifacts" aria-pressed="${shell.dataset.artifacts === 'show'}">OCR Fragments</button>`,
       '<button type="button" data-reader-action="scan">Scan</button>',
       '<button type="button" data-reader-action="copy">Copy Link</button>',
       '<button type="button" data-reader-action="copy-text">Copy Text</button>',
@@ -324,18 +326,22 @@
     let renderTimer = 0;
 
     rawPane.textContent = sourceText.trim();
+    const artifactCount = blocks.filter((block) => block.type === 'artifact').length;
     ribbon.innerHTML = [
       `<span>${escapeHtml(status)}</span>`,
-      `<span>${blocks.length.toLocaleString()} reading blocks</span>`,
+      `<span>${(blocks.length - artifactCount).toLocaleString()} reading blocks</span>`,
+      artifactCount ? `<span>${artifactCount.toLocaleString()} OCR fragments hidden</span>` : '',
       `<span>${countWords(sourceText).toLocaleString()} words</span>`,
       ...tags.slice(0, 8).map((tag) => `<span>${escapeHtml(tag)}</span>`)
     ].join('');
 
     function render() {
       const terms = queryTerms(input.value);
+      const showArtifacts = shell.dataset.artifacts === 'show';
       const matchIds = [];
       documentPane.innerHTML = blocks.map((block, index) => {
         const matches = terms.length && blockMatches(block, terms);
+        if (block.type === 'artifact' && !showArtifacts && !matches) return '';
         if (matches) matchIds.push(index);
         const blockClass = [
           'reader-block',
@@ -343,7 +349,7 @@
           matches ? 'has-reader-match' : '',
           index === activeMatch ? 'is-active-match' : ''
         ].filter(Boolean).join(' ');
-        const label = block.type === 'heading' ? 'Heading' : block.type === 'equation' ? 'Formula candidate' : 'Passage';
+        const label = block.type === 'heading' ? 'Heading' : block.type === 'equation' ? 'Formula candidate' : block.type === 'artifact' ? 'OCR fragment' : 'Passage';
         const body = highlightText(block.text, terms);
         if (block.type === 'heading') {
           return `<section class="${blockClass}" id="${block.id}"><a class="reader-anchor" href="#${block.id}" aria-label="Link to ${label}">#</a><h3>${body}</h3></section>`;
@@ -354,6 +360,9 @@
         if (block.type === 'page-marker') {
           return `<section class="${blockClass}" id="${block.id}"><a class="reader-anchor" href="#${block.id}" aria-label="Link to page marker">#</a><p>${body}</p></section>`;
         }
+        if (block.type === 'artifact') {
+          return `<section class="${blockClass}" id="${block.id}"><a class="reader-anchor" href="#${block.id}" aria-label="Link to ${label}">#</a><p>${body}</p></section>`;
+        }
         return `<section class="${blockClass}" id="${block.id}"><a class="reader-anchor" href="#${block.id}" aria-label="Link to passage">#</a><p>${body}</p></section>`;
       }).join('');
 
@@ -363,7 +372,9 @@
       const activeHuman = activeMatch >= 0 ? matchIds.indexOf(activeMatch) + 1 : 0;
       statusLine.textContent = terms.length
         ? `${markCount.toLocaleString()} highlighted term match${markCount === 1 ? '' : 'es'} in ${matchIds.length.toLocaleString()} passage${matchIds.length === 1 ? '' : 's'}${activeHuman > 0 ? ` - selected ${activeHuman} of ${matchIds.length}` : ''}.`
-        : 'Readable mode unwraps OCR line breaks. Math mode renders formula candidates with KaTeX while preserving the raw OCR transcript for verification.';
+        : artifactCount
+          ? `Readable mode unwraps OCR line breaks. ${artifactCount.toLocaleString()} OCR fragments are hidden; Transcript mode preserves everything.`
+          : 'Readable mode unwraps OCR line breaks. Math mode renders formula candidates with KaTeX while preserving the raw OCR transcript for verification.';
       shell._matchIds = matchIds;
     }
 
@@ -431,6 +442,15 @@
           statusLine.textContent = shell.dataset.math === 'on'
             ? 'Math rendering is on. Formula candidates remain tied to their raw OCR transcript.'
             : 'Math rendering is hidden. Raw OCR transcript remains visible.';
+        }
+        if (action === 'artifacts') {
+          shell.dataset.artifacts = shell.dataset.artifacts === 'show' ? 'hide' : 'show';
+          localStorage.setItem('codex-reader-artifacts', shell.dataset.artifacts);
+          button.setAttribute('aria-pressed', String(shell.dataset.artifacts === 'show'));
+          render();
+          statusLine.textContent = shell.dataset.artifacts === 'show'
+            ? 'OCR fragments are visible for audit.'
+            : 'OCR fragments are hidden from the reading view and preserved in Transcript mode.';
         }
         if (action === 'scan') {
           const scan = document.getElementById('original-scan-viewer');
@@ -508,20 +528,24 @@
   function likelyReaderFormula(text) {
     const value = (text || '').replace(/\s+/g, ' ').trim();
     if (value.length < 2 || value.length > 220) return false;
-    const hasLettersOrDigits = /[A-Za-z0-9]/.test(value);
-    const operatorMatches = value.match(/[=+\-*/^_(){}\[\]√∑∫<>±≈≠≤≥]/g) || [];
+    const hasLetter = /[A-Za-z]/.test(value);
+    const hasDigit = /\d/.test(value);
+    const hasEquationSign = /[=\u2248\u2260\u2264\u2265]/.test(value);
+    const operatorMatches = value.match(/[+\-*/^_(){}\[\]\u221a\u2211\u222b<>\u00b1]/g) || [];
     const hasMathWord = /\b(sin|cos|tan|log|sqrt|pi|theta|lambda|omega|phi)\b/i.test(value);
-    const hasUnitOnly = /\b(voltage|current|impedance|reactance|amperes?|volts?|ohms?)\b/i.test(value) && operatorMatches.length === 0;
+    const hasUnitOnly = /\b(voltage|current|impedance|reactance|amperes?|volts?|ohms?)\b/i.test(value) && !hasEquationSign && operatorMatches.length === 0;
     const mostlyWords = /^[A-Za-z ,.'-]+$/.test(value);
-    if (!hasLettersOrDigits || hasUnitOnly || (mostlyWords && !hasMathWord)) return false;
-    return operatorMatches.length > 0 || hasMathWord;
+    if (looksLikeOcrArtifact(value) || hasUnitOnly || (mostlyWords && !hasMathWord)) return false;
+    if (hasEquationSign && (hasLetter || hasDigit)) return true;
+    if (hasMathWord && (hasLetter || hasDigit)) return true;
+    return hasLetter && operatorMatches.length > 0 && value.length > 4;
   }
 
   function normalizeReaderFormula(text) {
     return (text || '')
-      .replace(/[“”]/g, '"')
-      .replace(/[‘’]/g, "'")
-      .replace(/−/g, '-')
+      .replace(/[\u201c\u201d]/g, '"')
+      .replace(/[\u2018\u2019]/g, "'")
+      .replace(/\u2212/g, '-')
       .replace(/\bpi\b/gi, '\\pi')
       .replace(/\btheta\b/gi, '\\theta')
       .replace(/\blambda\b/gi, '\\lambda')
@@ -592,10 +616,28 @@
   function classifyReaderBlock(lines, text) {
     if (/^\[page break\]$/i.test(text)) return 'page-marker';
     if (/^(lecture|chapter|section|part)\b/i.test(text) && text.length < 180) return 'heading';
-    if (lines.length <= 3 && text.length < 160 && text === text.toUpperCase() && /[A-Z]/.test(text)) return 'heading';
+    if (looksLikeOcrArtifact(text)) return 'artifact';
+    const uppercaseHeadingWords = text.match(/[A-Z][A-Z.'-]{2,}/g) || [];
+    if (lines.length <= 3 && text.length >= 12 && text.length < 160 && text === text.toUpperCase() && uppercaseHeadingWords.length >= 2) return 'heading';
     if (lines.length <= 6 && likelyReaderFormula(text)) return 'equation';
     if (/^\d{1,4}$/.test(text) || /^[A-Z ,.'-]+\.\s+\d{1,4}$/.test(text)) return 'page-marker';
     return 'paragraph';
+  }
+
+  function looksLikeOcrArtifact(text) {
+    const value = (text || '').replace(/\s+/g, ' ').trim();
+    if (!value) return true;
+    if (/^\[page break\]$/i.test(value)) return false;
+    if (value.length > 24) return false;
+    const words = value.match(/[A-Za-z]{2,}/g) || [];
+    const letters = value.match(/[A-Za-z]/g) || [];
+    const digits = value.match(/\d/g) || [];
+    if (/^[A-Z]$/.test(value) || /^[a-z]\.?$/.test(value)) return true;
+    if (/^[^A-Za-z0-9]{1,12}$/.test(value)) return true;
+    if (value.length <= 4 && words.length === 0 && !/[=]/.test(value)) return true;
+    if (value.length <= 8 && words.length === 0 && letters.length <= 2 && digits.length <= 2 && !/[=]/.test(value)) return true;
+    if (/^[A-Za-z]?[\^_'.;,;:|<>\\/+-]{1,8}$/.test(value)) return true;
+    return false;
   }
 
   function countWords(text) {

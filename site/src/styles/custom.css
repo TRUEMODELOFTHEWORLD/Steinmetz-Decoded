@@ -4001,3 +4001,26 @@ html[data-theme='light'] .source-text-tags b {
   background: linear-gradient(90deg, var(--codex-gold), color-mix(in srgb, var(--sl-color-accent) 60%, var(--codex-gold)));
   transition: inline-size 120ms ease;
 }
+
+.codex-source-reader .reader-block-artifact {
+  border-left-color: color-mix(in srgb, var(--sl-color-gray-3) 40%, transparent);
+  color: color-mix(in srgb, var(--sl-color-gray-2) 72%, transparent);
+  font-family: var(--__sl-font-mono);
+  font-size: calc(0.78rem * var(--codex-reader-scale));
+  line-height: 1.35;
+  opacity: 0.8;
+}
+
+.codex-source-reader .reader-block-artifact p {
+  display: inline-flex;
+  border: 1px dashed color-mix(in srgb, var(--sl-color-gray-3) 50%, transparent);
+  border-radius: 6px;
+  padding: 0.1rem 0.35rem;
+  background: color-mix(in srgb, var(--sl-color-bg) 80%, var(--codex-panel) 20%);
+}
+
+.codex-source-reader .reader-view-controls button[data-reader-action='artifacts'][aria-pressed='true'] {
+  border-color: color-mix(in srgb, var(--codex-gold) 70%, var(--sl-color-gray-3));
+  background: color-mix(in srgb, var(--codex-gold) 10%, transparent);
+  color: var(--sl-color-text-accent);
+}
