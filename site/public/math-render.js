@@ -5,8 +5,23 @@
     return /\b(sin|cos|tan|log|sqrt|pi|theta|lambda|omega|phi|impedance|reactance)\b/i.test(text);
   }
 
+  function decodeEntities(text) {
+    var textarea = document.createElement("textarea");
+    textarea.innerHTML = text || "";
+    return textarea.value;
+  }
+
+  function stripMathDelimiters(text) {
+    var value = decodeEntities(text).trim();
+    if (value.startsWith("\\(") && value.endsWith("\\)")) return value.slice(2, -2).trim();
+    if (value.startsWith("\\[") && value.endsWith("\\]")) return value.slice(2, -2).trim();
+    if (value.startsWith("$$") && value.endsWith("$$")) return value.slice(2, -2).trim();
+    if (value.startsWith("$") && value.endsWith("$")) return value.slice(1, -1).trim();
+    return value;
+  }
+
   function normalizeMath(text) {
-    return text
+    return stripMathDelimiters(text)
       .replace(/\bpi\b/gi, "\\pi")
       .replace(/\btheta\b/gi, "\\theta")
       .replace(/\blambda\b/gi, "\\lambda")
@@ -21,24 +36,47 @@
       .replace(/\be\.?m\.?f\.?/gi, "\\mathrm{e.m.f.}");
   }
 
-  function renderExplicitMath() {
-    if (!window.renderMathInElement) return;
-    window.renderMathInElement(document.body, {
+  function renderExplicitMath(root) {
+    if (!window.renderMathInElement) return false;
+    window.renderMathInElement(root || document.body, {
       delimiters: [
         { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
         { left: "\\[", right: "\\]", display: true },
         { left: "\\(", right: "\\)", display: false }
       ],
       throwOnError: false,
       ignoredTags: ["script", "noscript", "style", "textarea", "pre"]
     });
+    return true;
+  }
+
+  function renderEquationSpans(root) {
+    if (!window.katex) return false;
+    var nodes = (root || document).querySelectorAll(".equation-render:not([data-katex-rendered='true'])");
+    Array.prototype.forEach.call(nodes, function (node) {
+      var text = node.textContent || "";
+      if (!text.trim()) return;
+      try {
+        window.katex.render(normalizeMath(text), node, {
+          throwOnError: false,
+          displayMode: false,
+          strict: "ignore",
+          trust: false
+        });
+        node.dataset.katexRendered = "true";
+      } catch (_error) {
+        node.dataset.katexRendered = "failed";
+      }
+    });
+    return true;
   }
 
   function renderFormulaCode() {
     if (!window.katex) return;
     var mathContext = /\/mathematics\/|\/concepts\/|\/glossary\//.test(window.location.pathname);
     var candidates = document.querySelectorAll(
-      ".equation-candidate-card code, .equation-source-summary code, .canonical-equation-table code, .math-formula-code"
+      ".equation-candidate-card code, .equation-source-summary code, .canonical-equation-table code, .math-formula-code, .formula-leads-table code, .concept-formula-table code"
     );
 
     if (mathContext) {
@@ -66,8 +104,21 @@
     });
   }
 
-  window.addEventListener("DOMContentLoaded", function () {
-    renderExplicitMath();
+  function renderAllMath(root) {
+    renderExplicitMath(root || document.body);
+    renderEquationSpans(root || document);
     renderFormulaCode();
-  });
+  }
+
+  function scheduleMathRender() {
+    renderAllMath(document);
+    window.setTimeout(function () { renderAllMath(document); }, 120);
+    window.setTimeout(function () { renderAllMath(document); }, 600);
+  }
+
+  window.addEventListener("DOMContentLoaded", scheduleMathRender);
+  window.addEventListener("load", scheduleMathRender);
+  document.addEventListener("astro:page-load", scheduleMathRender);
+  document.addEventListener("starlight:search-result", scheduleMathRender);
 })();
+
