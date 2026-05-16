@@ -157,6 +157,7 @@ export default defineConfig({
           label: 'Books And Sources',
           items: [
             { label: 'Browse Books', slug: 'book-coverage' },
+            { label: 'Read Source Texts', slug: 'source-texts' },
             { label: 'Radiation, Light and Illumination', slug: 'book-coverage/radiation-light-and-illumination' },
             { label: 'Elementary Lectures', slug: 'book-coverage/elementary-lectures-electric-discharges-waves-impulses' },
             { label: 'Electric Discharges 1914', slug: 'book-coverage/electric-discharges-waves-impulses-1914' },
@@ -172,7 +173,6 @@ export default defineConfig({
             { label: 'America and the New Epoch', slug: 'book-coverage/america-and-new-epoch' },
             { label: 'Relativity and Space', slug: 'book-coverage/four-lectures-relativity-space' },
             { label: 'Commonwealth Edison Trouble', slug: 'book-coverage/commonwealth-edison-generating-system-trouble' },
-            { label: 'Source Text Browser', slug: 'source-texts' },
             { label: 'Source Library', slug: 'source-library' },
             { label: 'Patent Register', slug: 'sources/steinmetz-patents' }
           ]
@@ -244,7 +244,7 @@ export default defineConfig({
           ]
         },
         {
-          label: 'Research Operations',
+          label: 'Research Operations And Data',
           items: [
             { label: 'Operations Hub', slug: 'research-operations' },
             { label: 'Source Dashboards', slug: 'source-library/source-research-dashboards' },
