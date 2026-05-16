@@ -273,6 +273,7 @@
     const shell = document.createElement('section');
     shell.className = 'codex-source-reader';
     shell.dataset.view = 'readable';
+    shell.dataset.math = localStorage.getItem('codex-reader-math') || 'on';
     shell.style.setProperty('--codex-reader-scale', String(Number.isFinite(savedScale) ? savedScale : 1));
     shell.innerHTML = [
       '<div class="reader-command-bar" data-layer="source">',
@@ -294,11 +295,15 @@
       '<button type="button" data-reader-view="dense" aria-pressed="false">Dense</button>',
       '<button type="button" data-reader-action="smaller">A-</button>',
       '<button type="button" data-reader-action="larger">A+</button>',
+      `<button type="button" data-reader-action="math" aria-pressed="${shell.dataset.math === 'on'}">Math</button>`,
       '<button type="button" data-reader-action="scan">Scan</button>',
       '<button type="button" data-reader-action="copy">Copy Link</button>',
+      '<button type="button" data-reader-action="copy-text">Copy Text</button>',
+      '<button type="button" data-reader-action="citation">Cite</button>',
       `<a href="${escapeHtml(assetUrl)}">Text Asset</a>`,
       '</div>',
       '<div class="reader-status-line" aria-live="polite"></div>',
+      '<div class="reader-progress-track" aria-hidden="true"><span></span></div>',
       '</div>',
       '<div class="reader-ribbon" data-layer="source"></div>',
       '<article class="reader-document" data-layer="source"></article>',
@@ -314,6 +319,7 @@
     const rawPane = shell.querySelector('.reader-raw-transcript');
     const statusLine = shell.querySelector('.reader-status-line');
     const ribbon = shell.querySelector('.reader-ribbon');
+    const progressBar = shell.querySelector('.reader-progress-track span');
     let activeMatch = -1;
     let renderTimer = 0;
 
@@ -343,7 +349,7 @@
           return `<section class="${blockClass}" id="${block.id}"><a class="reader-anchor" href="#${block.id}" aria-label="Link to ${label}">#</a><h3>${body}</h3></section>`;
         }
         if (block.type === 'equation') {
-          return `<section class="${blockClass}" id="${block.id}"><a class="reader-anchor" href="#${block.id}" aria-label="Link to ${label}">#</a><pre>${body}</pre></section>`;
+          return `<section class="${blockClass}" id="${block.id}" data-formula-text="${escapeHtml(block.text)}"><a class="reader-anchor" href="#${block.id}" aria-label="Link to ${label}">#</a><div class="reader-math-panel" aria-label="KaTeX rendering of formula candidate"><span class="reader-math-label">KaTeX candidate</span><div class="reader-math-output"></div></div><pre class="reader-equation-transcript">${body}</pre></section>`;
         }
         if (block.type === 'page-marker') {
           return `<section class="${blockClass}" id="${block.id}"><a class="reader-anchor" href="#${block.id}" aria-label="Link to page marker">#</a><p>${body}</p></section>`;
@@ -351,12 +357,23 @@
         return `<section class="${blockClass}" id="${block.id}"><a class="reader-anchor" href="#${block.id}" aria-label="Link to passage">#</a><p>${body}</p></section>`;
       }).join('');
 
+      enhanceReaderMath(shell);
+
       const markCount = documentPane.querySelectorAll('mark.reader-highlight').length;
       const activeHuman = activeMatch >= 0 ? matchIds.indexOf(activeMatch) + 1 : 0;
       statusLine.textContent = terms.length
         ? `${markCount.toLocaleString()} highlighted term match${markCount === 1 ? '' : 'es'} in ${matchIds.length.toLocaleString()} passage${matchIds.length === 1 ? '' : 's'}${activeHuman > 0 ? ` - selected ${activeHuman} of ${matchIds.length}` : ''}.`
-        : 'Readable mode gently unwraps OCR line breaks; Transcript mode preserves the raw candidate text.';
+        : 'Readable mode unwraps OCR line breaks. Math mode renders formula candidates with KaTeX while preserving the raw OCR transcript for verification.';
       shell._matchIds = matchIds;
+    }
+
+    function updateReaderProgress() {
+      if (!progressBar) return;
+      const rect = shell.getBoundingClientRect();
+      const viewport = window.innerHeight || document.documentElement.clientHeight || 1;
+      const total = Math.max(1, rect.height - viewport);
+      const read = Math.min(total, Math.max(0, -rect.top));
+      progressBar.style.inlineSize = `${Math.round((read / total) * 100)}%`;
     }
 
     function scheduleRender() {
@@ -380,6 +397,8 @@
     }
 
     input.addEventListener('input', scheduleRender);
+    window.addEventListener('scroll', updateReaderProgress, { passive: true });
+    window.addEventListener('resize', updateReaderProgress);
     shell.querySelectorAll('[data-reader-view]').forEach((button) => {
       button.addEventListener('click', () => {
         shell.dataset.view = button.dataset.readerView;
@@ -405,11 +424,36 @@
           shell.style.setProperty('--codex-reader-scale', String(next));
           localStorage.setItem('codex-reader-scale', String(next));
         }
+        if (action === 'math') {
+          shell.dataset.math = shell.dataset.math === 'on' ? 'off' : 'on';
+          localStorage.setItem('codex-reader-math', shell.dataset.math);
+          button.setAttribute('aria-pressed', String(shell.dataset.math === 'on'));
+          statusLine.textContent = shell.dataset.math === 'on'
+            ? 'Math rendering is on. Formula candidates remain tied to their raw OCR transcript.'
+            : 'Math rendering is hidden. Raw OCR transcript remains visible.';
+        }
         if (action === 'scan') {
           const scan = document.getElementById('original-scan-viewer');
           if (scan) {
             scan.open = true;
             scan.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+        if (action === 'copy-text') {
+          try {
+            await navigator.clipboard.writeText(sourceText.trim());
+            statusLine.textContent = 'Source text copied.';
+          } catch (_error) {
+            statusLine.textContent = 'Copy was blocked by the browser. Select Transcript mode and copy manually.';
+          }
+        }
+        if (action === 'citation') {
+          const citation = [title, source, locationLabel, location.href].filter(Boolean).join(' - ');
+          try {
+            await navigator.clipboard.writeText(citation);
+            statusLine.textContent = 'Citation stub copied.';
+          } catch (_error) {
+            statusLine.textContent = citation;
           }
         }
         if (action === 'copy') {
@@ -428,9 +472,71 @@
     });
 
     render();
+    updateReaderProgress();
     if (initialQuery) {
       window.setTimeout(() => jump(1), 180);
     }
+  }
+
+  function enhanceReaderMath(shell) {
+    if (!window.katex) return;
+    const formulaBlocks = Array.from(shell.querySelectorAll('.reader-block-equation[data-formula-text]'));
+    formulaBlocks.forEach((block) => {
+      const raw = block.dataset.formulaText || '';
+      const output = block.querySelector('.reader-math-output');
+      if (!output) return;
+      if (!likelyReaderFormula(raw)) {
+        block.classList.add('is-weak-formula-candidate');
+        output.textContent = 'Formula candidate needs scan review.';
+        return;
+      }
+      try {
+        window.katex.render(normalizeReaderFormula(raw), output, {
+          throwOnError: false,
+          displayMode: true,
+          strict: 'ignore',
+          trust: false
+        });
+        block.classList.add('has-rendered-math');
+      } catch (_error) {
+        block.classList.add('is-weak-formula-candidate');
+        output.textContent = 'Formula candidate needs scan review.';
+      }
+    });
+  }
+
+  function likelyReaderFormula(text) {
+    const value = (text || '').replace(/\s+/g, ' ').trim();
+    if (value.length < 2 || value.length > 220) return false;
+    const hasLettersOrDigits = /[A-Za-z0-9]/.test(value);
+    const operatorMatches = value.match(/[=+\-*/^_(){}\[\]√∑∫<>±≈≠≤≥]/g) || [];
+    const hasMathWord = /\b(sin|cos|tan|log|sqrt|pi|theta|lambda|omega|phi)\b/i.test(value);
+    const hasUnitOnly = /\b(voltage|current|impedance|reactance|amperes?|volts?|ohms?)\b/i.test(value) && operatorMatches.length === 0;
+    const mostlyWords = /^[A-Za-z ,.'-]+$/.test(value);
+    if (!hasLettersOrDigits || hasUnitOnly || (mostlyWords && !hasMathWord)) return false;
+    return operatorMatches.length > 0 || hasMathWord;
+  }
+
+  function normalizeReaderFormula(text) {
+    return (text || '')
+      .replace(/[“”]/g, '"')
+      .replace(/[‘’]/g, "'")
+      .replace(/−/g, '-')
+      .replace(/\bpi\b/gi, '\\pi')
+      .replace(/\btheta\b/gi, '\\theta')
+      .replace(/\blambda\b/gi, '\\lambda')
+      .replace(/\bomega\b/gi, '\\omega')
+      .replace(/\bphi\b/gi, '\\phi')
+      .replace(/\bsin\b/gi, '\\sin')
+      .replace(/\bcos\b/gi, '\\cos')
+      .replace(/\btan\b/gi, '\\tan')
+      .replace(/\blog\b/gi, '\\log')
+      .replace(/\bsqrt\b/gi, '\\sqrt')
+      .replace(/\be\.?m\.?f\.?/gi, '\\mathrm{e.m.f.}')
+      .replace(/\bEo\b/g, 'E_0')
+      .replace(/\bZo\b/g, 'Z_0')
+      .replace(/\bIo\b/g, 'I_0')
+      .trim();
   }
 
   function buildReaderBlocks(sourceText) {
@@ -487,7 +593,7 @@
     if (/^\[page break\]$/i.test(text)) return 'page-marker';
     if (/^(lecture|chapter|section|part)\b/i.test(text) && text.length < 180) return 'heading';
     if (lines.length <= 3 && text.length < 160 && text === text.toUpperCase() && /[A-Z]/.test(text)) return 'heading';
-    if (lines.length <= 6 && /[=\u2248\u2260\u2264\u2265+\-*/^\u221a\u2211\u222b<>]| sin | cos | log | volts?| amperes?| ohms?/i.test(` ${text} `)) return 'equation';
+    if (lines.length <= 6 && likelyReaderFormula(text)) return 'equation';
     if (/^\d{1,4}$/.test(text) || /^[A-Z ,.'-]+\.\s+\d{1,4}$/.test(text)) return 'page-marker';
     return 'paragraph';
   }
