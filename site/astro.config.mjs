@@ -5,8 +5,33 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
 const SITE_URL = 'https://steinmetz-decoded.vercel.app';
-const SITE_DESCRIPTION = 'A source-grounded public research archive for Charles Proteus Steinmetz: primary texts, electrical engineering history, equations, diagrams, and careful interpretation.';
+const SITE_DESCRIPTION = 'A source-grounded public research archive for Charles Proteus Steinmetz: primary texts, electrical engineering history, AC theory, hysteresis, transients, equations, diagrams, and careful interpretation.';
 const SITE_IMAGE = `${SITE_URL}/og-image.svg`;
+const SITE_KEYWORDS = [
+  'Charles Proteus Steinmetz',
+  'C. P. Steinmetz',
+  'Steinmetz Decoded',
+  'Steinmetz archive',
+  'Steinmetz writings',
+  'alternating current theory',
+  'AC power engineering',
+  'hysteresis law',
+  'Steinmetz equation',
+  'transient electric phenomena',
+  'symbolic method',
+  'complex quantities',
+  'phasor method',
+  'impedance',
+  'reactance',
+  'admittance',
+  'electric waves',
+  'radiation light illumination',
+  'lightning surges',
+  'electrical engineering history',
+  'Tesla era electrical science',
+  'ether field language',
+  'public domain electrical engineering texts'
+];
 const structuredData = [
   {
     '@context': 'https://schema.org',
@@ -16,7 +41,22 @@ const structuredData = [
     url: SITE_URL,
     description: SITE_DESCRIPTION,
     inLanguage: 'en-US',
-    isAccessibleForFree: true
+    isAccessibleForFree: true,
+    publisher: { '@id': `${SITE_URL}/#publisher` },
+    about: { '@id': `${SITE_URL}/#charles-proteus-steinmetz` },
+    keywords: SITE_KEYWORDS
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    '@id': `${SITE_URL}/#publisher`,
+    name: 'TRUEMODELOFTHEWORLD',
+    url: 'https://github.com/TRUEMODELOFTHEWORLD',
+    sameAs: [
+      'https://github.com/TRUEMODELOFTHEWORLD',
+      'https://www.youtube.com/@TRUEMODELOFTHEWORLD',
+      'https://pointsource.app/'
+    ]
   },
   {
     '@context': 'https://schema.org',
@@ -43,18 +83,52 @@ const structuredData = [
     about: { '@id': `${SITE_URL}/#charles-proteus-steinmetz` },
     isAccessibleForFree: true,
     genre: ['Electrical engineering history', 'Public domain text archive', 'Mathematics education', 'Research archive'],
-    keywords: [
-      'Charles Proteus Steinmetz',
-      'alternating current',
-      'hysteresis',
-      'transient electric phenomena',
-      'symbolic method',
-      'complex quantities',
-      'impedance',
-      'reactance',
-      'electric waves',
-      'Steinmetz equations'
+    keywords: SITE_KEYWORDS,
+    publisher: { '@id': `${SITE_URL}/#publisher` }
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Dataset',
+    '@id': `${SITE_URL}/#corpus`,
+    name: 'Steinmetz Decoded Public Research Corpus',
+    url: `${SITE_URL}/source-texts/`,
+    description: 'A public corpus of processed Charles Proteus Steinmetz source texts, chapter readers, concept dossiers, equation atlases, diagram galleries, and research metadata.',
+    about: { '@id': `${SITE_URL}/#charles-proteus-steinmetz` },
+    creator: { '@id': `${SITE_URL}/#publisher` },
+    isAccessibleForFree: true,
+    keywords: SITE_KEYWORDS,
+    distribution: [
+      {
+        '@type': 'DataDownload',
+        encodingFormat: 'application/json',
+        contentUrl: `${SITE_URL}/data/manifest.json`
+      }
     ]
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    '@id': `${SITE_URL}/#research-entrypoints`,
+    name: 'Steinmetz Decoded research entry points',
+    itemListElement: [
+      ['Start Reading', '/start-reading/'],
+      ['Steinmetz Research Topic Map', '/steinmetz-research-topics/'],
+      ['Who Was Steinmetz?', '/who-was-steinmetz/'],
+      ['Source Text Browser', '/source-texts/'],
+      ['Book Coverage', '/book-coverage/'],
+      ['Concept Encyclopedia', '/concepts/'],
+      ['Equation Atlas', '/mathematics/equation-atlas/'],
+      ['Visual Topic Galleries', '/diagrams/visual-topic-galleries/'],
+      ['Hysteresis', '/concepts/hysteresis/'],
+      ['Transient Phenomena', '/concepts/transient-phenomena/'],
+      ['Symbolic Method', '/concepts/symbolic-method/'],
+      ['Ether References', '/concepts/ether/']
+    ].map(([name, url], index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name,
+      url: `${SITE_URL}${url}`
+    }))
   }
 ];
 
@@ -100,6 +174,104 @@ export default defineConfig({
           attrs: {
             name: 'theme-color',
             content: '#151b1c'
+          }
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'keywords',
+            content: SITE_KEYWORDS.join(', ')
+          }
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'author',
+            content: 'TRUEMODELOFTHEWORLD and open contributors'
+          }
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'creator',
+            content: 'TRUEMODELOFTHEWORLD'
+          }
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'publisher',
+            content: 'TRUEMODELOFTHEWORLD'
+          }
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'robots',
+            content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
+          }
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'googlebot',
+            content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
+          }
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            property: 'og:site_name',
+            content: 'Steinmetz Decoded'
+          }
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            property: 'og:type',
+            content: 'website'
+          }
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            property: 'og:title',
+            content: 'Steinmetz Decoded: Charles Proteus Steinmetz Research Archive'
+          }
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            property: 'og:description',
+            content: SITE_DESCRIPTION
+          }
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            property: 'og:url',
+            content: SITE_URL
+          }
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'twitter:card',
+            content: 'summary_large_image'
+          }
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'twitter:title',
+            content: 'Steinmetz Decoded'
+          }
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'twitter:description',
+            content: SITE_DESCRIPTION
           }
         },
         {

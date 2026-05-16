@@ -1,33 +1,35 @@
-# Steinmetz Decoded
+﻿# Steinmetz Decoded
 
-> A source-grounded public research archive for Charles Proteus Steinmetz: primary texts, OCR readers, equations, diagrams, concept dossiers, glossary entries, comparisons, and carefully labeled interpretive layers.
+> A source-grounded public research archive for Charles Proteus Steinmetz: primary texts, OCR/PDF readers, equations, diagrams, concept dossiers, glossary entries, comparisons, and carefully labeled interpretive layers.
 
 Canonical site: https://steinmetz-decoded.vercel.app/
 Repository: https://github.com/TRUEMODELOFTHEWORLD/Steinmetz-Decoded
+Topic map: https://steinmetz-decoded.vercel.app/steinmetz-research-topics/
+Sitemap: https://steinmetz-decoded.vercel.app/sitemap-index.xml
 License: public/open research archive; see repository license and citation files.
 
 ## Best Starting Points
 
 - Start Reading: https://steinmetz-decoded.vercel.app/start-reading/
+- Steinmetz Research Topic Map: https://steinmetz-decoded.vercel.app/steinmetz-research-topics/
 - Who Was Steinmetz: https://steinmetz-decoded.vercel.app/who-was-steinmetz/
 - Book Coverage: https://steinmetz-decoded.vercel.app/book-coverage/
 - Concept Encyclopedia: https://steinmetz-decoded.vercel.app/concepts/
 - Source Text Browser: https://steinmetz-decoded.vercel.app/source-texts/
 - Equation Atlas: https://steinmetz-decoded.vercel.app/mathematics/equation-atlas/
-- Diagram Archive: https://steinmetz-decoded.vercel.app/diagrams/
 - Visual Topic Galleries: https://steinmetz-decoded.vercel.app/diagrams/visual-topic-galleries/
 - Glossary: https://steinmetz-decoded.vercel.app/glossary/
 - Research Operations: https://steinmetz-decoded.vercel.app/research-operations/
 
 ## Core Topics Covered
 
-Charles Proteus Steinmetz, alternating current, symbolic method, complex quantities, impedance, reactance, admittance, hysteresis, magnetic loss, transients, oscillations, surges, lightning, electric waves, radiation, illumination, dielectricity, electrostatic capacity, distributed constants, ether and field language, Tesla-era electrical science, and historical electrical terminology.
+Charles Proteus Steinmetz, C. P. Steinmetz, alternating current, AC power engineering, symbolic method, complex quantities, phasors, impedance, reactance, admittance, conductance, susceptance, hysteresis, Steinmetz hysteresis law, magnetic loss, transients, oscillations, surges, lightning, electric waves, radiation, illumination, dielectricity, electrostatic capacity, distributed constants, ether and field language, Tesla-era electrical science, historical electrical terminology, electrical engineering history, and public-domain engineering texts.
 
 ## Source Discipline
 
 The archive separates:
 
-- Steinmetz source text and OCR candidates
+- Steinmetz source text and OCR/PDF candidates
 - modern engineering interpretation
 - mathematical reconstruction
 - historical notes
@@ -35,9 +37,10 @@ The archive separates:
 - ether-field interpretive reading
 - speculative or needs-verification material
 
-Exact quotations should be checked against source scans before citation.
+Exact quotations, equations, page labels, captions, and diagrams should be checked against source scans before citation.
 
 ## Machine-Readable Data
 
 - Public data manifest: https://steinmetz-decoded.vercel.app/data/manifest.json
-- Source corpus and processing outputs are linked from the repository and public data pages.
+- Source text data: https://steinmetz-decoded.vercel.app/source-texts-data/
+- The corpus and processing outputs are linked from the repository and public data pages.

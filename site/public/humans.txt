@@ -1,9 +1,11 @@
-# Humans Behind Steinmetz Decoded
+﻿# Humans Behind Steinmetz Decoded
 
 Steinmetz Decoded is an open, source-grounded research archive built as a public service for readers, engineers, historians, students, and researchers.
 
 Project home: https://steinmetz-decoded.vercel.app/
+Topic map: https://steinmetz-decoded.vercel.app/steinmetz-research-topics/
 Repository: https://github.com/TRUEMODELOFTHEWORLD/Steinmetz-Decoded
+Creator/publisher: TRUEMODELOFTHEWORLD and open contributors
 Purpose: recover, organize, and explain the writings, mathematics, diagrams, and historical electrical language of Charles Proteus Steinmetz.
 
-The archive aims to be rigorous, readable, transparent, and honest about the difference between source fact, modern interpretation, and speculative reading.
+The archive aims to be rigorous, readable, transparent, and honest about the difference between source fact, modern interpretation, and speculative reading. Corrections and source improvements are welcome through the public repository.

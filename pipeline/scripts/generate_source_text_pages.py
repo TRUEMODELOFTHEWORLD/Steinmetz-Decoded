@@ -155,6 +155,35 @@ def status_note(status: str) -> str:
     return "Processed source text. Verify against source custody files before canonical use."
 
 
+def seo_join(items: list[Any], limit: int = 6) -> str:
+    values = []
+    for item in items:
+        value = str(item or "").strip()
+        if value and value not in values:
+            values.append(value)
+    return ", ".join(values[:limit])
+
+
+def seo_source_description(source_title: str, records: list[dict[str, Any]]) -> str:
+    tags: list[Any] = []
+    section_count = len(records)
+    for record in records:
+        tags.extend(record.get("concept_tags") or [])
+    tag_text = seo_join(tags, 7) or "primary source text, equations, diagrams, and electrical engineering concepts"
+    return (
+        f"Read Charles Proteus Steinmetz's {source_title} as processed source text: "
+        f"{section_count} sections with scan-aware OCR/PDF transcripts, concept tags, and routes into {tag_text}."
+    )
+
+
+def seo_reader_description(source_title: str, title: str, location: str, tags: list[Any]) -> str:
+    tag_text = seo_join(tags, 6) or "primary source text and electrical engineering history"
+    return (
+        f"Read {title} from Charles Proteus Steinmetz's {source_title}: "
+        f"source text at {location}, with scan verification notes and concept tags for {tag_text}."
+    )
+
+
 def metadata_rows(
     source_title: str,
     record: dict[str, Any],
@@ -226,7 +255,7 @@ def build_source_index(
     )
     return f"""---
 title: {yaml_quote(source_title + " Source Text")}
-description: {yaml_quote("Generated OCR/PDF text reader for " + source_title + ".")}
+description: {yaml_quote(seo_source_description(source_title, records))}
 pagefind: false
 ---
 
@@ -294,7 +323,7 @@ def build_reader_page(
 
     return f"""---
 title: {yaml_quote(title)}
-description: {yaml_quote("Generated source text reader page for " + source_title + ".")}
+description: {yaml_quote(seo_reader_description(source_title, title, location, tags))}
 pagefind: false
 ---
 
