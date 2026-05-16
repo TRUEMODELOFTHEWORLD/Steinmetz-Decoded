@@ -528,17 +528,38 @@
   function likelyReaderFormula(text) {
     const value = (text || '').replace(/\s+/g, ' ').trim();
     if (value.length < 2 || value.length > 220) return false;
+    if (looksLikeOcrArtifact(value)) return false;
+
     const hasLetter = /[A-Za-z]/.test(value);
     const hasDigit = /\d/.test(value);
     const hasEquationSign = /[=\u2248\u2260\u2264\u2265]/.test(value);
-    const operatorMatches = value.match(/[+\-*/^_(){}\[\]\u221a\u2211\u222b<>\u00b1]/g) || [];
-    const hasMathWord = /\b(sin|cos|tan|log|sqrt|pi|theta|lambda|omega|phi)\b/i.test(value);
-    const hasUnitOnly = /\b(voltage|current|impedance|reactance|amperes?|volts?|ohms?)\b/i.test(value) && !hasEquationSign && operatorMatches.length === 0;
+    const operators = value.match(/[+\-*/^_(){}\[\]\u221a\u2211\u222b<>\u00b1]/g) || [];
+    const mathWords = value.match(/\b(sin|cos|tan|log|sqrt|pi|theta|lambda|omega|phi)\b/gi) || [];
+    const words = value.match(/[A-Za-z]{3,}/g) || [];
+    const mathOrUnitWord = /^(sin|cos|tan|log|sqrt|pi|theta|lambda|omega|phi|emf|rms|volt|volts|ohm|ohms|ampere|amperes|watt|watts|cycle|cycles|henry|farad)$/i;
+    const naturalWords = words.filter((word) => !mathOrUnitWord.test(word));
+    const proseMarkers = /\b(the|that|which|with|from|seems|volume|maximum|minimum|saturation|value|values|only|known|exception|higher|lower|containing|contained|therein|thereof|iron|cobalt|alloy|compound|material|cent|percent|per cent)\b/i;
+    const prosePunctuation = /[,.;:]/.test(value);
+    const equationLead = /^\s*(?:\(?\d+[.)]?\s*)?(?:[A-Za-z][A-Za-z0-9_]*|[A-Z]|[a-z]|\d+(?:\.\d+)?)\s*(?:=|[+\-*/^_])/;
+    const formulaCluster = /(?:[A-Za-z]\s*=\s*[-+0-9A-Za-z(]|\d+(?:\.\d+)?\s*[xX*]\s*10|\\(?:sin|cos|tan|log|sqrt|frac)|\b(?:sin|cos|tan|log|sqrt)\s*[\(A-Za-z0-9])/i;
+    const symbolDensity = operators.length + (hasEquationSign ? 2 : 0) + mathWords.length * 2;
+    const hasUnitOnly = /\b(voltage|current|impedance|reactance|amperes?|volts?|ohms?)\b/i.test(value) && !hasEquationSign && operators.length === 0;
     const mostlyWords = /^[A-Za-z ,.'-]+$/.test(value);
-    if (looksLikeOcrArtifact(value) || hasUnitOnly || (mostlyWords && !hasMathWord)) return false;
-    if (hasEquationSign && (hasLetter || hasDigit)) return true;
-    if (hasMathWord && (hasLetter || hasDigit)) return true;
-    return hasLetter && operatorMatches.length > 0 && value.length > 4;
+
+    if (hasUnitOnly || (mostlyWords && mathWords.length === 0)) return false;
+
+    // Source OCR often creates prose blocks containing one embedded relation, for example
+    // "72 per cent ... value of S = ...". Those should remain readable prose, not KaTeX panels.
+    if (!equationLead && naturalWords.length >= 6 && proseMarkers.test(value)) return false;
+    if (naturalWords.length >= 9 && symbolDensity < 10) return false;
+    if (naturalWords.length >= 6 && prosePunctuation && !equationLead && symbolDensity < 8) return false;
+    if (!hasEquationSign && mathWords.length === 0 && operators.length < 2) return false;
+
+    if (hasEquationSign && (equationLead || formulaCluster) && naturalWords.length <= 8) return true;
+    if (hasEquationSign && naturalWords.length <= 4 && symbolDensity >= 3) return true;
+    if (mathWords.length > 0 && (hasLetter || hasDigit) && naturalWords.length <= 6) return true;
+    if (equationLead && hasLetter && symbolDensity >= 2 && naturalWords.length <= 6) return true;
+    return false;
   }
 
   function normalizeReaderFormula(text) {
@@ -778,3 +799,4 @@
     setupKeyboardShortcuts();
   });
 })();
+

@@ -41,7 +41,6 @@
     window.renderMathInElement(root || document.body, {
       delimiters: [
         { left: "$$", right: "$$", display: true },
-        { left: "$", right: "$", display: false },
         { left: "\\[", right: "\\]", display: true },
         { left: "\\(", right: "\\)", display: false }
       ],
@@ -121,4 +120,5 @@
   document.addEventListener("astro:page-load", scheduleMathRender);
   document.addEventListener("starlight:search-result", scheduleMathRender);
 })();
+
 
