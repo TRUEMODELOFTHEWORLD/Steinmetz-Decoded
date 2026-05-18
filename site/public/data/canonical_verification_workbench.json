@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29",
+  "generated_at": "2026-05-18",
   "quality_note": "Canonical verification workbench. It gathers review queues but does not certify claims as verified.",
   "summary": {
     "equation_records": 12,
@@ -21,21 +21,21 @@
       "id": "equation_verification_queue",
       "title": "Equation Verification Queue",
       "path": "processed/equation_verification_queue.json",
-      "site_path": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/equation-verification-queue/",
+      "site_path": "/roadmap/equation-verification-queue/",
       "record_count": 12
     },
     {
       "id": "figure_verification_queue",
       "title": "Figure Verification Queue",
       "path": "processed/figure_verification_queue.json",
-      "site_path": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/figure-verification-queue/",
+      "site_path": "/roadmap/figure-verification-queue/",
       "record_count": 15
     },
     {
       "id": "patent_verification_queue",
       "title": "Patent Verification Queue",
       "path": "processed/patent_verification_queue.json",
-      "site_path": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/patent-verification-queue/",
+      "site_path": "/roadmap/patent-verification-queue/",
       "record_count": 11
     }
   ]

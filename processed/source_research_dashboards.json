@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29",
+  "generated_at": "2026-05-18",
   "quality_note": "Source research dashboards are generated routing layers over candidate OCR/PDF evidence.",
   "source_count": 15,
   "sources": [
@@ -52,31 +52,31 @@
           "id": "corporation",
           "label": "Corporation",
           "count": 244,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/corporation/"
+          "link": "/concept-concordance/corporation/"
         },
         {
           "id": "competition",
           "label": "Competition",
           "count": 78,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/competition/"
+          "link": "/concept-concordance/competition/"
         },
         {
           "id": "co-operation",
           "label": "Co-operation",
           "count": 67,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/co-operation/"
+          "link": "/concept-concordance/co-operation/"
         },
         {
           "id": "monarchy",
           "label": "Monarchy",
           "count": 19,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/monarchy/"
+          "link": "/concept-concordance/monarchy/"
         },
         {
           "id": "democracy",
           "label": "Democracy",
           "count": 16,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/democracy/"
+          "link": "/concept-concordance/democracy/"
         }
       ],
       "glossary": [
@@ -95,8 +95,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/america-and-new-epoch/chapter-04/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/america-and-new-epoch/chapter-04/"
+            "source": "/source-texts/america-and-new-epoch/chapter-04/",
+            "workbench": "/chapter-workbench/america-and-new-epoch/chapter-04/"
           }
         },
         {
@@ -107,8 +107,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/america-and-new-epoch/chapter-05/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/america-and-new-epoch/chapter-05/"
+            "source": "/source-texts/america-and-new-epoch/chapter-05/",
+            "workbench": "/chapter-workbench/america-and-new-epoch/chapter-05/"
           }
         },
         {
@@ -119,8 +119,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/america-and-new-epoch/chapter-07/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/america-and-new-epoch/chapter-07/"
+            "source": "/source-texts/america-and-new-epoch/chapter-07/",
+            "workbench": "/chapter-workbench/america-and-new-epoch/chapter-07/"
           }
         },
         {
@@ -131,8 +131,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/america-and-new-epoch/chapter-14/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/america-and-new-epoch/chapter-14/"
+            "source": "/source-texts/america-and-new-epoch/chapter-14/",
+            "workbench": "/chapter-workbench/america-and-new-epoch/chapter-14/"
           }
         },
         {
@@ -143,8 +143,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/america-and-new-epoch/chapter-18/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/america-and-new-epoch/chapter-18/"
+            "source": "/source-texts/america-and-new-epoch/chapter-18/",
+            "workbench": "/chapter-workbench/america-and-new-epoch/chapter-18/"
           }
         },
         {
@@ -155,8 +155,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/america-and-new-epoch/chapter-12/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/america-and-new-epoch/chapter-12/"
+            "source": "/source-texts/america-and-new-epoch/chapter-12/",
+            "workbench": "/chapter-workbench/america-and-new-epoch/chapter-12/"
           }
         },
         {
@@ -167,8 +167,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/america-and-new-epoch/chapter-03/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/america-and-new-epoch/chapter-03/"
+            "source": "/source-texts/america-and-new-epoch/chapter-03/",
+            "workbench": "/chapter-workbench/america-and-new-epoch/chapter-03/"
           }
         },
         {
@@ -179,17 +179,17 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/america-and-new-epoch/chapter-17/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/america-and-new-epoch/chapter-17/"
+            "source": "/source-texts/america-and-new-epoch/chapter-17/",
+            "workbench": "/chapter-workbench/america-and-new-epoch/chapter-17/"
           }
         }
       ],
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/america-and-new-epoch/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/america-and-new-epoch/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/america-and-new-epoch/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/america-and-new-epoch/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/america-and-new-epoch/",
+        "coverage": "/book-coverage/america-and-new-epoch/",
+        "source_text": "/source-texts/america-and-new-epoch/",
+        "workbench": "/chapter-workbench/america-and-new-epoch/",
+        "visual_map": "/diagrams/source-visuals/america-and-new-epoch/",
+        "formula_map": "/mathematics/source-formula-maps/america-and-new-epoch/",
         "archive": "https://archive.org/details/americanewepoch00stei"
       }
     },
@@ -203,7 +203,7 @@
       "formula_candidates": 300,
       "figure_candidates": 16,
       "promoted_crops": 0,
-      "modern_visual_guides": 2,
+      "modern_visual_guides": 5,
       "quote_candidates": 0,
       "themes": [
         {
@@ -252,43 +252,43 @@
           "id": "frequency",
           "label": "Frequency",
           "count": 79,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/frequency/"
+          "link": "/concept-concordance/frequency/"
         },
         {
           "id": "ether",
           "label": "Ether",
           "count": 16,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/ether/"
+          "link": "/concept-concordance/ether/"
         },
         {
           "id": "light",
           "label": "Light",
           "count": 14,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/light/"
+          "link": "/concept-concordance/light/"
         },
         {
           "id": "wave-length",
           "label": "Wave length",
           "count": 13,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/wave-length/"
+          "link": "/concept-concordance/wave-length/"
         },
         {
           "id": "permeability",
           "label": "Magnetic permeability",
           "count": 11,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/permeability/"
+          "link": "/concept-concordance/permeability/"
         },
         {
           "id": "velocity-of-light",
           "label": "Velocity of light",
           "count": 4,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/velocity-of-light/"
+          "link": "/concept-concordance/velocity-of-light/"
         },
         {
           "id": "radiation",
           "label": "Radiation",
           "count": 1,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/radiation/"
+          "link": "/concept-concordance/radiation/"
         }
       ],
       "glossary": [
@@ -312,8 +312,8 @@
           "figures": 3,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-07/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-07/"
+            "source": "/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-07/",
+            "workbench": "/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-07/"
           }
         },
         {
@@ -324,8 +324,8 @@
           "figures": 1,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-04/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-04/"
+            "source": "/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-04/",
+            "workbench": "/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-04/"
           }
         },
         {
@@ -336,8 +336,8 @@
           "figures": 1,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-06/"
+            "source": "/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-06/",
+            "workbench": "/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-06/"
           }
         },
         {
@@ -348,8 +348,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-02/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-02/"
+            "source": "/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-02/",
+            "workbench": "/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-02/"
           }
         },
         {
@@ -360,8 +360,8 @@
           "figures": 1,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-05/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-05/"
+            "source": "/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-05/",
+            "workbench": "/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-05/"
           }
         },
         {
@@ -372,8 +372,8 @@
           "figures": 3,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-01/"
+            "source": "/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-01/",
+            "workbench": "/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-01/"
           }
         },
         {
@@ -384,8 +384,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-03/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-03/"
+            "source": "/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-03/",
+            "workbench": "/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-03/"
           }
         },
         {
@@ -396,17 +396,17 @@
           "figures": 3,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-10/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-10/"
+            "source": "/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-10/",
+            "workbench": "/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-10/"
           }
         }
       ],
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/elementary-lectures-electric-discharges-waves-impulses/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/elementary-lectures-electric-discharges-waves-impulses/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/elementary-lectures-electric-discharges-waves-impulses/",
+        "coverage": "/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
+        "source_text": "/source-texts/elementary-lectures-electric-discharges-waves-impulses/",
+        "workbench": "/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/",
+        "visual_map": "/diagrams/source-visuals/elementary-lectures-electric-discharges-waves-impulses/",
+        "formula_map": "/mathematics/source-formula-maps/elementary-lectures-electric-discharges-waves-impulses/",
         "archive": "https://archive.org/details/elementarylectur00steirich"
       }
     },
@@ -420,7 +420,7 @@
       "formula_candidates": 300,
       "figure_candidates": 18,
       "promoted_crops": 0,
-      "modern_visual_guides": 2,
+      "modern_visual_guides": 5,
       "quote_candidates": 0,
       "themes": [
         {
@@ -469,43 +469,43 @@
           "id": "frequency",
           "label": "Frequency",
           "count": 93,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/frequency/"
+          "link": "/concept-concordance/frequency/"
         },
         {
           "id": "ether",
           "label": "Ether",
           "count": 19,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/ether/"
+          "link": "/concept-concordance/ether/"
         },
         {
           "id": "light",
           "label": "Light",
           "count": 17,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/light/"
+          "link": "/concept-concordance/light/"
         },
         {
           "id": "wave-length",
           "label": "Wave length",
           "count": 13,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/wave-length/"
+          "link": "/concept-concordance/wave-length/"
         },
         {
           "id": "permeability",
           "label": "Magnetic permeability",
           "count": 10,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/permeability/"
+          "link": "/concept-concordance/permeability/"
         },
         {
           "id": "velocity-of-light",
           "label": "Velocity of light",
           "count": 4,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/velocity-of-light/"
+          "link": "/concept-concordance/velocity-of-light/"
         },
         {
           "id": "radiation",
           "label": "Radiation",
           "count": 1,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/radiation/"
+          "link": "/concept-concordance/radiation/"
         }
       ],
       "glossary": [
@@ -529,8 +529,8 @@
           "figures": 3,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/electric-discharges-waves-impulses-1914/lecture-07/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/electric-discharges-waves-impulses-1914/lecture-07/"
+            "source": "/source-texts/electric-discharges-waves-impulses-1914/lecture-07/",
+            "workbench": "/chapter-workbench/electric-discharges-waves-impulses-1914/lecture-07/"
           }
         },
         {
@@ -541,8 +541,8 @@
           "figures": 1,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/electric-discharges-waves-impulses-1914/lecture-04/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/electric-discharges-waves-impulses-1914/lecture-04/"
+            "source": "/source-texts/electric-discharges-waves-impulses-1914/lecture-04/",
+            "workbench": "/chapter-workbench/electric-discharges-waves-impulses-1914/lecture-04/"
           }
         },
         {
@@ -553,8 +553,8 @@
           "figures": 1,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/electric-discharges-waves-impulses-1914/lecture-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/electric-discharges-waves-impulses-1914/lecture-06/"
+            "source": "/source-texts/electric-discharges-waves-impulses-1914/lecture-06/",
+            "workbench": "/chapter-workbench/electric-discharges-waves-impulses-1914/lecture-06/"
           }
         },
         {
@@ -565,8 +565,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/electric-discharges-waves-impulses-1914/lecture-02/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/electric-discharges-waves-impulses-1914/lecture-02/"
+            "source": "/source-texts/electric-discharges-waves-impulses-1914/lecture-02/",
+            "workbench": "/chapter-workbench/electric-discharges-waves-impulses-1914/lecture-02/"
           }
         },
         {
@@ -577,8 +577,8 @@
           "figures": 1,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/electric-discharges-waves-impulses-1914/lecture-05/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/electric-discharges-waves-impulses-1914/lecture-05/"
+            "source": "/source-texts/electric-discharges-waves-impulses-1914/lecture-05/",
+            "workbench": "/chapter-workbench/electric-discharges-waves-impulses-1914/lecture-05/"
           }
         },
         {
@@ -589,8 +589,8 @@
           "figures": 3,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/electric-discharges-waves-impulses-1914/lecture-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/electric-discharges-waves-impulses-1914/lecture-01/"
+            "source": "/source-texts/electric-discharges-waves-impulses-1914/lecture-01/",
+            "workbench": "/chapter-workbench/electric-discharges-waves-impulses-1914/lecture-01/"
           }
         },
         {
@@ -601,8 +601,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/electric-discharges-waves-impulses-1914/lecture-03/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/electric-discharges-waves-impulses-1914/lecture-03/"
+            "source": "/source-texts/electric-discharges-waves-impulses-1914/lecture-03/",
+            "workbench": "/chapter-workbench/electric-discharges-waves-impulses-1914/lecture-03/"
           }
         },
         {
@@ -613,17 +613,17 @@
           "figures": 4,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/electric-discharges-waves-impulses-1914/lecture-10/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/electric-discharges-waves-impulses-1914/lecture-10/"
+            "source": "/source-texts/electric-discharges-waves-impulses-1914/lecture-10/",
+            "workbench": "/chapter-workbench/electric-discharges-waves-impulses-1914/lecture-10/"
           }
         }
       ],
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/electric-discharges-waves-impulses-1914/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/electric-discharges-waves-impulses-1914/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/electric-discharges-waves-impulses-1914/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/electric-discharges-waves-impulses-1914/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/electric-discharges-waves-impulses-1914/",
+        "coverage": "/book-coverage/electric-discharges-waves-impulses-1914/",
+        "source_text": "/source-texts/electric-discharges-waves-impulses-1914/",
+        "workbench": "/chapter-workbench/electric-discharges-waves-impulses-1914/",
+        "visual_map": "/diagrams/source-visuals/electric-discharges-waves-impulses-1914/",
+        "formula_map": "/mathematics/source-formula-maps/electric-discharges-waves-impulses-1914/",
         "archive": "https://archive.org/details/elementarylectur00stei"
       }
     },
@@ -637,7 +637,7 @@
       "formula_candidates": 300,
       "figure_candidates": 9,
       "promoted_crops": 0,
-      "modern_visual_guides": 3,
+      "modern_visual_guides": 6,
       "quote_candidates": 0,
       "themes": [
         {
@@ -686,43 +686,43 @@
           "id": "ether",
           "label": "Ether",
           "count": 52,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/ether/"
+          "link": "/concept-concordance/ether/"
         },
         {
           "id": "frequency",
           "label": "Frequency",
           "count": 24,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/frequency/"
+          "link": "/concept-concordance/frequency/"
         },
         {
           "id": "light",
           "label": "Light",
           "count": 13,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/light/"
+          "link": "/concept-concordance/light/"
         },
         {
           "id": "permeability",
           "label": "Magnetic permeability",
           "count": 7,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/permeability/"
+          "link": "/concept-concordance/permeability/"
         },
         {
           "id": "illumination",
           "label": "Illumination",
           "count": 5,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/illumination/"
+          "link": "/concept-concordance/illumination/"
         },
         {
           "id": "radiation",
           "label": "Radiation",
           "count": 5,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/radiation/"
+          "link": "/concept-concordance/radiation/"
         },
         {
           "id": "arc-lamp",
           "label": "Arc lamp",
           "count": 2,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/arc-lamp/"
+          "link": "/concept-concordance/arc-lamp/"
         }
       ],
       "glossary": [
@@ -751,8 +751,8 @@
           "figures": 4,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/engineering-mathematics/chapter-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/engineering-mathematics/chapter-01/"
+            "source": "/source-texts/engineering-mathematics/chapter-01/",
+            "workbench": "/chapter-workbench/engineering-mathematics/chapter-01/"
           }
         },
         {
@@ -763,8 +763,8 @@
           "figures": 5,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/engineering-mathematics/chapter-03/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/engineering-mathematics/chapter-03/"
+            "source": "/source-texts/engineering-mathematics/chapter-03/",
+            "workbench": "/chapter-workbench/engineering-mathematics/chapter-03/"
           }
         },
         {
@@ -775,8 +775,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/engineering-mathematics/chapter-05/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/engineering-mathematics/chapter-05/"
+            "source": "/source-texts/engineering-mathematics/chapter-05/",
+            "workbench": "/chapter-workbench/engineering-mathematics/chapter-05/"
           }
         },
         {
@@ -787,8 +787,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/engineering-mathematics/chapter-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/engineering-mathematics/chapter-06/"
+            "source": "/source-texts/engineering-mathematics/chapter-06/",
+            "workbench": "/chapter-workbench/engineering-mathematics/chapter-06/"
           }
         },
         {
@@ -799,8 +799,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/engineering-mathematics/chapter-02/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/engineering-mathematics/chapter-02/"
+            "source": "/source-texts/engineering-mathematics/chapter-02/",
+            "workbench": "/chapter-workbench/engineering-mathematics/chapter-02/"
           }
         },
         {
@@ -811,17 +811,17 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/engineering-mathematics/chapter-04/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/engineering-mathematics/chapter-04/"
+            "source": "/source-texts/engineering-mathematics/chapter-04/",
+            "workbench": "/chapter-workbench/engineering-mathematics/chapter-04/"
           }
         }
       ],
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/engineering-mathematics/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/engineering-mathematics/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/engineering-mathematics/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/engineering-mathematics/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/engineering-mathematics/",
+        "coverage": "/book-coverage/engineering-mathematics/",
+        "source_text": "/source-texts/engineering-mathematics/",
+        "workbench": "/chapter-workbench/engineering-mathematics/",
+        "visual_map": "/diagrams/source-visuals/engineering-mathematics/",
+        "formula_map": "/mathematics/source-formula-maps/engineering-mathematics/",
         "archive": "https://archive.org/details/engineeringmathe00steirich"
       }
     },
@@ -884,61 +884,61 @@
           "id": "light",
           "label": "Light",
           "count": 158,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/light/"
+          "link": "/concept-concordance/light/"
         },
         {
           "id": "ether",
           "label": "Ether",
           "count": 94,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/ether/"
+          "link": "/concept-concordance/ether/"
         },
         {
           "id": "velocity-of-light",
           "label": "Velocity of light",
           "count": 31,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/velocity-of-light/"
+          "link": "/concept-concordance/velocity-of-light/"
         },
         {
           "id": "frequency",
           "label": "Frequency",
           "count": 8,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/frequency/"
+          "link": "/concept-concordance/frequency/"
         },
         {
           "id": "wave-length",
           "label": "Wave length",
           "count": 6,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/wave-length/"
+          "link": "/concept-concordance/wave-length/"
         },
         {
           "id": "radiation",
           "label": "Radiation",
           "count": 5,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/radiation/"
+          "link": "/concept-concordance/radiation/"
         },
         {
           "id": "spectrum",
           "label": "Spectrum",
           "count": 5,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/spectrum/"
+          "link": "/concept-concordance/spectrum/"
         },
         {
           "id": "permeability",
           "label": "Magnetic permeability",
           "count": 2,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/permeability/"
+          "link": "/concept-concordance/permeability/"
         },
         {
           "id": "electric-waves",
           "label": "Electric waves",
           "count": 1,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/electric-waves/"
+          "link": "/concept-concordance/electric-waves/"
         },
         {
           "id": "refraction",
           "label": "Refraction",
           "count": 1,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/refraction/"
+          "link": "/concept-concordance/refraction/"
         }
       ],
       "glossary": [
@@ -967,8 +967,8 @@
           "figures": 8,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/four-lectures-relativity-space/lecture-04/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/four-lectures-relativity-space/lecture-04/"
+            "source": "/source-texts/four-lectures-relativity-space/lecture-04/",
+            "workbench": "/chapter-workbench/four-lectures-relativity-space/lecture-04/"
           }
         },
         {
@@ -979,8 +979,8 @@
           "figures": 6,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/four-lectures-relativity-space/lecture-02/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/four-lectures-relativity-space/lecture-02/"
+            "source": "/source-texts/four-lectures-relativity-space/lecture-02/",
+            "workbench": "/chapter-workbench/four-lectures-relativity-space/lecture-02/"
           }
         },
         {
@@ -991,8 +991,8 @@
           "figures": 5,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/four-lectures-relativity-space/lecture-03/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/four-lectures-relativity-space/lecture-03/"
+            "source": "/source-texts/four-lectures-relativity-space/lecture-03/",
+            "workbench": "/chapter-workbench/four-lectures-relativity-space/lecture-03/"
           }
         },
         {
@@ -1003,17 +1003,17 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/four-lectures-relativity-space/lecture-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/four-lectures-relativity-space/lecture-01/"
+            "source": "/source-texts/four-lectures-relativity-space/lecture-01/",
+            "workbench": "/chapter-workbench/four-lectures-relativity-space/lecture-01/"
           }
         }
       ],
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/four-lectures-relativity-space/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/four-lectures-relativity-space/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/four-lectures-relativity-space/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/four-lectures-relativity-space/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/four-lectures-relativity-space/",
+        "coverage": "/book-coverage/four-lectures-relativity-space/",
+        "source_text": "/source-texts/four-lectures-relativity-space/",
+        "workbench": "/chapter-workbench/four-lectures-relativity-space/",
+        "visual_map": "/diagrams/source-visuals/four-lectures-relativity-space/",
+        "formula_map": "/mathematics/source-formula-maps/four-lectures-relativity-space/",
         "archive": "https://archive.org/details/fourlecturesonre00stei"
       }
     },
@@ -1076,61 +1076,61 @@
           "id": "light",
           "label": "Light",
           "count": 572,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/light/"
+          "link": "/concept-concordance/light/"
         },
         {
           "id": "frequency",
           "label": "Frequency",
           "count": 142,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/frequency/"
+          "link": "/concept-concordance/frequency/"
         },
         {
           "id": "illumination",
           "label": "Illumination",
           "count": 102,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/illumination/"
+          "link": "/concept-concordance/illumination/"
         },
         {
           "id": "radiation",
           "label": "Radiation",
           "count": 85,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/radiation/"
+          "link": "/concept-concordance/radiation/"
         },
         {
           "id": "ether",
           "label": "Ether",
           "count": 56,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/ether/"
+          "link": "/concept-concordance/ether/"
         },
         {
           "id": "arc-lamp",
           "label": "Arc lamp",
           "count": 31,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/arc-lamp/"
+          "link": "/concept-concordance/arc-lamp/"
         },
         {
           "id": "wave-length",
           "label": "Wave length",
           "count": 31,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/wave-length/"
+          "link": "/concept-concordance/wave-length/"
         },
         {
           "id": "spectrum",
           "label": "Spectrum",
           "count": 29,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/spectrum/"
+          "link": "/concept-concordance/spectrum/"
         },
         {
           "id": "ultraviolet",
           "label": "Ultra-violet radiation",
           "count": 11,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/ultraviolet/"
+          "link": "/concept-concordance/ultraviolet/"
         },
         {
           "id": "ultrared",
           "label": "Ultra-red radiation",
           "count": 5,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/ultrared/"
+          "link": "/concept-concordance/ultrared/"
         }
       ],
       "glossary": [
@@ -1169,8 +1169,8 @@
           "figures": 2,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/general-lectures-electrical-engineering/lecture-17/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/general-lectures-electrical-engineering/lecture-17/"
+            "source": "/source-texts/general-lectures-electrical-engineering/lecture-17/",
+            "workbench": "/chapter-workbench/general-lectures-electrical-engineering/lecture-17/"
           }
         },
         {
@@ -1181,8 +1181,8 @@
           "figures": 6,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/general-lectures-electrical-engineering/lecture-12/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/general-lectures-electrical-engineering/lecture-12/"
+            "source": "/source-texts/general-lectures-electrical-engineering/lecture-12/",
+            "workbench": "/chapter-workbench/general-lectures-electrical-engineering/lecture-12/"
           }
         },
         {
@@ -1193,8 +1193,8 @@
           "figures": 1,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/general-lectures-electrical-engineering/lecture-05/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/general-lectures-electrical-engineering/lecture-05/"
+            "source": "/source-texts/general-lectures-electrical-engineering/lecture-05/",
+            "workbench": "/chapter-workbench/general-lectures-electrical-engineering/lecture-05/"
           }
         },
         {
@@ -1205,8 +1205,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/general-lectures-electrical-engineering/lecture-02/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/general-lectures-electrical-engineering/lecture-02/"
+            "source": "/source-texts/general-lectures-electrical-engineering/lecture-02/",
+            "workbench": "/chapter-workbench/general-lectures-electrical-engineering/lecture-02/"
           }
         },
         {
@@ -1217,8 +1217,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/general-lectures-electrical-engineering/lecture-14/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/general-lectures-electrical-engineering/lecture-14/"
+            "source": "/source-texts/general-lectures-electrical-engineering/lecture-14/",
+            "workbench": "/chapter-workbench/general-lectures-electrical-engineering/lecture-14/"
           }
         },
         {
@@ -1229,8 +1229,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/general-lectures-electrical-engineering/lecture-03/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/general-lectures-electrical-engineering/lecture-03/"
+            "source": "/source-texts/general-lectures-electrical-engineering/lecture-03/",
+            "workbench": "/chapter-workbench/general-lectures-electrical-engineering/lecture-03/"
           }
         },
         {
@@ -1241,8 +1241,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/general-lectures-electrical-engineering/lecture-07/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/general-lectures-electrical-engineering/lecture-07/"
+            "source": "/source-texts/general-lectures-electrical-engineering/lecture-07/",
+            "workbench": "/chapter-workbench/general-lectures-electrical-engineering/lecture-07/"
           }
         },
         {
@@ -1253,17 +1253,17 @@
           "figures": 1,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/general-lectures-electrical-engineering/lecture-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/general-lectures-electrical-engineering/lecture-06/"
+            "source": "/source-texts/general-lectures-electrical-engineering/lecture-06/",
+            "workbench": "/chapter-workbench/general-lectures-electrical-engineering/lecture-06/"
           }
         }
       ],
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/general-lectures-electrical-engineering/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/general-lectures-electrical-engineering/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/general-lectures-electrical-engineering/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/general-lectures-electrical-engineering/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/general-lectures-electrical-engineering/",
+        "coverage": "/book-coverage/general-lectures-electrical-engineering/",
+        "source_text": "/source-texts/general-lectures-electrical-engineering/",
+        "workbench": "/chapter-workbench/general-lectures-electrical-engineering/",
+        "visual_map": "/diagrams/source-visuals/general-lectures-electrical-engineering/",
+        "formula_map": "/mathematics/source-formula-maps/general-lectures-electrical-engineering/",
         "archive": "https://archive.org/details/generallectureso00steiuoft"
       }
     },
@@ -1277,7 +1277,7 @@
       "formula_candidates": 220,
       "figure_candidates": 1,
       "promoted_crops": 0,
-      "modern_visual_guides": 1,
+      "modern_visual_guides": 2,
       "quote_candidates": 5,
       "themes": [
         {
@@ -1326,61 +1326,61 @@
           "id": "synchronism",
           "label": "Synchronism",
           "count": 135,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/synchronism/"
+          "link": "/concept-concordance/synchronism/"
         },
         {
           "id": "synchronizing-power",
           "label": "Synchronizing power",
           "count": 35,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/synchronizing-power/"
+          "link": "/concept-concordance/synchronizing-power/"
         },
         {
           "id": "short-circuit",
           "label": "Short circuit",
           "count": 34,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/short-circuit/"
+          "link": "/concept-concordance/short-circuit/"
         },
         {
           "id": "synchronous-machines",
           "label": "Synchronous machines",
           "count": 32,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/synchronous-machines/"
+          "link": "/concept-concordance/synchronous-machines/"
         },
         {
           "id": "power-limiting-reactor",
           "label": "Power limiting reactor",
           "count": 17,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/power-limiting-reactor/"
+          "link": "/concept-concordance/power-limiting-reactor/"
         },
         {
           "id": "tie-cable",
           "label": "Tie cable",
           "count": 13,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/tie-cable/"
+          "link": "/concept-concordance/tie-cable/"
         },
         {
           "id": "circuit-breaker",
           "label": "Circuit breaker",
           "count": 5,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/circuit-breaker/"
+          "link": "/concept-concordance/circuit-breaker/"
         },
         {
           "id": "protective-reactance",
           "label": "Protective reactance",
           "count": 1,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/protective-reactance/"
+          "link": "/concept-concordance/protective-reactance/"
         },
         {
           "id": "current-transformer",
           "label": "Current transformer",
           "count": 1,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/current-transformer/"
+          "link": "/concept-concordance/current-transformer/"
         },
         {
           "id": "hunting-pulsation",
           "label": "Hunting pulsation",
           "count": 1,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/hunting-pulsation/"
+          "link": "/concept-concordance/hunting-pulsation/"
         }
       ],
       "glossary": [
@@ -1434,8 +1434,8 @@
           "figures": 1,
           "quotes": 1,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/commonwealth-edison-generating-system-trouble/appendix-01-synchronous-operation/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/commonwealth-edison-generating-system-trouble/appendix-01-synchronous-operation/"
+            "source": "/source-texts/commonwealth-edison-generating-system-trouble/appendix-01-synchronous-operation/",
+            "workbench": "/chapter-workbench/commonwealth-edison-generating-system-trouble/appendix-01-synchronous-operation/"
           }
         },
         {
@@ -1446,8 +1446,8 @@
           "figures": 0,
           "quotes": 3,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/commonwealth-edison-generating-system-trouble/section-02-discussion-of-recommendations/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/commonwealth-edison-generating-system-trouble/section-02-discussion-of-recommendations/"
+            "source": "/source-texts/commonwealth-edison-generating-system-trouble/section-02-discussion-of-recommendations/",
+            "workbench": "/chapter-workbench/commonwealth-edison-generating-system-trouble/section-02-discussion-of-recommendations/"
           }
         },
         {
@@ -1458,8 +1458,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/commonwealth-edison-generating-system-trouble/section-01-recommendations/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/commonwealth-edison-generating-system-trouble/section-01-recommendations/"
+            "source": "/source-texts/commonwealth-edison-generating-system-trouble/section-01-recommendations/",
+            "workbench": "/chapter-workbench/commonwealth-edison-generating-system-trouble/section-01-recommendations/"
           }
         },
         {
@@ -1470,8 +1470,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/commonwealth-edison-generating-system-trouble/section-03-record/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/commonwealth-edison-generating-system-trouble/section-03-record/"
+            "source": "/source-texts/commonwealth-edison-generating-system-trouble/section-03-record/",
+            "workbench": "/chapter-workbench/commonwealth-edison-generating-system-trouble/section-03-record/"
           }
         },
         {
@@ -1482,18 +1482,18 @@
           "figures": 0,
           "quotes": 1,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/commonwealth-edison-generating-system-trouble/front-letter-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/commonwealth-edison-generating-system-trouble/front-letter-01/"
+            "source": "/source-texts/commonwealth-edison-generating-system-trouble/front-letter-01/",
+            "workbench": "/chapter-workbench/commonwealth-edison-generating-system-trouble/front-letter-01/"
           }
         }
       ],
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/commonwealth-edison-generating-system-trouble/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/commonwealth-edison-generating-system-trouble/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/commonwealth-edison-generating-system-trouble/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/commonwealth-edison-generating-system-trouble/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/commonwealth-edison-generating-system-trouble/",
-        "archive": "https://github.com/TRUEMODELOFTHEWORLD/Charles-Proteus-Steinmetz-Texts-AI-Decoded/blob/main/sources/commonwealth-edison-generating-system-trouble/raw/commonwealth-edison-generating-system-trouble-local.pdf"
+        "coverage": "/book-coverage/commonwealth-edison-generating-system-trouble/",
+        "source_text": "/source-texts/commonwealth-edison-generating-system-trouble/",
+        "workbench": "/chapter-workbench/commonwealth-edison-generating-system-trouble/",
+        "visual_map": "/diagrams/source-visuals/commonwealth-edison-generating-system-trouble/",
+        "formula_map": "/mathematics/source-formula-maps/commonwealth-edison-generating-system-trouble/",
+        "archive": "https://github.com/TRUEMODELOFTHEWORLD/Steinmetz-Decoded/blob/main/sources/commonwealth-edison-generating-system-trouble/raw/commonwealth-edison-generating-system-trouble-local.pdf"
       }
     },
     {
@@ -1506,7 +1506,7 @@
       "formula_candidates": 300,
       "figure_candidates": 98,
       "promoted_crops": 5,
-      "modern_visual_guides": 0,
+      "modern_visual_guides": 2,
       "quote_candidates": 3,
       "themes": [
         {
@@ -1555,61 +1555,61 @@
           "id": "light",
           "label": "Light",
           "count": 1658,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/light/"
+          "link": "/concept-concordance/light/"
         },
         {
           "id": "radiation",
           "label": "Radiation",
           "count": 785,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/radiation/"
+          "link": "/concept-concordance/radiation/"
         },
         {
           "id": "illumination",
           "label": "Illumination",
           "count": 563,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/illumination/"
+          "link": "/concept-concordance/illumination/"
         },
         {
           "id": "frequency",
           "label": "Frequency",
           "count": 122,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/frequency/"
+          "link": "/concept-concordance/frequency/"
         },
         {
           "id": "spectrum",
           "label": "Spectrum",
           "count": 113,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/spectrum/"
+          "link": "/concept-concordance/spectrum/"
         },
         {
           "id": "arc-lamp",
           "label": "Arc lamp",
           "count": 74,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/arc-lamp/"
+          "link": "/concept-concordance/arc-lamp/"
         },
         {
           "id": "wave-length",
           "label": "Wave length",
           "count": 72,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/wave-length/"
+          "link": "/concept-concordance/wave-length/"
         },
         {
           "id": "luminescence",
           "label": "Luminescence",
           "count": 72,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/luminescence/"
+          "link": "/concept-concordance/luminescence/"
         },
         {
           "id": "brilliancy",
           "label": "Brilliancy",
           "count": 62,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/brilliancy/"
+          "link": "/concept-concordance/brilliancy/"
         },
         {
           "id": "ether",
           "label": "Ether",
           "count": 37,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/ether/"
+          "link": "/concept-concordance/ether/"
         }
       ],
       "glossary": [
@@ -1663,8 +1663,8 @@
           "figures": 8,
           "quotes": 2,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/lecture-01/"
+            "source": "/source-texts/radiation-light-and-illumination/lecture-01/",
+            "workbench": "/chapter-workbench/radiation-light-and-illumination/lecture-01/"
           }
         },
         {
@@ -1675,8 +1675,8 @@
           "figures": 8,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/lecture-06/"
+            "source": "/source-texts/radiation-light-and-illumination/lecture-06/",
+            "workbench": "/chapter-workbench/radiation-light-and-illumination/lecture-06/"
           }
         },
         {
@@ -1687,8 +1687,8 @@
           "figures": 8,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-10/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/lecture-10/"
+            "source": "/source-texts/radiation-light-and-illumination/lecture-10/",
+            "workbench": "/chapter-workbench/radiation-light-and-illumination/lecture-10/"
           }
         },
         {
@@ -1699,8 +1699,8 @@
           "figures": 5,
           "quotes": 1,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-02/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/lecture-02/"
+            "source": "/source-texts/radiation-light-and-illumination/lecture-02/",
+            "workbench": "/chapter-workbench/radiation-light-and-illumination/lecture-02/"
           }
         },
         {
@@ -1711,8 +1711,8 @@
           "figures": 6,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-09/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/lecture-09/"
+            "source": "/source-texts/radiation-light-and-illumination/lecture-09/",
+            "workbench": "/chapter-workbench/radiation-light-and-illumination/lecture-09/"
           }
         },
         {
@@ -1723,8 +1723,8 @@
           "figures": 6,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-03/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/lecture-03/"
+            "source": "/source-texts/radiation-light-and-illumination/lecture-03/",
+            "workbench": "/chapter-workbench/radiation-light-and-illumination/lecture-03/"
           }
         },
         {
@@ -1735,8 +1735,8 @@
           "figures": 4,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-05/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/lecture-05/"
+            "source": "/source-texts/radiation-light-and-illumination/lecture-05/",
+            "workbench": "/chapter-workbench/radiation-light-and-illumination/lecture-05/"
           }
         },
         {
@@ -1747,17 +1747,17 @@
           "figures": 6,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-08/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/lecture-08/"
+            "source": "/source-texts/radiation-light-and-illumination/lecture-08/",
+            "workbench": "/chapter-workbench/radiation-light-and-illumination/lecture-08/"
           }
         }
       ],
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/radiation-light-and-illumination/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/radiation-light-and-illumination/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/radiation-light-and-illumination/",
+        "coverage": "/book-coverage/radiation-light-and-illumination/",
+        "source_text": "/source-texts/radiation-light-and-illumination/",
+        "workbench": "/chapter-workbench/radiation-light-and-illumination/",
+        "visual_map": "/diagrams/source-visuals/radiation-light-and-illumination/",
+        "formula_map": "/mathematics/source-formula-maps/radiation-light-and-illumination/",
         "archive": "https://archive.org/details/radiationlightil00steirich"
       }
     },
@@ -1771,7 +1771,7 @@
       "formula_candidates": 300,
       "figure_candidates": 10,
       "promoted_crops": 0,
-      "modern_visual_guides": 6,
+      "modern_visual_guides": 7,
       "quote_candidates": 0,
       "themes": [
         {
@@ -1820,31 +1820,31 @@
           "id": "frequency",
           "label": "Frequency",
           "count": 192,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/frequency/"
+          "link": "/concept-concordance/frequency/"
         },
         {
           "id": "light",
           "label": "Light",
           "count": 44,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/light/"
+          "link": "/concept-concordance/light/"
         },
         {
           "id": "ether",
           "label": "Ether",
           "count": 19,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/ether/"
+          "link": "/concept-concordance/ether/"
         },
         {
           "id": "permeability",
           "label": "Magnetic permeability",
           "count": 13,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/permeability/"
+          "link": "/concept-concordance/permeability/"
         },
         {
           "id": "radiation",
           "label": "Radiation",
           "count": 2,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/radiation/"
+          "link": "/concept-concordance/radiation/"
         }
       ],
       "glossary": [
@@ -1863,8 +1863,8 @@
           "figures": 1,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/section-07/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/section-07/"
+            "source": "/source-texts/theoretical-elements-electrical-engineering/section-07/",
+            "workbench": "/chapter-workbench/theoretical-elements-electrical-engineering/section-07/"
           }
         },
         {
@@ -1875,8 +1875,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/section-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/section-01/"
+            "source": "/source-texts/theoretical-elements-electrical-engineering/section-01/",
+            "workbench": "/chapter-workbench/theoretical-elements-electrical-engineering/section-01/"
           }
         },
         {
@@ -1887,8 +1887,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/section-04/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/section-04/"
+            "source": "/source-texts/theoretical-elements-electrical-engineering/section-04/",
+            "workbench": "/chapter-workbench/theoretical-elements-electrical-engineering/section-04/"
           }
         },
         {
@@ -1899,8 +1899,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/section-03/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/section-03/"
+            "source": "/source-texts/theoretical-elements-electrical-engineering/section-03/",
+            "workbench": "/chapter-workbench/theoretical-elements-electrical-engineering/section-03/"
           }
         },
         {
@@ -1911,8 +1911,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/section-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/section-06/"
+            "source": "/source-texts/theoretical-elements-electrical-engineering/section-06/",
+            "workbench": "/chapter-workbench/theoretical-elements-electrical-engineering/section-06/"
           }
         },
         {
@@ -1923,8 +1923,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/section-05/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/section-05/"
+            "source": "/source-texts/theoretical-elements-electrical-engineering/section-05/",
+            "workbench": "/chapter-workbench/theoretical-elements-electrical-engineering/section-05/"
           }
         },
         {
@@ -1935,8 +1935,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/section-02/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/section-02/"
+            "source": "/source-texts/theoretical-elements-electrical-engineering/section-02/",
+            "workbench": "/chapter-workbench/theoretical-elements-electrical-engineering/section-02/"
           }
         },
         {
@@ -1947,17 +1947,17 @@
           "figures": 1,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/section-19/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/section-19/"
+            "source": "/source-texts/theoretical-elements-electrical-engineering/section-19/",
+            "workbench": "/chapter-workbench/theoretical-elements-electrical-engineering/section-19/"
           }
         }
       ],
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theoretical-elements-electrical-engineering/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/theoretical-elements-electrical-engineering/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/theoretical-elements-electrical-engineering/",
+        "coverage": "/book-coverage/theoretical-elements-electrical-engineering/",
+        "source_text": "/source-texts/theoretical-elements-electrical-engineering/",
+        "workbench": "/chapter-workbench/theoretical-elements-electrical-engineering/",
+        "visual_map": "/diagrams/source-visuals/theoretical-elements-electrical-engineering/",
+        "formula_map": "/mathematics/source-formula-maps/theoretical-elements-electrical-engineering/",
         "archive": "https://archive.org/details/theoreticalelect00steirich"
       }
     },
@@ -1971,7 +1971,7 @@
       "formula_candidates": 300,
       "figure_candidates": 32,
       "promoted_crops": 0,
-      "modern_visual_guides": 0,
+      "modern_visual_guides": 3,
       "quote_candidates": 0,
       "themes": [
         {
@@ -2020,37 +2020,37 @@
           "id": "frequency",
           "label": "Frequency",
           "count": 150,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/frequency/"
+          "link": "/concept-concordance/frequency/"
         },
         {
           "id": "ether",
           "label": "Ether",
           "count": 30,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/ether/"
+          "link": "/concept-concordance/ether/"
         },
         {
           "id": "light",
           "label": "Light",
           "count": 22,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/light/"
+          "link": "/concept-concordance/light/"
         },
         {
           "id": "permeability",
           "label": "Magnetic permeability",
           "count": 7,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/permeability/"
+          "link": "/concept-concordance/permeability/"
         },
         {
           "id": "dielectric-constant",
           "label": "Dielectric constant",
           "count": 1,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/dielectric-constant/"
+          "link": "/concept-concordance/dielectric-constant/"
         },
         {
           "id": "wave-length",
           "label": "Wave length",
           "count": 1,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/wave-length/"
+          "link": "/concept-concordance/wave-length/"
         }
       ],
       "glossary": [
@@ -2074,8 +2074,8 @@
           "figures": 6,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1897/chapter-04/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1897/chapter-04/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena-1897/chapter-04/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena-1897/chapter-04/"
           }
         },
         {
@@ -2086,8 +2086,8 @@
           "figures": 5,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1897/chapter-08/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1897/chapter-08/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena-1897/chapter-08/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena-1897/chapter-08/"
           }
         },
         {
@@ -2098,8 +2098,8 @@
           "figures": 4,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1897/chapter-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1897/chapter-06/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena-1897/chapter-06/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena-1897/chapter-06/"
           }
         },
         {
@@ -2110,8 +2110,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1897/chapter-09/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1897/chapter-09/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena-1897/chapter-09/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena-1897/chapter-09/"
           }
         },
         {
@@ -2122,8 +2122,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1897/chapter-03/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1897/chapter-03/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena-1897/chapter-03/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena-1897/chapter-03/"
           }
         },
         {
@@ -2134,8 +2134,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1897/chapter-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1897/chapter-01/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena-1897/chapter-01/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena-1897/chapter-01/"
           }
         },
         {
@@ -2146,8 +2146,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1897/chapter-05/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1897/chapter-05/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena-1897/chapter-05/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena-1897/chapter-05/"
           }
         },
         {
@@ -2158,17 +2158,17 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1897/chapter-07/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1897/chapter-07/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena-1897/chapter-07/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena-1897/chapter-07/"
           }
         }
       ],
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena-1897/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1897/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1897/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/theory-calculation-alternating-current-phenomena-1897/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/theory-calculation-alternating-current-phenomena-1897/",
+        "coverage": "/book-coverage/theory-calculation-alternating-current-phenomena-1897/",
+        "source_text": "/source-texts/theory-calculation-alternating-current-phenomena-1897/",
+        "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena-1897/",
+        "visual_map": "/diagrams/source-visuals/theory-calculation-alternating-current-phenomena-1897/",
+        "formula_map": "/mathematics/source-formula-maps/theory-calculation-alternating-current-phenomena-1897/",
         "archive": "https://archive.org/details/theoryandcalcul03steigoog"
       }
     },
@@ -2182,7 +2182,7 @@
       "formula_candidates": 300,
       "figure_candidates": 91,
       "promoted_crops": 0,
-      "modern_visual_guides": 1,
+      "modern_visual_guides": 4,
       "quote_candidates": 0,
       "themes": [
         {
@@ -2231,37 +2231,37 @@
           "id": "frequency",
           "label": "Frequency",
           "count": 247,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/frequency/"
+          "link": "/concept-concordance/frequency/"
         },
         {
           "id": "ether",
           "label": "Ether",
           "count": 35,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/ether/"
+          "link": "/concept-concordance/ether/"
         },
         {
           "id": "light",
           "label": "Light",
           "count": 27,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/light/"
+          "link": "/concept-concordance/light/"
         },
         {
           "id": "permeability",
           "label": "Magnetic permeability",
           "count": 8,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/permeability/"
+          "link": "/concept-concordance/permeability/"
         },
         {
           "id": "wave-length",
           "label": "Wave length",
           "count": 3,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/wave-length/"
+          "link": "/concept-concordance/wave-length/"
         },
         {
           "id": "dielectric-constant",
           "label": "Dielectric constant",
           "count": 1,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/dielectric-constant/"
+          "link": "/concept-concordance/dielectric-constant/"
         }
       ],
       "glossary": [
@@ -2285,8 +2285,8 @@
           "figures": 8,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1900/chapter-04/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/chapter-04/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena-1900/chapter-04/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/chapter-04/"
           }
         },
         {
@@ -2297,8 +2297,8 @@
           "figures": 8,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1900/chapter-08/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/chapter-08/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena-1900/chapter-08/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/chapter-08/"
           }
         },
         {
@@ -2309,8 +2309,8 @@
           "figures": 7,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1900/chapter-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/chapter-06/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena-1900/chapter-06/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/chapter-06/"
           }
         },
         {
@@ -2321,8 +2321,8 @@
           "figures": 3,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1900/chapter-05/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/chapter-05/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena-1900/chapter-05/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/chapter-05/"
           }
         },
         {
@@ -2333,8 +2333,8 @@
           "figures": 2,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1900/chapter-02/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/chapter-02/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena-1900/chapter-02/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/chapter-02/"
           }
         },
         {
@@ -2345,8 +2345,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1900/chapter-03/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/chapter-03/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena-1900/chapter-03/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/chapter-03/"
           }
         },
         {
@@ -2357,8 +2357,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1900/chapter-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/chapter-01/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena-1900/chapter-01/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/chapter-01/"
           }
         },
         {
@@ -2369,17 +2369,17 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1900/chapter-07/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/chapter-07/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena-1900/chapter-07/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/chapter-07/"
           }
         }
       ],
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena-1900/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1900/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/theory-calculation-alternating-current-phenomena-1900/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/theory-calculation-alternating-current-phenomena-1900/",
+        "coverage": "/book-coverage/theory-calculation-alternating-current-phenomena-1900/",
+        "source_text": "/source-texts/theory-calculation-alternating-current-phenomena-1900/",
+        "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/",
+        "visual_map": "/diagrams/source-visuals/theory-calculation-alternating-current-phenomena-1900/",
+        "formula_map": "/mathematics/source-formula-maps/theory-calculation-alternating-current-phenomena-1900/",
         "archive": "https://archive.org/details/theorycalculatio00steiiala"
       }
     },
@@ -2393,7 +2393,7 @@
       "formula_candidates": 300,
       "figure_candidates": 145,
       "promoted_crops": 4,
-      "modern_visual_guides": 4,
+      "modern_visual_guides": 8,
       "quote_candidates": 0,
       "themes": [
         {
@@ -2442,49 +2442,49 @@
           "id": "frequency",
           "label": "Frequency",
           "count": 210,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/frequency/"
+          "link": "/concept-concordance/frequency/"
         },
         {
           "id": "ether",
           "label": "Ether",
           "count": 41,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/ether/"
+          "link": "/concept-concordance/ether/"
         },
         {
           "id": "light",
           "label": "Light",
           "count": 30,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/light/"
+          "link": "/concept-concordance/light/"
         },
         {
           "id": "permeability",
           "label": "Magnetic permeability",
           "count": 10,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/permeability/"
+          "link": "/concept-concordance/permeability/"
         },
         {
           "id": "radiation",
           "label": "Radiation",
           "count": 3,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/radiation/"
+          "link": "/concept-concordance/radiation/"
         },
         {
           "id": "velocity-of-light",
           "label": "Velocity of light",
           "count": 2,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/velocity-of-light/"
+          "link": "/concept-concordance/velocity-of-light/"
         },
         {
           "id": "dielectric-constant",
           "label": "Dielectric constant",
           "count": 2,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/dielectric-constant/"
+          "link": "/concept-concordance/dielectric-constant/"
         },
         {
           "id": "wave-length",
           "label": "Wave length",
           "count": 1,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/wave-length/"
+          "link": "/concept-concordance/wave-length/"
         }
       ],
       "glossary": [
@@ -2523,8 +2523,8 @@
           "figures": 8,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-06/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-06/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-06/"
           }
         },
         {
@@ -2535,8 +2535,8 @@
           "figures": 8,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-09/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-09/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-09/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-09/"
           }
         },
         {
@@ -2547,8 +2547,8 @@
           "figures": 7,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-07/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-07/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-07/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-07/"
           }
         },
         {
@@ -2559,8 +2559,8 @@
           "figures": 4,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-04/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-04/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-04/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-04/"
           }
         },
         {
@@ -2571,8 +2571,8 @@
           "figures": 2,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-02/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-02/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-02/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-02/"
           }
         },
         {
@@ -2583,8 +2583,8 @@
           "figures": 1,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
           }
         },
         {
@@ -2595,8 +2595,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-01/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-01/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-01/"
           }
         },
         {
@@ -2607,17 +2607,17 @@
           "figures": 1,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-08/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-08/"
+            "source": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-08/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-08/"
           }
         }
       ],
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/theory-calculation-alternating-current-phenomena/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/theory-calculation-alternating-current-phenomena/",
+        "coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+        "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/",
+        "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/",
+        "visual_map": "/diagrams/source-visuals/theory-calculation-alternating-current-phenomena/",
+        "formula_map": "/mathematics/source-formula-maps/theory-calculation-alternating-current-phenomena/",
         "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
       }
     },
@@ -2631,7 +2631,7 @@
       "formula_candidates": 300,
       "figure_candidates": 13,
       "promoted_crops": 0,
-      "modern_visual_guides": 1,
+      "modern_visual_guides": 2,
       "quote_candidates": 0,
       "themes": [
         {
@@ -2680,37 +2680,37 @@
           "id": "frequency",
           "label": "Frequency",
           "count": 518,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/frequency/"
+          "link": "/concept-concordance/frequency/"
         },
         {
           "id": "light",
           "label": "Light",
           "count": 36,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/light/"
+          "link": "/concept-concordance/light/"
         },
         {
           "id": "ether",
           "label": "Ether",
           "count": 34,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/ether/"
+          "link": "/concept-concordance/ether/"
         },
         {
           "id": "illumination",
           "label": "Illumination",
           "count": 1,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/illumination/"
+          "link": "/concept-concordance/illumination/"
         },
         {
           "id": "radiation",
           "label": "Radiation",
           "count": 1,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/radiation/"
+          "link": "/concept-concordance/radiation/"
         },
         {
           "id": "permeability",
           "label": "Magnetic permeability",
           "count": 1,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/permeability/"
+          "link": "/concept-concordance/permeability/"
         }
       ],
       "glossary": [
@@ -2729,8 +2729,8 @@
           "figures": 1,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-apparatus/chapter-03/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-apparatus/chapter-03/"
+            "source": "/source-texts/theory-calculation-electric-apparatus/chapter-03/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-apparatus/chapter-03/"
           }
         },
         {
@@ -2741,8 +2741,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-apparatus/chapter-02/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-apparatus/chapter-02/"
+            "source": "/source-texts/theory-calculation-electric-apparatus/chapter-02/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-apparatus/chapter-02/"
           }
         },
         {
@@ -2753,8 +2753,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-apparatus/chapter-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-apparatus/chapter-01/"
+            "source": "/source-texts/theory-calculation-electric-apparatus/chapter-01/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-apparatus/chapter-01/"
           }
         },
         {
@@ -2765,8 +2765,8 @@
           "figures": 5,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-apparatus/chapter-18/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-apparatus/chapter-18/"
+            "source": "/source-texts/theory-calculation-electric-apparatus/chapter-18/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-apparatus/chapter-18/"
           }
         },
         {
@@ -2777,8 +2777,8 @@
           "figures": 3,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-apparatus/chapter-17/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-apparatus/chapter-17/"
+            "source": "/source-texts/theory-calculation-electric-apparatus/chapter-17/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-apparatus/chapter-17/"
           }
         },
         {
@@ -2789,8 +2789,8 @@
           "figures": 1,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-apparatus/chapter-20/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-apparatus/chapter-20/"
+            "source": "/source-texts/theory-calculation-electric-apparatus/chapter-20/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-apparatus/chapter-20/"
           }
         },
         {
@@ -2801,8 +2801,8 @@
           "figures": 1,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-apparatus/chapter-12/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-apparatus/chapter-12/"
+            "source": "/source-texts/theory-calculation-electric-apparatus/chapter-12/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-apparatus/chapter-12/"
           }
         },
         {
@@ -2813,17 +2813,17 @@
           "figures": 1,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-apparatus/chapter-14/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-apparatus/chapter-14/"
+            "source": "/source-texts/theory-calculation-electric-apparatus/chapter-14/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-apparatus/chapter-14/"
           }
         }
       ],
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-electric-apparatus/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-apparatus/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-apparatus/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/theory-calculation-electric-apparatus/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/theory-calculation-electric-apparatus/",
+        "coverage": "/book-coverage/theory-calculation-electric-apparatus/",
+        "source_text": "/source-texts/theory-calculation-electric-apparatus/",
+        "workbench": "/chapter-workbench/theory-calculation-electric-apparatus/",
+        "visual_map": "/diagrams/source-visuals/theory-calculation-electric-apparatus/",
+        "formula_map": "/mathematics/source-formula-maps/theory-calculation-electric-apparatus/",
         "archive": "https://archive.org/details/theoryandcalcul04steigoog"
       }
     },
@@ -2837,7 +2837,7 @@
       "formula_candidates": 300,
       "figure_candidates": 37,
       "promoted_crops": 0,
-      "modern_visual_guides": 2,
+      "modern_visual_guides": 5,
       "quote_candidates": 0,
       "themes": [
         {
@@ -2886,55 +2886,55 @@
           "id": "frequency",
           "label": "Frequency",
           "count": 79,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/frequency/"
+          "link": "/concept-concordance/frequency/"
         },
         {
           "id": "light",
           "label": "Light",
           "count": 39,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/light/"
+          "link": "/concept-concordance/light/"
         },
         {
           "id": "ether",
           "label": "Ether",
           "count": 30,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/ether/"
+          "link": "/concept-concordance/ether/"
         },
         {
           "id": "radiation",
           "label": "Radiation",
           "count": 7,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/radiation/"
+          "link": "/concept-concordance/radiation/"
         },
         {
           "id": "permeability",
           "label": "Magnetic permeability",
           "count": 5,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/permeability/"
+          "link": "/concept-concordance/permeability/"
         },
         {
           "id": "arc-lamp",
           "label": "Arc lamp",
           "count": 5,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/arc-lamp/"
+          "link": "/concept-concordance/arc-lamp/"
         },
         {
           "id": "luminescence",
           "label": "Luminescence",
           "count": 4,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/luminescence/"
+          "link": "/concept-concordance/luminescence/"
         },
         {
           "id": "illumination",
           "label": "Illumination",
           "count": 2,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/illumination/"
+          "link": "/concept-concordance/illumination/"
         },
         {
           "id": "spectrum",
           "label": "Spectrum",
           "count": 1,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/spectrum/"
+          "link": "/concept-concordance/spectrum/"
         }
       ],
       "glossary": [
@@ -2953,8 +2953,8 @@
           "figures": 6,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-circuits/chapter-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-circuits/chapter-01/"
+            "source": "/source-texts/theory-calculation-electric-circuits/chapter-01/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-circuits/chapter-01/"
           }
         },
         {
@@ -2965,8 +2965,8 @@
           "figures": 4,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-circuits/chapter-04/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-circuits/chapter-04/"
+            "source": "/source-texts/theory-calculation-electric-circuits/chapter-04/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-circuits/chapter-04/"
           }
         },
         {
@@ -2977,8 +2977,8 @@
           "figures": 1,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-circuits/chapter-02/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-circuits/chapter-02/"
+            "source": "/source-texts/theory-calculation-electric-circuits/chapter-02/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-circuits/chapter-02/"
           }
         },
         {
@@ -2989,8 +2989,8 @@
           "figures": 1,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-circuits/chapter-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-circuits/chapter-06/"
+            "source": "/source-texts/theory-calculation-electric-circuits/chapter-06/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-circuits/chapter-06/"
           }
         },
         {
@@ -3001,8 +3001,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-circuits/chapter-05/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-circuits/chapter-05/"
+            "source": "/source-texts/theory-calculation-electric-circuits/chapter-05/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-circuits/chapter-05/"
           }
         },
         {
@@ -3013,8 +3013,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-circuits/chapter-03/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-circuits/chapter-03/"
+            "source": "/source-texts/theory-calculation-electric-circuits/chapter-03/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-circuits/chapter-03/"
           }
         },
         {
@@ -3025,8 +3025,8 @@
           "figures": 8,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-circuits/chapter-10/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-circuits/chapter-10/"
+            "source": "/source-texts/theory-calculation-electric-circuits/chapter-10/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-circuits/chapter-10/"
           }
         },
         {
@@ -3037,17 +3037,17 @@
           "figures": 6,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-circuits/chapter-14/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-circuits/chapter-14/"
+            "source": "/source-texts/theory-calculation-electric-circuits/chapter-14/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-circuits/chapter-14/"
           }
         }
       ],
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-electric-circuits/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-circuits/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-circuits/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/theory-calculation-electric-circuits/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/theory-calculation-electric-circuits/",
+        "coverage": "/book-coverage/theory-calculation-electric-circuits/",
+        "source_text": "/source-texts/theory-calculation-electric-circuits/",
+        "workbench": "/chapter-workbench/theory-calculation-electric-circuits/",
+        "visual_map": "/diagrams/source-visuals/theory-calculation-electric-circuits/",
+        "formula_map": "/mathematics/source-formula-maps/theory-calculation-electric-circuits/",
         "archive": "https://archive.org/details/theoryandcalcul06steigoog"
       }
     },
@@ -3061,7 +3061,7 @@
       "formula_candidates": 300,
       "figure_candidates": 1,
       "promoted_crops": 6,
-      "modern_visual_guides": 1,
+      "modern_visual_guides": 4,
       "quote_candidates": 0,
       "themes": [
         {
@@ -3110,61 +3110,61 @@
           "id": "frequency",
           "label": "Frequency",
           "count": 369,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/frequency/"
+          "link": "/concept-concordance/frequency/"
         },
         {
           "id": "wave-length",
           "label": "Wave length",
           "count": 111,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/wave-length/"
+          "link": "/concept-concordance/wave-length/"
         },
         {
           "id": "light",
           "label": "Light",
           "count": 95,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/light/"
+          "link": "/concept-concordance/light/"
         },
         {
           "id": "radiation",
           "label": "Radiation",
           "count": 36,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/radiation/"
+          "link": "/concept-concordance/radiation/"
         },
         {
           "id": "ether",
           "label": "Ether",
           "count": 19,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/ether/"
+          "link": "/concept-concordance/ether/"
         },
         {
           "id": "permeability",
           "label": "Magnetic permeability",
           "count": 15,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/permeability/"
+          "link": "/concept-concordance/permeability/"
         },
         {
           "id": "refraction",
           "label": "Refraction",
           "count": 11,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/refraction/"
+          "link": "/concept-concordance/refraction/"
         },
         {
           "id": "dielectric-constant",
           "label": "Dielectric constant",
           "count": 6,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/dielectric-constant/"
+          "link": "/concept-concordance/dielectric-constant/"
         },
         {
           "id": "velocity-of-light",
           "label": "Velocity of light",
           "count": 5,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/velocity-of-light/"
+          "link": "/concept-concordance/velocity-of-light/"
         },
         {
           "id": "ultraviolet",
           "label": "Ultra-violet radiation",
           "count": 3,
-          "link": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/ultraviolet/"
+          "link": "/concept-concordance/ultraviolet/"
         }
       ],
       "glossary": [
@@ -3193,8 +3193,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-24/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-24/"
+            "source": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-24/",
+            "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-24/"
           }
         },
         {
@@ -3205,8 +3205,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-23/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-23/"
+            "source": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-23/",
+            "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-23/"
           }
         },
         {
@@ -3217,8 +3217,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-25/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-25/"
+            "source": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-25/",
+            "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-25/"
           }
         },
         {
@@ -3229,8 +3229,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-26/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-26/"
+            "source": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-26/",
+            "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-26/"
           }
         },
         {
@@ -3241,8 +3241,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-12/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-12/"
+            "source": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-12/",
+            "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-12/"
           }
         },
         {
@@ -3253,8 +3253,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-06/"
+            "source": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-06/",
+            "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-06/"
           }
         },
         {
@@ -3265,8 +3265,8 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-19/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-19/"
+            "source": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-19/",
+            "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-19/"
           }
         },
         {
@@ -3277,17 +3277,17 @@
           "figures": 0,
           "quotes": 0,
           "links": {
-            "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-15/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-15/"
+            "source": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-15/",
+            "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-15/"
           }
         }
       ],
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/theory-calculation-transient-electric-phenomena-oscillations/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/theory-calculation-transient-electric-phenomena-oscillations/",
+        "coverage": "/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
+        "source_text": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/",
+        "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/",
+        "visual_map": "/diagrams/source-visuals/theory-calculation-transient-electric-phenomena-oscillations/",
+        "formula_map": "/mathematics/source-formula-maps/theory-calculation-transient-electric-phenomena-oscillations/",
         "archive": "https://archive.org/details/transelectricphenom00steirich"
       }
     }

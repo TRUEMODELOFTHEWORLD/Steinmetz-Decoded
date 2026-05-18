@@ -261,18 +261,14 @@ pagefind: false
 
 {GENERATED_NOTE}
 
-## Source Text Reader
+## Choose A Section To Read
 
-These pages expose the current processed chapter, lecture, section, or report text for this source. They are working research text, not corrected critical editions.
+Open a section below to read Steinmetz directly. The text is a cleaned candidate reading layer, with scan verification available when exact wording matters.
 
 <div class="source-access-actions">
-  {first_link}
+  {first_link.replace("Start reading first section", "Start reading")}
   <a href="{BASE_URL}{source_site_path}">Open curated source overview</a>
-  <a href="{BASE_URL}/chapter-workbench/{source_id}/">Open generated chapter workbench</a>
-</div>
-
-<div class="source-text-warning" data-layer="source">
-  <strong>Status:</strong> OCR/PDF text is useful for research navigation, but exact quotation still requires scan verification.
+  <a href="{BASE_URL}/chapter-workbench/{source_id}/">Research review workspace</a>
 </div>
 
 ## Sections
@@ -280,6 +276,11 @@ These pages expose the current processed chapter, lecture, section, or report te
 <div class="source-section-grid">
 {cards_text}
 </div>
+
+<details class="source-reader-notes" data-layer="source">
+  <summary>Verification note</summary>
+  <p>Use these pages for reading and discovery. Exact quotations, equations, captions, and page labels still need comparison with the original scan.</p>
+</details>
 """
 
 
@@ -319,6 +320,11 @@ def build_reader_page(
         if internet_archive_id
         else '<span>No public scan listed yet</span>'
     )
+    archive_note = (
+        f'<a href="https://archive.org/details/{html_escape(internet_archive_id)}">Archive.org scan</a>'
+        if internet_archive_id
+        else '<span>No Archive.org scan listed yet</span>'
+    )
     github_link = github_blob_url(record.get("text_path") or "")
 
     return f"""---
@@ -341,7 +347,7 @@ pagefind: false
     <nav class="source-reader-actions" aria-label="Source reader actions">
       {scan_link}
       <a href="{BASE_URL}/source-texts/{source_id}/">Source index</a>
-      <a href="{BASE_URL}/chapter-workbench/{source_id}/{source_page_slug(record)}/#chapter-local-concept-hits">Research workbench</a>
+      <a href="{BASE_URL}/chapter-workbench/{source_id}/{source_page_slug(record)}/#chapter-local-concept-hits">Research review</a>
     </nav>
   </div>
 
@@ -361,7 +367,7 @@ pagefind: false
   <summary>Verification notes and tags</summary>
   <p>This reader is optimized for study and discovery. Treat the text as a candidate reading layer until exact wording, equations, captions, and page labels are checked against the original scan.</p>
   <p>{html_escape(status_note(status))}</p>
-  <p class="source-reader-secondary-links"><a href="{BASE_URL}{source_site_path}">Source overview</a> <a href="https://archive.org/details/{html_escape(internet_archive_id)}">Archive.org scan</a> <a href="{github_link}">Text file on GitHub</a></p>
+  <p class="source-reader-secondary-links"><a href="{BASE_URL}{source_site_path}">Source overview</a> {archive_note} <a href="{github_link}">Text file on GitHub</a></p>
   <div class="source-text-tags" data-layer="source">
     {tag_links}
   </div>
@@ -418,13 +424,13 @@ pagefind: false
 
 {GENERATED_NOTE}
 
-The source text browser is the archive's broad reading layer. It exposes every processed chapter, lecture, section, and report division generated from OCR or embedded PDF text.
+The source text browser is the archive's broad reading layer. Choose a book, then choose a section, and the site opens directly into the reader.
 
-It is deliberately labeled as working text. These pages let researchers read widely now, while the project continues scan verification, corrected transcriptions, equation cleanup, diagram extraction, and deep commentary.
-
-<div class="source-text-warning" data-layer="source">
-  <strong>{total_sections} processed text sections are currently public in this generated browser.</strong>
-  <p>Use these pages for discovery and broad reading. Use scan-verified pages for exact quotation and canonical mathematical claims.</p>
+<div class="source-access source-reader-hero">
+  <div>
+    <strong>{total_sections} processed source sections</strong>
+    <p>Use this page when you want Steinmetz's text first, before commentary, dashboards, or research workbenches.</p>
+  </div>
 </div>
 
 ## Source Indexes
@@ -433,13 +439,15 @@ It is deliberately labeled as working text. These pages let researchers read wid
 {cards_text}
 </div>
 
-## How To Use This Browser
+<details class="source-reader-notes" data-layer="source">
+  <summary>How to use this browser</summary>
 
 1. Open a source index.
 2. Read the generated text page for a chapter or section.
 3. Follow concept tags into curated pages when available.
 4. Treat OCR/PDF text as candidate material until scan verification is complete.
 5. Promote important passages into concept, equation, diagram, glossary, comparison, or hidden-gem pages only after checking the source image.
+</details>
 """
 
 

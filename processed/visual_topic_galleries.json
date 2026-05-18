@@ -38,10 +38,10 @@
         "reflection"
       ],
       "links": {
-        "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/visual-topic-galleries/radiation-light-spectrum/",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/",
-        "figure_atlas": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/figure-candidate-atlas/",
-        "equation_atlas": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/equation-atlas/"
+        "page": "/diagrams/visual-topic-galleries/radiation-light-spectrum/",
+        "diagram_archive": "/diagrams/",
+        "figure_atlas": "/diagrams/figure-candidate-atlas/",
+        "equation_atlas": "/mathematics/equation-atlas/"
       }
     },
     {
@@ -82,10 +82,10 @@
         "quadrature"
       ],
       "links": {
-        "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/visual-topic-galleries/ac-symbolic-geometry/",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/",
-        "figure_atlas": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/figure-candidate-atlas/",
-        "equation_atlas": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/equation-atlas/"
+        "page": "/diagrams/visual-topic-galleries/ac-symbolic-geometry/",
+        "diagram_archive": "/diagrams/",
+        "figure_atlas": "/diagrams/figure-candidate-atlas/",
+        "equation_atlas": "/mathematics/equation-atlas/"
       }
     },
     {
@@ -126,10 +126,10 @@
         "standing"
       ],
       "links": {
-        "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/visual-topic-galleries/transients-surges-oscillations/",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/",
-        "figure_atlas": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/figure-candidate-atlas/",
-        "equation_atlas": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/equation-atlas/"
+        "page": "/diagrams/visual-topic-galleries/transients-surges-oscillations/",
+        "diagram_archive": "/diagrams/",
+        "figure_atlas": "/diagrams/figure-candidate-atlas/",
+        "equation_atlas": "/mathematics/equation-atlas/"
       }
     },
     {
@@ -167,10 +167,10 @@
         "flux"
       ],
       "links": {
-        "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/visual-topic-galleries/magnetism-hysteresis-machines/",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/",
-        "figure_atlas": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/figure-candidate-atlas/",
-        "equation_atlas": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/equation-atlas/"
+        "page": "/diagrams/visual-topic-galleries/magnetism-hysteresis-machines/",
+        "diagram_archive": "/diagrams/",
+        "figure_atlas": "/diagrams/figure-candidate-atlas/",
+        "equation_atlas": "/mathematics/equation-atlas/"
       }
     },
     {
@@ -206,10 +206,10 @@
         "distributed"
       ],
       "links": {
-        "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/visual-topic-galleries/dielectric-field-energy/",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/",
-        "figure_atlas": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/figure-candidate-atlas/",
-        "equation_atlas": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/equation-atlas/"
+        "page": "/diagrams/visual-topic-galleries/dielectric-field-energy/",
+        "diagram_archive": "/diagrams/",
+        "figure_atlas": "/diagrams/figure-candidate-atlas/",
+        "equation_atlas": "/mathematics/equation-atlas/"
       }
     },
     {
@@ -246,10 +246,10 @@
         "short-circuit"
       ],
       "links": {
-        "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/visual-topic-galleries/power-systems-reactors/",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/",
-        "figure_atlas": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/figure-candidate-atlas/",
-        "equation_atlas": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/equation-atlas/"
+        "page": "/diagrams/visual-topic-galleries/power-systems-reactors/",
+        "diagram_archive": "/diagrams/",
+        "figure_atlas": "/diagrams/figure-candidate-atlas/",
+        "equation_atlas": "/mathematics/equation-atlas/"
       }
     },
     {
@@ -284,10 +284,10 @@
         "maxwell"
       ],
       "links": {
-        "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/visual-topic-galleries/ether-field-relativity/",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/",
-        "figure_atlas": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/figure-candidate-atlas/",
-        "equation_atlas": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/equation-atlas/"
+        "page": "/diagrams/visual-topic-galleries/ether-field-relativity/",
+        "diagram_archive": "/diagrams/",
+        "figure_atlas": "/diagrams/figure-candidate-atlas/",
+        "equation_atlas": "/mathematics/equation-atlas/"
       }
     },
     {
@@ -319,10 +319,10 @@
         "visibility"
       ],
       "links": {
-        "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/visual-topic-galleries/illumination-engineering/",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/",
-        "figure_atlas": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/figure-candidate-atlas/",
-        "equation_atlas": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/equation-atlas/"
+        "page": "/diagrams/visual-topic-galleries/illumination-engineering/",
+        "diagram_archive": "/diagrams/",
+        "figure_atlas": "/diagrams/figure-candidate-atlas/",
+        "equation_atlas": "/mathematics/equation-atlas/"
       }
     }
   ]

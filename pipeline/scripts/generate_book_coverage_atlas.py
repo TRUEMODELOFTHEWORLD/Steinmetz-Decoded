@@ -15,6 +15,7 @@ from collections import Counter, defaultdict
 from datetime import date
 from pathlib import Path
 from typing import Any
+from urllib.parse import quote
 
 
 BASE_URL = ""
@@ -106,10 +107,19 @@ def chip_href(item: dict[str, Any], kind: str) -> str:
     if kind == "theme":
         return f"{BASE_URL}/theme-evidence/#{slug}"
     if kind == "concept":
-        return f"{BASE_URL}/concept-concordance/#{slug}"
+        return f"{BASE_URL}/concept-concordance/{slug}/"
     if kind == "glossary":
         return f"{BASE_URL}/glossary/#{slug}"
     return ""
+
+
+def focused_reader_url(url: str | None, term: str | None = None) -> str:
+    if not url:
+        return ""
+    if not term:
+        return url
+    separator = "&" if "?" in url else "?"
+    return f"{url}{separator}q={quote(term)}#source-text-reader"
 
 
 def archive_url(source: dict[str, Any]) -> str:
@@ -205,7 +215,7 @@ def aggregate_records(source: dict[str, Any], records: list[dict[str, Any]]) -> 
                 "figure_count": figure_count,
                 "quote_count": quote_count,
                 "links": {
-                    "source_text": site_link((links.get("source_text") or f"/source-texts/{source['source_id']}/{record.get('slug')}/").replace("/Charles-Proteus-Steinmetz-Texts-AI-Decoded", "")),
+                    "source_text": site_link(links.get("source_text") or f"/source-texts/{source['source_id']}/{record.get('slug')}/"),
                     "workbench": site_link(f"/chapter-workbench/{source['source_id']}/{record.get('slug')}/"),
                     "asset": links.get("asset"),
                     "github_text": links.get("github_text"),
@@ -486,7 +496,7 @@ def section_table_rows(source: dict[str, Any]) -> str:
         rows.append(
             "<tr>"
             f'<td><a href="{html_escape(section["links"]["source_text"])}">{html_escape(section["label"])}</a>'
-            f'<br /><a class="coverage-small-link" href="{html_escape(section["links"]["workbench"])}">workbench</a></td>'
+            f'<br /><a class="coverage-small-link" href="{html_escape(section["links"]["workbench"])}">research review</a></td>'
             f"<td>{format_number(int(section.get('word_count') or 0))}</td>"
             f"<td>{html_escape(themes or 'pending')}</td>"
             f"<td>{html_escape(concepts or 'pending')}</td>"
@@ -516,7 +526,7 @@ def priority_table_rows(source: dict[str, Any]) -> str:
             f'<td><a href="{html_escape(section["links"]["source_text"])}">{html_escape(section["label"])}</a></td>'
             f"<td>{html_escape(', '.join(section.get('top_themes') or []) or 'pending')}</td>"
             f"<td>{html_escape('; '.join(reasons) or 'substantial source section')}</td>"
-            f'<td><a href="{html_escape(section["links"]["workbench"])}">Open workbench</a></td>'
+            f'<td><a href="{html_escape(section["links"]["workbench"])}">Research review</a></td>'
             "</tr>"
         )
     return "\n".join(rows)
@@ -542,7 +552,8 @@ def study_link_list(sections: list[dict[str, Any]], empty: str) -> str:
         return f"<p>{html_escape(empty)}</p>"
     items = []
     for section in sections:
-        themes = ", ".join(section.get("top_themes") or [])
+        theme_values = section.get("top_themes") or []
+        themes = ", ".join(theme_values)
         counts = []
         if section.get("equation_count"):
             counts.append(f"{section['equation_count']} eq.")
@@ -552,11 +563,13 @@ def study_link_list(sections: list[dict[str, Any]], empty: str) -> str:
             counts.append(f"{section['quote_count']} quote")
         meta = "; ".join(counts) or f"{format_number(int(section.get('word_count') or 0))} words"
         links = section.get("links") or {}
+        focus_term = (theme_values[0] if theme_values else section.get("label") or "")
+        source_link = focused_reader_url(links.get("source_text"), focus_term)
         items.append(
             "<li>"
-            f'<a href="{html_escape(links.get("source_text"))}">{html_escape(section.get("label"))}</a>'
+            f'<a href="{html_escape(source_link)}">{html_escape(section.get("label"))}</a>'
             f'<span>{html_escape(themes or "general section")} - {html_escape(meta)} - '
-            f'<a href="{html_escape(links.get("workbench"))}">workbench</a></span>'
+            f'<a href="{html_escape(links.get("workbench"))}">research review</a></span>'
             "</li>"
         )
     return f"<ul class=\"study-link-list\">\n{''.join(items)}\n</ul>"
@@ -608,7 +621,7 @@ def source_study_guide(source: dict[str, Any]) -> str:
 def write_source_page(root: Path, source: dict[str, Any]) -> None:
     cards = "\n".join(
         [
-            stat_card("processed sections", source["section_count"], "all linked to source text and workbench"),
+            stat_card("processed sections", source["section_count"], "all linked to source text and research review"),
             stat_card("processed words", format_number(int(source.get("word_total") or 0)), "candidate reader text"),
             stat_card("equation candidates", format_number(int(source.get("equation_candidate_count") or 0)), "OCR/PDF-derived review seeds"),
             stat_card("figure candidates", format_number(int(source.get("figure_candidate_count") or 0)), "figure references and crops"),
@@ -640,7 +653,7 @@ description: {yaml_quote("Reader-first guide, source text links, and research me
 <div class="source-access source-reader-hero">
   <div>
     <strong>{html_escape(source["title"])}</strong>
-    <p>Year: {html_escape(source.get("year") or "n.d.")}. A public doorway into the processed source text, strongest sections, diagrams, equations, and verification work for this source.</p>
+    <p>Year: {html_escape(source.get("year") or "n.d.")}. Start with the source text, then branch into diagrams, formulas, and verification material only when you need them.</p>
   </div>
   <div class="source-access-actions">
     <a href="{html_escape(source["links"]["source_text_index"])}">Read source text</a>
@@ -668,7 +681,7 @@ description: {yaml_quote("Reader-first guide, source text links, and research me
 
 <details class="research-metadata">
   <summary>Research metadata and full section map</summary>
-  <p>This layer preserves the rigorous candidate data behind the public reader. Counts and tags are routing aids, not final scan verification.</p>
+  <p>This layer preserves the rigorous candidate data behind the public reader. Counts and tags are routing aids for researchers, not final scan verification and not the recommended first path for casual reading.</p>
 
   <h2>Coverage Summary</h2>
 

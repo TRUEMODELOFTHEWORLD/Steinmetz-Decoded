@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08",
+  "generated_at": "2026-05-18",
   "quality_note": "Authority and completion matrix. This is a control layer, not a claim that unprocessed works have been decoded.",
   "basis": {
     "bibliography_manifest": "sources/steinmetz_bibliography_manifest.json",
@@ -559,10 +559,10 @@
         "Promote strongest passages into concept, math, diagram, and glossary pages."
       ],
       "links": {
-        "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theoretical-elements-electrical-engineering/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/",
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theoretical-elements-electrical-engineering/"
+        "source": "/sources/theoretical-elements-electrical-engineering/",
+        "source_text": "/source-texts/theoretical-elements-electrical-engineering/",
+        "workbench": "/chapter-workbench/theoretical-elements-electrical-engineering/",
+        "coverage": "/book-coverage/theoretical-elements-electrical-engineering/"
       },
       "catalog_status": "source-specific part/section split and candidate catalogs from OCR"
     },
@@ -593,10 +593,10 @@
         "Promote strongest passages into concept, math, diagram, and glossary pages."
       ],
       "links": {
-        "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/radiation-light-and-illumination/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/",
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/radiation-light-and-illumination/"
+        "source": "/sources/radiation-light-and-illumination/",
+        "source_text": "/source-texts/radiation-light-and-illumination/",
+        "workbench": "/chapter-workbench/radiation-light-and-illumination/",
+        "coverage": "/book-coverage/radiation-light-and-illumination/"
       },
       "catalog_status": "lecture splits, candidate equations, figures, concepts, glossary, quotes"
     },
@@ -627,10 +627,10 @@
         "Promote strongest passages into concept, math, diagram, and glossary pages."
       ],
       "links": {
-        "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/elementary-lectures-electric-discharges-waves-impulses/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/elementary-lectures-electric-discharges-waves-impulses/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/",
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/elementary-lectures-electric-discharges-waves-impulses/"
+        "source": "/sources/elementary-lectures-electric-discharges-waves-impulses/",
+        "source_text": "/source-texts/elementary-lectures-electric-discharges-waves-impulses/",
+        "workbench": "/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/",
+        "coverage": "/book-coverage/elementary-lectures-electric-discharges-waves-impulses/"
       },
       "catalog_status": "lecture splits and candidate catalogs from OCR"
     },
@@ -661,10 +661,10 @@
         "Promote strongest passages into concept, math, diagram, and glossary pages."
       ],
       "links": {
-        "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/engineering-mathematics/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/engineering-mathematics/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/engineering-mathematics/",
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/engineering-mathematics/"
+        "source": "/sources/engineering-mathematics/",
+        "source_text": "/source-texts/engineering-mathematics/",
+        "workbench": "/chapter-workbench/engineering-mathematics/",
+        "coverage": "/book-coverage/engineering-mathematics/"
       },
       "catalog_status": "chapter splits and candidate catalogs from OCR"
     },
@@ -695,10 +695,10 @@
         "Promote strongest passages into concept, math, diagram, and glossary pages."
       ],
       "links": {
-        "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-transient-electric-phenomena-oscillations/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/",
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/"
+        "source": "/sources/theory-calculation-transient-electric-phenomena-oscillations/",
+        "source_text": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/",
+        "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/",
+        "coverage": "/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/"
       },
       "catalog_status": "chapter splits and candidate catalogs from OCR; multi-section numbering requires review"
     },
@@ -729,10 +729,10 @@
         "Promote strongest passages into concept, math, diagram, and glossary pages."
       ],
       "links": {
-        "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-electric-apparatus/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-apparatus/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-apparatus/",
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-electric-apparatus/"
+        "source": "/sources/theory-calculation-electric-apparatus/",
+        "source_text": "/source-texts/theory-calculation-electric-apparatus/",
+        "workbench": "/chapter-workbench/theory-calculation-electric-apparatus/",
+        "coverage": "/book-coverage/theory-calculation-electric-apparatus/"
       },
       "catalog_status": "Internet Archive OCR downloaded; chapter splits and candidate catalogs generated"
     },
@@ -763,10 +763,10 @@
         "Promote strongest passages into concept, math, diagram, and glossary pages."
       ],
       "links": {
-        "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena-1897/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1897/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1897/",
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena-1897/"
+        "source": "/sources/theory-calculation-alternating-current-phenomena-1897/",
+        "source_text": "/source-texts/theory-calculation-alternating-current-phenomena-1897/",
+        "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena-1897/",
+        "coverage": "/book-coverage/theory-calculation-alternating-current-phenomena-1897/"
       },
       "catalog_status": "Internet Archive OCR downloaded; chapter/lecture candidates and candidate catalogs generated; scan and edition alignment require review"
     },
@@ -797,10 +797,10 @@
         "Promote strongest passages into concept, math, diagram, and glossary pages."
       ],
       "links": {
-        "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena-1900/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1900/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/",
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena-1900/"
+        "source": "/sources/theory-calculation-alternating-current-phenomena-1900/",
+        "source_text": "/source-texts/theory-calculation-alternating-current-phenomena-1900/",
+        "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/",
+        "coverage": "/book-coverage/theory-calculation-alternating-current-phenomena-1900/"
       },
       "catalog_status": "Internet Archive OCR downloaded; chapter/lecture candidates and candidate catalogs generated; scan and edition alignment require review"
     },
@@ -831,10 +831,10 @@
         "Promote strongest passages into concept, math, diagram, and glossary pages."
       ],
       "links": {
-        "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/electric-discharges-waves-impulses-1914/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/electric-discharges-waves-impulses-1914/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/electric-discharges-waves-impulses-1914/",
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/electric-discharges-waves-impulses-1914/"
+        "source": "/sources/electric-discharges-waves-impulses-1914/",
+        "source_text": "/source-texts/electric-discharges-waves-impulses-1914/",
+        "workbench": "/chapter-workbench/electric-discharges-waves-impulses-1914/",
+        "coverage": "/book-coverage/electric-discharges-waves-impulses-1914/"
       },
       "catalog_status": "Internet Archive OCR downloaded; chapter/lecture candidates and candidate catalogs generated; scan and edition alignment require review"
     },
@@ -865,10 +865,10 @@
         "Promote strongest passages into concept, math, diagram, and glossary pages."
       ],
       "links": {
-        "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-electric-circuits/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-circuits/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-circuits/",
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-electric-circuits/"
+        "source": "/sources/theory-calculation-electric-circuits/",
+        "source_text": "/source-texts/theory-calculation-electric-circuits/",
+        "workbench": "/chapter-workbench/theory-calculation-electric-circuits/",
+        "coverage": "/book-coverage/theory-calculation-electric-circuits/"
       },
       "catalog_status": "Internet Archive OCR downloaded; chapter/lecture candidates and candidate catalogs generated; scan and edition alignment require review"
     },
@@ -1361,10 +1361,10 @@
         "Promote strongest passages into concept, math, diagram, and glossary pages."
       ],
       "links": {
-        "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/general-lectures-electrical-engineering/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/general-lectures-electrical-engineering/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/general-lectures-electrical-engineering/",
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/general-lectures-electrical-engineering/"
+        "source": "/sources/general-lectures-electrical-engineering/",
+        "source_text": "/source-texts/general-lectures-electrical-engineering/",
+        "workbench": "/chapter-workbench/general-lectures-electrical-engineering/",
+        "coverage": "/book-coverage/general-lectures-electrical-engineering/"
       },
       "catalog_status": "Internet Archive OCR downloaded; ordinal lecture parser generated candidate catalogs"
     },
@@ -1395,10 +1395,10 @@
         "Promote strongest passages into concept, math, diagram, and glossary pages."
       ],
       "links": {
-        "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/four-lectures-relativity-space/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/four-lectures-relativity-space/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/four-lectures-relativity-space/",
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/four-lectures-relativity-space/"
+        "source": "/sources/four-lectures-relativity-space/",
+        "source_text": "/source-texts/four-lectures-relativity-space/",
+        "workbench": "/chapter-workbench/four-lectures-relativity-space/",
+        "coverage": "/book-coverage/four-lectures-relativity-space/"
       },
       "catalog_status": "Internet Archive OCR downloaded; lecture splits and candidate catalogs generated"
     },
@@ -1429,10 +1429,10 @@
         "Promote strongest passages into concept, math, diagram, and glossary pages."
       ],
       "links": {
-        "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/commonwealth-edison-generating-system-trouble/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/commonwealth-edison-generating-system-trouble/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/commonwealth-edison-generating-system-trouble/",
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/commonwealth-edison-generating-system-trouble/"
+        "source": "/sources/commonwealth-edison-generating-system-trouble/",
+        "source_text": "/source-texts/commonwealth-edison-generating-system-trouble/",
+        "workbench": "/chapter-workbench/commonwealth-edison-generating-system-trouble/",
+        "coverage": "/book-coverage/commonwealth-edison-generating-system-trouble/"
       },
       "catalog_status": "embedded PDF text extracted; page map, report sections, candidate equations, figures, concepts, glossary, quotes, annotations, and crosslinks generated"
     },
@@ -1859,10 +1859,10 @@
         "Promote strongest passages into concept, math, diagram, and glossary pages."
       ],
       "links": {
-        "source": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/america-and-new-epoch/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/america-and-new-epoch/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/america-and-new-epoch/",
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/america-and-new-epoch/"
+        "source": "/sources/america-and-new-epoch/",
+        "source_text": "/source-texts/america-and-new-epoch/",
+        "workbench": "/chapter-workbench/america-and-new-epoch/",
+        "coverage": "/book-coverage/america-and-new-epoch/"
       },
       "catalog_status": "source-specific historical chapter split and candidate catalogs from OCR"
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08",
+  "generated_at": "2026-05-18",
   "quality_note": "Crosslinked research surfaces route source, math, visual, and concept evidence. Candidate records require scan and editorial verification.",
   "source_count": 15,
   "concept_bridge_count": 22,
@@ -19,11 +19,11 @@
       "extracted_visual_candidates": 0,
       "modern_visual_guides": 0,
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/america-and-new-epoch/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/america-and-new-epoch/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/america-and-new-epoch/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/america-and-new-epoch/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/america-and-new-epoch/"
+        "coverage": "/book-coverage/america-and-new-epoch/",
+        "source_text": "/source-texts/america-and-new-epoch/",
+        "workbench": "/chapter-workbench/america-and-new-epoch/",
+        "visual_map": "/diagrams/source-visuals/america-and-new-epoch/",
+        "formula_map": "/mathematics/source-formula-maps/america-and-new-epoch/"
       }
     },
     {
@@ -36,11 +36,11 @@
       "extracted_visual_candidates": 24,
       "modern_visual_guides": 5,
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/elementary-lectures-electric-discharges-waves-impulses/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/elementary-lectures-electric-discharges-waves-impulses/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/elementary-lectures-electric-discharges-waves-impulses/"
+        "coverage": "/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
+        "source_text": "/source-texts/elementary-lectures-electric-discharges-waves-impulses/",
+        "workbench": "/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/",
+        "visual_map": "/diagrams/source-visuals/elementary-lectures-electric-discharges-waves-impulses/",
+        "formula_map": "/mathematics/source-formula-maps/elementary-lectures-electric-discharges-waves-impulses/"
       }
     },
     {
@@ -53,11 +53,11 @@
       "extracted_visual_candidates": 0,
       "modern_visual_guides": 5,
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/electric-discharges-waves-impulses-1914/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/electric-discharges-waves-impulses-1914/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/electric-discharges-waves-impulses-1914/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/electric-discharges-waves-impulses-1914/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/electric-discharges-waves-impulses-1914/"
+        "coverage": "/book-coverage/electric-discharges-waves-impulses-1914/",
+        "source_text": "/source-texts/electric-discharges-waves-impulses-1914/",
+        "workbench": "/chapter-workbench/electric-discharges-waves-impulses-1914/",
+        "visual_map": "/diagrams/source-visuals/electric-discharges-waves-impulses-1914/",
+        "formula_map": "/mathematics/source-formula-maps/electric-discharges-waves-impulses-1914/"
       }
     },
     {
@@ -70,11 +70,11 @@
       "extracted_visual_candidates": 24,
       "modern_visual_guides": 6,
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/engineering-mathematics/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/engineering-mathematics/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/engineering-mathematics/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/engineering-mathematics/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/engineering-mathematics/"
+        "coverage": "/book-coverage/engineering-mathematics/",
+        "source_text": "/source-texts/engineering-mathematics/",
+        "workbench": "/chapter-workbench/engineering-mathematics/",
+        "visual_map": "/diagrams/source-visuals/engineering-mathematics/",
+        "formula_map": "/mathematics/source-formula-maps/engineering-mathematics/"
       }
     },
     {
@@ -87,11 +87,11 @@
       "extracted_visual_candidates": 0,
       "modern_visual_guides": 1,
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/four-lectures-relativity-space/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/four-lectures-relativity-space/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/four-lectures-relativity-space/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/four-lectures-relativity-space/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/four-lectures-relativity-space/"
+        "coverage": "/book-coverage/four-lectures-relativity-space/",
+        "source_text": "/source-texts/four-lectures-relativity-space/",
+        "workbench": "/chapter-workbench/four-lectures-relativity-space/",
+        "visual_map": "/diagrams/source-visuals/four-lectures-relativity-space/",
+        "formula_map": "/mathematics/source-formula-maps/four-lectures-relativity-space/"
       }
     },
     {
@@ -104,11 +104,11 @@
       "extracted_visual_candidates": 0,
       "modern_visual_guides": 2,
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/general-lectures-electrical-engineering/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/general-lectures-electrical-engineering/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/general-lectures-electrical-engineering/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/general-lectures-electrical-engineering/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/general-lectures-electrical-engineering/"
+        "coverage": "/book-coverage/general-lectures-electrical-engineering/",
+        "source_text": "/source-texts/general-lectures-electrical-engineering/",
+        "workbench": "/chapter-workbench/general-lectures-electrical-engineering/",
+        "visual_map": "/diagrams/source-visuals/general-lectures-electrical-engineering/",
+        "formula_map": "/mathematics/source-formula-maps/general-lectures-electrical-engineering/"
       }
     },
     {
@@ -121,11 +121,11 @@
       "extracted_visual_candidates": 24,
       "modern_visual_guides": 2,
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/commonwealth-edison-generating-system-trouble/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/commonwealth-edison-generating-system-trouble/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/commonwealth-edison-generating-system-trouble/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/commonwealth-edison-generating-system-trouble/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/commonwealth-edison-generating-system-trouble/"
+        "coverage": "/book-coverage/commonwealth-edison-generating-system-trouble/",
+        "source_text": "/source-texts/commonwealth-edison-generating-system-trouble/",
+        "workbench": "/chapter-workbench/commonwealth-edison-generating-system-trouble/",
+        "visual_map": "/diagrams/source-visuals/commonwealth-edison-generating-system-trouble/",
+        "formula_map": "/mathematics/source-formula-maps/commonwealth-edison-generating-system-trouble/"
       }
     },
     {
@@ -138,11 +138,11 @@
       "extracted_visual_candidates": 24,
       "modern_visual_guides": 2,
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/radiation-light-and-illumination/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/radiation-light-and-illumination/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/radiation-light-and-illumination/"
+        "coverage": "/book-coverage/radiation-light-and-illumination/",
+        "source_text": "/source-texts/radiation-light-and-illumination/",
+        "workbench": "/chapter-workbench/radiation-light-and-illumination/",
+        "visual_map": "/diagrams/source-visuals/radiation-light-and-illumination/",
+        "formula_map": "/mathematics/source-formula-maps/radiation-light-and-illumination/"
       }
     },
     {
@@ -155,11 +155,11 @@
       "extracted_visual_candidates": 24,
       "modern_visual_guides": 7,
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theoretical-elements-electrical-engineering/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/theoretical-elements-electrical-engineering/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/theoretical-elements-electrical-engineering/"
+        "coverage": "/book-coverage/theoretical-elements-electrical-engineering/",
+        "source_text": "/source-texts/theoretical-elements-electrical-engineering/",
+        "workbench": "/chapter-workbench/theoretical-elements-electrical-engineering/",
+        "visual_map": "/diagrams/source-visuals/theoretical-elements-electrical-engineering/",
+        "formula_map": "/mathematics/source-formula-maps/theoretical-elements-electrical-engineering/"
       }
     },
     {
@@ -172,11 +172,11 @@
       "extracted_visual_candidates": 24,
       "modern_visual_guides": 8,
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/theory-calculation-alternating-current-phenomena/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/theory-calculation-alternating-current-phenomena/"
+        "coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+        "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/",
+        "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/",
+        "visual_map": "/diagrams/source-visuals/theory-calculation-alternating-current-phenomena/",
+        "formula_map": "/mathematics/source-formula-maps/theory-calculation-alternating-current-phenomena/"
       }
     },
     {
@@ -189,11 +189,11 @@
       "extracted_visual_candidates": 0,
       "modern_visual_guides": 4,
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena-1900/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1900/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/theory-calculation-alternating-current-phenomena-1900/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/theory-calculation-alternating-current-phenomena-1900/"
+        "coverage": "/book-coverage/theory-calculation-alternating-current-phenomena-1900/",
+        "source_text": "/source-texts/theory-calculation-alternating-current-phenomena-1900/",
+        "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena-1900/",
+        "visual_map": "/diagrams/source-visuals/theory-calculation-alternating-current-phenomena-1900/",
+        "formula_map": "/mathematics/source-formula-maps/theory-calculation-alternating-current-phenomena-1900/"
       }
     },
     {
@@ -206,11 +206,11 @@
       "extracted_visual_candidates": 0,
       "modern_visual_guides": 3,
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena-1897/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena-1897/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena-1897/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/theory-calculation-alternating-current-phenomena-1897/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/theory-calculation-alternating-current-phenomena-1897/"
+        "coverage": "/book-coverage/theory-calculation-alternating-current-phenomena-1897/",
+        "source_text": "/source-texts/theory-calculation-alternating-current-phenomena-1897/",
+        "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena-1897/",
+        "visual_map": "/diagrams/source-visuals/theory-calculation-alternating-current-phenomena-1897/",
+        "formula_map": "/mathematics/source-formula-maps/theory-calculation-alternating-current-phenomena-1897/"
       }
     },
     {
@@ -223,11 +223,11 @@
       "extracted_visual_candidates": 0,
       "modern_visual_guides": 2,
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-electric-apparatus/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-apparatus/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-apparatus/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/theory-calculation-electric-apparatus/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/theory-calculation-electric-apparatus/"
+        "coverage": "/book-coverage/theory-calculation-electric-apparatus/",
+        "source_text": "/source-texts/theory-calculation-electric-apparatus/",
+        "workbench": "/chapter-workbench/theory-calculation-electric-apparatus/",
+        "visual_map": "/diagrams/source-visuals/theory-calculation-electric-apparatus/",
+        "formula_map": "/mathematics/source-formula-maps/theory-calculation-electric-apparatus/"
       }
     },
     {
@@ -240,11 +240,11 @@
       "extracted_visual_candidates": 0,
       "modern_visual_guides": 5,
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-electric-circuits/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-circuits/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-circuits/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/theory-calculation-electric-circuits/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/theory-calculation-electric-circuits/"
+        "coverage": "/book-coverage/theory-calculation-electric-circuits/",
+        "source_text": "/source-texts/theory-calculation-electric-circuits/",
+        "workbench": "/chapter-workbench/theory-calculation-electric-circuits/",
+        "visual_map": "/diagrams/source-visuals/theory-calculation-electric-circuits/",
+        "formula_map": "/mathematics/source-formula-maps/theory-calculation-electric-circuits/"
       }
     },
     {
@@ -257,11 +257,11 @@
       "extracted_visual_candidates": 24,
       "modern_visual_guides": 4,
       "links": {
-        "coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
-        "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/",
-        "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/",
-        "visual_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/source-visuals/theory-calculation-transient-electric-phenomena-oscillations/",
-        "formula_map": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/source-formula-maps/theory-calculation-transient-electric-phenomena-oscillations/"
+        "coverage": "/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
+        "source_text": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/",
+        "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/",
+        "visual_map": "/diagrams/source-visuals/theory-calculation-transient-electric-phenomena-oscillations/",
+        "formula_map": "/mathematics/source-formula-maps/theory-calculation-transient-electric-phenomena-oscillations/"
       }
     }
   ],

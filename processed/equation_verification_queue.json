@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29",
+  "generated_at": "2026-05-18",
   "quality_note": "Equation verification queue. OCR snippets are review aids; exact canonical equations require scan verification.",
   "record_count": 12,
   "status_counts": {
@@ -21,8 +21,8 @@
           "chapter_id": "radiation-light-and-illumination-lecture-01",
           "chapter_title": "Nature And Different Forms Of Radiation",
           "text_path": "processed/radiation-light-and-illumination/cleaned_text/lecture-01.md",
-          "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-01/",
-          "chapter_workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/lecture-01/"
+          "source_text": "/source-texts/radiation-light-and-illumination/lecture-01/",
+          "chapter_workbench": "/chapter-workbench/radiation-light-and-illumination/lecture-01/"
         }
       ],
       "chapter_id": "radiation-light-and-illumination-lecture-01",
@@ -202,14 +202,14 @@
       ],
       "verification_status": "ready_for_scan_check",
       "links": {
-        "equation_page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/equations/velocity-frequency-wavelength/",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/radiation-light-and-illumination/",
+        "equation_page": "/mathematics/equations/velocity-frequency-wavelength/",
+        "source_overview": "/sources/radiation-light-and-illumination/",
         "external_source": "https://archive.org/details/radiationlightil00steirich",
         "source_texts": [
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-01/"
+          "/source-texts/radiation-light-and-illumination/lecture-01/"
         ],
         "chapter_workbenches": [
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/lecture-01/"
+          "/chapter-workbench/radiation-light-and-illumination/lecture-01/"
         ]
       },
       "review_actions": [
@@ -230,8 +230,8 @@
           "chapter_id": "theory-calculation-alternating-current-phenomena-chapter-05",
           "chapter_title": "Symbolic Method",
           "text_path": "processed/theory-calculation-alternating-current-phenomena/cleaned_text/chapter-05.md",
-          "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/",
-          "chapter_workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
+          "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/",
+          "chapter_workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
         }
       ],
       "chapter_id": "theory-calculation-alternating-current-phenomena-chapter-05",
@@ -316,14 +316,14 @@
       ],
       "verification_status": "ready_for_scan_check",
       "links": {
-        "equation_page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/equations/symbolic-rectangular-components/",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+        "equation_page": "/mathematics/equations/symbolic-rectangular-components/",
+        "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
         "external_source": "https://archive.org/details/5edtheorycalculatisteiuoft",
         "source_texts": [
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/"
+          "/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/"
         ],
         "chapter_workbenches": [
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
+          "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
         ]
       },
       "review_actions": [
@@ -344,8 +344,8 @@
           "chapter_id": "theory-calculation-alternating-current-phenomena-chapter-05",
           "chapter_title": "Symbolic Method",
           "text_path": "processed/theory-calculation-alternating-current-phenomena/cleaned_text/chapter-05.md",
-          "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/",
-          "chapter_workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
+          "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/",
+          "chapter_workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
         }
       ],
       "chapter_id": "theory-calculation-alternating-current-phenomena-chapter-05",
@@ -474,14 +474,14 @@
       ],
       "verification_status": "ready_for_scan_check",
       "links": {
-        "equation_page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/equations/symbolic-operator-j/",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+        "equation_page": "/mathematics/equations/symbolic-operator-j/",
+        "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
         "external_source": "https://archive.org/details/5edtheorycalculatisteiuoft",
         "source_texts": [
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/"
+          "/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/"
         ],
         "chapter_workbenches": [
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
+          "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
         ]
       },
       "review_actions": [
@@ -502,8 +502,8 @@
           "chapter_id": "theory-calculation-alternating-current-phenomena-chapter-05",
           "chapter_title": "Symbolic Method",
           "text_path": "processed/theory-calculation-alternating-current-phenomena/cleaned_text/chapter-05.md",
-          "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/",
-          "chapter_workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
+          "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/",
+          "chapter_workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
         }
       ],
       "chapter_id": "theory-calculation-alternating-current-phenomena-chapter-05",
@@ -719,14 +719,14 @@
       ],
       "verification_status": "ready_for_scan_check",
       "links": {
-        "equation_page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/equations/reactance-forms/",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+        "equation_page": "/mathematics/equations/reactance-forms/",
+        "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
         "external_source": "https://archive.org/details/5edtheorycalculatisteiuoft",
         "source_texts": [
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/"
+          "/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/"
         ],
         "chapter_workbenches": [
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
+          "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
         ]
       },
       "review_actions": [
@@ -747,8 +747,8 @@
           "chapter_id": "theory-calculation-alternating-current-phenomena-chapter-05",
           "chapter_title": "Symbolic Method",
           "text_path": "processed/theory-calculation-alternating-current-phenomena/cleaned_text/chapter-05.md",
-          "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/",
-          "chapter_workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
+          "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/",
+          "chapter_workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
         }
       ],
       "chapter_id": "theory-calculation-alternating-current-phenomena-chapter-05",
@@ -929,14 +929,14 @@
       ],
       "verification_status": "ready_for_scan_check",
       "links": {
-        "equation_page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/equations/reactance-forms/",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+        "equation_page": "/mathematics/equations/reactance-forms/",
+        "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
         "external_source": "https://archive.org/details/5edtheorycalculatisteiuoft",
         "source_texts": [
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/"
+          "/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/"
         ],
         "chapter_workbenches": [
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
+          "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
         ]
       },
       "review_actions": [
@@ -957,8 +957,8 @@
           "chapter_id": "theory-calculation-alternating-current-phenomena-chapter-05",
           "chapter_title": "Symbolic Method",
           "text_path": "processed/theory-calculation-alternating-current-phenomena/cleaned_text/chapter-05.md",
-          "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/",
-          "chapter_workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
+          "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/",
+          "chapter_workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
         }
       ],
       "chapter_id": "theory-calculation-alternating-current-phenomena-chapter-05",
@@ -1087,14 +1087,14 @@
       ],
       "verification_status": "ready_for_scan_check",
       "links": {
-        "equation_page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/equations/impedance-reactance/",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+        "equation_page": "/mathematics/equations/impedance-reactance/",
+        "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
         "external_source": "https://archive.org/details/5edtheorycalculatisteiuoft",
         "source_texts": [
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/"
+          "/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/"
         ],
         "chapter_workbenches": [
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
+          "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
         ]
       },
       "review_actions": [
@@ -1115,8 +1115,8 @@
           "chapter_id": "theory-calculation-alternating-current-phenomena-chapter-05",
           "chapter_title": "Symbolic Method",
           "text_path": "processed/theory-calculation-alternating-current-phenomena/cleaned_text/chapter-05.md",
-          "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/",
-          "chapter_workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
+          "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/",
+          "chapter_workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
         }
       ],
       "chapter_id": "theory-calculation-alternating-current-phenomena-chapter-05",
@@ -1409,14 +1409,14 @@
       ],
       "verification_status": "ready_for_scan_check",
       "links": {
-        "equation_page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/equations/impedance-reactance/",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+        "equation_page": "/mathematics/equations/impedance-reactance/",
+        "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
         "external_source": "https://archive.org/details/5edtheorycalculatisteiuoft",
         "source_texts": [
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/"
+          "/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/"
         ],
         "chapter_workbenches": [
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
+          "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/"
         ]
       },
       "review_actions": [
@@ -1437,8 +1437,8 @@
           "chapter_id": "theory-calculation-alternating-current-phenomena-chapter-08",
           "chapter_title": "Admittance, Conductance, Susceptance",
           "text_path": "processed/theory-calculation-alternating-current-phenomena/cleaned_text/chapter-08.md",
-          "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-08/",
-          "chapter_workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-08/"
+          "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-08/",
+          "chapter_workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-08/"
         }
       ],
       "chapter_id": "theory-calculation-alternating-current-phenomena-chapter-08",
@@ -2199,14 +2199,14 @@
       ],
       "verification_status": "ready_for_scan_check",
       "links": {
-        "equation_page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/equations/admittance-conductance-susceptance/",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+        "equation_page": "/mathematics/equations/admittance-conductance-susceptance/",
+        "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
         "external_source": "https://archive.org/details/5edtheorycalculatisteiuoft",
         "source_texts": [
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-08/"
+          "/source-texts/theory-calculation-alternating-current-phenomena/chapter-08/"
         ],
         "chapter_workbenches": [
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-08/"
+          "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-08/"
         ]
       },
       "review_actions": [
@@ -2235,8 +2235,8 @@
       "ocr_snippets": [],
       "verification_status": "needs_line_anchor",
       "links": {
-        "equation_page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/equations/admittance-conductance-susceptance/",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+        "equation_page": "/mathematics/equations/admittance-conductance-susceptance/",
+        "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
         "external_source": "https://archive.org/details/5edtheorycalculatisteiuoft"
       },
       "review_actions": [
@@ -2257,8 +2257,8 @@
           "chapter_id": "theory-calculation-alternating-current-phenomena-chapter-01",
           "chapter_title": "Introduction",
           "text_path": "processed/theory-calculation-alternating-current-phenomena/cleaned_text/chapter-01.md",
-          "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-01/",
-          "chapter_workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-01/"
+          "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-01/",
+          "chapter_workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-01/"
         }
       ],
       "chapter_id": "theory-calculation-alternating-current-phenomena-chapter-01",
@@ -2347,14 +2347,14 @@
       ],
       "verification_status": "ready_for_scan_check",
       "links": {
-        "equation_page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/equations/power-effective-resistance/",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+        "equation_page": "/mathematics/equations/power-effective-resistance/",
+        "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
         "external_source": "https://archive.org/details/5edtheorycalculatisteiuoft",
         "source_texts": [
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-01/"
+          "/source-texts/theory-calculation-alternating-current-phenomena/chapter-01/"
         ],
         "chapter_workbenches": [
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-01/"
+          "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-01/"
         ]
       },
       "review_actions": [
@@ -2375,15 +2375,15 @@
           "chapter_id": "theory-calculation-alternating-current-phenomena-chapter-01",
           "chapter_title": "Introduction",
           "text_path": "processed/theory-calculation-alternating-current-phenomena/cleaned_text/chapter-01.md",
-          "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-01/",
-          "chapter_workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-01/"
+          "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-01/",
+          "chapter_workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-01/"
         },
         {
           "chapter_id": "theory-calculation-alternating-current-phenomena-chapter-12",
           "chapter_title": "Effective Resistance And Reactance",
           "text_path": "processed/theory-calculation-alternating-current-phenomena/cleaned_text/chapter-12.md",
-          "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-12/",
-          "chapter_workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-12/"
+          "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-12/",
+          "chapter_workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-12/"
         }
       ],
       "chapter_id": "theory-calculation-alternating-current-phenomena-chapter-01",
@@ -2619,16 +2619,16 @@
       ],
       "verification_status": "ready_for_scan_check",
       "links": {
-        "equation_page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/equations/power-effective-resistance/",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+        "equation_page": "/mathematics/equations/power-effective-resistance/",
+        "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
         "external_source": "https://archive.org/details/5edtheorycalculatisteiuoft",
         "source_texts": [
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-01/",
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-12/"
+          "/source-texts/theory-calculation-alternating-current-phenomena/chapter-01/",
+          "/source-texts/theory-calculation-alternating-current-phenomena/chapter-12/"
         ],
         "chapter_workbenches": [
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-01/",
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-12/"
+          "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-01/",
+          "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-12/"
         ]
       },
       "review_actions": [
@@ -2649,8 +2649,8 @@
           "chapter_id": "theory-calculation-alternating-current-phenomena-chapter-14",
           "chapter_title": "Dielectric Losses",
           "text_path": "processed/theory-calculation-alternating-current-phenomena/cleaned_text/chapter-14.md",
-          "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-14/",
-          "chapter_workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-14/"
+          "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-14/",
+          "chapter_workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-14/"
         }
       ],
       "chapter_id": "theory-calculation-alternating-current-phenomena-chapter-14",
@@ -2826,14 +2826,14 @@
       ],
       "verification_status": "ready_for_scan_check",
       "links": {
-        "equation_page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/equations/capacity-susceptance/",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+        "equation_page": "/mathematics/equations/capacity-susceptance/",
+        "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
         "external_source": "https://archive.org/details/5edtheorycalculatisteiuoft",
         "source_texts": [
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-14/"
+          "/source-texts/theory-calculation-alternating-current-phenomena/chapter-14/"
         ],
         "chapter_workbenches": [
-          "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-14/"
+          "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-14/"
         ]
       },
       "review_actions": [

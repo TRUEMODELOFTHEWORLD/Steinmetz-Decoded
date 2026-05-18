@@ -10,7 +10,7 @@
       "file": "rotating-magnetic-field.svg",
       "source_path": "diagrams/recreated/rotating-magnetic-field.svg",
       "public_path": "/diagrams/rotating-magnetic-field.svg",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/rotating-magnetic-field.svg",
+      "public_url": "/diagrams/rotating-magnetic-field.svg",
       "sources": [
         "theory-calculation-alternating-current-phenomena",
         "theoretical-elements-electrical-engineering",
@@ -32,7 +32,7 @@
       "file": "distributed-constants-line.svg",
       "source_path": "diagrams/recreated/distributed-constants-line.svg",
       "public_path": "/diagrams/distributed-constants-line.svg",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/distributed-constants-line.svg",
+      "public_url": "/diagrams/distributed-constants-line.svg",
       "sources": [
         "theory-calculation-transient-electric-phenomena-oscillations",
         "theory-calculation-alternating-current-phenomena-1900",
@@ -54,7 +54,7 @@
       "file": "surge-impulse-reflection.svg",
       "source_path": "diagrams/recreated/surge-impulse-reflection.svg",
       "public_path": "/diagrams/surge-impulse-reflection.svg",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/surge-impulse-reflection.svg",
+      "public_url": "/diagrams/surge-impulse-reflection.svg",
       "sources": [
         "elementary-lectures-electric-discharges-waves-impulses",
         "electric-discharges-waves-impulses-1914",
@@ -75,7 +75,7 @@
       "file": "dielectric-magnetic-energy-storage.svg",
       "source_path": "diagrams/recreated/dielectric-magnetic-energy-storage.svg",
       "public_path": "/diagrams/dielectric-magnetic-energy-storage.svg",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/dielectric-magnetic-energy-storage.svg",
+      "public_url": "/diagrams/dielectric-magnetic-energy-storage.svg",
       "sources": [
         "theoretical-elements-electrical-engineering",
         "elementary-lectures-electric-discharges-waves-impulses",
@@ -96,7 +96,7 @@
       "file": "admittance-plane.svg",
       "source_path": "diagrams/recreated/admittance-plane.svg",
       "public_path": "/diagrams/admittance-plane.svg",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/admittance-plane.svg",
+      "public_url": "/diagrams/admittance-plane.svg",
       "sources": [
         "theory-calculation-alternating-current-phenomena",
         "theoretical-elements-electrical-engineering"
@@ -117,7 +117,7 @@
       "file": "harmonic-wave-shape.svg",
       "source_path": "diagrams/recreated/harmonic-wave-shape.svg",
       "public_path": "/diagrams/harmonic-wave-shape.svg",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/harmonic-wave-shape.svg",
+      "public_url": "/diagrams/harmonic-wave-shape.svg",
       "sources": [
         "general-lectures-electrical-engineering",
         "theoretical-elements-electrical-engineering",
@@ -138,7 +138,7 @@
       "file": "hysteresis-loss-law.svg",
       "source_path": "diagrams/recreated/hysteresis-loss-law.svg",
       "public_path": "/diagrams/hysteresis-loss-law.svg",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/hysteresis-loss-law.svg",
+      "public_url": "/diagrams/hysteresis-loss-law.svg",
       "sources": [
         "theory-calculation-alternating-current-phenomena",
         "theoretical-elements-electrical-engineering",
@@ -159,7 +159,7 @@
       "file": "synchronous-reactor-power-flow.svg",
       "source_path": "diagrams/recreated/synchronous-reactor-power-flow.svg",
       "public_path": "/diagrams/synchronous-reactor-power-flow.svg",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/synchronous-reactor-power-flow.svg",
+      "public_url": "/diagrams/synchronous-reactor-power-flow.svg",
       "sources": [
         "commonwealth-edison-generating-system-trouble",
         "theory-calculation-electric-circuits"
@@ -179,7 +179,7 @@
       "file": "field-energy-relativity-boundary.svg",
       "source_path": "diagrams/recreated/field-energy-relativity-boundary.svg",
       "public_path": "/diagrams/field-energy-relativity-boundary.svg",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/field-energy-relativity-boundary.svg",
+      "public_url": "/diagrams/field-energy-relativity-boundary.svg",
       "sources": [
         "four-lectures-relativity-space",
         "theoretical-elements-electrical-engineering"
@@ -200,7 +200,7 @@
       "file": "engineering-number-plane.svg",
       "source_path": "diagrams/recreated/engineering-number-plane.svg",
       "public_path": "/diagrams/engineering-number-plane.svg",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/engineering-number-plane.svg",
+      "public_url": "/diagrams/engineering-number-plane.svg",
       "sources": [
         "engineering-mathematics",
         "theory-calculation-alternating-current-phenomena"
@@ -220,7 +220,7 @@
       "file": "spectrum-of-radiation.svg",
       "source_path": "diagrams/recreated/spectrum-of-radiation.svg",
       "public_path": "/diagrams/spectrum-of-radiation.svg",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/spectrum-of-radiation.svg",
+      "public_url": "/diagrams/spectrum-of-radiation.svg",
       "sources": [
         "radiation-light-and-illumination"
       ],
@@ -241,7 +241,7 @@
       "file": "ac-symbolic-method-redraw-sheet.svg",
       "source_path": "diagrams/recreated/ac-symbolic-method-redraw-sheet.svg",
       "public_path": "/diagrams/ac-symbolic-method-redraw-sheet.svg",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/ac-symbolic-method-redraw-sheet.svg",
+      "public_url": "/diagrams/ac-symbolic-method-redraw-sheet.svg",
       "sources": [
         "theory-calculation-alternating-current-phenomena",
         "theory-calculation-alternating-current-phenomena-1897",
@@ -264,7 +264,7 @@
       "file": "transient-condenser-response-redraw-sheet.svg",
       "source_path": "diagrams/recreated/transient-condenser-response-redraw-sheet.svg",
       "public_path": "/diagrams/transient-condenser-response-redraw-sheet.svg",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/transient-condenser-response-redraw-sheet.svg",
+      "public_url": "/diagrams/transient-condenser-response-redraw-sheet.svg",
       "sources": [
         "theory-calculation-transient-electric-phenomena-oscillations",
         "elementary-lectures-electric-discharges-waves-impulses",
@@ -286,7 +286,7 @@
       "file": "phasor-symbolic-method.svg",
       "source_path": "diagrams/recreated/phasor-symbolic-method.svg",
       "public_path": "/diagrams/phasor-symbolic-method.svg",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/phasor-symbolic-method.svg",
+      "public_url": "/diagrams/phasor-symbolic-method.svg",
       "sources": [
         "theory-calculation-alternating-current-phenomena",
         "theory-calculation-alternating-current-phenomena-1897",
@@ -309,7 +309,7 @@
       "file": "transient-decay-oscillation.svg",
       "source_path": "diagrams/recreated/transient-decay-oscillation.svg",
       "public_path": "/diagrams/transient-decay-oscillation.svg",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/transient-decay-oscillation.svg",
+      "public_url": "/diagrams/transient-decay-oscillation.svg",
       "sources": [
         "theory-calculation-transient-electric-phenomena-oscillations",
         "elementary-lectures-electric-discharges-waves-impulses",
@@ -331,7 +331,7 @@
       "file": "hysteresis-loop.svg",
       "source_path": "diagrams/recreated/hysteresis-loop.svg",
       "public_path": "/diagrams/hysteresis-loop.svg",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/hysteresis-loop.svg",
+      "public_url": "/diagrams/hysteresis-loop.svg",
       "sources": [
         "theoretical-elements-electrical-engineering",
         "theory-calculation-alternating-current-phenomena",
@@ -354,7 +354,7 @@
       "file": "field-wave-line.svg",
       "source_path": "diagrams/recreated/field-wave-line.svg",
       "public_path": "/diagrams/field-wave-line.svg",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/field-wave-line.svg",
+      "public_url": "/diagrams/field-wave-line.svg",
       "sources": [
         "theory-calculation-transient-electric-phenomena-oscillations",
         "elementary-lectures-electric-discharges-waves-impulses",
@@ -377,7 +377,7 @@
       "file": "impedance-reactance-triangle.svg",
       "source_path": "diagrams/recreated/impedance-reactance-triangle.svg",
       "public_path": "/diagrams/impedance-reactance-triangle.svg",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/impedance-reactance-triangle.svg",
+      "public_url": "/diagrams/impedance-reactance-triangle.svg",
       "sources": [
         "theory-calculation-alternating-current-phenomena",
         "theory-calculation-alternating-current-phenomena-1897",
@@ -400,7 +400,7 @@
       "file": "illumination-inverse-square.svg",
       "source_path": "diagrams/recreated/illumination-inverse-square.svg",
       "public_path": "/diagrams/illumination-inverse-square.svg",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/illumination-inverse-square.svg",
+      "public_url": "/diagrams/illumination-inverse-square.svg",
       "sources": [
         "radiation-light-and-illumination"
       ],
@@ -420,7 +420,7 @@
       "file": "commonwealth-edison-system-reactor-map.svg",
       "source_path": "diagrams/recreated/commonwealth-edison-system-reactor-map.svg",
       "public_path": "/diagrams/commonwealth-edison-system-reactor-map.svg",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/commonwealth-edison-system-reactor-map.svg",
+      "public_url": "/diagrams/commonwealth-edison-system-reactor-map.svg",
       "sources": [
         "commonwealth-edison-generating-system-trouble",
         "theory-calculation-electric-circuits"

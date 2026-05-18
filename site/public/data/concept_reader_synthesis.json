@@ -12,7 +12,7 @@
         "matching_sources": 10,
         "aliases": 2
       },
-      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/admittance/"
+      "page": "/concepts/admittance/"
     },
     {
       "page_slug": "complex-quantities",
@@ -23,7 +23,7 @@
         "matching_sources": 10,
         "aliases": 4
       },
-      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/complex-quantities/"
+      "page": "/concepts/complex-quantities/"
     },
     {
       "page_slug": "conductance",
@@ -34,7 +34,7 @@
         "matching_sources": 11,
         "aliases": 2
       },
-      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/conductance/"
+      "page": "/concepts/conductance/"
     },
     {
       "page_slug": "dielectric-loss",
@@ -45,7 +45,7 @@
         "matching_sources": 14,
         "aliases": 9
       },
-      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/dielectric-loss/"
+      "page": "/concepts/dielectric-loss/"
     },
     {
       "page_slug": "distributed-constants",
@@ -56,7 +56,7 @@
         "matching_sources": 10,
         "aliases": 8
       },
-      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/distributed-constants/"
+      "page": "/concepts/distributed-constants/"
     },
     {
       "page_slug": "electric-waves",
@@ -67,7 +67,7 @@
         "matching_sources": 6,
         "aliases": 10
       },
-      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/electric-waves/"
+      "page": "/concepts/electric-waves/"
     },
     {
       "page_slug": "ether",
@@ -78,7 +78,7 @@
         "matching_sources": 3,
         "aliases": 3
       },
-      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/ether/"
+      "page": "/concepts/ether/"
     },
     {
       "page_slug": "harmonics-wave-shape",
@@ -89,7 +89,7 @@
         "matching_sources": 15,
         "aliases": 15
       },
-      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/harmonics-wave-shape/"
+      "page": "/concepts/harmonics-wave-shape/"
     },
     {
       "page_slug": "hysteresis",
@@ -100,7 +100,7 @@
         "matching_sources": 14,
         "aliases": 9
       },
-      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/hysteresis/"
+      "page": "/concepts/hysteresis/"
     },
     {
       "page_slug": "illumination",
@@ -111,7 +111,7 @@
         "matching_sources": 13,
         "aliases": 18
       },
-      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/illumination/"
+      "page": "/concepts/illumination/"
     },
     {
       "page_slug": "impedance",
@@ -122,7 +122,7 @@
         "matching_sources": 13,
         "aliases": 2
       },
-      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/impedance/"
+      "page": "/concepts/impedance/"
     },
     {
       "page_slug": "inductance-capacity",
@@ -133,7 +133,7 @@
         "matching_sources": 15,
         "aliases": 13
       },
-      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/inductance-capacity/"
+      "page": "/concepts/inductance-capacity/"
     },
     {
       "page_slug": "lightning-surges",
@@ -144,7 +144,7 @@
         "matching_sources": 12,
         "aliases": 9
       },
-      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/lightning-surges/"
+      "page": "/concepts/lightning-surges/"
     },
     {
       "page_slug": "oscillation-damping",
@@ -155,7 +155,7 @@
         "matching_sources": 13,
         "aliases": 10
       },
-      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/oscillation-damping/"
+      "page": "/concepts/oscillation-damping/"
     },
     {
       "page_slug": "power-factor",
@@ -166,7 +166,7 @@
         "matching_sources": 11,
         "aliases": 4
       },
-      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/power-factor/"
+      "page": "/concepts/power-factor/"
     },
     {
       "page_slug": "power-limiting-reactors",
@@ -177,7 +177,7 @@
         "matching_sources": 7,
         "aliases": 8
       },
-      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/power-limiting-reactors/"
+      "page": "/concepts/power-limiting-reactors/"
     },
     {
       "page_slug": "radiation",
@@ -188,7 +188,7 @@
         "matching_sources": 13,
         "aliases": 10
       },
-      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/radiation/"
+      "page": "/concepts/radiation/"
     },
     {
       "page_slug": "reactance",
@@ -199,7 +199,7 @@
         "matching_sources": 13,
         "aliases": 4
       },
-      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/reactance/"
+      "page": "/concepts/reactance/"
     },
     {
       "page_slug": "susceptance",
@@ -210,7 +210,7 @@
         "matching_sources": 8,
         "aliases": 2
       },
-      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/susceptance/"
+      "page": "/concepts/susceptance/"
     },
     {
       "page_slug": "symbolic-method",
@@ -221,7 +221,7 @@
         "matching_sources": 10,
         "aliases": 8
       },
-      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/symbolic-method/"
+      "page": "/concepts/symbolic-method/"
     },
     {
       "page_slug": "synchronizing-power",
@@ -232,7 +232,7 @@
         "matching_sources": 12,
         "aliases": 7
       },
-      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/synchronizing-power/"
+      "page": "/concepts/synchronizing-power/"
     },
     {
       "page_slug": "transient-phenomena",
@@ -243,7 +243,7 @@
         "matching_sources": 11,
         "aliases": 8
       },
-      "page": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/transient-phenomena/"
+      "page": "/concepts/transient-phenomena/"
     }
   ]
 }

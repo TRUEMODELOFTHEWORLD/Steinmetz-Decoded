@@ -22,7 +22,7 @@ from pathlib import Path
 from typing import Any
 
 
-BASE_URL = "/Charles-Proteus-Steinmetz-Texts-AI-Decoded"
+BASE_URL = ""
 BEGIN_DASHBOARD = "{/* BEGIN GENERATED SOURCE RESEARCH DASHBOARD */}"
 END_DASHBOARD = "{/* END GENERATED SOURCE RESEARCH DASHBOARD */}"
 
@@ -414,7 +414,7 @@ def dashboard_markdown(
                 "    </div>",
                 '    <nav aria-label="Open source dashboard section routes">',
                 f'      <a href="{esc(route_links["source"])}">Read source</a>',
-                f'      <a href="{esc(route_links["workbench"])}">Open workbench</a>',
+                f'      <a href="{esc(route_links["workbench"])}">Research review</a>',
                 "    </nav>",
                 "  </article>",
             ]

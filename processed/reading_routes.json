@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29",
+  "generated_at": "2026-05-18",
   "quality_note": "Guided routes are generated from processed source metadata, theme hits, concept hits, and candidate equation/figure/quote counts. They are navigation aids, not final scholarly judgments.",
   "route_count": 9,
   "source_count": 15,
@@ -15,22 +15,22 @@
       "start_links": [
         {
           "label": "Who Was Steinmetz?",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/who-was-steinmetz/",
+          "url": "/who-was-steinmetz/",
           "note": "Human and technical orientation."
         },
         {
           "label": "Begin Lecture I",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-01/",
+          "url": "/source-texts/radiation-light-and-illumination/lecture-01/",
           "note": "Start reading a primary text immediately."
         },
         {
           "label": "RLI Book Map",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/radiation-light-and-illumination/",
+          "url": "/book-coverage/radiation-light-and-illumination/",
           "note": "Readable first book with visual source material."
         },
         {
           "label": "Diagram Archive",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/",
+          "url": "/diagrams/",
           "note": "Original crops and modern visual aids."
         }
       ],
@@ -75,10 +75,10 @@
             "Electric waves"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/lecture-01/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/radiation-light-and-illumination/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/radiation-light-and-illumination/",
+            "source_text": "/source-texts/radiation-light-and-illumination/lecture-01/",
+            "workbench": "/chapter-workbench/radiation-light-and-illumination/lecture-01/",
+            "book_coverage": "/book-coverage/radiation-light-and-illumination/",
+            "source_overview": "/sources/radiation-light-and-illumination/",
             "archive": "https://archive.org/details/radiationlightil00steirich"
           },
           "route_score": 374
@@ -109,10 +109,10 @@
             "Illumination"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/lecture-06/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/radiation-light-and-illumination/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/radiation-light-and-illumination/",
+            "source_text": "/source-texts/radiation-light-and-illumination/lecture-06/",
+            "workbench": "/chapter-workbench/radiation-light-and-illumination/lecture-06/",
+            "book_coverage": "/book-coverage/radiation-light-and-illumination/",
+            "source_overview": "/sources/radiation-light-and-illumination/",
             "archive": "https://archive.org/details/radiationlightil00steirich"
           },
           "route_score": 345
@@ -143,10 +143,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-08/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/lecture-08/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/radiation-light-and-illumination/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/radiation-light-and-illumination/",
+            "source_text": "/source-texts/radiation-light-and-illumination/lecture-08/",
+            "workbench": "/chapter-workbench/radiation-light-and-illumination/lecture-08/",
+            "book_coverage": "/book-coverage/radiation-light-and-illumination/",
+            "source_overview": "/sources/radiation-light-and-illumination/",
             "archive": "https://archive.org/details/radiationlightil00steirich"
           },
           "route_score": 337
@@ -177,10 +177,10 @@
             "Arc lamp"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-10/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/lecture-10/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/radiation-light-and-illumination/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/radiation-light-and-illumination/",
+            "source_text": "/source-texts/radiation-light-and-illumination/lecture-10/",
+            "workbench": "/chapter-workbench/radiation-light-and-illumination/lecture-10/",
+            "book_coverage": "/book-coverage/radiation-light-and-illumination/",
+            "source_overview": "/sources/radiation-light-and-illumination/",
             "archive": "https://archive.org/details/radiationlightil00steirich"
           },
           "route_score": 324
@@ -207,10 +207,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-09/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-09/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-09/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-09/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 287
@@ -237,10 +237,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-06/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-06/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-06/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 285
@@ -268,10 +268,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-24/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-24/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-24/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-24/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 279
@@ -301,10 +301,10 @@
             "Magnetic permeability"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-25/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-25/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-25/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-25/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 277
@@ -333,10 +333,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-04/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-04/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/elementary-lectures-electric-discharges-waves-impulses/",
+            "source_text": "/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-04/",
+            "workbench": "/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-04/",
+            "book_coverage": "/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
+            "source_overview": "/sources/elementary-lectures-electric-discharges-waves-impulses/",
             "archive": "https://archive.org/details/elementarylectur00steirich"
           },
           "route_score": 266
@@ -364,10 +364,10 @@
             "Radiation"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-01/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/elementary-lectures-electric-discharges-waves-impulses/",
+            "source_text": "/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-01/",
+            "workbench": "/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-01/",
+            "book_coverage": "/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
+            "source_overview": "/sources/elementary-lectures-electric-discharges-waves-impulses/",
             "archive": "https://archive.org/details/elementarylectur00steirich"
           },
           "route_score": 258
@@ -383,17 +383,17 @@
       "start_links": [
         {
           "label": "Source Text Browser",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/",
+          "url": "/source-texts/",
           "note": "Read the processed source text directly."
         },
         {
           "label": "Book Coverage Atlas",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/",
+          "url": "/book-coverage/",
           "note": "Choose a source before entering sections."
         },
         {
           "label": "Editorial Policy",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/editorial-policy/",
+          "url": "/roadmap/editorial-policy/",
           "note": "Understand OCR, page, and verification rules."
         }
       ],
@@ -439,10 +439,10 @@
             "Electric waves"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/lecture-01/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/radiation-light-and-illumination/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/radiation-light-and-illumination/",
+            "source_text": "/source-texts/radiation-light-and-illumination/lecture-01/",
+            "workbench": "/chapter-workbench/radiation-light-and-illumination/lecture-01/",
+            "book_coverage": "/book-coverage/radiation-light-and-illumination/",
+            "source_overview": "/sources/radiation-light-and-illumination/",
             "archive": "https://archive.org/details/radiationlightil00steirich"
           },
           "route_score": 314
@@ -473,10 +473,10 @@
             "Illumination"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/lecture-06/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/radiation-light-and-illumination/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/radiation-light-and-illumination/",
+            "source_text": "/source-texts/radiation-light-and-illumination/lecture-06/",
+            "workbench": "/chapter-workbench/radiation-light-and-illumination/lecture-06/",
+            "book_coverage": "/book-coverage/radiation-light-and-illumination/",
+            "source_overview": "/sources/radiation-light-and-illumination/",
             "archive": "https://archive.org/details/radiationlightil00steirich"
           },
           "route_score": 304
@@ -507,10 +507,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-08/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/lecture-08/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/radiation-light-and-illumination/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/radiation-light-and-illumination/",
+            "source_text": "/source-texts/radiation-light-and-illumination/lecture-08/",
+            "workbench": "/chapter-workbench/radiation-light-and-illumination/lecture-08/",
+            "book_coverage": "/book-coverage/radiation-light-and-illumination/",
+            "source_overview": "/sources/radiation-light-and-illumination/",
             "archive": "https://archive.org/details/radiationlightil00steirich"
           },
           "route_score": 304
@@ -537,10 +537,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-09/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-09/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-09/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-09/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 266
@@ -567,10 +567,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-06/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-06/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-06/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 262
@@ -597,10 +597,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-07/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-07/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-07/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-07/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 255
@@ -629,10 +629,10 @@
             "Frequency"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/engineering-mathematics/chapter-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/engineering-mathematics/chapter-01/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/engineering-mathematics/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/engineering-mathematics/",
+            "source_text": "/source-texts/engineering-mathematics/chapter-01/",
+            "workbench": "/chapter-workbench/engineering-mathematics/chapter-01/",
+            "book_coverage": "/book-coverage/engineering-mathematics/",
+            "source_overview": "/sources/engineering-mathematics/",
             "archive": "https://archive.org/details/engineeringmathe00steirich"
           },
           "route_score": 250
@@ -663,10 +663,10 @@
             "Spectrum"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/general-lectures-electrical-engineering/lecture-17/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/general-lectures-electrical-engineering/lecture-17/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/general-lectures-electrical-engineering/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/general-lectures-electrical-engineering/",
+            "source_text": "/source-texts/general-lectures-electrical-engineering/lecture-17/",
+            "workbench": "/chapter-workbench/general-lectures-electrical-engineering/lecture-17/",
+            "book_coverage": "/book-coverage/general-lectures-electrical-engineering/",
+            "source_overview": "/sources/general-lectures-electrical-engineering/",
             "archive": "https://archive.org/details/generallectureso00steiuoft"
           },
           "route_score": 238
@@ -694,10 +694,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/general-lectures-electrical-engineering/lecture-12/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/general-lectures-electrical-engineering/lecture-12/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/general-lectures-electrical-engineering/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/general-lectures-electrical-engineering/",
+            "source_text": "/source-texts/general-lectures-electrical-engineering/lecture-12/",
+            "workbench": "/chapter-workbench/general-lectures-electrical-engineering/lecture-12/",
+            "book_coverage": "/book-coverage/general-lectures-electrical-engineering/",
+            "source_overview": "/sources/general-lectures-electrical-engineering/",
             "archive": "https://archive.org/details/generallectureso00steiuoft"
           },
           "route_score": 222
@@ -726,10 +726,10 @@
             "Magnetic permeability"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-23/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-23/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_text": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-23/",
+            "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-23/",
+            "book_coverage": "/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_overview": "/sources/theory-calculation-transient-electric-phenomena-oscillations/",
             "archive": "https://archive.org/details/transelectricphenom00steirich"
           },
           "route_score": 220
@@ -754,10 +754,10 @@
           ],
           "top_concepts": [],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/section-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/section-06/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theoretical-elements-electrical-engineering/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theoretical-elements-electrical-engineering/",
+            "source_text": "/source-texts/theoretical-elements-electrical-engineering/section-06/",
+            "workbench": "/chapter-workbench/theoretical-elements-electrical-engineering/section-06/",
+            "book_coverage": "/book-coverage/theoretical-elements-electrical-engineering/",
+            "source_overview": "/sources/theoretical-elements-electrical-engineering/",
             "archive": "https://archive.org/details/theoreticalelect00steirich"
           },
           "route_score": 218
@@ -784,10 +784,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-25/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-25/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_text": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-25/",
+            "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-25/",
+            "book_coverage": "/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_overview": "/sources/theory-calculation-transient-electric-phenomena-oscillations/",
             "archive": "https://archive.org/details/transelectricphenom00steirich"
           },
           "route_score": 218
@@ -803,22 +803,22 @@
       "start_links": [
         {
           "label": "AC Book Coverage",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
+          "url": "/book-coverage/theory-calculation-alternating-current-phenomena/",
           "note": "Source map for AC phenomena."
         },
         {
           "label": "Symbolic Method Page",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/symbolic-method/",
+          "url": "/sources/theory-calculation-alternating-current-phenomena/symbolic-method/",
           "note": "Curated deep decoding."
         },
         {
           "label": "Equation Catalog",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/",
+          "url": "/mathematics/",
           "note": "Candidate and canonical equations."
         },
         {
           "label": "Phasor Tool",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/tools/phasor-symbolic-form/",
+          "url": "/tools/phasor-symbolic-form/",
           "note": "Interactive symbolic-form visualizer."
         }
       ],
@@ -865,10 +865,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-09/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-09/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-09/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-09/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 437
@@ -895,10 +895,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-07/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-07/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-07/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-07/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 425
@@ -922,10 +922,10 @@
           ],
           "top_concepts": [],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-08/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-08/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-08/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-08/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 419
@@ -952,10 +952,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-06/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-06/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-06/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 417
@@ -984,10 +984,10 @@
             "Frequency"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/engineering-mathematics/chapter-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/engineering-mathematics/chapter-01/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/engineering-mathematics/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/engineering-mathematics/",
+            "source_text": "/source-texts/engineering-mathematics/chapter-01/",
+            "workbench": "/chapter-workbench/engineering-mathematics/chapter-01/",
+            "book_coverage": "/book-coverage/engineering-mathematics/",
+            "source_overview": "/sources/engineering-mathematics/",
             "archive": "https://archive.org/details/engineeringmathe00steirich"
           },
           "route_score": 394
@@ -1014,10 +1014,10 @@
             "Frequency"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 383
@@ -1044,10 +1044,10 @@
             "Frequency"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/section-07/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/section-07/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theoretical-elements-electrical-engineering/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theoretical-elements-electrical-engineering/",
+            "source_text": "/source-texts/theoretical-elements-electrical-engineering/section-07/",
+            "workbench": "/chapter-workbench/theoretical-elements-electrical-engineering/section-07/",
+            "book_coverage": "/book-coverage/theoretical-elements-electrical-engineering/",
+            "source_overview": "/sources/theoretical-elements-electrical-engineering/",
             "archive": "https://archive.org/details/theoreticalelect00steirich"
           },
           "route_score": 331
@@ -1074,10 +1074,10 @@
             "Frequency"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/section-04/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/section-04/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theoretical-elements-electrical-engineering/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theoretical-elements-electrical-engineering/",
+            "source_text": "/source-texts/theoretical-elements-electrical-engineering/section-04/",
+            "workbench": "/chapter-workbench/theoretical-elements-electrical-engineering/section-04/",
+            "book_coverage": "/book-coverage/theoretical-elements-electrical-engineering/",
+            "source_overview": "/sources/theoretical-elements-electrical-engineering/",
             "archive": "https://archive.org/details/theoreticalelect00steirich"
           },
           "route_score": 285
@@ -1102,10 +1102,10 @@
           ],
           "top_concepts": [],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/section-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/section-06/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theoretical-elements-electrical-engineering/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theoretical-elements-electrical-engineering/",
+            "source_text": "/source-texts/theoretical-elements-electrical-engineering/section-06/",
+            "workbench": "/chapter-workbench/theoretical-elements-electrical-engineering/section-06/",
+            "book_coverage": "/book-coverage/theoretical-elements-electrical-engineering/",
+            "source_overview": "/sources/theoretical-elements-electrical-engineering/",
             "archive": "https://archive.org/details/theoreticalelect00steirich"
           },
           "route_score": 285
@@ -1134,10 +1134,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/section-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/section-01/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theoretical-elements-electrical-engineering/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theoretical-elements-electrical-engineering/",
+            "source_text": "/source-texts/theoretical-elements-electrical-engineering/section-01/",
+            "workbench": "/chapter-workbench/theoretical-elements-electrical-engineering/section-01/",
+            "book_coverage": "/book-coverage/theoretical-elements-electrical-engineering/",
+            "source_overview": "/sources/theoretical-elements-electrical-engineering/",
             "archive": "https://archive.org/details/theoreticalelect00steirich"
           },
           "route_score": 267
@@ -1160,10 +1160,10 @@
           ],
           "top_concepts": [],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/section-02/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/section-02/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theoretical-elements-electrical-engineering/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theoretical-elements-electrical-engineering/",
+            "source_text": "/source-texts/theoretical-elements-electrical-engineering/section-02/",
+            "workbench": "/chapter-workbench/theoretical-elements-electrical-engineering/section-02/",
+            "book_coverage": "/book-coverage/theoretical-elements-electrical-engineering/",
+            "source_overview": "/sources/theoretical-elements-electrical-engineering/",
             "archive": "https://archive.org/details/theoreticalelect00steirich"
           },
           "route_score": 248
@@ -1194,10 +1194,10 @@
             "Radiation"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/engineering-mathematics/chapter-03/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/engineering-mathematics/chapter-03/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/engineering-mathematics/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/engineering-mathematics/",
+            "source_text": "/source-texts/engineering-mathematics/chapter-03/",
+            "workbench": "/chapter-workbench/engineering-mathematics/chapter-03/",
+            "book_coverage": "/book-coverage/engineering-mathematics/",
+            "source_overview": "/sources/engineering-mathematics/",
             "archive": "https://archive.org/details/engineeringmathe00steirich"
           },
           "route_score": 213
@@ -1213,22 +1213,22 @@
       "start_links": [
         {
           "label": "Transient Book Coverage",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
+          "url": "/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
           "note": "Source map for transient phenomena."
         },
         {
           "label": "Tesla-Era Transients",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/comparisons/transients-tesla-era-high-frequency/",
+          "url": "/comparisons/transients-tesla-era-high-frequency/",
           "note": "Labeled comparison route."
         },
         {
           "label": "Transient RLC Tool",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/tools/transient-rlc/",
+          "url": "/tools/transient-rlc/",
           "note": "Interactive decay and oscillation visualizer."
         },
         {
           "label": "Surge Tool",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/tools/lightning-surge/",
+          "url": "/tools/lightning-surge/",
           "note": "Traveling-wave surge visualizer."
         }
       ],
@@ -1278,10 +1278,10 @@
             "Magnetic permeability"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-07/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-07/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/elementary-lectures-electric-discharges-waves-impulses/",
+            "source_text": "/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-07/",
+            "workbench": "/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-07/",
+            "book_coverage": "/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
+            "source_overview": "/sources/elementary-lectures-electric-discharges-waves-impulses/",
             "archive": "https://archive.org/details/elementarylectur00steirich"
           },
           "route_score": 398
@@ -1312,10 +1312,10 @@
             "Velocity of light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/general-lectures-electrical-engineering/lecture-07/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/general-lectures-electrical-engineering/lecture-07/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/general-lectures-electrical-engineering/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/general-lectures-electrical-engineering/",
+            "source_text": "/source-texts/general-lectures-electrical-engineering/lecture-07/",
+            "workbench": "/chapter-workbench/general-lectures-electrical-engineering/lecture-07/",
+            "book_coverage": "/book-coverage/general-lectures-electrical-engineering/",
+            "source_overview": "/sources/general-lectures-electrical-engineering/",
             "archive": "https://archive.org/details/generallectureso00steiuoft"
           },
           "route_score": 361
@@ -1346,10 +1346,10 @@
             "Spectrum"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/general-lectures-electrical-engineering/lecture-17/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/general-lectures-electrical-engineering/lecture-17/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/general-lectures-electrical-engineering/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/general-lectures-electrical-engineering/",
+            "source_text": "/source-texts/general-lectures-electrical-engineering/lecture-17/",
+            "workbench": "/chapter-workbench/general-lectures-electrical-engineering/lecture-17/",
+            "book_coverage": "/book-coverage/general-lectures-electrical-engineering/",
+            "source_overview": "/sources/general-lectures-electrical-engineering/",
             "archive": "https://archive.org/details/generallectureso00steiuoft"
           },
           "route_score": 353
@@ -1378,10 +1378,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-04/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-04/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/elementary-lectures-electric-discharges-waves-impulses/",
+            "source_text": "/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-04/",
+            "workbench": "/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-04/",
+            "book_coverage": "/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
+            "source_overview": "/sources/elementary-lectures-electric-discharges-waves-impulses/",
             "archive": "https://archive.org/details/elementarylectur00steirich"
           },
           "route_score": 350
@@ -1410,10 +1410,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-06/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/elementary-lectures-electric-discharges-waves-impulses/",
+            "source_text": "/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-06/",
+            "workbench": "/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-06/",
+            "book_coverage": "/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
+            "source_overview": "/sources/elementary-lectures-electric-discharges-waves-impulses/",
             "archive": "https://archive.org/details/elementarylectur00steirich"
           },
           "route_score": 348
@@ -1440,10 +1440,10 @@
             "Magnetic permeability"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-05/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-05/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/elementary-lectures-electric-discharges-waves-impulses/",
+            "source_text": "/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-05/",
+            "workbench": "/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-05/",
+            "book_coverage": "/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
+            "source_overview": "/sources/elementary-lectures-electric-discharges-waves-impulses/",
             "archive": "https://archive.org/details/elementarylectur00steirich"
           },
           "route_score": 347
@@ -1472,10 +1472,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-24/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-24/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_text": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-24/",
+            "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-24/",
+            "book_coverage": "/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_overview": "/sources/theory-calculation-transient-electric-phenomena-oscillations/",
             "archive": "https://archive.org/details/transelectricphenom00steirich"
           },
           "route_score": 340
@@ -1502,10 +1502,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-26/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-26/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_text": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-26/",
+            "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-26/",
+            "book_coverage": "/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_overview": "/sources/theory-calculation-transient-electric-phenomena-oscillations/",
             "archive": "https://archive.org/details/transelectricphenom00steirich"
           },
           "route_score": 338
@@ -1530,10 +1530,10 @@
           ],
           "top_concepts": [],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-03/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-03/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/elementary-lectures-electric-discharges-waves-impulses/",
+            "source_text": "/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-03/",
+            "workbench": "/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-03/",
+            "book_coverage": "/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
+            "source_overview": "/sources/elementary-lectures-electric-discharges-waves-impulses/",
             "archive": "https://archive.org/details/elementarylectur00steirich"
           },
           "route_score": 332
@@ -1559,10 +1559,10 @@
             "Frequency"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-19/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-19/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_text": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-19/",
+            "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-19/",
+            "book_coverage": "/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_overview": "/sources/theory-calculation-transient-electric-phenomena-oscillations/",
             "archive": "https://archive.org/details/transelectricphenom00steirich"
           },
           "route_score": 306
@@ -1591,10 +1591,10 @@
             "Magnetic permeability"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-23/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-23/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_text": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-23/",
+            "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-23/",
+            "book_coverage": "/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_overview": "/sources/theory-calculation-transient-electric-phenomena-oscillations/",
             "archive": "https://archive.org/details/transelectricphenom00steirich"
           },
           "route_score": 305
@@ -1622,10 +1622,10 @@
             "Frequency"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-06/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_text": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-06/",
+            "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-06/",
+            "book_coverage": "/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_overview": "/sources/theory-calculation-transient-electric-phenomena-oscillations/",
             "archive": "https://archive.org/details/transelectricphenom00steirich"
           },
           "route_score": 304
@@ -1641,22 +1641,22 @@
       "start_links": [
         {
           "label": "Ether Concordance",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/ether/",
+          "url": "/concept-concordance/ether/",
           "note": "Exact source hits for ether."
         },
         {
           "label": "Theme Evidence: Field Language",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/theme-evidence/ether-field-language/",
+          "url": "/theme-evidence/ether-field-language/",
           "note": "Source-located field/ether theme route."
         },
         {
           "label": "Hysteresis Concept",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/hysteresis/",
+          "url": "/concepts/hysteresis/",
           "note": "Concept page with modern and interpretive layers."
         },
         {
           "label": "Ether-Field Reading Guide",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/comparisons/ether-field-reading-guide/",
+          "url": "/comparisons/ether-field-reading-guide/",
           "note": "Interpretive boundary rules."
         }
       ],
@@ -1705,10 +1705,10 @@
             "Velocity of light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-02/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-02/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/elementary-lectures-electric-discharges-waves-impulses/",
+            "source_text": "/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-02/",
+            "workbench": "/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-02/",
+            "book_coverage": "/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
+            "source_overview": "/sources/elementary-lectures-electric-discharges-waves-impulses/",
             "archive": "https://archive.org/details/elementarylectur00steirich"
           },
           "route_score": 311
@@ -1739,10 +1739,10 @@
             "Magnetic permeability"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-07/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-07/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/elementary-lectures-electric-discharges-waves-impulses/",
+            "source_text": "/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-07/",
+            "workbench": "/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-07/",
+            "book_coverage": "/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
+            "source_overview": "/sources/elementary-lectures-electric-discharges-waves-impulses/",
             "archive": "https://archive.org/details/elementarylectur00steirich"
           },
           "route_score": 303
@@ -1771,10 +1771,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-06/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/elementary-lectures-electric-discharges-waves-impulses/",
+            "source_text": "/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-06/",
+            "workbench": "/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-06/",
+            "book_coverage": "/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
+            "source_overview": "/sources/elementary-lectures-electric-discharges-waves-impulses/",
             "archive": "https://archive.org/details/elementarylectur00steirich"
           },
           "route_score": 285
@@ -1805,10 +1805,10 @@
             "Frequency"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/four-lectures-relativity-space/lecture-04/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/four-lectures-relativity-space/lecture-04/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/four-lectures-relativity-space/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/four-lectures-relativity-space/",
+            "source_text": "/source-texts/four-lectures-relativity-space/lecture-04/",
+            "workbench": "/chapter-workbench/four-lectures-relativity-space/lecture-04/",
+            "book_coverage": "/book-coverage/four-lectures-relativity-space/",
+            "source_overview": "/sources/four-lectures-relativity-space/",
             "archive": "https://archive.org/details/fourlecturesonre00stei"
           },
           "route_score": 283
@@ -1839,10 +1839,10 @@
             "Magnetic permeability"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-10/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-10/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/elementary-lectures-electric-discharges-waves-impulses/",
+            "source_text": "/source-texts/elementary-lectures-electric-discharges-waves-impulses/lecture-10/",
+            "workbench": "/chapter-workbench/elementary-lectures-electric-discharges-waves-impulses/lecture-10/",
+            "book_coverage": "/book-coverage/elementary-lectures-electric-discharges-waves-impulses/",
+            "source_overview": "/sources/elementary-lectures-electric-discharges-waves-impulses/",
             "archive": "https://archive.org/details/elementarylectur00steirich"
           },
           "route_score": 276
@@ -1871,10 +1871,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/section-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/section-01/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theoretical-elements-electrical-engineering/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theoretical-elements-electrical-engineering/",
+            "source_text": "/source-texts/theoretical-elements-electrical-engineering/section-01/",
+            "workbench": "/chapter-workbench/theoretical-elements-electrical-engineering/section-01/",
+            "book_coverage": "/book-coverage/theoretical-elements-electrical-engineering/",
+            "source_overview": "/sources/theoretical-elements-electrical-engineering/",
             "archive": "https://archive.org/details/theoreticalelect00steirich"
           },
           "route_score": 267
@@ -1903,10 +1903,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/section-19/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/section-19/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theoretical-elements-electrical-engineering/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theoretical-elements-electrical-engineering/",
+            "source_text": "/source-texts/theoretical-elements-electrical-engineering/section-19/",
+            "workbench": "/chapter-workbench/theoretical-elements-electrical-engineering/section-19/",
+            "book_coverage": "/book-coverage/theoretical-elements-electrical-engineering/",
+            "source_overview": "/sources/theoretical-elements-electrical-engineering/",
             "archive": "https://archive.org/details/theoreticalelect00steirich"
           },
           "route_score": 266
@@ -1937,10 +1937,10 @@
             "Spectrum"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/four-lectures-relativity-space/lecture-03/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/four-lectures-relativity-space/lecture-03/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/four-lectures-relativity-space/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/four-lectures-relativity-space/",
+            "source_text": "/source-texts/four-lectures-relativity-space/lecture-03/",
+            "workbench": "/chapter-workbench/four-lectures-relativity-space/lecture-03/",
+            "book_coverage": "/book-coverage/four-lectures-relativity-space/",
+            "source_overview": "/sources/four-lectures-relativity-space/",
             "archive": "https://archive.org/details/fourlecturesonre00stei"
           },
           "route_score": 264
@@ -1971,10 +1971,10 @@
             "Wave length"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/four-lectures-relativity-space/lecture-02/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/four-lectures-relativity-space/lecture-02/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/four-lectures-relativity-space/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/four-lectures-relativity-space/",
+            "source_text": "/source-texts/four-lectures-relativity-space/lecture-02/",
+            "workbench": "/chapter-workbench/four-lectures-relativity-space/lecture-02/",
+            "book_coverage": "/book-coverage/four-lectures-relativity-space/",
+            "source_overview": "/sources/four-lectures-relativity-space/",
             "archive": "https://archive.org/details/fourlecturesonre00stei"
           },
           "route_score": 258
@@ -2005,10 +2005,10 @@
             "Radiation"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/engineering-mathematics/chapter-03/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/engineering-mathematics/chapter-03/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/engineering-mathematics/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/engineering-mathematics/",
+            "source_text": "/source-texts/engineering-mathematics/chapter-03/",
+            "workbench": "/chapter-workbench/engineering-mathematics/chapter-03/",
+            "book_coverage": "/book-coverage/engineering-mathematics/",
+            "source_overview": "/sources/engineering-mathematics/",
             "archive": "https://archive.org/details/engineeringmathe00steirich"
           },
           "route_score": 236
@@ -2037,10 +2037,10 @@
             "Frequency"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/engineering-mathematics/chapter-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/engineering-mathematics/chapter-01/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/engineering-mathematics/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/engineering-mathematics/",
+            "source_text": "/source-texts/engineering-mathematics/chapter-01/",
+            "workbench": "/chapter-workbench/engineering-mathematics/chapter-01/",
+            "book_coverage": "/book-coverage/engineering-mathematics/",
+            "source_overview": "/sources/engineering-mathematics/",
             "archive": "https://archive.org/details/engineeringmathe00steirich"
           },
           "route_score": 230
@@ -2068,10 +2068,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-apparatus/chapter-03/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-apparatus/chapter-03/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-electric-apparatus/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-electric-apparatus/",
+            "source_text": "/source-texts/theory-calculation-electric-apparatus/chapter-03/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-apparatus/chapter-03/",
+            "book_coverage": "/book-coverage/theory-calculation-electric-apparatus/",
+            "source_overview": "/sources/theory-calculation-electric-apparatus/",
             "archive": "https://archive.org/details/theoryandcalcul04steigoog"
           },
           "route_score": 223
@@ -2087,22 +2087,22 @@
       "start_links": [
         {
           "label": "Equation Catalog",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/",
+          "url": "/mathematics/",
           "note": "Equation index and canonical set."
         },
         {
           "label": "Canonical Equation Set",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/canonical-equation-canon/",
+          "url": "/mathematics/canonical-equation-canon/",
           "note": "First promoted equation canon."
         },
         {
           "label": "Notation Ledger",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/notation-ledger/",
+          "url": "/roadmap/notation-ledger/",
           "note": "Source and modern notation review."
         },
         {
           "label": "Interactive Tools",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/tools/",
+          "url": "/tools/",
           "note": "Calculators and visualizers."
         }
       ],
@@ -2150,10 +2150,10 @@
             "Frequency"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/engineering-mathematics/chapter-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/engineering-mathematics/chapter-01/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/engineering-mathematics/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/engineering-mathematics/",
+            "source_text": "/source-texts/engineering-mathematics/chapter-01/",
+            "workbench": "/chapter-workbench/engineering-mathematics/chapter-01/",
+            "book_coverage": "/book-coverage/engineering-mathematics/",
+            "source_overview": "/sources/engineering-mathematics/",
             "archive": "https://archive.org/details/engineeringmathe00steirich"
           },
           "route_score": 426
@@ -2180,10 +2180,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-06/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-06/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-06/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 413
@@ -2210,10 +2210,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-09/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-09/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-09/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-09/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 397
@@ -2240,10 +2240,10 @@
             "Frequency"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-05/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-05/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 396
@@ -2270,10 +2270,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-07/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-07/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-07/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-07/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 390
@@ -2301,10 +2301,10 @@
             "Frequency"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-04/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-04/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-04/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-04/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 376
@@ -2333,10 +2333,10 @@
             "Magnetic permeability"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-23/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-23/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_text": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-23/",
+            "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-23/",
+            "book_coverage": "/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_overview": "/sources/theory-calculation-transient-electric-phenomena-oscillations/",
             "archive": "https://archive.org/details/transelectricphenom00steirich"
           },
           "route_score": 367
@@ -2365,10 +2365,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-24/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-24/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_text": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-24/",
+            "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-24/",
+            "book_coverage": "/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_overview": "/sources/theory-calculation-transient-electric-phenomena-oscillations/",
             "archive": "https://archive.org/details/transelectricphenom00steirich"
           },
           "route_score": 348
@@ -2395,10 +2395,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-25/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-25/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_text": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-25/",
+            "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-25/",
+            "book_coverage": "/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_overview": "/sources/theory-calculation-transient-electric-phenomena-oscillations/",
             "archive": "https://archive.org/details/transelectricphenom00steirich"
           },
           "route_score": 348
@@ -2425,10 +2425,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-26/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-26/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_text": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-26/",
+            "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-26/",
+            "book_coverage": "/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_overview": "/sources/theory-calculation-transient-electric-phenomena-oscillations/",
             "archive": "https://archive.org/details/transelectricphenom00steirich"
           },
           "route_score": 346
@@ -2455,10 +2455,10 @@
             "Frequency"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-12/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-12/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_text": "/source-texts/theory-calculation-transient-electric-phenomena-oscillations/chapter-12/",
+            "workbench": "/chapter-workbench/theory-calculation-transient-electric-phenomena-oscillations/chapter-12/",
+            "book_coverage": "/book-coverage/theory-calculation-transient-electric-phenomena-oscillations/",
+            "source_overview": "/sources/theory-calculation-transient-electric-phenomena-oscillations/",
             "archive": "https://archive.org/details/transelectricphenom00steirich"
           },
           "route_score": 346
@@ -2489,11 +2489,11 @@
             "Tie cable"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/commonwealth-edison-generating-system-trouble/appendix-01-synchronous-operation/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/commonwealth-edison-generating-system-trouble/appendix-01-synchronous-operation/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/commonwealth-edison-generating-system-trouble/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/commonwealth-edison-generating-system-trouble/",
-            "archive": "https://github.com/TRUEMODELOFTHEWORLD/Charles-Proteus-Steinmetz-Texts-AI-Decoded/blob/main/sources/commonwealth-edison-generating-system-trouble/raw/commonwealth-edison-generating-system-trouble-local.pdf"
+            "source_text": "/source-texts/commonwealth-edison-generating-system-trouble/appendix-01-synchronous-operation/",
+            "workbench": "/chapter-workbench/commonwealth-edison-generating-system-trouble/appendix-01-synchronous-operation/",
+            "book_coverage": "/book-coverage/commonwealth-edison-generating-system-trouble/",
+            "source_overview": "/sources/commonwealth-edison-generating-system-trouble/",
+            "archive": "https://github.com/TRUEMODELOFTHEWORLD/Steinmetz-Decoded/blob/main/sources/commonwealth-edison-generating-system-trouble/raw/commonwealth-edison-generating-system-trouble-local.pdf"
           },
           "route_score": 327
         },
@@ -2519,10 +2519,10 @@
             "Frequency"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/section-07/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/section-07/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theoretical-elements-electrical-engineering/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theoretical-elements-electrical-engineering/",
+            "source_text": "/source-texts/theoretical-elements-electrical-engineering/section-07/",
+            "workbench": "/chapter-workbench/theoretical-elements-electrical-engineering/section-07/",
+            "book_coverage": "/book-coverage/theoretical-elements-electrical-engineering/",
+            "source_overview": "/sources/theoretical-elements-electrical-engineering/",
             "archive": "https://archive.org/details/theoreticalelect00steirich"
           },
           "route_score": 326
@@ -2551,10 +2551,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/section-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/section-01/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theoretical-elements-electrical-engineering/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theoretical-elements-electrical-engineering/",
+            "source_text": "/source-texts/theoretical-elements-electrical-engineering/section-01/",
+            "workbench": "/chapter-workbench/theoretical-elements-electrical-engineering/section-01/",
+            "book_coverage": "/book-coverage/theoretical-elements-electrical-engineering/",
+            "source_overview": "/sources/theoretical-elements-electrical-engineering/",
             "archive": "https://archive.org/details/theoreticalelect00steirich"
           },
           "route_score": 321
@@ -2570,22 +2570,22 @@
       "start_links": [
         {
           "label": "Diagram Archive",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/",
+          "url": "/diagrams/",
           "note": "Curated visual gallery."
         },
         {
           "label": "Figure Candidate Atlas",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/figure-candidate-atlas/",
+          "url": "/diagrams/figure-candidate-atlas/",
           "note": "All promoted crops and figure references."
         },
         {
           "label": "Figure Verification Queue",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/figure-verification-queue/",
+          "url": "/roadmap/figure-verification-queue/",
           "note": "Crop and caption review cards."
         },
         {
           "label": "Book Coverage Atlas",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/",
+          "url": "/book-coverage/",
           "note": "Find visual density by source."
         }
       ],
@@ -2634,10 +2634,10 @@
             "Illumination"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/lecture-06/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/radiation-light-and-illumination/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/radiation-light-and-illumination/",
+            "source_text": "/source-texts/radiation-light-and-illumination/lecture-06/",
+            "workbench": "/chapter-workbench/radiation-light-and-illumination/lecture-06/",
+            "book_coverage": "/book-coverage/radiation-light-and-illumination/",
+            "source_overview": "/sources/radiation-light-and-illumination/",
             "archive": "https://archive.org/details/radiationlightil00steirich"
           },
           "route_score": 487
@@ -2668,10 +2668,10 @@
             "Electric waves"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/lecture-01/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/radiation-light-and-illumination/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/radiation-light-and-illumination/",
+            "source_text": "/source-texts/radiation-light-and-illumination/lecture-01/",
+            "workbench": "/chapter-workbench/radiation-light-and-illumination/lecture-01/",
+            "book_coverage": "/book-coverage/radiation-light-and-illumination/",
+            "source_overview": "/sources/radiation-light-and-illumination/",
             "archive": "https://archive.org/details/radiationlightil00steirich"
           },
           "route_score": 470
@@ -2698,10 +2698,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-06/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-06/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-06/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 453
@@ -2728,10 +2728,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-07/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-07/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-07/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-07/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 439
@@ -2758,10 +2758,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-09/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-09/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-09/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-09/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 437
@@ -2792,10 +2792,10 @@
             "Arc lamp"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-10/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/lecture-10/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/radiation-light-and-illumination/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/radiation-light-and-illumination/",
+            "source_text": "/source-texts/radiation-light-and-illumination/lecture-10/",
+            "workbench": "/chapter-workbench/radiation-light-and-illumination/lecture-10/",
+            "book_coverage": "/book-coverage/radiation-light-and-illumination/",
+            "source_overview": "/sources/radiation-light-and-illumination/",
             "archive": "https://archive.org/details/radiationlightil00steirich"
           },
           "route_score": 430
@@ -2826,10 +2826,10 @@
             "Spectrum"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-03/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/lecture-03/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/radiation-light-and-illumination/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/radiation-light-and-illumination/",
+            "source_text": "/source-texts/radiation-light-and-illumination/lecture-03/",
+            "workbench": "/chapter-workbench/radiation-light-and-illumination/lecture-03/",
+            "book_coverage": "/book-coverage/radiation-light-and-illumination/",
+            "source_overview": "/sources/radiation-light-and-illumination/",
             "archive": "https://archive.org/details/radiationlightil00steirich"
           },
           "route_score": 421
@@ -2859,10 +2859,10 @@
             "Magnetic permeability"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-25/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-25/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-25/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-25/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 409
@@ -2893,10 +2893,10 @@
             "Photometry"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/radiation-light-and-illumination/lecture-09/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/radiation-light-and-illumination/lecture-09/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/radiation-light-and-illumination/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/radiation-light-and-illumination/",
+            "source_text": "/source-texts/radiation-light-and-illumination/lecture-09/",
+            "workbench": "/chapter-workbench/radiation-light-and-illumination/lecture-09/",
+            "book_coverage": "/book-coverage/radiation-light-and-illumination/",
+            "source_overview": "/sources/radiation-light-and-illumination/",
             "archive": "https://archive.org/details/radiationlightil00steirich"
           },
           "route_score": 401
@@ -2925,10 +2925,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-12/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-12/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-12/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-12/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 376
@@ -2956,10 +2956,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/general-lectures-electrical-engineering/lecture-12/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/general-lectures-electrical-engineering/lecture-12/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/general-lectures-electrical-engineering/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/general-lectures-electrical-engineering/",
+            "source_text": "/source-texts/general-lectures-electrical-engineering/lecture-12/",
+            "workbench": "/chapter-workbench/general-lectures-electrical-engineering/lecture-12/",
+            "book_coverage": "/book-coverage/general-lectures-electrical-engineering/",
+            "source_overview": "/sources/general-lectures-electrical-engineering/",
             "archive": "https://archive.org/details/generallectureso00steiuoft"
           },
           "route_score": 318
@@ -2988,10 +2988,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-apparatus/chapter-18/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-apparatus/chapter-18/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-electric-apparatus/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-electric-apparatus/",
+            "source_text": "/source-texts/theory-calculation-electric-apparatus/chapter-18/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-apparatus/chapter-18/",
+            "book_coverage": "/book-coverage/theory-calculation-electric-apparatus/",
+            "source_overview": "/sources/theory-calculation-electric-apparatus/",
             "archive": "https://archive.org/details/theoryandcalcul04steigoog"
           },
           "route_score": 293
@@ -3022,10 +3022,10 @@
             "Spectrum"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/general-lectures-electrical-engineering/lecture-17/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/general-lectures-electrical-engineering/lecture-17/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/general-lectures-electrical-engineering/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/general-lectures-electrical-engineering/",
+            "source_text": "/source-texts/general-lectures-electrical-engineering/lecture-17/",
+            "workbench": "/chapter-workbench/general-lectures-electrical-engineering/lecture-17/",
+            "book_coverage": "/book-coverage/general-lectures-electrical-engineering/",
+            "source_overview": "/sources/general-lectures-electrical-engineering/",
             "archive": "https://archive.org/details/generallectureso00steiuoft"
           },
           "route_score": 271
@@ -3053,10 +3053,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-apparatus/chapter-17/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-apparatus/chapter-17/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-electric-apparatus/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-electric-apparatus/",
+            "source_text": "/source-texts/theory-calculation-electric-apparatus/chapter-17/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-apparatus/chapter-17/",
+            "book_coverage": "/book-coverage/theory-calculation-electric-apparatus/",
+            "source_overview": "/sources/theory-calculation-electric-apparatus/",
             "archive": "https://archive.org/details/theoryandcalcul04steigoog"
           },
           "route_score": 215
@@ -3072,22 +3072,22 @@
       "start_links": [
         {
           "label": "Electric Apparatus Coverage",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-electric-apparatus/",
+          "url": "/book-coverage/theory-calculation-electric-apparatus/",
           "note": "Machines and apparatus source map."
         },
         {
           "label": "Commonwealth Edison Coverage",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/commonwealth-edison-generating-system-trouble/",
+          "url": "/book-coverage/commonwealth-edison-generating-system-trouble/",
           "note": "Power-system trouble report."
         },
         {
           "label": "Power-Limiting Reactors",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/power-limiting-reactors/",
+          "url": "/concepts/power-limiting-reactors/",
           "note": "Concept page for reactor protection."
         },
         {
           "label": "Synchronizing Power",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/synchronizing-power/",
+          "url": "/concepts/synchronizing-power/",
           "note": "Concept page for synchronism."
         }
       ],
@@ -3138,11 +3138,11 @@
             "Tie cable"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/commonwealth-edison-generating-system-trouble/appendix-01-synchronous-operation/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/commonwealth-edison-generating-system-trouble/appendix-01-synchronous-operation/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/commonwealth-edison-generating-system-trouble/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/commonwealth-edison-generating-system-trouble/",
-            "archive": "https://github.com/TRUEMODELOFTHEWORLD/Charles-Proteus-Steinmetz-Texts-AI-Decoded/blob/main/sources/commonwealth-edison-generating-system-trouble/raw/commonwealth-edison-generating-system-trouble-local.pdf"
+            "source_text": "/source-texts/commonwealth-edison-generating-system-trouble/appendix-01-synchronous-operation/",
+            "workbench": "/chapter-workbench/commonwealth-edison-generating-system-trouble/appendix-01-synchronous-operation/",
+            "book_coverage": "/book-coverage/commonwealth-edison-generating-system-trouble/",
+            "source_overview": "/sources/commonwealth-edison-generating-system-trouble/",
+            "archive": "https://github.com/TRUEMODELOFTHEWORLD/Steinmetz-Decoded/blob/main/sources/commonwealth-edison-generating-system-trouble/raw/commonwealth-edison-generating-system-trouble-local.pdf"
           },
           "route_score": 325
         },
@@ -3168,10 +3168,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-09/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-09/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-09/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-09/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 315
@@ -3198,10 +3198,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-06/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-06/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-06/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 313
@@ -3228,10 +3228,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-07/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-07/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-07/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-07/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 299
@@ -3259,10 +3259,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-apparatus/chapter-03/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-apparatus/chapter-03/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-electric-apparatus/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-electric-apparatus/",
+            "source_text": "/source-texts/theory-calculation-electric-apparatus/chapter-03/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-apparatus/chapter-03/",
+            "book_coverage": "/book-coverage/theory-calculation-electric-apparatus/",
+            "source_overview": "/sources/theory-calculation-electric-apparatus/",
             "archive": "https://archive.org/details/theoryandcalcul04steigoog"
           },
           "route_score": 274
@@ -3290,10 +3290,10 @@
             "Frequency"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-04/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-04/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-04/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-04/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 258
@@ -3324,11 +3324,11 @@
             "Power limiting reactor"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/commonwealth-edison-generating-system-trouble/section-02-discussion-of-recommendations/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/commonwealth-edison-generating-system-trouble/section-02-discussion-of-recommendations/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/commonwealth-edison-generating-system-trouble/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/commonwealth-edison-generating-system-trouble/",
-            "archive": "https://github.com/TRUEMODELOFTHEWORLD/Charles-Proteus-Steinmetz-Texts-AI-Decoded/blob/main/sources/commonwealth-edison-generating-system-trouble/raw/commonwealth-edison-generating-system-trouble-local.pdf"
+            "source_text": "/source-texts/commonwealth-edison-generating-system-trouble/section-02-discussion-of-recommendations/",
+            "workbench": "/chapter-workbench/commonwealth-edison-generating-system-trouble/section-02-discussion-of-recommendations/",
+            "book_coverage": "/book-coverage/commonwealth-edison-generating-system-trouble/",
+            "source_overview": "/sources/commonwealth-edison-generating-system-trouble/",
+            "archive": "https://github.com/TRUEMODELOFTHEWORLD/Steinmetz-Decoded/blob/main/sources/commonwealth-edison-generating-system-trouble/raw/commonwealth-edison-generating-system-trouble-local.pdf"
           },
           "route_score": 257
         },
@@ -3355,10 +3355,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-apparatus/chapter-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-apparatus/chapter-01/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-electric-apparatus/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-electric-apparatus/",
+            "source_text": "/source-texts/theory-calculation-electric-apparatus/chapter-01/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-apparatus/chapter-01/",
+            "book_coverage": "/book-coverage/theory-calculation-electric-apparatus/",
+            "source_overview": "/sources/theory-calculation-electric-apparatus/",
             "archive": "https://archive.org/details/theoryandcalcul04steigoog"
           },
           "route_score": 257
@@ -3387,10 +3387,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-apparatus/chapter-02/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-apparatus/chapter-02/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-electric-apparatus/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-electric-apparatus/",
+            "source_text": "/source-texts/theory-calculation-electric-apparatus/chapter-02/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-apparatus/chapter-02/",
+            "book_coverage": "/book-coverage/theory-calculation-electric-apparatus/",
+            "source_overview": "/sources/theory-calculation-electric-apparatus/",
             "archive": "https://archive.org/details/theoryandcalcul04steigoog"
           },
           "route_score": 256
@@ -3419,10 +3419,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-apparatus/chapter-18/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-apparatus/chapter-18/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-electric-apparatus/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-electric-apparatus/",
+            "source_text": "/source-texts/theory-calculation-electric-apparatus/chapter-18/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-apparatus/chapter-18/",
+            "book_coverage": "/book-coverage/theory-calculation-electric-apparatus/",
+            "source_overview": "/sources/theory-calculation-electric-apparatus/",
             "archive": "https://archive.org/details/theoryandcalcul04steigoog"
           },
           "route_score": 245
@@ -3453,11 +3453,11 @@
             "Power limiting reactor"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/commonwealth-edison-generating-system-trouble/section-03-record/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/commonwealth-edison-generating-system-trouble/section-03-record/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/commonwealth-edison-generating-system-trouble/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/commonwealth-edison-generating-system-trouble/",
-            "archive": "https://github.com/TRUEMODELOFTHEWORLD/Charles-Proteus-Steinmetz-Texts-AI-Decoded/blob/main/sources/commonwealth-edison-generating-system-trouble/raw/commonwealth-edison-generating-system-trouble-local.pdf"
+            "source_text": "/source-texts/commonwealth-edison-generating-system-trouble/section-03-record/",
+            "workbench": "/chapter-workbench/commonwealth-edison-generating-system-trouble/section-03-record/",
+            "book_coverage": "/book-coverage/commonwealth-edison-generating-system-trouble/",
+            "source_overview": "/sources/commonwealth-edison-generating-system-trouble/",
+            "archive": "https://github.com/TRUEMODELOFTHEWORLD/Steinmetz-Decoded/blob/main/sources/commonwealth-edison-generating-system-trouble/raw/commonwealth-edison-generating-system-trouble-local.pdf"
           },
           "route_score": 241
         },
@@ -3487,11 +3487,11 @@
             "Power limiting reactor"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/commonwealth-edison-generating-system-trouble/section-01-recommendations/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/commonwealth-edison-generating-system-trouble/section-01-recommendations/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/commonwealth-edison-generating-system-trouble/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/commonwealth-edison-generating-system-trouble/",
-            "archive": "https://github.com/TRUEMODELOFTHEWORLD/Charles-Proteus-Steinmetz-Texts-AI-Decoded/blob/main/sources/commonwealth-edison-generating-system-trouble/raw/commonwealth-edison-generating-system-trouble-local.pdf"
+            "source_text": "/source-texts/commonwealth-edison-generating-system-trouble/section-01-recommendations/",
+            "workbench": "/chapter-workbench/commonwealth-edison-generating-system-trouble/section-01-recommendations/",
+            "book_coverage": "/book-coverage/commonwealth-edison-generating-system-trouble/",
+            "source_overview": "/sources/commonwealth-edison-generating-system-trouble/",
+            "archive": "https://github.com/TRUEMODELOFTHEWORLD/Steinmetz-Decoded/blob/main/sources/commonwealth-edison-generating-system-trouble/raw/commonwealth-edison-generating-system-trouble-local.pdf"
           },
           "route_score": 221
         }
@@ -3506,22 +3506,22 @@
       "start_links": [
         {
           "label": "Patent Register",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/steinmetz-patents/",
+          "url": "/sources/steinmetz-patents/",
           "note": "Seeded patent records."
         },
         {
           "label": "Seeded Patent Dossiers",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/steinmetz-patents/seeded-patent-dossiers/",
+          "url": "/sources/steinmetz-patents/seeded-patent-dossiers/",
           "note": "First dossier pages."
         },
         {
           "label": "Patent Verification Queue",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/patent-verification-queue/",
+          "url": "/roadmap/patent-verification-queue/",
           "note": "Authority PDF and claims review."
         },
         {
           "label": "Patent Theory Bridge",
-          "url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/patent-to-theory-bridge/",
+          "url": "/roadmap/patent-to-theory-bridge/",
           "note": "Concept and apparatus bridge."
         }
       ],
@@ -3565,10 +3565,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-09/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-09/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-09/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-09/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 259
@@ -3595,10 +3595,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-06/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-06/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-06/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-06/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 257
@@ -3625,10 +3625,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-07/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-07/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-07/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-07/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 246
@@ -3656,10 +3656,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-apparatus/chapter-03/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-apparatus/chapter-03/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-electric-apparatus/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-electric-apparatus/",
+            "source_text": "/source-texts/theory-calculation-electric-apparatus/chapter-03/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-apparatus/chapter-03/",
+            "book_coverage": "/book-coverage/theory-calculation-electric-apparatus/",
+            "source_overview": "/sources/theory-calculation-electric-apparatus/",
             "archive": "https://archive.org/details/theoryandcalcul04steigoog"
           },
           "route_score": 239
@@ -3690,11 +3690,11 @@
             "Tie cable"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/commonwealth-edison-generating-system-trouble/appendix-01-synchronous-operation/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/commonwealth-edison-generating-system-trouble/appendix-01-synchronous-operation/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/commonwealth-edison-generating-system-trouble/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/commonwealth-edison-generating-system-trouble/",
-            "archive": "https://github.com/TRUEMODELOFTHEWORLD/Charles-Proteus-Steinmetz-Texts-AI-Decoded/blob/main/sources/commonwealth-edison-generating-system-trouble/raw/commonwealth-edison-generating-system-trouble-local.pdf"
+            "source_text": "/source-texts/commonwealth-edison-generating-system-trouble/appendix-01-synchronous-operation/",
+            "workbench": "/chapter-workbench/commonwealth-edison-generating-system-trouble/appendix-01-synchronous-operation/",
+            "book_coverage": "/book-coverage/commonwealth-edison-generating-system-trouble/",
+            "source_overview": "/sources/commonwealth-edison-generating-system-trouble/",
+            "archive": "https://github.com/TRUEMODELOFTHEWORLD/Steinmetz-Decoded/blob/main/sources/commonwealth-edison-generating-system-trouble/raw/commonwealth-edison-generating-system-trouble-local.pdf"
           },
           "route_score": 235
         },
@@ -3722,10 +3722,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-apparatus/chapter-18/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-apparatus/chapter-18/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-electric-apparatus/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-electric-apparatus/",
+            "source_text": "/source-texts/theory-calculation-electric-apparatus/chapter-18/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-apparatus/chapter-18/",
+            "book_coverage": "/book-coverage/theory-calculation-electric-apparatus/",
+            "source_overview": "/sources/theory-calculation-electric-apparatus/",
             "archive": "https://archive.org/details/theoryandcalcul04steigoog"
           },
           "route_score": 230
@@ -3753,10 +3753,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-apparatus/chapter-01/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-apparatus/chapter-01/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-electric-apparatus/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-electric-apparatus/",
+            "source_text": "/source-texts/theory-calculation-electric-apparatus/chapter-01/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-apparatus/chapter-01/",
+            "book_coverage": "/book-coverage/theory-calculation-electric-apparatus/",
+            "source_overview": "/sources/theory-calculation-electric-apparatus/",
             "archive": "https://archive.org/details/theoryandcalcul04steigoog"
           },
           "route_score": 225
@@ -3785,10 +3785,10 @@
             "Light"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-electric-apparatus/chapter-02/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-electric-apparatus/chapter-02/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-electric-apparatus/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-electric-apparatus/",
+            "source_text": "/source-texts/theory-calculation-electric-apparatus/chapter-02/",
+            "workbench": "/chapter-workbench/theory-calculation-electric-apparatus/chapter-02/",
+            "book_coverage": "/book-coverage/theory-calculation-electric-apparatus/",
+            "source_overview": "/sources/theory-calculation-electric-apparatus/",
             "archive": "https://archive.org/details/theoryandcalcul04steigoog"
           },
           "route_score": 224
@@ -3816,10 +3816,10 @@
             "Ether"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theory-calculation-alternating-current-phenomena/chapter-24/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-24/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theory-calculation-alternating-current-phenomena/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+            "source_text": "/source-texts/theory-calculation-alternating-current-phenomena/chapter-24/",
+            "workbench": "/chapter-workbench/theory-calculation-alternating-current-phenomena/chapter-24/",
+            "book_coverage": "/book-coverage/theory-calculation-alternating-current-phenomena/",
+            "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
             "archive": "https://archive.org/details/5edtheorycalculatisteiuoft"
           },
           "route_score": 217
@@ -3846,10 +3846,10 @@
             "Frequency"
           ],
           "links": {
-            "source_text": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/theoretical-elements-electrical-engineering/section-07/",
-            "workbench": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/chapter-workbench/theoretical-elements-electrical-engineering/section-07/",
-            "book_coverage": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/book-coverage/theoretical-elements-electrical-engineering/",
-            "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theoretical-elements-electrical-engineering/",
+            "source_text": "/source-texts/theoretical-elements-electrical-engineering/section-07/",
+            "workbench": "/chapter-workbench/theoretical-elements-electrical-engineering/section-07/",
+            "book_coverage": "/book-coverage/theoretical-elements-electrical-engineering/",
+            "source_overview": "/sources/theoretical-elements-electrical-engineering/",
             "archive": "https://archive.org/details/theoreticalelect00steirich"
           },
           "route_score": 172

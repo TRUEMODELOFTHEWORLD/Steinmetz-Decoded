@@ -9,10 +9,10 @@
       "reviewer_profile": "Historian of technology, archivist, or careful source transcriber.",
       "scope": "Check source manifests, editions, OCR, page maps, public source links, and scan access.",
       "artifact_links": [
-        "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/completion-audit/",
-        "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-library/",
-        "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/source-texts/",
-        "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/source_catalog.json"
+        "/roadmap/completion-audit/",
+        "/source-library/",
+        "/source-texts/",
+        "/data/source_catalog.json"
       ],
       "ready_count": 15,
       "tasks": [
@@ -27,10 +27,10 @@
       "reviewer_profile": "Electrical engineer, mathematician, or power-systems educator.",
       "scope": "Review the first equation canon, notation translations, units, and worked-example readiness.",
       "artifact_links": [
-        "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/mathematics/equations/",
-        "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/notation-ledger/",
-        "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/canonical_equations.json",
-        "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/notation_ledger.json"
+        "/mathematics/equations/",
+        "/roadmap/notation-ledger/",
+        "/data/canonical_equations.json",
+        "/data/notation_ledger.json"
       ],
       "ready_count": 12,
       "tasks": [
@@ -45,9 +45,9 @@
       "reviewer_profile": "Engineer, technical illustrator, or documentation reviewer.",
       "scope": "Check original crops, crop boxes, figure numbers, captions, checksums, and redraw labels.",
       "artifact_links": [
-        "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/",
-        "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/diagram-provenance-ledger/",
-        "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/diagram_provenance_ledger.json"
+        "/diagrams/",
+        "/roadmap/diagram-provenance-ledger/",
+        "/data/diagram_provenance_ledger.json"
       ],
       "ready_count": 15,
       "tasks": [
@@ -62,10 +62,10 @@
       "reviewer_profile": "Electrical theory reader, historian, or terminology specialist.",
       "scope": "Promote generated concept hits into source-located definitions and glossary pages.",
       "artifact_links": [
-        "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concept-concordance/",
-        "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/concepts/",
-        "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/glossary/",
-        "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/concept_concordance.json"
+        "/concept-concordance/",
+        "/concepts/",
+        "/glossary/",
+        "/data/concept_concordance.json"
       ],
       "ready_count": 77,
       "tasks": [
@@ -80,8 +80,8 @@
       "reviewer_profile": "Patent researcher, apparatus historian, or electrical engineer.",
       "scope": "Turn the seeded patent register into verified patent dossiers with PDFs, drawings, claims, and theory links.",
       "artifact_links": [
-        "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/steinmetz-patents/",
-        "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/steinmetz-patents/seeded-patent-dossiers/"
+        "/sources/steinmetz-patents/",
+        "/sources/steinmetz-patents/seeded-patent-dossiers/"
       ],
       "ready_count": 11,
       "tasks": [
@@ -96,10 +96,10 @@
       "reviewer_profile": "Modern EE reader, Tesla-era researcher, or alternative-field researcher.",
       "scope": "Check that modern, Tesla-era, and ether-field readings remain labeled and never replace Steinmetz source claims.",
       "artifact_links": [
-        "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/comparisons/",
-        "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/comparisons/ether-field-reading-guide/",
-        "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/editorial-policy/",
-        "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/canonical-review-workflow/"
+        "/comparisons/",
+        "/comparisons/ether-field-reading-guide/",
+        "/roadmap/editorial-policy/",
+        "/roadmap/canonical-review-workflow/"
       ],
       "ready_count": null,
       "tasks": [

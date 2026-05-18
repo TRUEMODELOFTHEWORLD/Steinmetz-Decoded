@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29",
+  "generated_at": "2026-05-18",
   "quality_note": "Figure verification queue. Original crops are scan-derived assets that need page/crop/label review before canonical promotion.",
   "record_count": 15,
   "source_counts": {
@@ -22,15 +22,15 @@
         885
       ],
       "output_path": "diagrams/original/radiation-light-and-illumination/figures/fig-14-spectrum-of-radiation.png",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/radiation-light-and-illumination/figures/fig-14-spectrum-of-radiation.png",
+      "public_url": "/diagrams/original/radiation-light-and-illumination/figures/fig-14-spectrum-of-radiation.png",
       "sha256": "9587e830f46b60d5d598188f0a79f393f04dbe4fbd7f4685e4ee414465501516",
       "manifest_path": "diagrams/original/radiation-light-and-illumination/figures/fig-14-spectrum-of-radiation.png.json",
       "verification_status": "ready_for_scan_crop_review",
       "links": {
-        "image": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/radiation-light-and-illumination/figures/fig-14-spectrum-of-radiation.png",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/radiation-light-and-illumination/",
+        "image": "/diagrams/original/radiation-light-and-illumination/figures/fig-14-spectrum-of-radiation.png",
+        "source_overview": "/sources/radiation-light-and-illumination/",
         "external_source": "https://archive.org/details/radiationlightil00steirich",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/"
+        "diagram_archive": "/diagrams/"
       },
       "review_actions": [
         "Open the original PDF page render and confirm the crop includes the complete figure.",
@@ -53,15 +53,15 @@
         1025
       ],
       "output_path": "diagrams/original/radiation-light-and-illumination/figures/fig-15-refraction-wavefront.png",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/radiation-light-and-illumination/figures/fig-15-refraction-wavefront.png",
+      "public_url": "/diagrams/original/radiation-light-and-illumination/figures/fig-15-refraction-wavefront.png",
       "sha256": "6bd262eedcc4bf2274f73a5321a4e41656176078e141a13985ee89ee09f0da39",
       "manifest_path": "diagrams/original/radiation-light-and-illumination/figures/fig-15-refraction-wavefront.png.json",
       "verification_status": "ready_for_scan_crop_review",
       "links": {
-        "image": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/radiation-light-and-illumination/figures/fig-15-refraction-wavefront.png",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/radiation-light-and-illumination/",
+        "image": "/diagrams/original/radiation-light-and-illumination/figures/fig-15-refraction-wavefront.png",
+        "source_overview": "/sources/radiation-light-and-illumination/",
         "external_source": "https://archive.org/details/radiationlightil00steirich",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/"
+        "diagram_archive": "/diagrams/"
       },
       "review_actions": [
         "Open the original PDF page render and confirm the crop includes the complete figure.",
@@ -84,15 +84,15 @@
         1175
       ],
       "output_path": "diagrams/original/radiation-light-and-illumination/figures/fig-18-regular-reflection.png",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/radiation-light-and-illumination/figures/fig-18-regular-reflection.png",
+      "public_url": "/diagrams/original/radiation-light-and-illumination/figures/fig-18-regular-reflection.png",
       "sha256": "da6b0a382d68258624d1fceced436ad942406031df66c16fc751a75b5096c14a",
       "manifest_path": "diagrams/original/radiation-light-and-illumination/figures/fig-18-regular-reflection.png.json",
       "verification_status": "ready_for_scan_crop_review",
       "links": {
-        "image": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/radiation-light-and-illumination/figures/fig-18-regular-reflection.png",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/radiation-light-and-illumination/",
+        "image": "/diagrams/original/radiation-light-and-illumination/figures/fig-18-regular-reflection.png",
+        "source_overview": "/sources/radiation-light-and-illumination/",
         "external_source": "https://archive.org/details/radiationlightil00steirich",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/"
+        "diagram_archive": "/diagrams/"
       },
       "review_actions": [
         "Open the original PDF page render and confirm the crop includes the complete figure.",
@@ -115,15 +115,15 @@
         1110
       ],
       "output_path": "diagrams/original/radiation-light-and-illumination/figures/fig-19-irregular-reflection.png",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/radiation-light-and-illumination/figures/fig-19-irregular-reflection.png",
+      "public_url": "/diagrams/original/radiation-light-and-illumination/figures/fig-19-irregular-reflection.png",
       "sha256": "6051eb7ff64b203dde42a6430095d66eae65e015bb5b50890cf4ffc369ea23a3",
       "manifest_path": "diagrams/original/radiation-light-and-illumination/figures/fig-19-irregular-reflection.png.json",
       "verification_status": "ready_for_scan_crop_review",
       "links": {
-        "image": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/radiation-light-and-illumination/figures/fig-19-irregular-reflection.png",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/radiation-light-and-illumination/",
+        "image": "/diagrams/original/radiation-light-and-illumination/figures/fig-19-irregular-reflection.png",
+        "source_overview": "/sources/radiation-light-and-illumination/",
         "external_source": "https://archive.org/details/radiationlightil00steirich",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/"
+        "diagram_archive": "/diagrams/"
       },
       "review_actions": [
         "Open the original PDF page render and confirm the crop includes the complete figure.",
@@ -146,15 +146,15 @@
         1165
       ],
       "output_path": "diagrams/original/radiation-light-and-illumination/figures/table-spectrum-of-radiation.png",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/radiation-light-and-illumination/figures/table-spectrum-of-radiation.png",
+      "public_url": "/diagrams/original/radiation-light-and-illumination/figures/table-spectrum-of-radiation.png",
       "sha256": "f66b69b9332e620c0eb8cd9b2114e8aba216a7a5e3f78a2aac9eaef231e47073",
       "manifest_path": "diagrams/original/radiation-light-and-illumination/figures/table-spectrum-of-radiation.png.json",
       "verification_status": "ready_for_scan_crop_review",
       "links": {
-        "image": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/radiation-light-and-illumination/figures/table-spectrum-of-radiation.png",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/radiation-light-and-illumination/",
+        "image": "/diagrams/original/radiation-light-and-illumination/figures/table-spectrum-of-radiation.png",
+        "source_overview": "/sources/radiation-light-and-illumination/",
         "external_source": "https://archive.org/details/radiationlightil00steirich",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/"
+        "diagram_archive": "/diagrams/"
       },
       "review_actions": [
         "Open the original PDF page render and confirm the crop includes the complete figure.",
@@ -177,15 +177,15 @@
         1505
       ],
       "output_path": "diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-21-vector-diagram-transformer.png",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-21-vector-diagram-transformer.png",
+      "public_url": "/diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-21-vector-diagram-transformer.png",
       "sha256": "cd899f587e56fe467973a499068a6d898d217862d313700083bcf7d3998bc326",
       "manifest_path": "diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-21-vector-diagram-transformer.png.json",
       "verification_status": "ready_for_scan_crop_review",
       "links": {
-        "image": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-21-vector-diagram-transformer.png",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+        "image": "/diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-21-vector-diagram-transformer.png",
+        "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
         "external_source": "https://archive.org/details/5edtheorycalculatisteiuoft",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/"
+        "diagram_archive": "/diagrams/"
       },
       "review_actions": [
         "Open the original PDF page render and confirm the crop includes the complete figure.",
@@ -208,15 +208,15 @@
         1008
       ],
       "output_path": "diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-22-rectangular-components.png",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-22-rectangular-components.png",
+      "public_url": "/diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-22-rectangular-components.png",
       "sha256": "d5462b20d9cc281afafd3e23aae1b26ec10b11d9fe7fdac835f3bca96930390c",
       "manifest_path": "diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-22-rectangular-components.png.json",
       "verification_status": "ready_for_scan_crop_review",
       "links": {
-        "image": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-22-rectangular-components.png",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+        "image": "/diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-22-rectangular-components.png",
+        "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
         "external_source": "https://archive.org/details/5edtheorycalculatisteiuoft",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/"
+        "diagram_archive": "/diagrams/"
       },
       "review_actions": [
         "Open the original PDF page render and confirm the crop includes the complete figure.",
@@ -239,15 +239,15 @@
         920
       ],
       "output_path": "diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-23-resultant-components.png",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-23-resultant-components.png",
+      "public_url": "/diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-23-resultant-components.png",
       "sha256": "c056aaee4f9047c9e9c0e6739ed1733e32cd30393e9fcdbcd8fd3ee54e3af3bb",
       "manifest_path": "diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-23-resultant-components.png.json",
       "verification_status": "ready_for_scan_crop_review",
       "links": {
-        "image": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-23-resultant-components.png",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+        "image": "/diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-23-resultant-components.png",
+        "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
         "external_source": "https://archive.org/details/5edtheorycalculatisteiuoft",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/"
+        "diagram_archive": "/diagrams/"
       },
       "review_actions": [
         "Open the original PDF page render and confirm the crop includes the complete figure.",
@@ -270,15 +270,15 @@
         600
       ],
       "output_path": "diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-24-quarter-period-rotation.png",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-24-quarter-period-rotation.png",
+      "public_url": "/diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-24-quarter-period-rotation.png",
       "sha256": "d5088147580246da74531fc9bf03571ba57e2113ec2bebc2e05a656cd798c02f",
       "manifest_path": "diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-24-quarter-period-rotation.png.json",
       "verification_status": "ready_for_scan_crop_review",
       "links": {
-        "image": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-24-quarter-period-rotation.png",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-alternating-current-phenomena/",
+        "image": "/diagrams/original/theory-calculation-alternating-current-phenomena/figures/fig-24-quarter-period-rotation.png",
+        "source_overview": "/sources/theory-calculation-alternating-current-phenomena/",
         "external_source": "https://archive.org/details/5edtheorycalculatisteiuoft",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/"
+        "diagram_archive": "/diagrams/"
       },
       "review_actions": [
         "Open the original PDF page render and confirm the crop includes the complete figure.",
@@ -301,15 +301,15 @@
         1055
       ],
       "output_path": "diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-04-starting-ac-circuit-inductance.png",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-04-starting-ac-circuit-inductance.png",
+      "public_url": "/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-04-starting-ac-circuit-inductance.png",
       "sha256": "edd424e27030cb317d154762f40d41df76e738b78b1703fe279ceb6ab6e2a40e",
       "manifest_path": "diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-04-starting-ac-circuit-inductance.png.json",
       "verification_status": "ready_for_scan_crop_review",
       "links": {
-        "image": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-04-starting-ac-circuit-inductance.png",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-transient-electric-phenomena-oscillations/",
+        "image": "/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-04-starting-ac-circuit-inductance.png",
+        "source_overview": "/sources/theory-calculation-transient-electric-phenomena-oscillations/",
         "external_source": "https://archive.org/details/transelectricphenom00steirich",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/"
+        "diagram_archive": "/diagrams/"
       },
       "review_actions": [
         "Open the original PDF page render and confirm the crop includes the complete figure.",
@@ -332,15 +332,15 @@
         1050
       ],
       "output_path": "diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-11-logarithmic-condenser-charge.png",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-11-logarithmic-condenser-charge.png",
+      "public_url": "/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-11-logarithmic-condenser-charge.png",
       "sha256": "a642ac44b00cea4dbb898694e54d7c8b88559f2bf43e253df900f577ce61b0cc",
       "manifest_path": "diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-11-logarithmic-condenser-charge.png.json",
       "verification_status": "ready_for_scan_crop_review",
       "links": {
-        "image": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-11-logarithmic-condenser-charge.png",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-transient-electric-phenomena-oscillations/",
+        "image": "/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-11-logarithmic-condenser-charge.png",
+        "source_overview": "/sources/theory-calculation-transient-electric-phenomena-oscillations/",
         "external_source": "https://archive.org/details/transelectricphenom00steirich",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/"
+        "diagram_archive": "/diagrams/"
       },
       "review_actions": [
         "Open the original PDF page render and confirm the crop includes the complete figure.",
@@ -363,15 +363,15 @@
         1038
       ],
       "output_path": "diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-12-critical-condenser-charge.png",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-12-critical-condenser-charge.png",
+      "public_url": "/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-12-critical-condenser-charge.png",
       "sha256": "bf9f9a3c6770552da79befd0f20cca6d258e674acde52c4513d2fdea8ddf4893",
       "manifest_path": "diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-12-critical-condenser-charge.png.json",
       "verification_status": "ready_for_scan_crop_review",
       "links": {
-        "image": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-12-critical-condenser-charge.png",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-transient-electric-phenomena-oscillations/",
+        "image": "/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-12-critical-condenser-charge.png",
+        "source_overview": "/sources/theory-calculation-transient-electric-phenomena-oscillations/",
         "external_source": "https://archive.org/details/transelectricphenom00steirich",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/"
+        "diagram_archive": "/diagrams/"
       },
       "review_actions": [
         "Open the original PDF page render and confirm the crop includes the complete figure.",
@@ -394,15 +394,15 @@
         1300
       ],
       "output_path": "diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-13-oscillating-condenser-charge.png",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-13-oscillating-condenser-charge.png",
+      "public_url": "/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-13-oscillating-condenser-charge.png",
       "sha256": "aa9eb28fdc63526d907b27d0779bcc54ab58b4d3290d57ec2d2c0897b1c48ba3",
       "manifest_path": "diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-13-oscillating-condenser-charge.png.json",
       "verification_status": "ready_for_scan_crop_review",
       "links": {
-        "image": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-13-oscillating-condenser-charge.png",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-transient-electric-phenomena-oscillations/",
+        "image": "/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-13-oscillating-condenser-charge.png",
+        "source_overview": "/sources/theory-calculation-transient-electric-phenomena-oscillations/",
         "external_source": "https://archive.org/details/transelectricphenom00steirich",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/"
+        "diagram_archive": "/diagrams/"
       },
       "review_actions": [
         "Open the original PDF page render and confirm the crop includes the complete figure.",
@@ -425,15 +425,15 @@
         985
       ],
       "output_path": "diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-14-oscillating-condenser-charge-low-resistance.png",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-14-oscillating-condenser-charge-low-resistance.png",
+      "public_url": "/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-14-oscillating-condenser-charge-low-resistance.png",
       "sha256": "904e2ee2befdffadfdd288494f012c5c71f64637278f092bdbe8d92f6fdfb1ad",
       "manifest_path": "diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-14-oscillating-condenser-charge-low-resistance.png.json",
       "verification_status": "ready_for_scan_crop_review",
       "links": {
-        "image": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-14-oscillating-condenser-charge-low-resistance.png",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-transient-electric-phenomena-oscillations/",
+        "image": "/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-14-oscillating-condenser-charge-low-resistance.png",
+        "source_overview": "/sources/theory-calculation-transient-electric-phenomena-oscillations/",
         "external_source": "https://archive.org/details/transelectricphenom00steirich",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/"
+        "diagram_archive": "/diagrams/"
       },
       "review_actions": [
         "Open the original PDF page render and confirm the crop includes the complete figure.",
@@ -456,15 +456,15 @@
         1015
       ],
       "output_path": "diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-15-decrement-of-oscillation.png",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-15-decrement-of-oscillation.png",
+      "public_url": "/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-15-decrement-of-oscillation.png",
       "sha256": "036da7d75a758708b44774c3303aa1859228d3ca46c9fdc13328f4c0b8cba3fe",
       "manifest_path": "diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-15-decrement-of-oscillation.png.json",
       "verification_status": "ready_for_scan_crop_review",
       "links": {
-        "image": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-15-decrement-of-oscillation.png",
-        "source_overview": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/theory-calculation-transient-electric-phenomena-oscillations/",
+        "image": "/diagrams/original/theory-calculation-transient-electric-phenomena-oscillations/figures/fig-15-decrement-of-oscillation.png",
+        "source_overview": "/sources/theory-calculation-transient-electric-phenomena-oscillations/",
         "external_source": "https://archive.org/details/transelectricphenom00steirich",
-        "diagram_archive": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/diagrams/"
+        "diagram_archive": "/diagrams/"
       },
       "review_actions": [
         "Open the original PDF page render and confirm the crop includes the complete figure.",

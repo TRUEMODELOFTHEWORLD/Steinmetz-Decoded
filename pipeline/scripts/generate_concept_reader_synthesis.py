@@ -12,7 +12,7 @@ from typing import Any
 from urllib.parse import quote
 
 
-BASE_URL = "/Charles-Proteus-Steinmetz-Texts-AI-Decoded"
+BASE_URL = ""
 BEGIN = "{/* BEGIN GENERATED READER SYNTHESIS */}"
 END = "{/* END GENERATED READER SYNTHESIS */}"
 
@@ -159,7 +159,7 @@ def passage_rows(dossier: dict[str, Any]) -> str:
             f"<td><strong>{esc(section.get('section_label'))}</strong><br/><small>{esc(section.get('source_title'))}</small></td>"
             f"<td>{esc(section.get('occurrence_count'))}</td>"
             f"<td>{esc(section.get('location'))}</td>"
-            f"<td><a href=\"{esc(focused_url(section.get('source_text_url'), concept))}\">read</a> - <a href=\"{esc(section.get('workbench_url'))}#chapter-local-concept-hits\">workbench</a></td>"
+            f"<td><a href=\"{esc(focused_url(section.get('source_text_url'), concept))}\">read</a> - <a href=\"{esc(section.get('workbench_url'))}#chapter-local-concept-hits\">research review</a></td>"
             "</tr>"
         )
     if not rows:

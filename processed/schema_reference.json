@@ -7,7 +7,7 @@
       "description": "Seeded source records and custody pointers.",
       "path": "sources/source_catalog.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/source_catalog.json",
+      "public_url": "/data/source_catalog.json",
       "schema_summary": {
         "container": "array",
         "top_level_fields": [
@@ -33,7 +33,7 @@
       "description": "Corpus-wide processing inventory.",
       "path": "processed/research_index.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/research_index.json",
+      "public_url": "/data/research_index.json",
       "schema_summary": {
         "container": "object",
         "top_level_fields": [
@@ -58,7 +58,7 @@
       "description": "Traceability records for source/candidate/promoted items.",
       "path": "processed/evidence_ledger.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/evidence_ledger.json",
+      "public_url": "/data/evidence_ledger.json",
       "schema_summary": {
         "container": "object",
         "top_level_fields": [
@@ -97,7 +97,7 @@
       "description": "Theme routing records for processed sections.",
       "path": "processed/chapter_atlas.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/chapter_atlas.json",
+      "public_url": "/data/chapter_atlas.json",
       "schema_summary": {
         "container": "object",
         "top_level_fields": [
@@ -134,7 +134,7 @@
       "description": "Book-level coverage records for processed sources and sections.",
       "path": "processed/book_coverage_atlas.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/book_coverage_atlas.json",
+      "public_url": "/data/book_coverage_atlas.json",
       "schema_summary": {
         "container": "object",
         "top_level_fields": [
@@ -163,7 +163,7 @@
       "description": "Section-level research workbench records.",
       "path": "processed/chapter_workbench.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/chapter_workbench.json",
+      "public_url": "/data/chapter_workbench.json",
       "schema_summary": {
         "container": "object",
         "top_level_fields": [
@@ -213,7 +213,7 @@
       "description": "Source-text concept hit records.",
       "path": "processed/concept_concordance.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/concept_concordance.json",
+      "public_url": "/data/concept_concordance.json",
       "schema_summary": {
         "container": "object",
         "top_level_fields": [
@@ -248,7 +248,7 @@
       "description": "First equation canon and review state.",
       "path": "processed/canonical_equations.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/canonical_equations.json",
+      "public_url": "/data/canonical_equations.json",
       "schema_summary": {
         "container": "object",
         "top_level_fields": [
@@ -281,7 +281,7 @@
       "description": "Source-by-source readiness gates.",
       "path": "processed/completion_audit.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/completion_audit.json",
+      "public_url": "/data/completion_audit.json",
       "schema_summary": {
         "container": "object",
         "top_level_fields": [
@@ -323,7 +323,7 @@
       "description": "Project and source citation records.",
       "path": "processed/citation_index.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/citation_index.json",
+      "public_url": "/data/citation_index.json",
       "schema_summary": {
         "container": "object",
         "top_level_fields": [
@@ -355,7 +355,7 @@
       "description": "Equation notation and translation ledger.",
       "path": "processed/notation_ledger.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/notation_ledger.json",
+      "public_url": "/data/notation_ledger.json",
       "schema_summary": {
         "container": "object",
         "top_level_fields": [
@@ -393,7 +393,7 @@
       "description": "Original crop and redraw provenance ledger.",
       "path": "processed/diagram_provenance_ledger.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/diagram_provenance_ledger.json",
+      "public_url": "/data/diagram_provenance_ledger.json",
       "schema_summary": {
         "container": "object",
         "top_level_fields": [
@@ -435,7 +435,7 @@
       "description": "Machine-readable schema/reference guide.",
       "path": "processed/schema_reference.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/schema_reference.json",
+      "public_url": "/data/schema_reference.json",
       "schema_summary": {
         "container": "object",
         "top_level_fields": [
@@ -460,7 +460,7 @@
       "description": "Review bundles for experts and contributors.",
       "path": "processed/expert_review_packets.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/expert_review_packets.json",
+      "public_url": "/data/expert_review_packets.json",
       "schema_summary": {
         "container": "object",
         "top_level_fields": [
@@ -490,7 +490,7 @@
       "description": "Named publication release levels and readiness states.",
       "path": "processed/release_readiness.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/release_readiness.json",
+      "public_url": "/data/release_readiness.json",
       "schema_summary": {
         "container": "object",
         "top_level_fields": [
@@ -515,7 +515,7 @@
       "description": "Automated accessibility-readiness scan and manual review gates.",
       "path": "processed/accessibility_audit.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/accessibility_audit.json",
+      "public_url": "/data/accessibility_audit.json",
       "schema_summary": {
         "container": "object",
         "top_level_fields": [
@@ -558,7 +558,7 @@
       "description": "Edition collation queue for seeded sources.",
       "path": "processed/edition_comparison_index.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/edition_comparison_index.json",
+      "public_url": "/data/edition_comparison_index.json",
       "schema_summary": {
         "container": "object",
         "top_level_fields": [
@@ -592,7 +592,7 @@
       "description": "Seeded bridge from patents to concepts and theory-review targets.",
       "path": "processed/patent_theory_bridge.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/patent_theory_bridge.json",
+      "public_url": "/data/patent_theory_bridge.json",
       "schema_summary": {
         "container": "object",
         "top_level_fields": [
@@ -628,7 +628,7 @@
       "description": "Top-level queue index for canonical verification work.",
       "path": "processed/canonical_verification_workbench.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/canonical_verification_workbench.json",
+      "public_url": "/data/canonical_verification_workbench.json",
       "schema_summary": {
         "container": "object",
         "top_level_fields": [
@@ -655,7 +655,7 @@
       "description": "Equation scan-check queue with OCR line snippets.",
       "path": "processed/equation_verification_queue.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/equation_verification_queue.json",
+      "public_url": "/data/equation_verification_queue.json",
       "schema_summary": {
         "container": "object",
         "top_level_fields": [
@@ -702,7 +702,7 @@
       "description": "Original figure crop verification queue.",
       "path": "processed/figure_verification_queue.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/figure_verification_queue.json",
+      "public_url": "/data/figure_verification_queue.json",
       "schema_summary": {
         "container": "object",
         "top_level_fields": [
@@ -742,7 +742,7 @@
       "description": "Patent authority PDF, claim, drawing, and theory bridge queue.",
       "path": "processed/patent_verification_queue.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/patent_verification_queue.json",
+      "public_url": "/data/patent_verification_queue.json",
       "schema_summary": {
         "container": "object",
         "top_level_fields": [
@@ -781,7 +781,7 @@
       "description": "Source-isolation ledger for fact, candidate, translation, patent, diagram, and interpretation layers.",
       "path": "processed/claim_attribution_ledger.json",
       "exists": true,
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/claim_attribution_ledger.json",
+      "public_url": "/data/claim_attribution_ledger.json",
       "schema_summary": {
         "container": "object",
         "top_level_fields": [

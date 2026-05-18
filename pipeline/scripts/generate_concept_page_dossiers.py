@@ -20,7 +20,7 @@ from typing import Any
 from urllib.parse import quote
 
 
-BASE_URL = "/Charles-Proteus-Steinmetz-Texts-AI-Decoded"
+BASE_URL = ""
 OLD_BEGIN = "<!-- BEGIN GENERATED CONCEPT DOSSIER -->"
 OLD_END = "<!-- END GENERATED CONCEPT DOSSIER -->"
 BEGIN = "{/* BEGIN GENERATED CONCEPT DOSSIER */}"
@@ -123,7 +123,7 @@ def md_escape(value: Any) -> str:
 
 
 def read_title(path: Path) -> str:
-    text = path.read_text(encoding="utf-8")
+    text = path.read_text(encoding="utf-8", errors="replace")
     match = re.search(r"^title:\s*['\"]?(.+?)['\"]?\s*$", text, flags=re.MULTILINE)
     if match:
         return clean_text(match.group(1))
@@ -293,8 +293,8 @@ def priority_section_blocks(sections: list[dict[str, Any]]) -> str:
 
 <div className=\"focused-route-links\">
   <a href=\"{source_url}\">Read manuscript text</a>
-  <a href=\"{workbench_url}\">Open concept hits</a>
-  <a href=\"{excerpt_url}\">Open source snippets</a>
+  <a href=\"{workbench_url}\">Research review</a>
+  <a href=\"{excerpt_url}\">Focused snippets</a>
 </div>
 
 {snippet_blocks}
@@ -343,7 +343,7 @@ def build_markdown(dossier: dict[str, Any]) -> str:
 
 {top_source_sentence}
 
-The dossier is meant to turn a concept page into a research workbench: begin with Steinmetz's source wording, then add modern interpretation, mathematical reconstruction, historical context, and any ether-field reading as separate layers.
+The dossier is meant to turn a concept page into a reading path: begin with Steinmetz's source wording, then use the research links only when you need candidate counts, snippets, mathematical reconstruction, historical context, or interpretive layers.
 
 ### Terms And Aliases Tracked
 
@@ -436,7 +436,7 @@ def main() -> None:
         dossier = build_dossier(root, page_slug, concept_ids, title, index)
         if not dossier["concept_ids"]:
             continue
-        existing = path.read_text(encoding="utf-8")
+        existing = path.read_text(encoding="utf-8", errors="replace")
         generated = build_markdown(dossier)
         write_text(path, replace_section(existing, generated))
         dossiers.append(dossier)

@@ -316,13 +316,9 @@ export default defineConfig({
           label: 'Start Reading',
           items: [
             { label: 'Start Reading', slug: 'start-reading' },
-            { label: 'Complete Archive Map', slug: 'archive-navigator' },
             { label: 'Who Was Steinmetz?', slug: 'who-was-steinmetz' },
             { label: 'Why He Matters', slug: 'why-steinmetz-matters' },
             { label: 'Guided Routes', slug: 'reading-routes' },
-            { label: 'First Source Text', slug: 'source-texts/radiation-light-and-illumination/lecture-01' },
-            { label: 'First Deep Decoding', slug: 'sources/radiation-light-and-illumination/lecture-01' },
-            { label: 'Research Map', slug: 'research-map' },
             { label: 'Contribute', slug: 'contribute' }
           ]
         },
@@ -330,8 +326,7 @@ export default defineConfig({
           label: 'Books And Sources',
           items: [
             { label: 'Browse Books', slug: 'book-coverage' },
-            { label: 'Read Source Texts (410)', slug: 'source-texts' },
-            { label: 'Section Workbenches (410)', slug: 'chapter-workbench' },
+            { label: 'Read Source Texts', slug: 'source-texts' },
             { label: 'Radiation, Light and Illumination', slug: 'book-coverage/radiation-light-and-illumination' },
             { label: 'Elementary Lectures', slug: 'book-coverage/elementary-lectures-electric-discharges-waves-impulses' },
             { label: 'Electric Discharges 1914', slug: 'book-coverage/electric-discharges-waves-impulses-1914' },
@@ -347,9 +342,7 @@ export default defineConfig({
             { label: 'America and the New Epoch', slug: 'book-coverage/america-and-new-epoch' },
             { label: 'Relativity and Space', slug: 'book-coverage/four-lectures-relativity-space' },
             { label: 'Commonwealth Edison Trouble', slug: 'book-coverage/commonwealth-edison-generating-system-trouble' },
-            { label: 'Source Library', slug: 'source-library' },
-            { label: 'Corpus Completion Dossiers', slug: 'source-library/corpus-completion' },
-            { label: 'Patent Register', slug: 'sources/steinmetz-patents' }
+            { label: 'Source Library', slug: 'source-library' }
           ]
         },
         {
@@ -371,8 +364,7 @@ export default defineConfig({
             { label: 'Power Factor', slug: 'concepts/power-factor' },
             { label: 'Dielectric Loss', slug: 'concepts/dielectric-loss' },
             { label: 'Distributed Constants', slug: 'concepts/distributed-constants' },
-            { label: 'Dossier Index', slug: 'concepts/dossier-index' },
-            { label: 'Concept Concordance (78)', slug: 'concept-concordance' }
+            { label: 'Dossier Index', slug: 'concepts/dossier-index' }
           ]
         },
         {
@@ -386,8 +378,7 @@ export default defineConfig({
             { label: 'Admittance', slug: 'mathematics/equations/admittance-conductance-susceptance' },
             { label: 'Hysteresis Law', slug: 'mathematics/equations/steinmetz-hysteresis-law' },
             { label: 'Transient Term', slug: 'mathematics/equations/transient-term' },
-            { label: 'RLC Oscillation', slug: 'mathematics/equations/rlc-oscillation' },
-            { label: 'Source Formula Maps (16)', slug: 'mathematics/source-formula-maps' }
+            { label: 'RLC Oscillation', slug: 'mathematics/equations/rlc-oscillation' }
           ]
         },
         {
@@ -395,13 +386,11 @@ export default defineConfig({
           items: [
             { label: 'Visual Topic Galleries', slug: 'diagrams/visual-topic-galleries' },
             { label: 'Diagram Archive', slug: 'diagrams' },
-            { label: 'Source Visual Maps (16)', slug: 'diagrams/source-visuals' },
+            { label: 'Source Visual Maps', slug: 'diagrams/source-visuals' },
             { label: 'Recreated Visual Index', slug: 'diagrams/recreated-visual-index' },
             { label: 'Original RLI Figures', slug: 'diagrams/original-radiation-light-and-illumination' },
             { label: 'Original AC Figures', slug: 'diagrams/original-alternating-current-phenomena' },
-            { label: 'Original Transient Figures', slug: 'diagrams/original-transient-electric-phenomena' },
-            { label: 'Extracted Visual Candidates (8)', slug: 'diagrams/extracted-visual-candidates' },
-            { label: 'Figure Candidate Atlas', slug: 'diagrams/figure-candidate-atlas' }
+            { label: 'Original Transient Figures', slug: 'diagrams/original-transient-electric-phenomena' }
           ]
         },
         {
@@ -423,12 +412,18 @@ export default defineConfig({
           items: [
             { label: 'Complete Archive Navigator', slug: 'archive-navigator' },
             { label: 'Operations Hub', slug: 'research-operations' },
+            { label: 'Research Map', slug: 'research-map' },
             { label: 'Source Dashboards', slug: 'source-library/source-research-dashboards' },
-            { label: 'Chapter Workbench (410)', slug: 'chapter-workbench' },
+            { label: 'Chapter Workbench', slug: 'chapter-workbench' },
             { label: 'Passage Atlas', slug: 'passage-atlas' },
             { label: 'Theme Evidence Atlas', slug: 'theme-evidence' },
+            { label: 'Concept Concordance', slug: 'concept-concordance' },
             { label: 'Evidence Ledger', slug: 'source-library/evidence-ledger' },
             { label: 'Corpus Completion Matrix', slug: 'source-library/corpus-completion' },
+            { label: 'Patent Register', slug: 'sources/steinmetz-patents' },
+            { label: 'Source Formula Maps', slug: 'mathematics/source-formula-maps' },
+            { label: 'Extracted Visual Candidates', slug: 'diagrams/extracted-visual-candidates' },
+            { label: 'Figure Candidate Atlas', slug: 'diagrams/figure-candidate-atlas' },
             { label: 'Completion Audit', slug: 'roadmap/completion-audit' },
             { label: 'Canonical Review', slug: 'roadmap/canonical-review-workflow' },
             { label: 'Canonical Verification', slug: 'roadmap/canonical-verification-workbench' },

@@ -4206,3 +4206,152 @@ html[data-theme='light'] .sl-markdown-content :is(.codex-signal > div, .source-m
   min-block-size: 2rem;
   padding: 0.35rem 0.72rem;
 }
+
+/* Public reader UX cleanup: keep reading routes dominant and research metadata secondary. */
+.source-access.source-reader-hero,
+.source-reader-hero-panel,
+.source-reader-notes,
+.research-metadata,
+.source-metadata-panel,
+.source-scan-viewer {
+  border: 1px solid color-mix(in srgb, var(--codex-gold, #f0d994) 34%, transparent);
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.18);
+}
+
+.source-access.source-reader-hero,
+.source-reader-hero-panel {
+  background:
+    linear-gradient(135deg, rgba(240, 217, 148, 0.11), transparent 42%),
+    color-mix(in srgb, var(--sl-color-bg, #101716) 88%, #26352f 12%);
+  color: var(--sl-color-white, #fffaf0);
+}
+
+.source-access-actions a,
+.source-reader-actions a,
+.source-text-toolbar a,
+.focused-route-links a {
+  background: color-mix(in srgb, var(--codex-gold, #f0d994) 12%, var(--sl-color-bg, #101716) 88%);
+  border: 1px solid color-mix(in srgb, var(--codex-gold, #f0d994) 42%, transparent);
+  color: color-mix(in srgb, var(--codex-gold, #f0d994) 88%, white 12%) !important;
+  text-decoration: none;
+}
+
+.source-access-actions a:hover,
+.source-reader-actions a:hover,
+.source-text-toolbar a:hover,
+.focused-route-links a:hover {
+  background: color-mix(in srgb, var(--codex-gold, #f0d994) 22%, var(--sl-color-bg, #101716) 78%);
+  color: #fff7d6 !important;
+}
+
+.source-access.source-reader-hero .source-access-actions a,
+.source-access.source-reader-hero > div:first-child a {
+  background: color-mix(in srgb, var(--sl-color-bg, #101716) 86%, var(--codex-gold, #f0d994) 14%) !important;
+  border-color: color-mix(in srgb, var(--codex-gold, #f0d994) 54%, transparent) !important;
+  color: #fff3bd !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
+}
+
+.source-access.source-reader-hero .source-access-actions a:first-child {
+  background: linear-gradient(180deg, #f4d780, #bd8a20) !important;
+  border-color: #f6df9a !important;
+  color: #17120a !important;
+}
+
+.source-access.source-reader-hero .source-access-actions a:hover,
+.source-access.source-reader-hero > div:first-child a:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+}
+
+.source-section-card,
+.source-book-card,
+.evidence-source-card,
+.reader-step-card,
+.profile-route-grid a,
+.reader-door-grid a,
+.source-matrix a {
+  background: color-mix(in srgb, var(--sl-color-bg, #101716) 82%, white 8%);
+  border: 1px solid color-mix(in srgb, var(--codex-gold, #f0d994) 22%, transparent);
+  color: var(--sl-color-white, #fffaf0);
+}
+
+.source-section-card small,
+.source-section-card span,
+.evidence-source-card small,
+.evidence-source-card span,
+.source-matrix a span,
+.profile-route-grid a span,
+.reader-door-grid a span {
+  color: color-mix(in srgb, var(--sl-color-white, #fffaf0) 72%, transparent);
+}
+
+.source-text-tags a,
+.source-text-tags span,
+.coverage-pills a,
+.coverage-pills span,
+.reader-ribbon span,
+.source-reader-status-row span {
+  background: color-mix(in srgb, var(--sl-color-bg, #101716) 78%, var(--codex-gold, #f0d994) 10%);
+  border-color: color-mix(in srgb, var(--codex-gold, #f0d994) 34%, transparent);
+  color: color-mix(in srgb, var(--sl-color-white, #fffaf0) 86%, var(--codex-gold, #f0d994) 14%) !important;
+}
+
+.research-metadata,
+.source-reader-notes,
+.source-metadata-panel {
+  background: color-mix(in srgb, var(--sl-color-bg, #101716) 92%, white 4%);
+}
+
+.research-metadata summary,
+.source-reader-notes summary,
+.source-metadata-panel summary,
+.source-scan-viewer summary {
+  color: color-mix(in srgb, var(--codex-gold, #f0d994) 85%, white 15%);
+  cursor: pointer;
+  font-weight: 850;
+}
+
+.codex-status-table,
+.coverage-table {
+  display: block;
+  inline-size: 100%;
+  overflow-x: auto;
+}
+
+.codex-status-table th,
+.codex-status-table td,
+.coverage-table th,
+.coverage-table td {
+  color: color-mix(in srgb, var(--sl-color-white, #fffaf0) 86%, transparent);
+  vertical-align: top;
+}
+
+.study-link-list a:first-child {
+  font-weight: 850;
+}
+
+.study-link-list span {
+  color: color-mix(in srgb, var(--sl-color-white, #fffaf0) 72%, transparent);
+}
+
+@media (max-width: 720px) {
+  .source-access-actions,
+  .source-reader-actions,
+  .source-text-toolbar,
+  .focused-route-links {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .source-access-actions a,
+  .source-reader-actions a,
+  .source-text-toolbar a,
+  .focused-route-links a {
+    inline-size: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}

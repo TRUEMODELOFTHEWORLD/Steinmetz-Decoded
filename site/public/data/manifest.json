@@ -1,288 +1,288 @@
 {
-  "generated_at": "2026-05-08",
+  "generated_at": "2026-05-18",
   "project": "Steinmetz Decoded",
-  "site_url": "https://truemodeloftheworld.github.io/Charles-Proteus-Steinmetz-Texts-AI-Decoded",
-  "repository": "https://github.com/TRUEMODELOFTHEWORLD/Charles-Proteus-Steinmetz-Texts-AI-Decoded",
+  "site_url": "https://steinmetz-decoded.vercel.app",
+  "repository": "https://github.com/TRUEMODELOFTHEWORLD/Steinmetz-Decoded",
   "quality_note": "Public data exports expose current review-state data. Candidate records require verification before citation as fact.",
   "exports": [
     {
       "id": "source_catalog",
       "description": "Seeded source corpus with processing status.",
       "source_path": "sources/source_catalog.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/source_catalog.json",
+      "public_url": "/data/source_catalog.json",
       "format": "json"
     },
     {
       "id": "research_index",
       "description": "Corpus-wide processing summary.",
       "source_path": "processed/research_index.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/research_index.json",
+      "public_url": "/data/research_index.json",
       "format": "json"
     },
     {
       "id": "evidence_ledger",
       "description": "Traceability ledger for source/candidate records.",
       "source_path": "processed/evidence_ledger.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/evidence_ledger.json",
+      "public_url": "/data/evidence_ledger.json",
       "format": "json"
     },
     {
       "id": "chapter_atlas",
       "description": "Theme routing map for processed sections.",
       "source_path": "processed/chapter_atlas.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/chapter_atlas.json",
+      "public_url": "/data/chapter_atlas.json",
       "format": "json"
     },
     {
       "id": "book_coverage_atlas",
       "description": "Book-level coverage map with source-reader and workbench links.",
       "source_path": "processed/book_coverage_atlas.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/book_coverage_atlas.json",
+      "public_url": "/data/book_coverage_atlas.json",
       "format": "json"
     },
     {
       "id": "chapter_workbench",
       "description": "Section-level workbench records.",
       "source_path": "processed/chapter_workbench.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/chapter_workbench.json",
+      "public_url": "/data/chapter_workbench.json",
       "format": "json"
     },
     {
       "id": "concept_concordance",
       "description": "Source-text concept hit index.",
       "source_path": "processed/concept_concordance.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/concept_concordance.json",
+      "public_url": "/data/concept_concordance.json",
       "format": "json"
     },
     {
       "id": "concept_page_dossiers",
       "description": "Generated source-grounded dossier data appended to public concept pages.",
       "source_path": "processed/concept_page_dossiers.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/concept_page_dossiers.json",
+      "public_url": "/data/concept_page_dossiers.json",
       "format": "json"
     },
     {
       "id": "concept_reader_synthesis",
       "description": "Generated source-grounded reader synthesis blocks for curated concept pages.",
       "source_path": "processed/concept_reader_synthesis.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/concept_reader_synthesis.json",
+      "public_url": "/data/concept_reader_synthesis.json",
       "format": "json"
     },
     {
       "id": "steinmetz_corpus_completion_matrix",
       "description": "Authority and completion matrix for processed, registered, and still-missing Steinmetz works.",
       "source_path": "processed/steinmetz_corpus_completion_matrix.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/steinmetz_corpus_completion_matrix.json",
+      "public_url": "/data/steinmetz_corpus_completion_matrix.json",
       "format": "json"
     },
     {
       "id": "theme_evidence_atlas",
       "description": "Source-text evidence atlas for charter-critical research themes.",
       "source_path": "processed/theme_evidence_atlas.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/theme_evidence_atlas.json",
+      "public_url": "/data/theme_evidence_atlas.json",
       "format": "json"
     },
     {
       "id": "reading_routes",
       "description": "Generated guided study routes across the processed corpus.",
       "source_path": "processed/reading_routes.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/reading_routes.json",
+      "public_url": "/data/reading_routes.json",
       "format": "json"
     },
     {
       "id": "passage_atlas",
       "description": "Generated source-grounded candidate passage atlas and hidden-gem discovery data.",
       "source_path": "processed/passage_atlas.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/passage_atlas.json",
+      "public_url": "/data/passage_atlas.json",
       "format": "json"
     },
     {
       "id": "deep_decoding_promotion_queue",
       "description": "Generated queue for promoting covered source sections into richer deep-decoding pages.",
       "source_path": "processed/deep_decoding_promotion_queue.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/deep_decoding_promotion_queue.json",
+      "public_url": "/data/deep_decoding_promotion_queue.json",
       "format": "json"
     },
     {
       "id": "canonical_equations",
       "description": "First canonical equation set and review state.",
       "source_path": "processed/canonical_equations.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/canonical_equations.json",
+      "public_url": "/data/canonical_equations.json",
       "format": "json"
     },
     {
       "id": "equation_atlas",
       "description": "Source-routed equation, formula, and notation candidate atlas.",
       "source_path": "processed/equation_atlas.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/equation_atlas.json",
+      "public_url": "/data/equation_atlas.json",
       "format": "json"
     },
     {
       "id": "completion_audit",
       "description": "Source-by-source readiness audit.",
       "source_path": "processed/completion_audit.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/completion_audit.json",
+      "public_url": "/data/completion_audit.json",
       "format": "json"
     },
     {
       "id": "citation_index",
       "description": "Citation records for source and site artifacts.",
       "source_path": "processed/citation_index.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/citation_index.json",
+      "public_url": "/data/citation_index.json",
       "format": "json"
     },
     {
       "id": "notation_ledger",
       "description": "Equation notation and translation review ledger.",
       "source_path": "processed/notation_ledger.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/notation_ledger.json",
+      "public_url": "/data/notation_ledger.json",
       "format": "json"
     },
     {
       "id": "diagram_provenance_ledger",
       "description": "Original crop and redraw provenance ledger.",
       "source_path": "processed/diagram_provenance_ledger.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/diagram_provenance_ledger.json",
+      "public_url": "/data/diagram_provenance_ledger.json",
       "format": "json"
     },
     {
       "id": "figure_candidate_atlas",
       "description": "Visual routing atlas for original crops and OCR/PDF-text figure candidates.",
       "source_path": "processed/figure_candidate_atlas.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/figure_candidate_atlas.json",
+      "public_url": "/data/figure_candidate_atlas.json",
       "format": "json"
     },
     {
       "id": "recreated_visual_index",
       "description": "Generated modern visual guide diagrams keyed to Steinmetz source themes.",
       "source_path": "processed/recreated_visual_index.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/recreated_visual_index.json",
+      "public_url": "/data/recreated_visual_index.json",
       "format": "json"
     },
     {
       "id": "extracted_visual_review_index",
       "description": "Bounded extracted scan-image candidates for visual review and figure discovery.",
       "source_path": "processed/extracted_visual_review_index.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/extracted_visual_review_index.json",
+      "public_url": "/data/extracted_visual_review_index.json",
       "format": "json"
     },
     {
       "id": "crosslinked_research_surfaces",
       "description": "Crosslinked source-level math/visual maps and concept evidence bridges.",
       "source_path": "processed/crosslinked_research_surfaces.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/crosslinked_research_surfaces.json",
+      "public_url": "/data/crosslinked_research_surfaces.json",
       "format": "json"
     },
     {
       "id": "visual_topic_galleries",
       "description": "Topic-level visual discovery galleries connecting guide diagrams, figure candidates, source maps, and formula leads.",
       "source_path": "processed/visual_topic_galleries.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/visual_topic_galleries.json",
+      "public_url": "/data/visual_topic_galleries.json",
       "format": "json"
     },
     {
       "id": "source_research_dashboards",
       "description": "Generated source overview dashboards tying curated source pages to text, workbench, formula, visual, and verification layers.",
       "source_path": "processed/source_research_dashboards.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/source_research_dashboards.json",
+      "public_url": "/data/source_research_dashboards.json",
       "format": "json"
     },
     {
       "id": "schema_reference",
       "description": "Descriptive schema reference for processed and public data.",
       "source_path": "processed/schema_reference.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/schema_reference.json",
+      "public_url": "/data/schema_reference.json",
       "format": "json"
     },
     {
       "id": "expert_review_packets",
       "description": "Expert review bundles for canonical promotion work.",
       "source_path": "processed/expert_review_packets.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/expert_review_packets.json",
+      "public_url": "/data/expert_review_packets.json",
       "format": "json"
     },
     {
       "id": "release_readiness",
       "description": "Named publication release levels and readiness states.",
       "source_path": "processed/release_readiness.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/release_readiness.json",
+      "public_url": "/data/release_readiness.json",
       "format": "json"
     },
     {
       "id": "accessibility_audit",
       "description": "Automated accessibility-readiness scan and manual review gates.",
       "source_path": "processed/accessibility_audit.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/accessibility_audit.json",
+      "public_url": "/data/accessibility_audit.json",
       "format": "json"
     },
     {
       "id": "mobile_readiness_audit",
       "description": "Structural mobile-readiness CSS gates and page-pattern review queue.",
       "source_path": "processed/mobile_readiness_audit.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/mobile_readiness_audit.json",
+      "public_url": "/data/mobile_readiness_audit.json",
       "format": "json"
     },
     {
       "id": "edition_comparison_index",
       "description": "Edition collation queue for seeded sources.",
       "source_path": "processed/edition_comparison_index.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/edition_comparison_index.json",
+      "public_url": "/data/edition_comparison_index.json",
       "format": "json"
     },
     {
       "id": "patent_theory_bridge",
       "description": "Seeded bridge from patents to concepts and theory-review targets.",
       "source_path": "processed/patent_theory_bridge.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/patent_theory_bridge.json",
+      "public_url": "/data/patent_theory_bridge.json",
       "format": "json"
     },
     {
       "id": "canonical_verification_workbench",
       "description": "Top-level queue index for canonical equation, figure, and patent verification.",
       "source_path": "processed/canonical_verification_workbench.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/canonical_verification_workbench.json",
+      "public_url": "/data/canonical_verification_workbench.json",
       "format": "json"
     },
     {
       "id": "equation_verification_queue",
       "description": "OCR snippet and scan-check queue for canonical equation candidates.",
       "source_path": "processed/equation_verification_queue.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/equation_verification_queue.json",
+      "public_url": "/data/equation_verification_queue.json",
       "format": "json"
     },
     {
       "id": "figure_verification_queue",
       "description": "Scan crop review queue for original Steinmetz figures.",
       "source_path": "processed/figure_verification_queue.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/figure_verification_queue.json",
+      "public_url": "/data/figure_verification_queue.json",
       "format": "json"
     },
     {
       "id": "patent_verification_queue",
       "description": "Authority PDF, claims, drawings, and theory-bridge queue for seeded patents.",
       "source_path": "processed/patent_verification_queue.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/patent_verification_queue.json",
+      "public_url": "/data/patent_verification_queue.json",
       "format": "json"
     },
     {
       "id": "claim_attribution_ledger",
       "description": "Source-isolation ledger for facts, candidates, translations, diagrams, patents, and interpretation layers.",
       "source_path": "processed/claim_attribution_ledger.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/claim_attribution_ledger.json",
+      "public_url": "/data/claim_attribution_ledger.json",
       "format": "json"
     },
     {
       "id": "citation_index_bibtex",
       "description": "BibTeX citation export for project and source records.",
       "source_path": "processed/citation_index.bib",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/citation_index.bib",
+      "public_url": "/data/citation_index.bib",
       "format": "bibtex"
     },
     {
       "id": "citation_index_csl",
       "description": "CSL JSON citation export for project and source records.",
       "source_path": "processed/citation_index.csl.json",
-      "public_url": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/data/citation_index.csl.json",
+      "public_url": "/data/citation_index.csl.json",
       "format": "csl-json"
     }
   ]

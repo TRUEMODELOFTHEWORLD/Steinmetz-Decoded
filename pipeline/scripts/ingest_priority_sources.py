@@ -21,7 +21,7 @@ from pathlib import Path
 from typing import Any
 
 
-BASE_URL = "/Charles-Proteus-Steinmetz-Texts-AI-Decoded"
+BASE_URL = ""
 TODAY = date.today().isoformat()
 
 
@@ -807,7 +807,7 @@ import SourceAccess from '../../../../components/SourceAccess.astro';
 <div class="source-matrix">
   <a href="{BASE_URL}/book-coverage/{source.source_id}/">Book coverage atlas<span>Browse all generated sections with concept density and review signals.</span></a>
   <a href="{BASE_URL}/source-texts/{source.source_id}/">Source text index<span>Read the generated OCR-derived section text directly.</span></a>
-  <a href="{BASE_URL}/chapter-workbench/{source.source_id}/">Chapter workbench<span>Open equation, figure, glossary, quote, and concept candidates section by section.</span></a>
+  <a href="{BASE_URL}/chapter-workbench/{source.source_id}/">Research review<span>Open equation, figure, glossary, quote, and concept candidates section by section.</span></a>
   <a href="https://archive.org/details/{source.internet_archive_id}">Internet Archive scan<span>Verify exact quotations and page images before canonical use.</span></a>
 </div>
 

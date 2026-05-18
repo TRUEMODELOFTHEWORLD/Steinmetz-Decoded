@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29",
+  "generated_at": "2026-05-18",
   "quality_note": "Patent verification queue. The current patent set is seeded from selected public listings and is not a complete Steinmetz patent bibliography.",
   "record_count": 11,
   "scope_warning": "Wikipedia states that Steinmetz held over 200 patents, but the current Wikipedia bibliography lists only selected examples. This file seeds those listed examples and must not be treated as a complete patent bibliography.",
@@ -79,8 +79,8 @@
       "links": {
         "patent_page": "https://patents.google.com/patent/US533244A/en",
         "authority_pdf": "https://patentimages.storage.googleapis.com/pdfs/US533244.pdf",
-        "patent_register": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/steinmetz-patents/",
-        "patent_theory_bridge": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/patent-to-theory-bridge/"
+        "patent_register": "/sources/steinmetz-patents/",
+        "patent_theory_bridge": "/roadmap/patent-to-theory-bridge/"
       },
       "review_actions": [
         "Download or open the authority PDF and record filing/publication metadata.",
@@ -117,8 +117,8 @@
       "links": {
         "patent_page": "https://patents.google.com/patent/US559419A/en",
         "authority_pdf": "https://patentimages.storage.googleapis.com/pdfs/US559419.pdf",
-        "patent_register": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/steinmetz-patents/",
-        "patent_theory_bridge": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/patent-to-theory-bridge/"
+        "patent_register": "/sources/steinmetz-patents/",
+        "patent_theory_bridge": "/roadmap/patent-to-theory-bridge/"
       },
       "review_actions": [
         "Download or open the authority PDF and record filing/publication metadata.",
@@ -155,8 +155,8 @@
       "links": {
         "patent_page": "https://patents.google.com/patent/US583950A/en",
         "authority_pdf": "https://patentimages.storage.googleapis.com/pdfs/US583950.pdf",
-        "patent_register": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/steinmetz-patents/",
-        "patent_theory_bridge": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/patent-to-theory-bridge/"
+        "patent_register": "/sources/steinmetz-patents/",
+        "patent_theory_bridge": "/roadmap/patent-to-theory-bridge/"
       },
       "review_actions": [
         "Download or open the authority PDF and record filing/publication metadata.",
@@ -193,8 +193,8 @@
       "links": {
         "patent_page": "https://patents.google.com/patent/US594145A/en",
         "authority_pdf": "https://patentimages.storage.googleapis.com/pdfs/US594145.pdf",
-        "patent_register": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/steinmetz-patents/",
-        "patent_theory_bridge": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/patent-to-theory-bridge/"
+        "patent_register": "/sources/steinmetz-patents/",
+        "patent_theory_bridge": "/roadmap/patent-to-theory-bridge/"
       },
       "review_actions": [
         "Download or open the authority PDF and record filing/publication metadata.",
@@ -233,8 +233,8 @@
       "links": {
         "patent_page": "https://patents.google.com/patent/US714412A/en",
         "authority_pdf": "https://patentimages.storage.googleapis.com/pdfs/US714412.pdf",
-        "patent_register": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/steinmetz-patents/",
-        "patent_theory_bridge": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/patent-to-theory-bridge/"
+        "patent_register": "/sources/steinmetz-patents/",
+        "patent_theory_bridge": "/roadmap/patent-to-theory-bridge/"
       },
       "review_actions": [
         "Download or open the authority PDF and record filing/publication metadata.",
@@ -271,8 +271,8 @@
       "links": {
         "patent_page": "https://patents.google.com/patent/US717464A/en",
         "authority_pdf": "https://patentimages.storage.googleapis.com/pdfs/US717464.pdf",
-        "patent_register": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/steinmetz-patents/",
-        "patent_theory_bridge": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/patent-to-theory-bridge/"
+        "patent_register": "/sources/steinmetz-patents/",
+        "patent_theory_bridge": "/roadmap/patent-to-theory-bridge/"
       },
       "review_actions": [
         "Download or open the authority PDF and record filing/publication metadata.",
@@ -309,8 +309,8 @@
       "links": {
         "patent_page": "https://patents.google.com/patent/US865617A/en",
         "authority_pdf": "https://patentimages.storage.googleapis.com/pdfs/US865617.pdf",
-        "patent_register": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/steinmetz-patents/",
-        "patent_theory_bridge": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/patent-to-theory-bridge/"
+        "patent_register": "/sources/steinmetz-patents/",
+        "patent_theory_bridge": "/roadmap/patent-to-theory-bridge/"
       },
       "review_actions": [
         "Download or open the authority PDF and record filing/publication metadata.",
@@ -348,8 +348,8 @@
       "links": {
         "patent_page": "https://patents.google.com/patent/US1025932A/en",
         "authority_pdf": "https://patentimages.storage.googleapis.com/pdfs/US1025932.pdf",
-        "patent_register": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/steinmetz-patents/",
-        "patent_theory_bridge": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/patent-to-theory-bridge/"
+        "patent_register": "/sources/steinmetz-patents/",
+        "patent_theory_bridge": "/roadmap/patent-to-theory-bridge/"
       },
       "review_actions": [
         "Download or open the authority PDF and record filing/publication metadata.",
@@ -387,8 +387,8 @@
       "links": {
         "patent_page": "https://patents.google.com/patent/US1042986A/en",
         "authority_pdf": "https://patentimages.storage.googleapis.com/pdfs/US1042986.pdf",
-        "patent_register": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/steinmetz-patents/",
-        "patent_theory_bridge": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/patent-to-theory-bridge/"
+        "patent_register": "/sources/steinmetz-patents/",
+        "patent_theory_bridge": "/roadmap/patent-to-theory-bridge/"
       },
       "review_actions": [
         "Download or open the authority PDF and record filing/publication metadata.",
@@ -425,8 +425,8 @@
       "links": {
         "patent_page": "https://patents.google.com/patent/US1230615A/en",
         "authority_pdf": "https://patentimages.storage.googleapis.com/pdfs/US1230615.pdf",
-        "patent_register": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/steinmetz-patents/",
-        "patent_theory_bridge": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/patent-to-theory-bridge/"
+        "patent_register": "/sources/steinmetz-patents/",
+        "patent_theory_bridge": "/roadmap/patent-to-theory-bridge/"
       },
       "review_actions": [
         "Download or open the authority PDF and record filing/publication metadata.",
@@ -464,8 +464,8 @@
       "links": {
         "patent_page": "https://patents.google.com/patent/USRE11576E/",
         "authority_pdf": "https://patentimages.storage.googleapis.com/pdfs/USRE11576.pdf",
-        "patent_register": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/sources/steinmetz-patents/",
-        "patent_theory_bridge": "/Charles-Proteus-Steinmetz-Texts-AI-Decoded/roadmap/patent-to-theory-bridge/"
+        "patent_register": "/sources/steinmetz-patents/",
+        "patent_theory_bridge": "/roadmap/patent-to-theory-bridge/"
       },
       "review_actions": [
         "Download or open the authority PDF and record filing/publication metadata.",
