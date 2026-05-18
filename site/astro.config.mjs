@@ -140,6 +140,9 @@ export default defineConfig({
       title: 'Steinmetz Decoded',
       description: 'A source-grounded research codex for Charles Proteus Steinmetz.',
       customCss: ['./src/styles/custom.css', 'katex/dist/katex.min.css'],
+      components: {
+        Footer: './src/components/AnalyticsFooter.astro'
+      },
       head: [
         {
           tag: 'script',
