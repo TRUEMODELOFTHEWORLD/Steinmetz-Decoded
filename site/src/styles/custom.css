@@ -4194,3 +4194,15 @@ html[data-theme='light'] .sl-markdown-content :is(.codex-signal > div, .source-m
   color: #f8f4ea !important;
   white-space: pre-wrap;
 }
+
+.codex-source-reader .reader-math-paused {
+  align-items: center;
+  border: 1px dashed rgba(240, 217, 148, 0.34);
+  border-radius: 999px;
+  color: color-mix(in srgb, var(--codex-reader-muted) 88%, white 12%);
+  display: inline-flex;
+  font-size: 0.78rem;
+  font-weight: 850;
+  min-block-size: 2rem;
+  padding: 0.35rem 0.72rem;
+}

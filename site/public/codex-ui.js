@@ -1,6 +1,7 @@
 (function () {
   const root = document.documentElement;
   const storedMode = localStorage.getItem('codex-source-mode') || 'all';
+  const SOURCE_READER_MATH_ENABLED = false;
   root.dataset.sourceMode = storedMode;
 
   function setMode(mode) {
@@ -273,7 +274,7 @@
     const shell = document.createElement('section');
     shell.className = 'codex-source-reader';
     shell.dataset.view = 'readable';
-    shell.dataset.math = localStorage.getItem('codex-reader-math') || 'on';
+    shell.dataset.math = SOURCE_READER_MATH_ENABLED ? (localStorage.getItem('codex-reader-math') || 'on') : 'off';
     shell.dataset.artifacts = localStorage.getItem('codex-reader-artifacts') || 'hide';
     shell.style.setProperty('--codex-reader-scale', String(Number.isFinite(savedScale) ? savedScale : 1));
     shell.innerHTML = [
@@ -296,7 +297,9 @@
       '<button type="button" data-reader-view="dense" aria-pressed="false">Dense</button>',
       '<button type="button" data-reader-action="smaller">A-</button>',
       '<button type="button" data-reader-action="larger">A+</button>',
-      `<button type="button" data-reader-action="math" aria-pressed="${shell.dataset.math === 'on'}">Math</button>`,
+      SOURCE_READER_MATH_ENABLED
+        ? `<button type="button" data-reader-action="math" aria-pressed="${shell.dataset.math === 'on'}">Math</button>`
+        : '<span class="reader-math-paused" title="Automatic source-reader KaTeX is paused until OCR equations are manually curated.">Math paused</span>',
       `<button type="button" data-reader-action="artifacts" aria-pressed="${shell.dataset.artifacts === 'show'}">OCR Fragments</button>`,
       '<button type="button" data-reader-action="scan">Scan</button>',
       '<button type="button" data-reader-action="copy">Copy Link</button>',
@@ -343,30 +346,31 @@
         const matches = terms.length && blockMatches(block, terms);
         if (block.type === 'artifact' && !showArtifacts && !matches) return '';
         if (matches) matchIds.push(index);
+        const displayType = !SOURCE_READER_MATH_ENABLED && block.type === 'equation' ? 'paragraph' : block.type;
         const blockClass = [
           'reader-block',
-          `reader-block-${block.type}`,
+          `reader-block-${displayType}`,
           matches ? 'has-reader-match' : '',
           index === activeMatch ? 'is-active-match' : ''
         ].filter(Boolean).join(' ');
-        const label = block.type === 'heading' ? 'Heading' : block.type === 'equation' ? 'Formula candidate' : block.type === 'artifact' ? 'OCR fragment' : 'Passage';
+        const label = displayType === 'heading' ? 'Heading' : displayType === 'equation' ? 'Formula candidate' : displayType === 'artifact' ? 'OCR fragment' : 'Passage';
         const body = highlightText(block.text, terms);
-        if (block.type === 'heading') {
+        if (displayType === 'heading') {
           return `<section class="${blockClass}" id="${block.id}"><a class="reader-anchor" href="#${block.id}" aria-label="Link to ${label}">#</a><h3>${body}</h3></section>`;
         }
-        if (block.type === 'equation') {
+        if (displayType === 'equation') {
           return `<section class="${blockClass}" id="${block.id}" data-formula-text="${escapeHtml(block.text)}"><a class="reader-anchor" href="#${block.id}" aria-label="Link to ${label}">#</a><div class="reader-math-panel" aria-label="KaTeX rendering of formula candidate"><span class="reader-math-label">KaTeX candidate</span><div class="reader-math-output"></div></div><pre class="reader-equation-transcript">${body}</pre></section>`;
         }
-        if (block.type === 'page-marker') {
+        if (displayType === 'page-marker') {
           return `<section class="${blockClass}" id="${block.id}"><a class="reader-anchor" href="#${block.id}" aria-label="Link to page marker">#</a><p>${body}</p></section>`;
         }
-        if (block.type === 'artifact') {
+        if (displayType === 'artifact') {
           return `<section class="${blockClass}" id="${block.id}"><a class="reader-anchor" href="#${block.id}" aria-label="Link to ${label}">#</a><p>${body}</p></section>`;
         }
         return `<section class="${blockClass}" id="${block.id}"><a class="reader-anchor" href="#${block.id}" aria-label="Link to passage">#</a><p>${body}</p></section>`;
       }).join('');
 
-      enhanceReaderMath(shell);
+      if (SOURCE_READER_MATH_ENABLED) enhanceReaderMath(shell);
 
       const markCount = documentPane.querySelectorAll('mark.reader-highlight').length;
       const activeHuman = activeMatch >= 0 ? matchIds.indexOf(activeMatch) + 1 : 0;
@@ -374,7 +378,9 @@
         ? `${markCount.toLocaleString()} highlighted term match${markCount === 1 ? '' : 'es'} in ${matchIds.length.toLocaleString()} passage${matchIds.length === 1 ? '' : 's'}${activeHuman > 0 ? ` - selected ${activeHuman} of ${matchIds.length}` : ''}.`
         : artifactCount
           ? `Readable mode unwraps OCR line breaks. ${artifactCount.toLocaleString()} OCR fragments are hidden; Transcript mode preserves everything.`
-          : 'Readable mode unwraps OCR line breaks. Math mode renders formula candidates with KaTeX while preserving the raw OCR transcript for verification.';
+          : SOURCE_READER_MATH_ENABLED
+            ? 'Readable mode unwraps OCR line breaks. Math mode renders formula candidates with KaTeX while preserving the raw OCR transcript for verification.'
+            : 'Readable mode unwraps OCR line breaks. Automatic source-reader KaTeX is paused; formulas remain in the verified text stream and Transcript mode.';
       shell._matchIds = matchIds;
     }
 
